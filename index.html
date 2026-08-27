@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="cache-control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#332f78">
+<meta name="application-name" content="FNP Quest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="FNP Quest">
+<link rel="manifest" href="manifest.webmanifest?v=14.58">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-v1-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon-v1.png">
+<title>FNP Quest v14.58 · Official Brand Address</title><link rel="stylesheet" href="css/styles.css?v=14.58">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head><body>
+<div class="app">
+<div class="top"><div class="logo"><img class="brand-icon" src="assets/icons/app-icon-v1-192.png" alt="">FNP Quest</div><button class="avatar" aria-label="Account" style="color:var(--text);padding:0" onclick="openPage('account')">👤</button></div><div style="text-align:center;font-size:11px;color:#687083;margin:-8px 0 12px">Version: v14.58 · Official Brand Address</div>
+
+<section id="home" class="page active">
+<div class="card" id="homeTotalStudyDays" style="margin-bottom:12px"><span class="small">📚 Total Study Days</span><h2><span id="hometotaldays">0</span> days</h2><p class="small">Your total number of unique study dates.</p></div>
+<div class="card hero"><div class="row"><div><div class="small">LEVEL <span id="level">1</span> · FNP SCHOLAR</div><div class="big"><span id="xp">0</span> XP</div></div><div>⭐</div></div><div class="bar"><i id="xpbar"></i></div><div class="small"><span id="toLevel">500</span> XP to next level</div></div>
+<div class="card"><div class="row"><div><span style="font-size:30px">🔥</span> <b><span id="streak">0</span> day streak</b></div><div class="small">🛡️ <span id="freeze">1</span> Freeze</div></div></div><div class="card" id="cloudCard"><div class="row"><div><b>☁️ Cloud Sync</b><div id="cloudStatus" class="small">Not signed in — progress is local only</div></div><button class="secondary" onclick="openPage('account')" id="accountBtn">Sign In</button></div></div>
+<h2>📚 Curriculum</h2><div id="curriculumList"></div>
+<h2>🎯 Daily Practice</h2><div class="card mission"><div><h3>🩺 10-question Practice</h3><p>Questions from loaded lessons</p></div><button id="dailyPracticeBtn" onclick="startPractice()">Start</button></div>
+<h2>🔥 Advanced Practice</h2><div class="card board-ready-card"><div class="pill advanced-pill">BOARD-READY</div><h3>Advanced FNP Question Bank</h3><p>Deeper clinical cases unlocked by completing the related foundation lesson quiz.</p><div class="advanced-home-status"><b id="advancedUnlockedHome">0 / 10 topics unlocked</b><span id="advancedAccuracyHome" class="small">No advanced answers yet</span></div><button onclick="openAdvancedHub()">Open Challenge →</button></div>
+<div class="card trust-card"><h3>Educational study tool</h3><p class="small">FNP Quest supports learning and review. It is not medical advice, clinical decision support, continuing education, or a guarantee of certification-exam performance.</p><div class="trust-actions"><button class="secondary" onclick="openPage('about')">About &amp; Support</button><button class="secondary" onclick="openPage('privacy')">Privacy</button><button class="secondary" onclick="openPage('terms')">Terms &amp; Disclaimer</button></div></div>
+</section>
+
+<section id="lesson" class="page"><button class="secondary" onclick="openPage('home')">← Home</button><div id="lessonBody" class="card lesson"></div></section>
+
+<section id="lessonQuiz" class="page">
+<button class="secondary" onclick="openPage('lesson')">← Lesson</button>
+<div class="card">
+<div class="small">LESSON QUIZ · QUESTION <span id="lqnum">1</span> / <span id="lqtotal">10</span></div>
+<h2 id="lqtext"></h2>
+<div id="lqoptions"></div>
+<div id="lqexplain" class="explain" style="display:none"></div>
+<button id="lqnext" style="display:none;margin-top:12px" onclick="nextLQ()">Next Question →</button>
+</div>
+</section>
+<section id="practice" class="page"><button class="secondary" onclick="openPage('home')">← Home</button><div class="card"><div class="small">QUESTION <span id="qnum">1</span> / <span id="qtotal">10</span></div><h2 id="qtext"></h2><div id="options"></div><div id="explain" class="explain" style="display:none"></div><button id="next" style="display:none;margin-top:12px" onclick="nextQ()">Next Question →</button></div></section>
+
+<section id="advanced" class="page">
+<button class="secondary" onclick="openPage('home')">← Home</button>
+<div class="advanced-heading"><div class="pill advanced-pill">BOARD-READY</div><h1>🔥 Advanced FNP Challenge</h1><p class="small">Original higher-complexity cases for exam-style clinical reasoning. Not affiliated with or endorsed by AANPCB or ANCC.</p><p class="small">Advanced analytics are currently stored on this device in the active guest or account-specific progress area.</p></div>
+<div class="advanced-stat-grid"><div class="card"><span class="small">Accuracy</span><h2 id="advancedAccuracy">—</h2></div><div class="card"><span class="small">Answered</span><h2 id="advancedAnswered">0</h2></div><div class="card"><span class="small">Deep Dives</span><h2 id="advancedCompleted">0</h2></div></div>
+<div class="card"><h3>Mixed Board Review</h3><p class="small">A 10-question mix drawn only from foundation topics you have completed.</p><button id="advancedMixedBtn" onclick="startAdvancedMixed()">Start Mixed Review</button></div>
+<div class="card"><h3>Weak-Area Review</h3><p class="small">Revisit advanced questions you previously missed.</p><button id="advancedWeakBtn" class="secondary" onclick="startAdvancedWeakReview()">Review Missed Questions</button></div>
+<h2>Lesson Deep Dives</h2><p class="small">Complete a foundation lesson quiz to unlock its advanced set.</p><div id="advancedLessonList"></div>
+<h2>Performance by Domain</h2><div id="advancedDomainStats" class="card"><p class="small">Answer advanced questions to build your domain profile.</p></div>
+<div class="card"><h3>Timed Mock Exam</h3><p class="small">Coming after the advanced bank expands across the full curriculum.</p><button class="secondary" disabled>Coming Soon</button></div>
+</section>
+
+<section id="advancedQuiz" class="page quiz">
+<button class="secondary" onclick="openAdvancedHub()">← Board-Ready</button>
+<div class="card advanced-question-card">
+<div class="small">ADVANCED QUESTION <span id="advancedQnum">1</span> / <span id="advancedQtotal">10</span></div>
+<div id="advancedMeta" class="advanced-meta"></div>
+<h2 id="advancedQtext"></h2>
+<div id="advancedOptions"></div>
+<div id="advancedExplain" class="explain advanced-explain" style="display:none"></div>
+<button id="advancedNext" style="display:none;margin-top:12px" onclick="nextAdvancedQuestion()">Next Question →</button>
+</div>
+</section>
+
+<section id="advancedResult" class="page">
+<button class="secondary" onclick="openAdvancedHub()">← Board-Ready</button>
+<div class="card hero advanced-result-hero"><div class="small">CHALLENGE COMPLETE</div><div class="big"><span id="advancedResultScore">0</span> / <span id="advancedResultTotal">0</span></div><p id="advancedResultMessage"></p></div>
+<div class="card"><h3>Session summary</h3><p id="advancedResultDetail" class="small"></p><button onclick="openAdvancedHub()">Back to Question Bank</button><button class="secondary" style="margin-top:8px" onclick="startAdvancedWeakReview()">Review Missed Questions</button></div>
+</section>
+<section id="account" class="page">
+<button class="secondary" onclick="openPage('home')">← Home</button>
+<h1>👤 Account</h1>
+<div id="signedOutBox" class="card">
+<h3>☁️ Save your FNP Quest progress</h3>
+<p class="small">Sign in to synchronize XP, streak, freezes, study days, and completed lesson quizzes across your phone and computer.</p>
+<input id="authEmail" type="email" placeholder="Email address" autocomplete="email" style="width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;margin:7px 0">
+<input id="authPassword" type="password" placeholder="Password (at least 6 characters)" autocomplete="current-password" style="width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;margin:7px 0">
+<div class="row" style="gap:8px;margin-top:6px"><button onclick="signIn()">Sign In</button><button class="secondary" onclick="signUp()">Create Account</button></div>
+<p id="authMessage" class="small" style="margin-top:10px"></p>
+</div>
+<div id="signedInBox" class="card" style="display:none">
+<h3>☁️ Cloud account connected</h3>
+<p id="accountEmail" class="small"></p>
+<p class="small">XP, streak, study days, and completed lesson quizzes are synchronized with the cloud and kept separate from other accounts on this device.</p>
+<div id="guestProgressImport" class="card" style="display:none;margin:12px 0;background:var(--bg)"><h3>Guest progress found</h3><p class="small">This device has progress created while signed out. Import it only if it belongs to you. Importing is optional, requires confirmation, and consumes that guest copy so another account cannot import it.</p><button class="secondary" onclick="importGuestProgress()">Import This Device's Guest Progress</button></div>
+<button class="secondary" onclick="signOut()">Sign Out</button>
+<button class="danger-secondary" onclick="requestAccountDeletion()">Request Account Deletion</button>
+<p id="accountActionMessage" class="small" role="status"></p>
+</div>
+<div class="card"><h3>Privacy &amp; support</h3><p class="small">Review how local and cloud data are handled, or send general feedback without including patient or personal information.</p><div class="trust-actions"><button class="secondary" onclick="openPage('privacy')">Privacy</button><button class="secondary" onclick="openPage('about')">Support</button></div></div>
+</section>
+<section id="progress" class="page"><div style="text-align:center;font-size:11px;color:#687083;margin-bottom:12px">Version: v14.58 · Official Brand Address<br><span id="progressCloudStatus">Not signed in · guest progress is saved on this device</span></div><h1>📊 Progress</h1><div class="grid"><div class="card"><span class="small">XP</span><h2 id="pxp">0</h2></div><div class="card"><span class="small">Streak</span><h2>🔥 <span id="pstreak">0</span></h2></div><div class="card"><span class="small">Total Study Days</span><h2>📚 <span id="ptotaldays">0</span></h2></div></div><div class="card"><h3>Loaded Lessons</h3><p id="loadedLessons">Loading lessons…</p></div><div class="card"><h3>Board-Ready Progress</h3><p id="advancedProgressSummary" class="small">No advanced questions answered yet.</p><button onclick="openAdvancedHub()">Open Advanced Question Bank</button></div></section>
+
+<section id="about" class="page">
+<button class="secondary" onclick="openPage('home')">← Home</button>
+<h1>About FNP Quest</h1>
+<div class="card"><h3>What it is</h3><p>FNP Quest is a mobile-friendly web study tool for Family Nurse Practitioner learners. It combines structured lessons, quizzes with explanations, mixed practice, and optional progress synchronization.</p><p class="small">FNP Quest is independently developed and is not affiliated with, endorsed by, or sponsored by AANPCB, ANCC, ANA, or AANP.</p></div>
+<div class="card"><h3>Content &amp; corrections</h3><p class="small">Clinical knowledge and examination outlines change. Verify time-sensitive recommendations against current guidelines, local policy, official prescribing information, and your program requirements.</p><p class="small">General feedback and correction reports may be submitted through the public project tracker. Do not include names, email addresses, patient information, clinical records, or other sensitive information.</p><a class="action-link" href="https://github.com/fnpquest/fnpquest.github.io/issues" target="_blank" rel="noopener noreferrer">Open Feedback &amp; Issue Tracker ↗</a></div>
+<div class="card"><h3>Representative authoritative resources</h3><ul class="resource-list"><li><a href="https://www.aanpcert.org/certify/fnp-exam/" target="_blank" rel="noopener noreferrer">AANPCB FNP exam information</a></li><li><a href="https://www.nursingworld.org/our-certifications/family-nurse-practitioner/" target="_blank" rel="noopener noreferrer">ANCC FNP certification resources</a></li><li><a href="https://www.cdc.gov/" target="_blank" rel="noopener noreferrer">CDC</a></li><li><a href="https://www.uspreventiveservicestaskforce.org/uspstf/" target="_blank" rel="noopener noreferrer">U.S. Preventive Services Task Force</a></li><li><a href="https://labels.fda.gov/" target="_blank" rel="noopener noreferrer">FDA drug labeling</a></li></ul></div>
+</section>
+
+<section id="privacy" class="page">
+<button class="secondary" onclick="openPage('home')">← Home</button>
+<h1>Privacy</h1>
+<div class="card"><p class="small"><b>Effective:</b> August 26, 2026</p><h3>Data stored on this device</h3><p class="small">Without an account, FNP Quest stores guest learning progress in your browser, including XP, streak, study dates, completed lesson quizzes, missed-question review data, theme preference, and course display preferences. Signed-in progress is stored in a separate local area for each account so switching accounts does not transfer learning data.</p><h3>Optional cloud account</h3><p class="small">If you create an account, Supabase Auth processes your email address and authentication information. FNP Quest stores an account identifier, XP, streak, freeze count, study dates, and quiz-result records so supported progress can synchronize across devices. Guest progress is never added to a cloud account automatically; an eligible signed-in user must explicitly confirm a one-time import. Passwords are handled by Supabase Auth and are not stored in this app’s source code.</p><h3>What we do not request</h3><p class="small">Do not enter patient names, medical-record information, protected health information, or other clinical data. FNP Quest is not designed to receive or store patient data.</p><h3>Service providers</h3><p class="small">The site is delivered through GitHub Pages. Optional authentication and cloud synchronization use Supabase. The current app does not include advertising or analytics trackers and does not sell personal information.</p><h3>Your choices</h3><p class="small">You may use the core learning features without an account. Clearing local learning data affects only this browser. Signed-in users can submit a private account-deletion request from the Account page; the request is stored in their private authentication metadata for manual processing.</p><button class="danger-secondary" onclick="clearLocalLearningData()">Clear Local Learning Data</button></div>
+</section>
+
+<section id="terms" class="page">
+<button class="secondary" onclick="openPage('home')">← Home</button>
+<h1>Terms &amp; Disclaimer</h1>
+<div class="card"><p class="small"><b>Effective:</b> August 25, 2026</p><h3>Educational use only</h3><p class="small">FNP Quest is a supplementary educational study tool. It does not provide medical advice, diagnosis, treatment recommendations for an individual patient, clinical decision support, continuing-education credit, or professional certification.</p><h3>No exam guarantee or affiliation</h3><p class="small">Use of FNP Quest does not guarantee eligibility for or success on any certification examination. FNP Quest is not affiliated with, endorsed by, or sponsored by AANPCB, ANCC, ANA, or AANP. Official examination materials and current test-content outlines control.</p><h3>Verify current information</h3><p class="small">Healthcare guidance, drug labeling, examination outlines, and standards of care change. Learners remain responsible for verifying current guidance, local requirements, and official prescribing information and for using qualified faculty or clinical supervision.</p><h3>Emergencies and patient care</h3><p class="small">Do not use FNP Quest to make decisions for an actual patient or to replace emergency services, clinical evaluation, institutional policy, or licensed supervision.</p></div>
+</section>
+</div>
+<div id="toast" class="toast"></div>
+<div class="nav"><button onclick="openPage('home')">🏠<br>Home</button><button onclick="startLesson(0)">📚<br>Learn</button><button id="navPracticeBtn" onclick="startPractice()">🩺<br>Practice</button><button onclick="openPage('progress')">📊<br>Progress</button></div>
+
+<!-- FNP Quest Auto Update System -->
+
+<script src="js/app.js?v=14.58"></script>
+<script src="js/progress.js?v=14.58"></script>
+<script src="js/supabase.js?v=14.58"></script>
+<script src="js/auth.js?v=14.58"></script>
+<script src="js/lessons.js?v=14.58"></script>
+<script src="js/quiz.js?v=14.58"></script>
+<script src="js/advanced-quiz.js?v=14.58"></script>
+<script src="js/version.js?v=14.58"></script>
+</body></html>

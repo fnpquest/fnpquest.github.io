@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "courses": [
+    {
+      "id": "advanced-pathophysiology",
+      "title": "Phase 1 · Advanced Pathophysiology",
+      "description": "Lessons 1–30 · Cellular mechanisms to multisystem FNP clinical reasoning",
+      "lessonIds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+    },
+    {
+      "id": "advanced-pharmacology",
+      "title": "Phase 2 · Advanced Pharmacology",
+      "description": "FNP prescribing, medication safety, and mechanism-based treatment",
+      "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38]
+    }
+  ],
+  "lessons": [
+    {"id": 1, "lessonFile": "data/lessons/lesson-01.json", "quizFile": "data/quizzes/lesson-01.json", "advancedQuizFile": "data/advanced-quizzes/lesson-01.json", "cardTitle": "Lesson 1 · Cellular Injury & Adaptation", "summary": "ATP, ROS, necrosis, apoptosis"},
+    {"id": 2, "lessonFile": "data/lessons/lesson-02.json", "quizFile": "data/quizzes/lesson-02.json", "advancedQuizFile": "data/advanced-quizzes/lesson-02.json", "cardTitle": "Lesson 2 · Cellular Adaptation & Inflammation", "summary": "Hypertrophy, hyperplasia, atrophy, metaplasia & inflammation"},
+    {"id": 3, "lessonFile": "data/lessons/lesson-03.json", "quizFile": "data/quizzes/lesson-03.json", "advancedQuizFile": "data/advanced-quizzes/lesson-03.json", "cardTitle": "Lesson 3 · Innate Immunity", "summary": "Complement & acute inflammation"},
+    {"id": 4, "lessonFile": "data/lessons/lesson-04.json", "quizFile": "data/quizzes/lesson-04.json", "advancedQuizFile": "data/advanced-quizzes/lesson-04.json", "cardTitle": "Lesson 4 · Adaptive Immunity", "summary": "B cells, T cells & antibodies"},
+    {"id": 5, "lessonFile": "data/lessons/lesson-05.json", "quizFile": "data/quizzes/lesson-05.json", "advancedQuizFile": "data/advanced-quizzes/lesson-05.json", "cardTitle": "Lesson 5 · Adaptive Immunity in Clinical Practice", "summary": "Vaccines, autoimmunity, hypersensitivity & immunodeficiency"},
+    {"id": 6, "lessonFile": "data/lessons/lesson-06.json", "quizFile": "data/quizzes/lesson-06.json", "advancedQuizFile": "data/advanced-quizzes/lesson-06.json", "cardTitle": "Lesson 6 · Tissue Repair, Wound Healing & Fibrosis", "summary": "Regeneration, fibrosis, wound healing & clinical reasoning"},
+    {"id": 7, "lessonFile": "data/lessons/lesson-07.json", "quizFile": "data/quizzes/lesson-07.json", "advancedQuizFile": "data/advanced-quizzes/lesson-07.json", "cardTitle": "Lesson 7 · Hemodynamics, Edema, Thrombosis &amp; Shock", "summary": "CO, MAP, edema, Virchow’s triad &amp; shock"},
+    {"id": 8, "lessonFile": "data/lessons/lesson-08.json", "quizFile": "data/quizzes/lesson-08.json", "advancedQuizFile": "data/advanced-quizzes/lesson-08.json", "cardTitle": "Lesson 8 · Respiratory Pathophysiology", "summary": "Gas exchange, V/Q matching &amp; hypoxemia"},
+    {"id": 9, "lessonFile": "data/lessons/lesson-09.json", "quizFile": "data/quizzes/lesson-09.json", "advancedQuizFile": "data/advanced-quizzes/lesson-09.json", "cardTitle": "Lesson 9 · Renal Pathophysiology", "summary": "GFR, RAAS, fluid/electrolytes &amp; acid–base"},
+    {"id": 10, "lessonFile": "data/lessons/lesson-10.json", "quizFile": "data/quizzes/lesson-10.json", "advancedQuizFile": "data/advanced-quizzes/lesson-10.json", "cardTitle": "Lesson 10 · Endocrine Pathophysiology", "summary": "Insulin, diabetes, thyroid &amp; adrenal regulation"},
+    {"id": 11, "lessonFile": "data/lessons/lesson-11.json", "quizFile": "data/quizzes/lesson-11.json", "cardTitle": "Lesson 11 · Cardiovascular Pathophysiology", "summary": "Hypertension, atherosclerosis, CAD &amp; MI"},
+    {"id": 12, "lessonFile": "data/lessons/lesson-12.json", "quizFile": "data/quizzes/lesson-12.json", "cardTitle": "Lesson 12 · Heart Failure", "summary": "HFrEF vs HFpEF, compensation, pulmonary edema &amp; BNP"},
+    {"id": 13, "lessonFile": "data/lessons/lesson-13.json", "quizFile": "data/quizzes/lesson-13.json", "cardTitle": "Lesson 13 · Cardiac Electrophysiology &amp; Arrhythmias", "summary": "Sinus rhythm, AF, SVT, bradycardia, VT/VF &amp; ECG basics"},
+    {"id": 14, "lessonFile": "data/lessons/lesson-14.json", "quizFile": "data/quizzes/lesson-14.json", "cardTitle": "Lesson 14 · Valvular Heart Disease", "summary": "AS, AR, MR, MS, murmurs, echocardiography & FNP clinical reasoning"},
+    {"id": 15, "lessonFile": "data/lessons/lesson-15.json", "quizFile": "data/quizzes/lesson-15.json", "cardTitle": "Lesson 15 · Pulmonary Pathophysiology", "summary": "Asthma, COPD, pneumonia, PE & acute dyspnea"},
+    {"id": 16, "lessonFile": "data/lessons/lesson-16.json", "quizFile": "data/quizzes/lesson-16.json", "cardTitle": "Lesson 16 · Hematology", "summary": "Anemia, bleeding, coagulation, DVT, PE & clinical reasoning"},
+    {"id": 17, "lessonFile": "data/lessons/lesson-17.json", "quizFile": "data/quizzes/lesson-17.json", "cardTitle": "Lesson 17 · Gastrointestinal Pathophysiology", "summary": "GERD, PUD, GI bleeding, IBD, IBS & clinical reasoning"},
+    {"id": 18, "lessonFile": "data/lessons/lesson-18.json", "quizFile": "data/quizzes/lesson-18.json", "cardTitle": "Lesson 18 · Hepatobiliary & Pancreatic Pathophysiology", "summary": "Liver disease, jaundice, biliary obstruction, pancreatitis & clinical reasoning"},
+    {"id": 19, "lessonFile": "data/lessons/lesson-19.json", "quizFile": "data/quizzes/lesson-19.json", "cardTitle": "Lesson 19 · Neurologic Pathophysiology", "summary": "Stroke, TIA, headache, seizure, delirium & clinical reasoning"},
+    {"id": 20, "lessonFile": "data/lessons/lesson-20.json", "quizFile": "data/quizzes/lesson-20.json", "cardTitle": "Lesson 20 · Musculoskeletal Pathophysiology", "summary": "OA, RA, gout, septic arthritis & acute joint pain"},
+    {"id": 21, "lessonFile": "data/lessons/lesson-21.json", "quizFile": "data/quizzes/lesson-21.json", "cardTitle": "Lesson 21 · Infectious Disease & Sepsis", "summary": "Infection severity, antimicrobial reasoning, stewardship & sepsis"},
+    {"id": 22, "lessonFile": "data/lessons/lesson-22.json", "quizFile": "data/quizzes/lesson-22.json", "cardTitle": "Lesson 22 · Oncology Pathophysiology & Clinical Reasoning", "summary": "Carcinogenesis, screening vs diagnosis, cancer emergencies & FNP care"},
+    {"id": 23, "lessonFile": "data/lessons/lesson-23.json", "quizFile": "data/quizzes/lesson-23.json", "cardTitle": "Lesson 23 · Reproductive & Gynecologic Pathophysiology", "summary": "AUB, PCOS, endometriosis, PID, pelvic pain & early-pregnancy emergencies"},
+    {"id": 24, "lessonFile": "data/lessons/lesson-24.json", "quizFile": "data/quizzes/lesson-24.json", "cardTitle": "Lesson 24 · Dermatologic Pathophysiology & Clinical Reasoning", "summary": "Rashes, skin infection, drug reactions, skin cancer & dermatologic emergencies"},
+    {"id": 25, "lessonFile": "data/lessons/lesson-25.json", "quizFile": "data/quizzes/lesson-25.json", "cardTitle": "Lesson 25 · Psychiatric Pathophysiology & Clinical Reasoning", "summary": "Mood, anxiety, psychosis, substance-related illness & suicide-risk assessment"},
+    {"id": 26, "lessonFile": "data/lessons/lesson-26.json", "quizFile": "data/quizzes/lesson-26.json", "cardTitle": "Lesson 26 · Pediatric Pathophysiology & Clinical Reasoning", "summary": "Fever, respiratory distress, dehydration, rash, sepsis risk & pediatric safety"},
+    {"id": 27, "lessonFile": "data/lessons/lesson-27.json", "quizFile": "data/quizzes/lesson-27.json", "cardTitle": "Lesson 27 · Geriatric Pathophysiology & Clinical Reasoning", "summary": "Frailty, delirium, falls, polypharmacy, orthostasis & functional safety"},
+    {"id": 28, "lessonFile": "data/lessons/lesson-28.json", "quizFile": "data/quizzes/lesson-28.json", "cardTitle": "Lesson 28 · Pain Pathophysiology", "summary": "Acute, chronic, neuropathic pain, central sensitization & FNP clinical reasoning"},
+    {"id": 29, "lessonFile": "data/lessons/lesson-29.json", "quizFile": "data/quizzes/lesson-29.json", "cardTitle": "Lesson 29 · Genetic, Environmental & Precision Pathophysiology", "summary": "Genetic risk, family history, gene-environment interaction & clinical interpretation"},
+    {"id": 30, "lessonFile": "data/lessons/lesson-30.json", "quizFile": "data/quizzes/lesson-30.json", "cardTitle": "Lesson 30 · Multisystem Pathophysiology Capstone", "summary": "Integrated FNP clinical reasoning, physiologic deterioration & safe disposition"},
+    {"id": 31, "lessonFile": "data/lessons/lesson-31.json", "quizFile": "data/quizzes/lesson-31.json", "cardTitle": "Lesson 31 · Clinical Pharmacology Foundations & Safe Prescribing", "summary": "PK/PD, interactions, adverse effects, kidney/liver function & medication safety"},
+    {"id": 32, "lessonFile": "data/lessons/lesson-32.json", "quizFile": "data/quizzes/lesson-32.json", "cardTitle": "Lesson 32 · Antimicrobial Pharmacology & Stewardship", "summary": "Empiric therapy, culture-directed care, resistance, safety & outpatient stewardship"},
+    {"id": 33, "lessonFile": "data/lessons/lesson-33.json", "quizFile": "data/quizzes/lesson-33.json", "cardTitle": "Lesson 33 · Cardiovascular Pharmacology I", "summary": "Antihypertensives, RAAS, diuretics, monitoring & FNP safety"},
+    {"id": 34, "lessonFile": "data/lessons/lesson-34.json", "quizFile": "data/quizzes/lesson-34.json", "cardTitle": "Lesson 34 · Cardiovascular Pharmacology II", "summary": "Dyslipidemia, statins, ASCVD risk reduction, safety & monitoring"},
+    {"id": 35, "lessonFile": "data/lessons/lesson-35.json", "quizFile": "data/quizzes/lesson-35.json", "cardTitle": "Lesson 35 · Endocrine Pharmacology I", "summary": "Diabetes medications, insulin, hypoglycemia, heart/kidney risk & FNP safety"},
+    {"id": 36, "lessonFile": "data/lessons/lesson-36.json", "quizFile": "data/quizzes/lesson-36.json", "cardTitle": "Lesson 36 · Endocrine Pharmacology II", "summary": "Thyroid replacement, antithyroid therapy, corticosteroids & adrenal safety"},
+    {"id": 37, "lessonFile": "data/lessons/lesson-37.json", "quizFile": "data/quizzes/lesson-37.json", "cardTitle": "Lesson 37 · Cardiovascular Pharmacology III", "summary": "Heart failure, angina, AF, volume status, anticoagulation & FNP safety"},
+    {"id": 38, "lessonFile": "data/lessons/lesson-38.json", "quizFile": "data/quizzes/lesson-38.json", "cardTitle": "Lesson 38 · Respiratory Pharmacology", "summary": "Asthma, COPD, inhaler technique, exacerbations & FNP safety"}
+  ]
+}
