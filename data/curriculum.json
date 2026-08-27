@@ -11,7 +11,7 @@
       "id": "advanced-pharmacology",
       "title": "Phase 2 · Advanced Pharmacology",
       "description": "FNP prescribing, medication safety, and mechanism-based treatment",
-      "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38]
+      "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38, 39]
     }
   ],
   "lessons": [
@@ -52,6 +52,7 @@
     {"id": 35, "lessonFile": "data/lessons/lesson-35.json", "quizFile": "data/quizzes/lesson-35.json", "cardTitle": "Lesson 35 · Endocrine Pharmacology I", "summary": "Diabetes medications, insulin, hypoglycemia, heart/kidney risk & FNP safety"},
     {"id": 36, "lessonFile": "data/lessons/lesson-36.json", "quizFile": "data/quizzes/lesson-36.json", "cardTitle": "Lesson 36 · Endocrine Pharmacology II", "summary": "Thyroid replacement, antithyroid therapy, corticosteroids & adrenal safety"},
     {"id": 37, "lessonFile": "data/lessons/lesson-37.json", "quizFile": "data/quizzes/lesson-37.json", "cardTitle": "Lesson 37 · Cardiovascular Pharmacology III", "summary": "Heart failure, angina, AF, volume status, anticoagulation & FNP safety"},
-    {"id": 38, "lessonFile": "data/lessons/lesson-38.json", "quizFile": "data/quizzes/lesson-38.json", "cardTitle": "Lesson 38 · Respiratory Pharmacology", "summary": "Asthma, COPD, inhaler technique, exacerbations & FNP safety"}
+    {"id": 38, "lessonFile": "data/lessons/lesson-38.json", "quizFile": "data/quizzes/lesson-38.json", "cardTitle": "Lesson 38 · Respiratory Pharmacology", "summary": "Asthma, COPD, inhaler technique, exacerbations & FNP safety"},
+    {"id": 39, "lessonFile": "data/lessons/lesson-39.json", "quizFile": "data/quizzes/lesson-39.json", "cardTitle": "Lesson 39 · Gastrointestinal Pharmacology", "summary": "Acid suppression, antiemetics, bowel medications & FNP safety"}
   ]
 }
