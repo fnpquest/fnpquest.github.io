@@ -11,7 +11,7 @@
       "id": "advanced-pharmacology",
       "title": "Phase 2 · Advanced Pharmacology",
       "description": "FNP prescribing, medication safety, and mechanism-based treatment",
-      "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41]
+      "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]
     }
   ],
   "lessons": [
@@ -55,6 +55,7 @@
     {"id": 38, "lessonFile": "data/lessons/lesson-38.json", "quizFile": "data/quizzes/lesson-38.json", "cardTitle": "Lesson 38 · Respiratory Pharmacology", "summary": "Asthma, COPD, inhaler technique, exacerbations & FNP safety"},
     {"id": 39, "lessonFile": "data/lessons/lesson-39.json", "quizFile": "data/quizzes/lesson-39.json", "cardTitle": "Lesson 39 · Gastrointestinal Pharmacology", "summary": "Acid suppression, antiemetics, bowel medications & FNP safety"},
     {"id": 40, "lessonFile": "data/lessons/lesson-40.json", "quizFile": "data/quizzes/lesson-40.json", "cardTitle": "Lesson 40 · Pain & Musculoskeletal Pharmacology", "summary": "Nonopioid analgesics, NSAIDs, pain mechanisms & opioid safety"},
-    {"id": 41, "lessonFile": "data/lessons/lesson-41.json", "quizFile": "data/quizzes/lesson-41.json", "cardTitle": "Lesson 41 · Psychiatric Pharmacology I", "summary": "Depression, anxiety, sleep, sedative burden & FNP safety"}
+    {"id": 41, "lessonFile": "data/lessons/lesson-41.json", "quizFile": "data/quizzes/lesson-41.json", "cardTitle": "Lesson 41 · Psychiatric Pharmacology I", "summary": "Depression, anxiety, sleep, sedative burden & FNP safety"},
+    {"id": 42, "lessonFile": "data/lessons/lesson-42.json", "quizFile": "data/quizzes/lesson-42.json", "cardTitle": "Lesson 42 · Psychiatric Pharmacology II", "summary": "Bipolar disorder, psychosis, ADHD, antipsychotics & FNP safety"}
   ]
 }
