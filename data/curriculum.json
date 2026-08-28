@@ -12,6 +12,12 @@
       "title": "Phase 2 · Advanced Pharmacology",
       "description": "FNP prescribing, medication safety, and mechanism-based treatment",
       "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    },
+    {
+      "id": "advanced-health-assessment-diagnostics",
+      "title": "Phase 3 · Advanced Health Assessment & Clinical Diagnostics",
+      "description": "Lessons 61+ · FNP assessment, differential diagnosis, diagnostic reasoning & safe disposition",
+      "lessonIds": [61]
     }
   ],
   "lessons": [
@@ -74,6 +80,7 @@
     {"id": 57, "lessonFile": "data/lessons/lesson-57.json", "quizFile": "data/quizzes/lesson-57.json", "cardTitle": "Lesson 57 · Anticoagulation, Antiplatelet & Thromboembolic Pharmacology", "summary": "Bleeding, thrombosis, interactions, monitoring & FNP safety"},
     {"id": 58, "lessonFile": "data/lessons/lesson-58.json", "quizFile": "data/quizzes/lesson-58.json", "cardTitle": "Lesson 58 · HIV, PrEP & STI Pharmacology", "summary": "Prevention, treatment, interactions, testing & FNP care"},
     {"id": 59, "lessonFile": "data/lessons/lesson-59.json", "quizFile": "data/quizzes/lesson-59.json", "cardTitle": "Lesson 59 · Hepatology & Viral Hepatitis Pharmacology", "summary": "HBV, HCV, DILI, interactions & FNP safety"},
-    {"id": 60, "lessonFile": "data/lessons/lesson-60.json", "quizFile": "data/quizzes/lesson-60.json", "cardTitle": "Lesson 60 · Obesity Medicine & Metabolic Pharmacology", "summary": "Anti-obesity medications, incretins, monitoring & FNP safety"}
+    {"id": 60, "lessonFile": "data/lessons/lesson-60.json", "quizFile": "data/quizzes/lesson-60.json", "cardTitle": "Lesson 60 · Obesity Medicine & Metabolic Pharmacology", "summary": "Anti-obesity medications, incretins, monitoring & FNP safety"},
+    {"id": 61, "lessonFile": "data/lessons/lesson-61.json", "quizFile": "data/quizzes/lesson-61.json", "cardTitle": "Lesson 61 · Clinical Reasoning Foundations", "summary": "History, problem representation, differential diagnosis & diagnostic safety"}
   ]
 }
