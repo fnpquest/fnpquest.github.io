@@ -11,7 +11,7 @@
       "id": "advanced-pharmacology",
       "title": "Phase 2 · Advanced Pharmacology",
       "description": "FNP prescribing, medication safety, and mechanism-based treatment",
-      "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]
+      "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
     }
   ],
   "lessons": [
@@ -62,6 +62,7 @@
     {"id": 45, "lessonFile": "data/lessons/lesson-45.json", "quizFile": "data/quizzes/lesson-45.json", "cardTitle": "Lesson 45 · Dermatologic Pharmacology", "summary": "Eczema, acne, psoriasis, skin infection & medication safety"},
     {"id": 46, "lessonFile": "data/lessons/lesson-46.json", "quizFile": "data/quizzes/lesson-46.json", "cardTitle": "Lesson 46 · Ophthalmic & ENT Pharmacology", "summary": "Red eye, glaucoma, otitis, rhinitis & medication safety"},
     {"id": 47, "lessonFile": "data/lessons/lesson-47.json", "quizFile": "data/quizzes/lesson-47.json", "cardTitle": "Lesson 47 · Geriatric Pharmacology", "summary": "Polypharmacy, deprescribing, falls & medication safety"},
-    {"id": 48, "lessonFile": "data/lessons/lesson-48.json", "quizFile": "data/quizzes/lesson-48.json", "cardTitle": "Lesson 48 · Urologic & Men’s Health Pharmacology", "summary": "LUTS/BPH, ED, UTI, incontinence & medication safety"}
+    {"id": 48, "lessonFile": "data/lessons/lesson-48.json", "quizFile": "data/quizzes/lesson-48.json", "cardTitle": "Lesson 48 · Urologic & Men’s Health Pharmacology", "summary": "LUTS/BPH, ED, UTI, incontinence & medication safety"},
+    {"id": 49, "lessonFile": "data/lessons/lesson-49.json", "quizFile": "data/quizzes/lesson-49.json", "cardTitle": "Lesson 49 · Pediatric Pharmacology", "summary": "Dosing, fever, respiratory illness & medication safety"}
   ]
 }
