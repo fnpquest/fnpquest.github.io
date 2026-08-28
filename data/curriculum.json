@@ -11,7 +11,7 @@
       "id": "advanced-pharmacology",
       "title": "Phase 2 · Advanced Pharmacology",
       "description": "FNP prescribing, medication safety, and mechanism-based treatment",
-      "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]
+      "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]
     }
   ],
   "lessons": [
@@ -70,6 +70,7 @@
     {"id": 53, "lessonFile": "data/lessons/lesson-53.json", "quizFile": "data/quizzes/lesson-53.json", "cardTitle": "Lesson 53 · Pharmacogenomics & Precision Prescribing", "summary": "Genes, drug response, safety & FNP clinical reasoning"},
     {"id": 54, "lessonFile": "data/lessons/lesson-54.json", "quizFile": "data/quizzes/lesson-54.json", "cardTitle": "Lesson 54 · Oncology Pharmacology, Survivorship & Treatment Toxicity", "summary": "Treatment toxicity, urgent triage, coordination & survivorship"},
     {"id": 55, "lessonFile": "data/lessons/lesson-55.json", "quizFile": "data/quizzes/lesson-55.json", "cardTitle": "Lesson 55 · Transplant & Immunosuppressive Pharmacology", "summary": "Rejection, infection, interactions, monitoring & FNP safety"},
-    {"id": 56, "lessonFile": "data/lessons/lesson-56.json", "quizFile": "data/quizzes/lesson-56.json", "cardTitle": "Lesson 56 · Rheumatology & Biologic Pharmacology", "summary": "DMARDs, immunomodulation, monitoring & FNP safety"}
+    {"id": 56, "lessonFile": "data/lessons/lesson-56.json", "quizFile": "data/quizzes/lesson-56.json", "cardTitle": "Lesson 56 · Rheumatology & Biologic Pharmacology", "summary": "DMARDs, immunomodulation, monitoring & FNP safety"},
+    {"id": 57, "lessonFile": "data/lessons/lesson-57.json", "quizFile": "data/quizzes/lesson-57.json", "cardTitle": "Lesson 57 · Anticoagulation, Antiplatelet & Thromboembolic Pharmacology", "summary": "Bleeding, thrombosis, interactions, monitoring & FNP safety"}
   ]
 }
