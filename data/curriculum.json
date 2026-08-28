@@ -11,7 +11,7 @@
       "id": "advanced-pharmacology",
       "title": "Phase 2 · Advanced Pharmacology",
       "description": "FNP prescribing, medication safety, and mechanism-based treatment",
-      "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+      "lessonIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
     }
   ],
   "lessons": [
@@ -57,6 +57,7 @@
     {"id": 40, "lessonFile": "data/lessons/lesson-40.json", "quizFile": "data/quizzes/lesson-40.json", "cardTitle": "Lesson 40 · Pain & Musculoskeletal Pharmacology", "summary": "Nonopioid analgesics, NSAIDs, pain mechanisms & opioid safety"},
     {"id": 41, "lessonFile": "data/lessons/lesson-41.json", "quizFile": "data/quizzes/lesson-41.json", "cardTitle": "Lesson 41 · Psychiatric Pharmacology I", "summary": "Depression, anxiety, sleep, sedative burden & FNP safety"},
     {"id": 42, "lessonFile": "data/lessons/lesson-42.json", "quizFile": "data/quizzes/lesson-42.json", "cardTitle": "Lesson 42 · Psychiatric Pharmacology II", "summary": "Bipolar disorder, psychosis, ADHD, antipsychotics & FNP safety"},
-    {"id": 43, "lessonFile": "data/lessons/lesson-43.json", "quizFile": "data/quizzes/lesson-43.json", "cardTitle": "Lesson 43 · Neurologic Pharmacology", "summary": "Headache, migraine, seizure, neuropathic pain & FNP safety"}
+    {"id": 43, "lessonFile": "data/lessons/lesson-43.json", "quizFile": "data/quizzes/lesson-43.json", "cardTitle": "Lesson 43 · Neurologic Pharmacology", "summary": "Headache, migraine, seizure, neuropathic pain & FNP safety"},
+    {"id": 44, "lessonFile": "data/lessons/lesson-44.json", "quizFile": "data/quizzes/lesson-44.json", "cardTitle": "Lesson 44 · Women’s Health & Reproductive Pharmacology", "summary": "Contraception, pregnancy safety, abnormal bleeding & menopause"}
   ]
 }
