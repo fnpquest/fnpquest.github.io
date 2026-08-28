@@ -11,14 +11,14 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="FNP Quest">
-<link rel="manifest" href="manifest.webmanifest?v=14.72">
+<link rel="manifest" href="manifest.webmanifest?v=14.73">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-v1-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon-v1.png">
-<title>FNP Quest v14.72 · Immunization &amp; Preventive Pharmacology</title><link rel="stylesheet" href="css/styles.css?v=14.72">
+<title>FNP Quest v14.73 · Anonymous Usage Statistics</title><link rel="stylesheet" href="css/styles.css?v=14.73">
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head><body>
 <div class="app">
-<div class="top"><div class="logo"><img class="brand-icon" src="assets/icons/app-icon-v1-192.png" alt="">FNP Quest</div><button class="avatar" aria-label="Account" style="color:var(--text);padding:0" onclick="openPage('account')">👤</button></div><div style="text-align:center;font-size:11px;color:#687083;margin:-8px 0 12px">Version: v14.72 · Immunization &amp; Preventive Pharmacology</div>
+<div class="top"><div class="logo"><img class="brand-icon" src="assets/icons/app-icon-v1-192.png" alt="">FNP Quest</div><button class="avatar" aria-label="Account" style="color:var(--text);padding:0" onclick="openPage('account')">👤</button></div><div style="text-align:center;font-size:11px;color:#687083;margin:-8px 0 12px">Version: v14.73 · Anonymous Usage Statistics</div>
 
 <section id="home" class="page active">
 <div class="card" id="homeTotalStudyDays" style="margin-bottom:12px"><span class="small">📚 Total Study Days</span><h2><span id="hometotaldays">0</span> days</h2><p class="small">Your total number of unique study dates.</p></div>
@@ -94,7 +94,7 @@
 </div>
 <div class="card"><h3>Privacy &amp; support</h3><p class="small">Review how local and cloud data are handled, or send general feedback without including patient or personal information.</p><div class="trust-actions"><button class="secondary" onclick="openPage('privacy')">Privacy</button><button class="secondary" onclick="openPage('about')">Support</button></div></div>
 </section>
-<section id="progress" class="page"><div style="text-align:center;font-size:11px;color:#687083;margin-bottom:12px">Version: v14.72 · Immunization &amp; Preventive Pharmacology<br><span id="progressCloudStatus">Not signed in · guest progress is saved on this device</span></div><h1>📊 Progress</h1><div class="grid"><div class="card"><span class="small">XP</span><h2 id="pxp">0</h2></div><div class="card"><span class="small">Streak</span><h2>🔥 <span id="pstreak">0</span></h2></div><div class="card"><span class="small">Total Study Days</span><h2>📚 <span id="ptotaldays">0</span></h2></div></div><div class="card"><h3>Loaded Lessons</h3><p id="loadedLessons">Loading lessons…</p></div><div class="card"><h3>Board-Ready Progress</h3><p id="advancedProgressSummary" class="small">No advanced questions answered yet.</p><button onclick="openAdvancedHub()">Open Advanced Question Bank</button></div></section>
+<section id="progress" class="page"><div style="text-align:center;font-size:11px;color:#687083;margin-bottom:12px">Version: v14.73 · Anonymous Usage Statistics<br><span id="progressCloudStatus">Not signed in · guest progress is saved on this device</span></div><h1>📊 Progress</h1><div class="grid"><div class="card"><span class="small">XP</span><h2 id="pxp">0</h2></div><div class="card"><span class="small">Streak</span><h2>🔥 <span id="pstreak">0</span></h2></div><div class="card"><span class="small">Total Study Days</span><h2>📚 <span id="ptotaldays">0</span></h2></div></div><div class="card"><h3>Loaded Lessons</h3><p id="loadedLessons">Loading lessons…</p></div><div class="card"><h3>Board-Ready Progress</h3><p id="advancedProgressSummary" class="small">No advanced questions answered yet.</p><button onclick="openAdvancedHub()">Open Advanced Question Bank</button></div></section>
 
 <section id="about" class="page">
 <button class="secondary" onclick="openPage('home')">← Home</button>
@@ -107,7 +107,24 @@
 <section id="privacy" class="page">
 <button class="secondary" onclick="openPage('home')">← Home</button>
 <h1>Privacy</h1>
-<div class="card"><p class="small"><b>Effective:</b> August 26, 2026</p><h3>Data stored on this device</h3><p class="small">Without an account, FNP Quest stores guest learning progress in your browser, including XP, streak, study dates, completed lesson quizzes, missed-question review data, theme preference, and course display preferences. Signed-in progress is stored in a separate local area for each account so switching accounts does not transfer learning data.</p><h3>Optional cloud account</h3><p class="small">If you create an account, Supabase Auth processes your email address and authentication information. FNP Quest stores an account identifier, XP, streak, freeze count, study dates, and quiz-result records so supported progress can synchronize across devices. Guest progress is never added to a cloud account automatically; an eligible signed-in user must explicitly confirm a one-time import. Passwords are handled by Supabase Auth and are not stored in this app’s source code.</p><h3>What we do not request</h3><p class="small">Do not enter patient names, medical-record information, protected health information, or other clinical data. FNP Quest is not designed to receive or store patient data.</p><h3>Service providers</h3><p class="small">The site is delivered through GitHub Pages. Optional authentication and cloud synchronization use Supabase. The current app does not include advertising or analytics trackers and does not sell personal information.</p><h3>Your choices</h3><p class="small">You may use the core learning features without an account. Clearing local learning data affects only this browser. Signed-in users can submit a private account-deletion request from the Account page; the request is stored in their private authentication metadata for manual processing.</p><button class="danger-secondary" onclick="clearLocalLearningData()">Clear Local Learning Data</button></div>
+<div class="card">
+<p class="small"><b>Effective:</b> August 28, 2026</p>
+<h3>Data stored on this device</h3>
+<p class="small">Without an account, FNP Quest stores guest learning progress in your browser, including XP, streak, study dates, completed lesson quizzes, missed-question review data, theme preference, and course display preferences. Signed-in progress is stored in a separate local area for each account so switching accounts does not transfer learning data.</p>
+<h3>Optional cloud account</h3>
+<p class="small">If you create an account, Supabase Auth processes your email address and authentication information. FNP Quest stores an account identifier, XP, streak, freeze count, study dates, and quiz-result records so supported progress can synchronize across devices. Guest progress is never added to a cloud account automatically; an eligible signed-in user must explicitly confirm a one-time import. Passwords are handled by Supabase Auth and are not stored in this app’s source code.</p>
+<h3>Anonymous usage statistics</h3>
+<p class="small">FNP Quest sends limited aggregate events to Supabase to count site visits, lesson opens, lesson-quiz completions, mixed-practice completions, and advanced-practice completions. These events contain an event name, optional lesson number, app version, server time, and a random identifier that changes each local calendar day. They do not contain an account ID, email address, XP, streak, quiz score, selected answer, mistake text, or other free-form content. This separate statistics connection does not use a signed-in learning account session.</p>
+<p id="anonymousAnalyticsStatus" class="small">Checking anonymous usage statistics preference…</p>
+<button id="anonymousAnalyticsToggle" class="secondary" onclick="toggleAnonymousAnalytics()">Turn Off Anonymous Usage Statistics</button>
+<h3>What we do not request</h3>
+<p class="small">Do not enter patient names, medical-record information, protected health information, or other clinical data. FNP Quest is not designed to receive or store patient data.</p>
+<h3>Service providers</h3>
+<p class="small">The site is delivered through GitHub Pages. Optional authentication, cloud synchronization, and anonymous aggregate usage statistics use Supabase. FNP Quest does not include advertising trackers and does not sell personal information.</p>
+<h3>Your choices</h3>
+<p class="small">You may use the core learning features without an account and may turn anonymous usage statistics off or on for this browser at any time. Global Privacy Control and Do Not Track signals also disable these events. Clearing local learning data affects only this browser. Signed-in users can submit a private account-deletion request from the Account page; the request is stored in their private authentication metadata for manual processing.</p>
+<button class="danger-secondary" onclick="clearLocalLearningData()">Clear Local Learning Data</button>
+</div>
 </section>
 
 <section id="terms" class="page">
@@ -121,12 +138,13 @@
 
 <!-- FNP Quest Auto Update System -->
 
-<script src="js/app.js?v=14.72"></script>
-<script src="js/progress.js?v=14.72"></script>
-<script src="js/supabase.js?v=14.72"></script>
-<script src="js/auth.js?v=14.72"></script>
-<script src="js/lessons.js?v=14.72"></script>
-<script src="js/quiz.js?v=14.72"></script>
-<script src="js/advanced-quiz.js?v=14.72"></script>
-<script src="js/version.js?v=14.72"></script>
+<script src="js/app.js?v=14.73"></script>
+<script src="js/progress.js?v=14.73"></script>
+<script src="js/supabase.js?v=14.73"></script>
+<script src="js/analytics.js?v=14.73"></script>
+<script src="js/auth.js?v=14.73"></script>
+<script src="js/lessons.js?v=14.73"></script>
+<script src="js/quiz.js?v=14.73"></script>
+<script src="js/advanced-quiz.js?v=14.73"></script>
+<script src="js/version.js?v=14.73"></script>
 </body></html>

@@ -13,4 +13,4 @@ function initializeTheme(){
  sync();document.body.appendChild(button);
 }
 
-window.addEventListener("DOMContentLoaded",()=>{initializeTheme();update();initCloud();loadCurriculum();});
+window.addEventListener("DOMContentLoaded",()=>{initializeTheme();update();if(typeof initAnonymousAnalytics==="function")initAnonymousAnalytics();initCloud();loadCurriculum();});

@@ -58,11 +58,11 @@ for(const [i,item] of manifest.lessons.entries()){
 
 if(advancedQuestionIds.size!==100)throw new Error(`Expected 100 Board-Ready questions for Lessons 1–10, found ${advancedQuestionIds.size}`);
 
-for(const file of ["js/app.js","js/lessons.js","js/quiz.js","js/advanced-quiz.js","js/progress.js","js/auth.js","js/supabase.js","js/version.js","css/styles.css"]){
+for(const file of ["js/app.js","js/lessons.js","js/quiz.js","js/advanced-quiz.js","js/progress.js","js/auth.js","js/supabase.js","js/analytics.js","js/version.js","css/styles.css"]){
  if(!fs.existsSync(path.join(root,file)))throw new Error(`Missing ${file}`);
 }
 
-for(const launchFile of ["docs/ACCOUNT_DELETION.md","docs/SUPABASE_SECURITY.md","supabase/migrations/202608250001_harden_learning_data_rls.sql"]){
+for(const launchFile of ["docs/ACCOUNT_DELETION.md","docs/SUPABASE_SECURITY.md","docs/ANONYMOUS_ANALYTICS.md","supabase/migrations/202608250001_harden_learning_data_rls.sql","supabase/migrations/202608280001_anonymous_usage_analytics.sql"]){
  if(!fs.existsSync(path.join(root,launchFile)))throw new Error(`Missing public-launch requirement: ${launchFile}`);
 }
 
@@ -114,6 +114,20 @@ for(const table of ["profiles","daily_activity","quiz_results"]){
 if(!rls.includes("revoke all on table public.profiles from anon"))throw new Error("Anonymous profile grants are not revoked");
 if(!rls.includes("from pg_policies"))throw new Error("RLS migration does not remove legacy policies");
 
+const analyticsScript=fs.readFileSync(path.join(root,"js/analytics.js"),"utf8");
+const analyticsMigration=fs.readFileSync(path.join(root,"supabase/migrations/202608280001_anonymous_usage_analytics.sql"),"utf8");
+for(const eventName of ["page_view","lesson_open","lesson_quiz_complete","practice_complete","advanced_practice_complete"]){
+ if(!analyticsScript.includes(eventName)||!analyticsMigration.includes(eventName))throw new Error(`Anonymous analytics event is not implemented end to end: ${eventName}`);
+}
+for(const forbiddenField of ["user_id","email","score","selected_answer","xp","streak"]){
+ if(new RegExp(`payload[^;]*${forbiddenField}`,"i").test(analyticsScript))throw new Error(`Anonymous analytics payload must not include ${forbiddenField}`);
+}
+if(!analyticsMigration.includes("grant insert on table public.anonymous_analytics_events to anon, authenticated"))throw new Error("Anonymous analytics must be insert-only for browser roles");
+if(/grant\s+(select|update|delete)[^;]*anonymous_analytics_events/i.test(analyticsMigration))throw new Error("Browser roles must not read or modify anonymous analytics rows");
+for(const privacyText of ["Anonymous usage statistics","random identifier that changes each local calendar day","Global Privacy Control"]){
+ if(!index.includes(privacyText))throw new Error(`Privacy UI is missing anonymous analytics disclosure: ${privacyText}`);
+}
+
 const lessonsScript=fs.readFileSync(path.join(root,"js/lessons.js"),"utf8");
 if(/curriculum\.length!==\d+/.test(lessonsScript))throw new Error("Lesson loader must not hard-code a curriculum length");
 if(lessonsScript.includes("curriculum-additions.json"))throw new Error("Lesson loader should use the single canonical curriculum.json manifest");
@@ -127,7 +141,7 @@ const match=versionScript.match(/FNP_APP_VERSION="([^"]+)"/);
 if(!match||match[1]!==version.version)throw new Error("Version mismatch between version.js and version.json");
 
 const numericVersion=version.version.replace(/^v/,"");
-for(const asset of ["css/styles.css","js/app.js","js/progress.js","js/supabase.js","js/auth.js","js/lessons.js","js/quiz.js","js/advanced-quiz.js","js/version.js"]){
+for(const asset of ["css/styles.css","js/app.js","js/progress.js","js/supabase.js","js/analytics.js","js/auth.js","js/lessons.js","js/quiz.js","js/advanced-quiz.js","js/version.js"]){
  if(!index.includes(`${asset}?v=${numericVersion}`))throw new Error(`Versioned asset URL is missing or stale for ${asset}`);
 }
 
