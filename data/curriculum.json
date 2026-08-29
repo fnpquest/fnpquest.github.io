@@ -17,7 +17,7 @@
       "id": "advanced-health-assessment-diagnostics",
       "title": "Phase 3 · Advanced Health Assessment & Clinical Diagnostics",
       "description": "Lessons 61+ · FNP assessment, differential diagnosis, diagnostic reasoning & safe disposition",
-      "lessonIds": [61, 62, 63, 64]
+      "lessonIds": [61, 62, 63, 64, 65]
     }
   ],
   "lessons": [
@@ -84,6 +84,7 @@
     {"id": 61, "lessonFile": "data/lessons/lesson-61.json", "quizFile": "data/quizzes/lesson-61.json", "cardTitle": "Lesson 61 · Clinical Reasoning Foundations", "summary": "History, problem representation, differential diagnosis & diagnostic safety"},
     {"id": 62, "lessonFile": "data/lessons/lesson-62.json", "quizFile": "data/quizzes/lesson-62.json", "cardTitle": "Lesson 62 · Comprehensive Health History, General Survey & Vital Signs", "summary": "HPI, medication reconciliation, vital signs, orthostatics & FNP safety"},
     {"id": 63, "lessonFile": "data/lessons/lesson-63.json", "quizFile": "data/quizzes/lesson-63.json", "cardTitle": "Lesson 63 · Focused Physical Examination", "summary": "Technique, interpretation, diagnostic safety & FNP assessment"},
-    {"id": 64, "lessonFile": "data/lessons/lesson-64.json", "quizFile": "data/quizzes/lesson-64.json", "cardTitle": "Lesson 64 · Cardiovascular Health Assessment & Diagnostics", "summary": "Chest pain, dyspnea, murmurs, ECGs, biomarkers & FNP safety"}
+    {"id": 64, "lessonFile": "data/lessons/lesson-64.json", "quizFile": "data/quizzes/lesson-64.json", "cardTitle": "Lesson 64 · Cardiovascular Health Assessment & Diagnostics", "summary": "Chest pain, dyspnea, murmurs, ECGs, biomarkers & FNP safety"},
+    {"id": 65, "lessonFile": "data/lessons/lesson-65.json", "quizFile": "data/quizzes/lesson-65.json", "cardTitle": "Lesson 65 · Respiratory Health Assessment & Diagnostics", "summary": "Cough, dyspnea, wheeze, imaging, spirometry & FNP safety"}
   ]
 }
