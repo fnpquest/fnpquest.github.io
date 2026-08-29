@@ -62,7 +62,7 @@ for(const file of ["js/app.js","js/lessons.js","js/quiz.js","js/advanced-quiz.js
  if(!fs.existsSync(path.join(root,file)))throw new Error(`Missing ${file}`);
 }
 
-for(const launchFile of ["docs/ACCOUNT_DELETION.md","docs/SUPABASE_SECURITY.md","docs/ANONYMOUS_ANALYTICS.md","supabase/migrations/202608250001_harden_learning_data_rls.sql","supabase/migrations/202608280001_anonymous_usage_analytics.sql","supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql"]){
+for(const launchFile of ["docs/ACCOUNT_DELETION.md","docs/SUPABASE_SECURITY.md","docs/ANONYMOUS_ANALYTICS.md","supabase/migrations/202608250001_harden_learning_data_rls.sql","supabase/migrations/202608280001_anonymous_usage_analytics.sql","supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql","supabase/migrations/202608290001_anonymous_analytics_v2.sql"]){
  if(!fs.existsSync(path.join(root,launchFile)))throw new Error(`Missing public-launch requirement: ${launchFile}`);
 }
 
@@ -116,7 +116,7 @@ if(!rls.includes("revoke all on table public.profiles from anon"))throw new Erro
 if(!rls.includes("from pg_policies"))throw new Error("RLS migration does not remove legacy policies");
 
 const analyticsScript=fs.readFileSync(path.join(root,"js/analytics.js"),"utf8");
-const analyticsMigration=["supabase/migrations/202608280001_anonymous_usage_analytics.sql","supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql"].map(file=>fs.readFileSync(path.join(root,file),"utf8")).join("\n");
+const analyticsMigration=["supabase/migrations/202608280001_anonymous_usage_analytics.sql","supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql","supabase/migrations/202608290001_anonymous_analytics_v2.sql"].map(file=>fs.readFileSync(path.join(root,file),"utf8")).join("\n");
 for(const eventName of ["page_view","lesson_open","lesson_quiz_start","lesson_quiz_complete","practice_complete","advanced_practice_complete"]){
  if(!analyticsScript.includes(eventName)||!analyticsMigration.includes(eventName))throw new Error(`Anonymous analytics event is not implemented end to end: ${eventName}`);
 }
@@ -125,7 +125,11 @@ for(const forbiddenField of ["user_id","email","score","selected_answer","xp","s
 }
 if(!analyticsMigration.includes("grant insert on table public.anonymous_analytics_events to anon, authenticated"))throw new Error("Anonymous analytics must be insert-only for browser roles");
 if(/grant\s+(select|update|delete)[^;]*anonymous_analytics_events/i.test(analyticsMigration))throw new Error("Browser roles must not read or modify anonymous analytics rows");
-for(const privacyText of ["Anonymous usage statistics","random identifier that changes each local calendar day","Global Privacy Control"]){
+for(const feature of ["visitor_id","session_id","source"]){
+ if(!analyticsScript.includes(feature)||!analyticsMigration.includes(feature))throw new Error(`Anonymous analytics V2 is missing ${feature}`);
+}
+if(!analyticsMigration.includes("limit_anonymous_analytics_event_rate"))throw new Error("Anonymous analytics V2 rate-limit guardrail is missing");
+for(const privacyText of ["Anonymous usage statistics","random browser identifier","Global Privacy Control"]){
  if(!index.includes(privacyText))throw new Error(`Privacy UI is missing anonymous analytics disclosure: ${privacyText}`);
 }
 

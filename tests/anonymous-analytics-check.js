@@ -11,6 +11,7 @@ class MemoryStorage{
 
 const inserts=[];
 const analyticsClient={from:table=>({insert:async payload=>{inserts.push({table,payload});return {error:null};}})};
+const localStorage=new MemoryStorage(),sessionStorage=new MemoryStorage();
 const context=vm.createContext({
  console,
  Date,
@@ -20,14 +21,16 @@ const context=vm.createContext({
  JSON,
  Number,
  String,
- localStorage:new MemoryStorage(),
+ URLSearchParams,
+ localStorage,
+ sessionStorage,
  navigator:{globalPrivacyControl:false,doNotTrack:"0"},
- document:{getElementById:()=>null},
- window:{location:{hostname:"fnpquest.github.io"},crypto:{randomUUID:crypto.randomUUID,getRandomValues:array=>crypto.webcrypto.getRandomValues(array)},doNotTrack:"0"},
+ document:{getElementById:()=>null,referrer:""},
+ window:{location:{hostname:"fnpquest.github.io",search:"?utm_source=facebook"},crypto:{randomUUID:crypto.randomUUID,getRandomValues:array=>crypto.webcrypto.getRandomValues(array)},doNotTrack:"0"},
  supabase:{createClient:()=>analyticsClient},
  SUPABASE_URL:"https://example.supabase.co",
  SUPABASE_PUBLISHABLE_KEY:"browser-safe-test-key",
- FNP_APP_VERSION:"v14.73"
+ FNP_APP_VERSION:"v14.89"
 });
 vm.runInContext(fs.readFileSync(path.join(root,"js/analytics.js"),"utf8"),context,{filename:"js/analytics.js"});
 const run=source=>vm.runInContext(source,context);
@@ -37,11 +40,15 @@ const run=source=>vm.runInContext(source,context);
  assert.equal(inserts.length,1,"Initialization should record one page view");
  assert.equal(inserts[0].table,"anonymous_analytics_events");
  assert.equal(inserts[0].payload.event_name,"page_view");
+ assert.equal(inserts[0].payload.source,"facebook","A UTM source should be reduced to a broad source category");
 
- const firstVisitorDayId=inserts[0].payload.visitor_day_id;
+ const first=inserts[0].payload;
  await run('trackAnonymousEvent("lesson_open",7)');
- assert.equal(inserts[1].payload.lesson_number,7,"Lesson events should include only the lesson number");
- assert.equal(inserts[1].payload.visitor_day_id,firstVisitorDayId,"Visitor-day ID should remain stable during the same day");
+ const second=inserts[1].payload;
+ assert.equal(second.lesson_number,7,"Lesson events should include only the lesson number");
+ assert.equal(second.visitor_id,first.visitor_id,"Browser visitor ID should persist across events");
+ assert.equal(second.visitor_day_id,first.visitor_day_id,"Visitor-day ID should remain stable during the same day");
+ assert.equal(second.session_id,first.session_id,"Session ID should remain stable during the active session");
 
  await run('trackAnonymousEvent("lesson_quiz_start",7)');
  assert.equal(inserts[2].payload.event_name,"lesson_quiz_start","Starting a lesson quiz should be an allowed anonymous event");
@@ -49,13 +56,14 @@ const run=source=>vm.runInContext(source,context);
 
  for(const record of inserts){
   const fields=Object.keys(record.payload).sort();
-  assert.ok(fields.every(field=>["app_version","event_name","lesson_number","visitor_day_id"].includes(field)),`Unexpected anonymous field: ${fields.join(", ")}`);
-  for(const forbidden of ["user_id","email","xp","streak","score","answer","mistake"])assert.ok(!fields.includes(forbidden),`Anonymous payload exposed ${forbidden}`);
+  assert.ok(fields.every(field=>["app_version","event_name","lesson_number","session_id","source","visitor_day_id","visitor_id"].includes(field)),`Unexpected anonymous field: ${fields.join(", ")}`);
+  for(const forbidden of ["user_id","email","xp","streak","score","answer","mistake","referrer","url"])assert.ok(!fields.includes(forbidden),`Anonymous payload exposed ${forbidden}`);
  }
 
  assert.equal(await run('trackAnonymousEvent("not_allowed",1)'),false,"Unknown events must be rejected client-side");
  const beforeOptOut=inserts.length;
  run("setAnonymousAnalyticsEnabled(false)");
+ assert.equal(localStorage.getItem("fnpQuestAnonymousAnalyticsVisitor"),null,"Opt-out should remove the persistent browser ID");
  assert.equal(await run('trackAnonymousEvent("lesson_open",2)'),false,"Opt-out must stop event transmission");
  assert.equal(inserts.length,beforeOptOut,"Opt-out must not enqueue an event");
 
@@ -64,5 +72,5 @@ const run=source=>vm.runInContext(source,context);
  await run("anonymousAnalyticsQueue");
  assert.equal(inserts.length,beforeOptOut,"Global Privacy Control must prevent event transmission");
 
- console.log("Anonymous analytics checks passed: data minimization, daily pseudonym, event allowlist, opt-out, and GPC.");
+ console.log("Anonymous analytics checks passed: minimized V2 data, browser/session IDs, source categories, opt-out, and GPC.");
 })().catch(error=>{console.error(error);process.exitCode=1;});
