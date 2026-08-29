@@ -4,7 +4,7 @@ FNP Quest uses a browser-safe publishable key. Database grants and Row Level Sec
 
 Before public account creation and anonymous analytics deployment:
 
-1. Apply `supabase/migrations/202608250001_harden_learning_data_rls.sql` and `supabase/migrations/202608280001_anonymous_usage_analytics.sql` in a trusted Supabase admin environment.
+1. Apply `supabase/migrations/202608250001_harden_learning_data_rls.sql`, `supabase/migrations/202608280001_anonymous_usage_analytics.sql`, and `supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql` in a trusted Supabase admin environment.
 2. Confirm `anon` cannot select, insert, update, or delete from `profiles`, `daily_activity`, or `quiz_results`.
 3. With two dedicated test users, confirm each authenticated user can access only their own rows.
 4. Confirm `profiles` supports select/insert/update, `daily_activity` supports select/insert/update, and `quiz_results` supports select/insert for the owning user.

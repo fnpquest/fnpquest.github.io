@@ -43,6 +43,10 @@ const run=source=>vm.runInContext(source,context);
  assert.equal(inserts[1].payload.lesson_number,7,"Lesson events should include only the lesson number");
  assert.equal(inserts[1].payload.visitor_day_id,firstVisitorDayId,"Visitor-day ID should remain stable during the same day");
 
+ await run('trackAnonymousEvent("lesson_quiz_start",7)');
+ assert.equal(inserts[2].payload.event_name,"lesson_quiz_start","Starting a lesson quiz should be an allowed anonymous event");
+ assert.equal(inserts[2].payload.lesson_number,7,"Quiz-start events should include only the lesson number");
+
  for(const record of inserts){
   const fields=Object.keys(record.payload).sort();
   assert.ok(fields.every(field=>["app_version","event_name","lesson_number","visitor_day_id"].includes(field)),`Unexpected anonymous field: ${fields.join(", ")}`);

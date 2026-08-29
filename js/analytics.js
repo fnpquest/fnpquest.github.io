@@ -1,7 +1,7 @@
 const ANONYMOUS_ANALYTICS_TABLE="anonymous_analytics_events";
 const ANONYMOUS_ANALYTICS_OPT_OUT_KEY="fnpQuestAnonymousAnalyticsOptOut";
 const ANONYMOUS_ANALYTICS_VISITOR_DAY_KEY="fnpQuestAnonymousAnalyticsVisitorDay";
-const ANONYMOUS_ANALYTICS_EVENTS=new Set(["page_view","lesson_open","lesson_quiz_complete","practice_complete","advanced_practice_complete"]);
+const ANONYMOUS_ANALYTICS_EVENTS=new Set(["page_view","lesson_open","lesson_quiz_start","lesson_quiz_complete","practice_complete","advanced_practice_complete"]);
 const anonymousAnalyticsClient=supabase.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY,{auth:{persistSession:false,autoRefreshToken:false,detectSessionInUrl:false,storageKey:"fnp-quest-anonymous-analytics"}});
 let anonymousAnalyticsInitialized=false;
 let anonymousAnalyticsQueue=Promise.resolve();

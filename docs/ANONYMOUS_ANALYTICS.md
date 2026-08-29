@@ -18,7 +18,7 @@ Events are disabled outside `fnpquest.github.io`, when Global Privacy Control or
 
 ## Required Supabase setup
 
-Apply `supabase/migrations/202608280001_anonymous_usage_analytics.sql` in the Supabase SQL Editor or CLI before deploying the matching web release. Browser roles receive insert-only access; they cannot read, update, or delete analytics rows.
+Apply `supabase/migrations/202608280001_anonymous_usage_analytics.sql` and then `supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql` in the Supabase SQL Editor or CLI before deploying the matching web release. Browser roles receive insert-only access; they cannot read, update, or delete analytics rows.
 
 ## Dashboard queries
 
@@ -56,6 +56,20 @@ where event_name in ('lesson_quiz_complete', 'practice_complete', 'advanced_prac
   and occurred_at >= now() - interval '30 days'
 group by event_name
 order by event_name;
+```
+
+Lesson quiz starts and completions during the last 30 days:
+
+```sql
+select
+  lesson_number,
+  count(*) filter (where event_name = 'lesson_quiz_start') as starts,
+  count(*) filter (where event_name = 'lesson_quiz_complete') as completions
+from public.anonymous_analytics_events
+where event_name in ('lesson_quiz_start', 'lesson_quiz_complete')
+  and occurred_at >= now() - interval '30 days'
+group by lesson_number
+order by lesson_number;
 ```
 
 ## Retention
