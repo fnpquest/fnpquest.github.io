@@ -17,7 +17,7 @@
       "id": "advanced-health-assessment-diagnostics",
       "title": "Phase 3 · Advanced Health Assessment & Clinical Diagnostics",
       "description": "Lessons 61+ · FNP assessment, differential diagnosis, diagnostic reasoning & safe disposition",
-      "lessonIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+      "lessonIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73]
     }
   ],
   "lessons": [
@@ -92,6 +92,7 @@
     {"id": 69, "lessonFile": "data/lessons/lesson-69.json", "quizFile": "data/quizzes/lesson-69.json", "cardTitle": "Lesson 69 · Dermatologic Assessment & Diagnostics", "summary": "Rashes, lesions, infection, drug reactions & FNP diagnostic safety"},
     {"id": 70, "lessonFile": "data/lessons/lesson-70.json", "quizFile": "data/quizzes/lesson-70.json", "cardTitle": "Lesson 70 · Eye, ENT & Oral Assessment", "summary": "Vision, red eye, hearing, throat symptoms & FNP diagnostic safety"},
     {"id": 71, "lessonFile": "data/lessons/lesson-71.json", "quizFile": "data/quizzes/lesson-71.json", "cardTitle": "Lesson 71 · Renal & Genitourinary Assessment", "summary": "Dysuria, hematuria, proteinuria, AKI & FNP diagnostic safety"},
-    {"id": 72, "lessonFile": "data/lessons/lesson-72.json", "quizFile": "data/quizzes/lesson-72.json", "cardTitle": "Lesson 72 · Women’s Health & Gynecologic Assessment", "summary": "Pelvic pain, bleeding, pregnancy, STIs & FNP diagnostic safety"}
+    {"id": 72, "lessonFile": "data/lessons/lesson-72.json", "quizFile": "data/quizzes/lesson-72.json", "cardTitle": "Lesson 72 · Women’s Health & Gynecologic Assessment", "summary": "Pelvic pain, bleeding, pregnancy, STIs & FNP diagnostic safety"},
+    {"id": 73, "lessonFile": "data/lessons/lesson-73.json", "quizFile": "data/quizzes/lesson-73.json", "cardTitle": "Lesson 73 · Men’s Health Assessment", "summary": "LUTS, hematuria, scrotal pain, ED & FNP diagnostic safety"}
   ]
 }
