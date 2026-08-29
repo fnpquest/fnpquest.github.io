@@ -1,4 +1,4 @@
-const FNP_APP_VERSION="v14.94";
+const FNP_APP_VERSION="v14.95";
 const FNP_VERSION_URL="./version.json";
 function fnpUpdateToast(message){if(typeof toast==="function")toast(message);}
 async function checkForNewVersion(showNoUpdate=false){try{const response=await fetch(FNP_VERSION_URL+"?t="+Date.now(),{cache:"no-store",headers:{"Cache-Control":"no-cache"}});if(!response.ok)throw new Error("version check failed");const data=await response.json(),serverVersion=String(data.version||"").trim();if(serverVersion&&serverVersion!==FNP_APP_VERSION){showUpdateBanner(serverVersion);return true;}if(showNoUpdate)fnpUpdateToast("✅ You are using the latest version.");return false;}catch(error){console.log("Version check unavailable:",error);return false;}}
