@@ -17,7 +17,7 @@
       "id": "advanced-health-assessment-diagnostics",
       "title": "Phase 3 · Advanced Health Assessment & Clinical Diagnostics",
       "description": "Lessons 61+ · FNP assessment, differential diagnosis, diagnostic reasoning & safe disposition",
-      "lessonIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+      "lessonIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71]
     }
   ],
   "lessons": [
@@ -90,6 +90,7 @@
     {"id": 67, "lessonFile": "data/lessons/lesson-67.json", "quizFile": "data/quizzes/lesson-67.json", "cardTitle": "Lesson 67 · Neurologic Assessment & Diagnostics", "summary": "Headache, dizziness, weakness, seizure & FNP diagnostic safety"},
     {"id": 68, "lessonFile": "data/lessons/lesson-68.json", "quizFile": "data/quizzes/lesson-68.json", "cardTitle": "Lesson 68 · Musculoskeletal Assessment & Diagnostics", "summary": "Back pain, joint pain, injury, imaging & FNP diagnostic safety"},
     {"id": 69, "lessonFile": "data/lessons/lesson-69.json", "quizFile": "data/quizzes/lesson-69.json", "cardTitle": "Lesson 69 · Dermatologic Assessment & Diagnostics", "summary": "Rashes, lesions, infection, drug reactions & FNP diagnostic safety"},
-    {"id": 70, "lessonFile": "data/lessons/lesson-70.json", "quizFile": "data/quizzes/lesson-70.json", "cardTitle": "Lesson 70 · Eye, ENT & Oral Assessment", "summary": "Vision, red eye, hearing, throat symptoms & FNP diagnostic safety"}
+    {"id": 70, "lessonFile": "data/lessons/lesson-70.json", "quizFile": "data/quizzes/lesson-70.json", "cardTitle": "Lesson 70 · Eye, ENT & Oral Assessment", "summary": "Vision, red eye, hearing, throat symptoms & FNP diagnostic safety"},
+    {"id": 71, "lessonFile": "data/lessons/lesson-71.json", "quizFile": "data/quizzes/lesson-71.json", "cardTitle": "Lesson 71 · Renal & Genitourinary Assessment", "summary": "Dysuria, hematuria, proteinuria, AKI & FNP diagnostic safety"}
   ]
 }
