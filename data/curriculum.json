@@ -17,7 +17,7 @@
       "id": "advanced-health-assessment-diagnostics",
       "title": "Phase 3 · Advanced Health Assessment & Clinical Diagnostics",
       "description": "Lessons 61+ · FNP assessment, differential diagnosis, diagnostic reasoning & safe disposition",
-      "lessonIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76]
+      "lessonIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77]
     }
   ],
   "lessons": [
@@ -96,6 +96,7 @@
     {"id": 73, "lessonFile": "data/lessons/lesson-73.json", "quizFile": "data/quizzes/lesson-73.json", "cardTitle": "Lesson 73 · Men’s Health Assessment", "summary": "LUTS, hematuria, scrotal pain, ED & FNP diagnostic safety"},
     {"id": 74, "lessonFile": "data/lessons/lesson-74.json", "quizFile": "data/quizzes/lesson-74.json", "cardTitle": "Lesson 74 · Endocrine & Metabolic Assessment", "summary": "Diabetes, thyroid, adrenal disease, metabolic risk & FNP diagnostic safety"},
     {"id": 75, "lessonFile": "data/lessons/lesson-75.json", "quizFile": "data/quizzes/lesson-75.json", "cardTitle": "Lesson 75 · Behavioral Health Assessment", "summary": "Depression, anxiety, suicide risk, psychosis, substance use & FNP diagnostic safety"},
-    {"id": 76, "lessonFile": "data/lessons/lesson-76.json", "quizFile": "data/quizzes/lesson-76.json", "cardTitle": "Lesson 76 · Pediatric Assessment", "summary": "Fever, respiratory illness, dehydration, rash, development & FNP diagnostic safety"}
+    {"id": 76, "lessonFile": "data/lessons/lesson-76.json", "quizFile": "data/quizzes/lesson-76.json", "cardTitle": "Lesson 76 · Pediatric Assessment", "summary": "Fever, respiratory illness, dehydration, rash, development & FNP diagnostic safety"},
+    {"id": 77, "lessonFile": "data/lessons/lesson-77.json", "quizFile": "data/quizzes/lesson-77.json", "cardTitle": "Lesson 77 · Geriatric Assessment", "summary": "Frailty, falls, delirium, polypharmacy, function & FNP diagnostic safety"}
   ]
 }
