@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fnpquest.github.io/sitemap.xml

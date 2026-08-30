@@ -262,6 +262,14 @@ html[data-theme="dark"] #fnpUpdateBanner button[onclick*="remove"]{
   border-color:#4a5a72!important;
 }
 
+/* v16.4 — home entry point for crawlable Daily Questions */
+.daily-questions-home{display:flex;align-items:center;justify-content:space-between;gap:14px;}
+.daily-questions-home h3{margin-bottom:5px;}
+.daily-questions-home p{margin:0;line-height:1.45;}
+.daily-questions-link{flex:0 0 auto;color:var(--accent);font-size:14px;font-weight:800;text-decoration:none;}
+html[data-theme="dark"] .daily-questions-link{color:#aaa6ff!important;}
+@media(max-width:390px){.daily-questions-home{align-items:flex-start;flex-direction:column}.daily-questions-link{padding-top:2px;}}
+
 /* v14.46 — expandable course groups for a compact mobile curriculum */
 .course-group{margin:13px 0 20px;}
 .course-toggle{

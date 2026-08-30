@@ -1,0 +1,66 @@
+[
+  {
+    "id": "daily-question-3",
+    "day": 3,
+    "date": "2026-08-30",
+    "slug": "day-3-euglycemic-dka",
+    "category": "Advanced Diabetes & Urgent Care",
+    "title": "Euglycemic DKA with an SGLT2 Inhibitor",
+    "question": "What is the most likely diagnosis and next step?",
+    "clinicalScenario": [
+      "A 54-year-old patient with type 2 diabetes takes empagliflozin and basal insulin. After 2 days of vomiting and markedly reduced oral intake, the patient reports abdominal pain, nausea, and rapid breathing."
+    ],
+    "labs": [
+      { "label": "Glucose", "value": "178 mg/dL" },
+      { "label": "Bicarbonate", "value": "14 mEq/L" },
+      { "label": "Anion gap", "value": "22" },
+      { "label": "Serum beta-hydroxybutyrate", "value": "4.1 mmol/L" },
+      { "label": "Venous pH", "value": "7.28" }
+    ],
+    "choices": [
+      { "label": "A", "text": "DKA is unlikely because the glucose is below 250 mg/dL" },
+      { "label": "B", "text": "Euglycemic DKA; arrange urgent emergency evaluation and hold the SGLT2 inhibitor" },
+      { "label": "C", "text": "Hyperosmolar hyperglycemic state; encourage oral hydration at home" },
+      { "label": "D", "text": "Simple viral gastroenteritis; continue all diabetes medications" }
+    ],
+    "correctAnswer": "B",
+    "explanation": [
+      "The patient has high-anion-gap metabolic acidosis and significant ketosis despite a glucose of only 178 mg/dL.",
+      "SGLT2 inhibitors such as empagliflozin can cause euglycemic diabetic ketoacidosis. Important findings include an elevated anion gap, low bicarbonate, acidemia, and elevated beta-hydroxybutyrate.",
+      "The relatively normal glucose does not exclude DKA. Vomiting and reduced oral intake can precipitate euglycemic DKA in a patient taking an SGLT2 inhibitor."
+    ],
+    "clinicalPearl": "Consider euglycemic DKA in patients taking an SGLT2 inhibitor who develop nausea, vomiting, abdominal pain, or tachypnea even when glucose is below 250 mg/dL. Urgent emergency evaluation is appropriate.",
+    "answerAvailable": true,
+    "seoTitle": "Euglycemic DKA with SGLT2 Inhibitor | FNP Practice Question",
+    "seoDescription": "Practice identifying euglycemic diabetic ketoacidosis in a patient taking an SGLT2 inhibitor. An advanced FNP clinical reasoning question with answer and explanation."
+  },
+  {
+    "id": "daily-question-4",
+    "day": 4,
+    "date": "2026-08-31",
+    "slug": "day-4-ace-inhibitor-creatinine",
+    "category": "Hypertension, CKD & Renal Protection",
+    "title": "ACE Inhibitor Creatinine Increase in Diabetic CKD",
+    "question": "What is the most appropriate next step?",
+    "clinicalScenario": [
+      "A 58-year-old patient with type 2 diabetes and hypertension presents for follow-up.",
+      "Medications: metformin and amlodipine 10 mg daily.",
+      "Initial findings: BP 148/88 mmHg, creatinine 1.0 mg/dL, potassium 4.3 mEq/L, eGFR 78 mL/min/1.73 m², and urine albumin-to-creatinine ratio 420 mg/g.",
+      "Because of persistent hypertension and significant albuminuria, lisinopril is started.",
+      "Two weeks later: BP 136/80 mmHg, creatinine 1.25 mg/dL, potassium 4.8 mEq/L, and the patient feels well."
+    ],
+    "labs": [],
+    "choices": [
+      { "label": "A", "text": "Stop lisinopril immediately because creatinine increased" },
+      { "label": "B", "text": "Continue lisinopril and monitor renal function and potassium" },
+      { "label": "C", "text": "Stop lisinopril and increase amlodipine" },
+      { "label": "D", "text": "Refer the patient urgently to the emergency department" }
+    ],
+    "correctAnswer": null,
+    "explanation": [],
+    "clinicalPearl": null,
+    "answerAvailable": false,
+    "seoTitle": "ACE Inhibitor Creatinine Increase in Diabetic CKD | FNP Practice Question",
+    "seoDescription": "Work through an FNP practice question about ACE inhibitor monitoring, albuminuria, hypertension, and diabetic chronic kidney disease."
+  }
+]
