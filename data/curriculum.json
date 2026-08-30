@@ -23,7 +23,7 @@
       "id": "advanced-primary-care-clinical-management",
       "title": "Phase 4 · Advanced Primary Care Clinical Management",
       "description": "Lessons 91+ · FNP diagnosis-to-management, follow-up, referral & longitudinal care",
-      "lessonIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+      "lessonIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101]
     }
   ],
   "lessons": [
@@ -126,6 +126,7 @@
     {"id": 97, "lessonFile": "data/lessons/lesson-97.json", "quizFile": "data/quizzes/lesson-97.json", "cardTitle": "Lesson 97 · COPD Management", "summary": "Diagnosis, inhaler care, exacerbations, prevention, oxygen safety & FNP follow-up"},
     {"id": 98, "lessonFile": "data/lessons/lesson-98.json", "quizFile": "data/quizzes/lesson-98.json", "cardTitle": "Lesson 98 · Heart Failure Management", "summary": "Syndrome recognition, congestion, GDMT, monitoring, referral & FNP safety"},
     {"id": 99, "lessonFile": "data/lessons/lesson-99.json", "quizFile": "data/quizzes/lesson-99.json", "cardTitle": "Lesson 99 · Atrial Fibrillation Management", "summary": "Stroke prevention, rate/rhythm strategy, triggers, follow-up & FNP safety"},
-    {"id": 100, "lessonFile": "data/lessons/lesson-100.json", "quizFile": "data/quizzes/lesson-100.json", "cardTitle": "Lesson 100 · Chronic Coronary Disease Management", "summary": "Angina assessment, secondary prevention, symptom safety, follow-up & referral"}
+    {"id": 100, "lessonFile": "data/lessons/lesson-100.json", "quizFile": "data/quizzes/lesson-100.json", "cardTitle": "Lesson 100 · Chronic Coronary Disease Management", "summary": "Angina assessment, secondary prevention, symptom safety, follow-up & referral"},
+    {"id": 101, "lessonFile": "data/lessons/lesson-101.json", "quizFile": "data/quizzes/lesson-101.json", "cardTitle": "Lesson 101 · Peripheral Artery Disease Management", "summary": "Claudication, ABI, limb-threat safety, prevention, foot care & referral"}
   ]
 }
