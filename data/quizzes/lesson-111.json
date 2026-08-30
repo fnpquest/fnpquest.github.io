@@ -1,65 +1,15 @@
 {
   "id": 111,
   "questions": [
-    {
-      "question": "Which finding most strongly supports acne vulgaris rather than papulopustular rosacea?",
-      "choices": ["Open and closed comedones on the face", "Persistent central flushing without comedones", "Ocular burning with photophobia", "Telangiectasias limited to the central face"],
-      "correctIndex": 0,
-      "explanation": "Comedones are a key acne clue. Rosacea often has central erythema, flushing, papules, and pustules but does not typically produce comedones."
-    },
-    {
-      "question": "Why should a topical antibiotic generally not be used alone for acne maintenance?",
-      "choices": ["It promotes antimicrobial resistance and should be paired with a resistance-conscious plan such as benzoyl peroxide when appropriate", "It permanently closes follicles", "It prevents all skin irritation", "It eliminates the need for follow-up"],
-      "correctIndex": 0,
-      "explanation": "Acne antibiotic stewardship avoids antibiotic monotherapy and emphasizes combination treatment, limited duration when systemic antibiotics are used, and reassessment."
-    },
-    {
-      "question": "Which patient most clearly warrants timely dermatology consideration for advanced acne treatment?",
-      "choices": ["A patient with painful deep nodules and new acne scars despite appropriate initial therapy", "A patient with one noninflamed comedone and no concern", "A patient requesting a stronger cleanser after one day", "A patient whose acne fully resolved with skin-barrier care"],
-      "correctIndex": 0,
-      "explanation": "Deep nodules and active scarring create risk of permanent physical and psychosocial harm. Waiting through repeated ineffective short trials is not a safe escalation strategy."
-    },
-    {
-      "question": "Before selecting acne medication for a patient who could become pregnant, what is the most appropriate FNP action?",
-      "choices": ["Review pregnancy possibility and medication-specific reproductive safety in a respectful private discussion", "Assume every topical medicine is safe in pregnancy", "Avoid discussing reproductive safety unless the patient asks", "Prescribe isotretinoin without a safety program"],
-      "correctIndex": 0,
-      "explanation": "Acne therapies have different reproductive risks. Treatment should be individualized after an appropriate safety discussion, especially because isotretinoin has major fetal risk."
-    },
-    {
-      "question": "Which additional symptom in a patient with suspected rosacea requires prompt eye evaluation rather than routine skin follow-up alone?",
-      "choices": ["Eye pain, photophobia, or reduced vision", "A preference for fragrance-free moisturizer", "A stable facial freckle", "A remote history of childhood acne"],
-      "correctIndex": 0,
-      "explanation": "Ocular rosacea can involve the eyes. Pain, photophobia, or vision change may signal a condition needing prompt ophthalmic assessment."
-    },
-    {
-      "question": "Which pattern is most characteristic of hidradenitis suppurativa?",
-      "choices": ["Recurrent painful nodules, draining tunnels, and scars in axillae or groin", "A single painless forehead comedone", "A transient central-facial flush after heat exposure", "A one-time superficial abrasion after shaving"],
-      "correctIndex": 0,
-      "explanation": "HS is a chronic inflammatory follicular disease marked by recurrent painful nodules, abscesses, drainage, tunnels, and scars in intertriginous areas."
-    },
-    {
-      "question": "Which statement is the most accurate way to counsel a patient with hidradenitis suppurativa?",
-      "choices": ["HS is a chronic inflammatory disease; it is not caused by poor hygiene and is not contagious", "HS is always cured by a single incision and drainage", "HS occurs only when patients do not wash enough", "HS should never be referred to dermatology"],
-      "correctIndex": 0,
-      "explanation": "Nonstigmatizing counseling is essential. Incision and drainage can sometimes address an acute collection but does not treat the underlying chronic HS process."
-    },
-    {
-      "question": "A patient with known HS reports a rapidly enlarging painful groin lesion, fever, and spreading redness. What is the priority?",
-      "choices": ["Urgently evaluate for serious soft-tissue infection and systemic illness", "Wait for the next routine dermatology visit", "Assume drainage means the flare is benign", "Treat only with a cosmetic skin-care product"],
-      "correctIndex": 0,
-      "explanation": "Fever, spreading erythema, rapid progression, severe pain, or systemic illness can indicate infection requiring urgent assessment."
-    },
-    {
-      "question": "At an acne follow-up visit, which assessment best reflects FNP-level severity evaluation?",
-      "choices": ["Lesion morphology, pain, nodules, scars, treatment tolerance, psychosocial impact, and medication safety", "Only the number of products in the patient’s bathroom", "Only whether the patient washed their face twice daily", "Only the color of the lesions"],
-      "correctIndex": 0,
-      "explanation": "Severity is multidimensional. Scarring risk, pain, emotional burden, adherence, adverse effects, and reproductive safety can all change management and referral urgency."
-    },
-    {
-      "question": "What is the safest overall approach to recurrent intertriginous abscess-like lesions with scars and draining openings?",
-      "choices": ["Recognize possible HS, assess infection red flags and comorbidities, begin stage-appropriate care, and arrange dermatology collaboration when indicated", "Treat every episode as unrelated without examining the distribution", "Avoid discussing pain or quality of life", "Use indefinite antibiotic monotherapy without reassessment"],
-      "correctIndex": 0,
-      "explanation": "The recurrent pattern suggests a chronic disease, not isolated incidents. Safe care combines diagnosis, red-flag assessment, longitudinal management, compassionate communication, and appropriate referral."
-    }
+    {"question":"Which finding most strongly supports acne vulgaris rather than papulopustular rosacea?","choices":["Open and closed comedones","Persistent facial flushing without comedones","Ocular burning and telangiectasias","Papules limited to the central face after heat exposure"],"correctIndex":0,"explanation":"Comedones are a defining clue for acne vulgaris. Rosacea often has central erythema, flushing, papules, or pustules but typically lacks comedones."},
+    {"question":"Why should a patient with deep acne nodules and early scars receive prompt escalation rather than serial over-the-counter trials?","choices":["Scarring and psychosocial burden make disease clinically severe even if lesion count is modest","All acne resolves within one week","Nodules are never inflammatory","Only cosmetic outcomes matter"],"correctIndex":0,"explanation":"Painful nodules and scarring can lead to permanent harm and major distress. Severity includes lesion depth, scars, distribution, function, and mental-health impact."},
+    {"question":"What is an antimicrobial-stewardship principle for inflammatory acne?","choices":["Use oral antibiotics indefinitely as monotherapy","When antibiotics are used, combine appropriately with nonantibiotic topical therapy and reassess duration","Avoid all topical therapies","Start multiple antibiotics without confirming the diagnosis"],"correctIndex":1,"explanation":"Antibiotics should not be continued indefinitely without reassessment. Combining with agents such as benzoyl peroxide when appropriate can help reduce resistance pressure and treat multiple acne mechanisms."},
+    {"question":"Which review is essential before selecting many acne medications?","choices":["Pregnancy potential and current pregnancy status","Preferred topical vehicle without considering medication safety","Whether a topical antibiotic alone should be used indefinitely for every acne pattern","Family history of seasonal allergic rhinitis only"],"correctIndex":0,"explanation":"Reproductive safety changes medication choices. Pregnancy potential should be assessed respectfully and incorporated into treatment and referral planning."},
+    {"question":"Which symptom in a patient with rosacea warrants a lower threshold for prompt eye-care evaluation?","choices":["Eye pain, photophobia, or reduced vision","A single stable comedone","Mild seasonal dry skin alone","A healed acne scar"],"correctIndex":0,"explanation":"Ocular rosacea or another eye process can cause significant symptoms. Eye pain, light sensitivity, or visual change requires timely evaluation rather than routine skin follow-up."},
+    {"question":"Which pattern most strongly suggests hidradenitis suppurativa?","choices":["Recurrent painful nodules, drainage, tunnels, and scars in axillae or groin","A few isolated comedones on the forehead","A single brief allergic rash on the wrist","A painless stable nevus"],"correctIndex":0,"explanation":"HS is chronic inflammatory follicular disease characterized by recurrent deep lesions, drainage, tunnels, and scarring in characteristic intertriginous locations."},
+    {"question":"What is the most appropriate way to discuss hidradenitis suppurativa with a patient?","choices":["Frame it as a hygiene failure","Use nonjudgmental language and assess pain, drainage, function, mood, and access to care","Tell the patient to scrub lesions aggressively","Avoid discussing sensitive sites"],"correctIndex":1,"explanation":"HS is not caused by poor hygiene. Trauma-informed, nonstigmatizing assessment improves diagnostic accuracy and supports treatment of pain, function, and psychological burden."},
+    {"question":"A patient has an acute fluctuant painful HS-region collection with fever and spreading redness. What is the priority?","choices":["Assess for systemic infection and arrange urgent care with drainage or surgical capability as indicated","Delay evaluation until a dermatology visit months later","Only recommend cosmetic products","Assume all drainage is noninfectious"],"correctIndex":0,"explanation":"Systemic symptoms, rapidly spreading cellulitis, severe pain, or a fluctuant collection may require urgent infection assessment and source control, even in a patient with known HS."},
+    {"question":"Why should FNP follow-up for acne, rosacea, or HS assess more than skin appearance?","choices":["Visible disease cannot affect daily life","Pain, sleep, work, scarring, sexual health, mood, medication effects, and access influence outcomes","Follow-up is unnecessary after a prescription","Only lesion count affects treatment decisions"],"correctIndex":1,"explanation":"These conditions can cause significant functional and psychosocial harm. Longitudinal care measures treatment response alongside quality of life, safety, and feasibility."},
+    {"question":"Which reason most supports dermatology referral for acne?","choices":["Nodulocystic disease, scarring, diagnostic uncertainty, or failure of a reasonable first-line plan","A patient asks how to wash their face","A single transient blemish after a mask","Stable mild disease controlled with a tolerated plan"],"correctIndex":0,"explanation":"Scarring risk, severe inflammatory lesions, diagnostic uncertainty, and failure of appropriate initial treatment are reasons to refer early rather than wait for permanent damage."}
   ]
 }

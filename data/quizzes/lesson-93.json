@@ -1,1 +1,65 @@
-{"id":93,"questions":[{"question":"What is the best approach to dyslipidemia management?","choices":["Treat LDL without other history","Assess total ASCVD risk and individualize prevention","Avoid lifestyle care","Use one plan for all adults"],"correctIndex":1,"explanation":"Lipid management integrates ASCVD history, diabetes, CKD, BP, tobacco, family history, access, and patient goals."},{"question":"What distinguishes secondary prevention?","choices":["No cardiovascular disease","Established ASCVD with higher baseline risk","Only a family history","Normal lipid results"],"correctIndex":1,"explanation":"Secondary prevention applies to patients with established atherosclerotic cardiovascular disease."},{"question":"Why should a risk calculator be reviewed rather than followed automatically?","choices":["It never uses data","Inputs and applicability must be verified and discussed with the patient","It replaces shared decisions","It treats symptoms"],"correctIndex":1,"explanation":"Risk estimates support, but do not replace, individualized clinical reasoning."},{"question":"Which is a clinically meaningful lifestyle component?","choices":["Only a supplement","Nutrition, activity, sleep, tobacco cessation, BP and diabetes care","Ignoring food access","No follow-up"],"correctIndex":1,"explanation":"Cardiovascular prevention includes multiple feasible lifestyle and risk-factor interventions."},{"question":"What should be assessed with new muscle symptoms during lipid therapy?","choices":["Only patient age","Timing, severity, interacting drugs, systemic symptoms, and alternative causes","Nothing","Only the lipid result"],"correctIndex":1,"explanation":"A focused assessment helps identify significant adverse effects without dismissing or automatically attributing every symptom."},{"question":"Why can very high triglycerides need timely assessment?","choices":["They only affect the chart","They can increase pancreatitis risk and may reflect secondary causes","They eliminate CV risk","They require no history"],"correctIndex":1,"explanation":"Assess symptoms, alcohol, diabetes, medicines, secondary causes, and current guidance."},{"question":"What can suggest a familial lipid disorder?","choices":["Premature family ASCVD with marked lifelong elevation","One normal test","Seasonal allergies","A portal message"],"correctIndex":0,"explanation":"Marked elevations and premature family ASCVD may warrant focused evaluation and consultation."},{"question":"What is important when choosing lipid therapy?","choices":["Cost, access, interactions, safety, expected benefit, and patient preference","Only medication color","Avoid counseling","No monitoring"],"correctIndex":0,"explanation":"A treatment plan must be safe, evidence-informed, and feasible."},{"question":"Which symptom needs urgent evaluation rather than routine lipid follow-up?","choices":["New chest pain with concerning features","A request for exercise counseling","A routine refill","Stable diet question"],"correctIndex":0,"explanation":"Potential acute coronary symptoms require urgent/emergency assessment."},{"question":"What closes a lipid-management loop?","choices":["Ordering a panel","Named monitoring, follow-up, patient communication, and referral/result ownership","One generic message","No documentation"],"correctIndex":1,"explanation":"Prevention is longitudinal and needs accountable follow-up."}]}
+{
+  "id": 93,
+  "questions": [
+    {
+      "question": "Why should an FNP avoid interpreting LDL-C in isolation?",
+      "choices": ["ASCVD risk also reflects BP, diabetes, CKD, tobacco, family history, age, and other factors", "LDL-C has no relation to atherosclerosis", "Only HDL-C matters", "A lipid panel is never useful"],
+      "correctIndex": 0,
+      "explanation": "LDL-C is causally important, but prevention decisions require total cardiovascular-risk context and patient-specific benefit-harm discussion."
+    },
+    {
+      "question": "Which patient is in a secondary-prevention setting?",
+      "choices": ["A patient with prior myocardial infarction", "A healthy adolescent with no risk factors", "A patient asking about a first lipid panel", "A patient with transient dietary change only"],
+      "correctIndex": 0,
+      "explanation": "Secondary prevention applies when clinical ASCVD is already established, such as prior MI, ischemic stroke, or symptomatic peripheral arterial disease."
+    },
+    {
+      "question": "A 35-year-old has markedly elevated LDL-C and a parent with premature MI but a modest short-term risk estimate. What is the best reasoning?",
+      "choices": ["Assess lifetime exposure, family pattern, secondary causes, and possible familial dyslipidemia", "Dismiss risk because the patient is young", "Use only the 10-year estimate and ignore family history", "Wait for symptoms before discussing prevention"],
+      "correctIndex": 0,
+      "explanation": "Young age can make a short-term calculator look low despite meaningful lifelong LDL exposure and possible familial disease."
+    },
+    {
+      "question": "What is an appropriate initial response to new muscle symptoms after a lipid-lowering medication is started?",
+      "choices": ["Assess timing, severity, weakness, interactions, thyroid or other causes, and treatment context", "Assume the symptom is imaginary", "Tell every patient to stop all cardiovascular prevention forever", "Ignore severe weakness or dark urine"],
+      "correctIndex": 0,
+      "explanation": "Muscle symptoms deserve assessment. A focused differential and documented plan allow clinicians to address safety while preserving appropriate ASCVD prevention when possible."
+    },
+    {
+      "question": "Why can markedly elevated triglycerides require timely evaluation?",
+      "choices": ["They can be associated with pancreatitis risk, especially with abdominal pain or systemic symptoms", "They eliminate cardiovascular risk", "They always represent a harmless diet preference", "They make diabetes control irrelevant"],
+      "correctIndex": 0,
+      "explanation": "Marked triglyceride elevation should prompt assessment of symptoms and secondary causes such as uncontrolled diabetes, alcohol, medicines, and familial patterns. Severe abdominal pain or vomiting needs urgent evaluation."
+    },
+    {
+      "question": "Which factor is a meaningful ASCVD risk enhancer to assess?",
+      "choices": ["Chronic kidney disease", "A correctly completed consent form", "Having a preferred pharmacy", "Normal tooth brushing"],
+      "correctIndex": 0,
+      "explanation": "CKD, diabetes, hypertension, tobacco exposure, family history of premature ASCVD, inflammatory disease, and persistent lipid abnormalities can change prevention planning."
+    },
+    {
+      "question": "What is the role of a cardiovascular risk calculator?",
+      "choices": ["A decision aid whose inputs and limitations should be reviewed with the patient", "An automatic prescription that replaces clinical judgment", "A tool used only after an MI", "A substitute for discussing values and treatment burden"],
+      "correctIndex": 0,
+      "explanation": "Risk estimates support shared decision making but must be interpreted alongside clinical context, lifetime risk, preferences, comorbidity, and current guidelines."
+    },
+    {
+      "question": "Which approach best describes useful lifestyle treatment for dyslipidemia?",
+      "choices": ["Build specific nutrition, activity, sleep, tobacco, and alcohol support around the patient’s resources and goals", "Give a generic lecture with no follow-up", "Use lifestyle only to decide whether a patient deserves medication", "Avoid asking about food access"],
+      "correctIndex": 0,
+      "explanation": "Lifestyle care is cardiovascular therapy. Specific, culturally and financially feasible changes are more effective than vague advice or blame."
+    },
+    {
+      "question": "Why should pregnancy potential be discussed in lipid-management visits?",
+      "choices": ["Medication benefits and safety require pregnancy- and conception-specific review", "Lipids disappear during pregnancy", "Pregnancy history never affects cardiovascular risk", "All chronic medicines can be continued unchanged"],
+      "correctIndex": 0,
+      "explanation": "Pregnancy and lactation can change lipid-treatment decisions. FNP care includes asking before selecting or continuing medication."
+    },
+    {
+      "question": "Which is a complete follow-up loop after a lipid-management decision?",
+      "choices": ["Review response, adverse effects, adherence, access, appropriate labs, referral completion, and next steps", "Order a panel and never discuss it", "Assume a filled prescription equals safe use", "Wait until the patient develops chest pain"],
+      "correctIndex": 0,
+      "explanation": "Longitudinal prevention requires active result review, safety monitoring, access support, and clear ownership of follow-up—not an isolated prescription."
+    }
+  ]
+}

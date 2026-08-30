@@ -1,65 +1,15 @@
 {
   "id": 116,
   "questions": [
-    {
-      "question": "Which headache presentation requires emergency evaluation for a possible vascular or other secondary cause?",
-      "choices": ["A sudden headache that reaches maximal intensity within a minute", "A stable recurrent migraine pattern unchanged for years", "A mild tension-type headache after poor sleep without red flags", "A previously evaluated headache that improves with the established plan"],
-      "correctIndex": 0,
-      "explanation": "Thunderclap headache is a major red flag. Abrupt maximal-intensity pain requires emergency evaluation for subarachnoid hemorrhage and other dangerous secondary causes."
-    },
-    {
-      "question": "Why is a normal neurologic examination between attacks not by itself enough to diagnose migraine safely?",
-      "choices": ["The current headache pattern and secondary-headache red flags still must be assessed", "Migraine always causes a focal neurologic deficit", "A normal exam proves all headache is benign", "Only imaging can diagnose migraine"],
-      "correctIndex": 0,
-      "explanation": "A normal exam supports a primary headache pattern but does not override a new thunderclap onset, major pattern change, systemic illness, pregnancy/postpartum context, or other red flags."
-    },
-    {
-      "question": "Which finding in a patient older than 50 with a new headache raises urgent concern for giant cell arteritis?",
-      "choices": ["Jaw claudication with transient visual symptoms", "A stable history of childhood motion sickness", "A brief tension headache after a long workday", "Seasonal nasal congestion without visual symptoms"],
-      "correctIndex": 0,
-      "explanation": "New headache after age 50 plus jaw claudication and visual symptoms is concerning for GCA. Prompt evaluation and treatment coordination are needed to reduce vision-loss risk."
-    },
-    {
-      "question": "What is the most appropriate imaging principle for a stable headache that fits an uncomplicated migraine pattern and has no red flags?",
-      "choices": ["Routine neuroimaging is not automatically required; testing should answer a clinical question", "Every severe migraine needs emergency imaging", "Imaging should replace a headache history", "A normal old scan excludes new secondary disease forever"],
-      "correctIndex": 0,
-      "explanation": "Imaging stewardship avoids reflex testing for uncomplicated stable migraine while ensuring that red flags, abnormal findings, or concerning contexts change the diagnostic pathway."
-    },
-    {
-      "question": "A patient has headaches nearly every day and uses several acute pain products most days. What complication should the FNP consider?",
-      "choices": ["Medication-overuse headache", "A guaranteed cure from frequent rescue medication", "Reduced need for preventive treatment", "An uncomplicated tension headache without medication review"],
-      "correctIndex": 0,
-      "explanation": "Frequent acute-medication use can perpetuate headache frequency. Review all prescription and nonprescription products and build an individualized reduction and prevention plan."
-    },
-    {
-      "question": "Which feature makes a new headache during pregnancy or postpartum especially concerning?",
-      "choices": ["The setting can be associated with hypertensive, vascular, hemorrhagic, and other secondary causes", "Pregnancy prevents secondary headache disorders", "Any preexisting migraine history eliminates the need for assessment", "Headache during pregnancy never needs blood-pressure review"],
-      "correctIndex": 0,
-      "explanation": "New, severe, or changing pregnancy/postpartum headache requires a lower threshold for urgent evaluation because several dangerous secondary causes are possible."
-    },
-    {
-      "question": "What is the safest response to headache with sudden weakness, speech difficulty, or new visual-field loss?",
-      "choices": ["Activate an emergency stroke-capable pathway", "Wait to see if a migraine medication helps", "Schedule routine imaging in several weeks", "Assume symptoms are harmless if they improve quickly"],
-      "correctIndex": 0,
-      "explanation": "Acute focal neurologic symptoms can represent stroke or TIA. Time-sensitive emergency evaluation is required even when symptoms improve."
-    },
-    {
-      "question": "Which symptom cluster is most characteristic of a cluster headache pattern?",
-      "choices": ["Severe stereotyped unilateral orbital or temporal attacks with autonomic features such as tearing or nasal symptoms", "Chronic bilateral leg edema with itch", "A painless ulcer on the plantar foot", "Diffuse rash with scaling after a new detergent"],
-      "correctIndex": 0,
-      "explanation": "Cluster headache typically causes severe unilateral orbital or temporal attacks with cranial autonomic symptoms. New presentations still deserve assessment for mimics and secondary causes."
-    },
-    {
-      "question": "Which element is most important in a longitudinal migraine plan?",
-      "choices": ["Tracking headache and acute-medication days, then matching acute and preventive strategies to disability, safety, and response", "Using an identical rescue plan for every patient", "Avoiding all discussion of sleep and function", "Changing medication without follow-up"],
-      "correctIndex": 0,
-      "explanation": "Migraine care is individualized. Frequency, disability, medication use, contraindications, pregnancy considerations, and treatment response guide acute and preventive management."
-    },
-    {
-      "question": "A patient with headache also has painful red eye, photophobia, and reduced vision. What is the priority?",
-      "choices": ["Arrange same-day eye-care or emergency evaluation for a possible vision-threatening ocular disorder", "Treat as routine migraine without eye assessment", "Reassure because eye pain cannot accompany serious headache", "Delay evaluation until a headache diary is complete"],
-      "correctIndex": 0,
-      "explanation": "Painful red eye with photophobia or visual reduction can reflect corneal disease, uveitis, acute glaucoma, or other sight-threatening disorders and needs urgent evaluation."
-    }
+    {"question":"Which headache presentation requires emergency evaluation for a possible vascular or other secondary cause?","choices":["Abrupt severe headache reaching maximal intensity within minutes","A stable recurrent mild tension-type pattern with normal examination","A familiar migraine that improves with the established plan","Brief scalp itch after wearing a hat"],"correctIndex":0,"explanation":"Thunderclap onset is a major red flag for subarachnoid hemorrhage or another emergency. A normal brief office examination does not remove the need for emergency evaluation when the time course is concerning."},
+    {"question":"What is the most important first step before labeling a headache as migraine?","choices":["Assess for secondary-headache red flags, high-risk context, and focused examination findings","Prescribe an antibiotic","Order imaging for every patient","Assume a prior migraine history explains every new attack"],"correctIndex":0,"explanation":"Migraine is a clinical pattern, but dangerous secondary causes must be considered first. New neurologic symptoms, thunderclap onset, pregnancy, systemic illness, trauma, and major change in pattern change the pathway."},
+    {"question":"Which finding is most compatible with a typical migraine pattern?","choices":["Recurrent disabling headache with nausea, light or sound sensitivity, and activity limitation","New fever with neck stiffness","Abrupt collapse with altered mental status","Painful red eye with reduced vision"],"correctIndex":0,"explanation":"Migraine commonly includes recurrent moderate-to-severe attacks with nausea, photophobia, phonophobia, and activity limitation. The other choices are secondary-headache or eye-emergency red flags."},
+    {"question":"Why should acute headache medication days per month be reviewed?","choices":["Frequent acute-medication use can contribute to medication-overuse headache and signal need for a preventive strategy","Over-the-counter products cannot affect headaches","Only opioid use needs review","Medication history is unrelated to headache diagnosis"],"correctIndex":0,"explanation":"Medication-overuse headache can occur with frequent use of multiple acute therapies. Reviewing total use supports a safe transition and preventive plan rather than simply adding more rescue medication."},
+    {"question":"Which patient needs a lower threshold for urgent secondary-headache assessment?","choices":["A postpartum patient with new severe headache, visual symptoms, and elevated blood pressure","A patient with a stable familiar pattern and no red flags","A patient asking for a headache diary","A patient with one mild headache after poor sleep"],"correctIndex":0,"explanation":"Pregnancy and postpartum headache with visual symptoms or hypertension can reflect serious obstetric, vascular, or neurologic conditions and needs urgent evaluation."},
+    {"question":"What is the most appropriate use of neuroimaging in headache evaluation?","choices":["Order it when history or examination raises a clinical question about a secondary cause","Use it for every stable recurrent headache regardless of phenotype","Avoid it in every new headache","Use it instead of obtaining a history"],"correctIndex":0,"explanation":"Imaging is targeted to red flags and a plausible differential. Stable recurrent primary headache patterns with normal appropriate examinations do not automatically require imaging."},
+    {"question":"Which symptom requires prompt eye-care or emergency assessment rather than routine migraine treatment?","choices":["Painful red eye with photophobia and reduced vision","A familiar mild unilateral headache without visual change","Stable motion sensitivity","A headache diary showing fewer attacks"],"correctIndex":0,"explanation":"Painful red eye, photophobia, and reduced vision can indicate acute ocular disease such as glaucoma or uveitis. These symptoms require urgent evaluation."},
+    {"question":"What is a reasonable goal of a preventive migraine plan?","choices":["Reduce disability and acute-medication reliance while accounting for comorbidities, safety, and patient goals","Guarantee no future headache after one dose","Ignore reproductive plans and drug interactions","Use the same medication for all patients"],"correctIndex":0,"explanation":"Preventive selection is individualized. Frequency, disability, medication overuse, comorbidities, pregnancy potential, interactions, cost, and preference all matter."},
+    {"question":"A patient with chronic migraine has a first-ever persistent unilateral weakness during an attack. What is the best next step?","choices":["Treat this as a potential secondary neurologic emergency and arrange urgent evaluation","Assume it is routine aura because migraines are chronic","Delay evaluation until the next refill","Increase caffeine intake"],"correctIndex":0,"explanation":"A first, prolonged, atypical, or persistent focal neurologic symptom requires urgent assessment. A migraine history does not exclude stroke or other neurologic disease."},
+    {"question":"Why is a headache diary useful in longitudinal FNP care?","choices":["It captures frequency, disability, triggers, acute medication days, and response to treatment","It replaces an examination for red flags","It proves all headaches are migraine","It is only for research studies"],"correctIndex":0,"explanation":"A diary makes patterns and treatment response visible, helps identify medication overuse or hormonal associations, and supports shared decisions about acute and preventive care."}
   ]
 }

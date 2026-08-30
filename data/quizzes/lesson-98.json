@@ -1,1 +1,65 @@
-{"id":98,"questions":[{"question":"Which statement best describes heart failure?","choices":["It is defined only by a low ejection fraction","It is a clinical syndrome involving structural/functional cardiac abnormality and symptoms/signs","It is the same as isolated leg edema","It can be diagnosed from one medication list"],"correctIndex":1,"explanation":"Heart failure is a clinical syndrome; ejection fraction helps classify phenotype but does not alone establish or exclude the diagnosis."},{"question":"What is the most appropriate first step when a patient with known heart failure reports new dyspnea and edema?","choices":["Assume heart failure is the only cause","Compare with baseline and assess congestion, perfusion, triggers, and alternative diagnoses","Refill all medications without assessment","Ignore symptoms if ejection fraction was previously preserved"],"correctIndex":1,"explanation":"New symptoms require trajectory assessment and a differential, because pulmonary, renal, infectious, ischemic, and rhythm problems may mimic or precipitate decompensation."},{"question":"Which finding is most concerning for hypoperfusion in heart failure?","choices":["Cool extremities with hypotension and altered mentation","Stable daily weight","A routine vaccination question","Mild chronic ankle swelling without change"],"correctIndex":0,"explanation":"Hypotension, cool extremities, and altered mentation can indicate poor systemic perfusion and require urgent assessment."},{"question":"What is the primary role of a diuretic in congested heart failure?","choices":["Relieve sodium/water congestion and symptoms","Replace all disease-modifying therapy","Treat every cause of dyspnea","Eliminate the need for follow-up"],"correctIndex":0,"explanation":"Diuretics are used primarily for symptom relief from congestion; they do not substitute for individualized disease-modifying care when indicated."},{"question":"Which issue should be reviewed before changing chronic heart-failure therapy?","choices":["Only the diagnosis date","Blood pressure, volume status, renal function/electrolytes when appropriate, adherence, access, and adverse effects","Only the patient’s age","Only a previous echocardiogram"],"correctIndex":1,"explanation":"Safe therapy adjustment requires current clinical context, monitoring, and attention to adherence and access barriers."},{"question":"Which is a common trigger for heart-failure decompensation?","choices":["Missed medications, NSAID exposure, infection, arrhythmia, or ischemia","A normal follow-up visit","Correct inhaler technique","Stable access to medication"],"correctIndex":0,"explanation":"Decompensation commonly has a precipitant; medication issues, infection, arrhythmia, ischemia, renal dysfunction, and other factors should be sought."},{"question":"Why does preserved ejection fraction not rule out heart failure?","choices":["HFpEF can involve impaired relaxation and elevated filling pressures despite preserved EF","Ejection fraction never has clinical value","Only HFrEF causes symptoms","HFpEF always has low EF"],"correctIndex":0,"explanation":"HFpEF can cause significant dyspnea and congestion through impaired filling and elevated filling pressures despite a preserved EF."},{"question":"Which presentation requires emergency evaluation rather than routine outpatient follow-up?","choices":["Severe respiratory distress with hypoxemia and hypotension","A stable patient asking about a scale","A planned cardiology appointment","No change from baseline"],"correctIndex":0,"explanation":"Severe distress, hypoxemia, hypotension, shock, acute pulmonary edema, or instability require emergency-level evaluation."},{"question":"When is expedited cardiology or heart-failure-team involvement appropriate?","choices":["Recurrent hospitalization, uncertain etiology, escalating diuretic needs, or complex disease","A single uncomplicated refill request","A stable baseline visit only","No symptoms and no clinical questions"],"correctIndex":0,"explanation":"Complex, recurrent, advanced, or uncertain heart failure benefits from timely specialty collaboration."},{"question":"What is the FNP-level heart-failure management principle?","choices":["Treat the medication list rather than the patient","Integrate phenotype, baseline, trajectory, congestion, perfusion, triggers, access, and safety","Use the same plan for every patient","Rely only on ejection fraction"],"correctIndex":1,"explanation":"High-quality longitudinal care integrates physiology, function, objective data, context, and safe disposition."}]}
+{
+  "id": 98,
+  "questions": [
+    {
+      "question": "Which statement best describes heart failure?",
+      "choices": ["A clinical syndrome of structural or functional cardiac abnormality with impaired forward flow and/or elevated filling pressures", "Any ankle edema with normal examination", "Only an ejection fraction below a fixed value", "A medication list containing a diuretic"],
+      "correctIndex": 0,
+      "explanation": "Heart failure is a clinical syndrome. Symptoms, signs, structural data, hemodynamics, and trajectory must be interpreted together."
+    },
+    {
+      "question": "Why does preserved ejection fraction not rule out clinically important heart failure?",
+      "choices": ["HFpEF can involve impaired relaxation and elevated filling pressures despite preserved systolic ejection", "Only HFrEF causes dyspnea", "EF measures every aspect of filling pressure", "Patients with HFpEF never need follow-up"],
+      "correctIndex": 0,
+      "explanation": "HFpEF can cause serious congestion and functional limitation. EF alone does not capture diastolic function, filling pressures, or the patient’s clinical syndrome."
+    },
+    {
+      "question": "Which finding suggests hypoperfusion in a patient with possible decompensated heart failure?",
+      "choices": ["Cool extremities, confusion, low urine output, or hypotension", "Stable exercise tolerance and warm extremities", "A normal medication list", "An isolated chronic cough"],
+      "correctIndex": 0,
+      "explanation": "Hypoperfusion may present with cool extremities, altered mentation, oliguria, severe fatigue, narrow pulse pressure, or hypotension. It can coexist with congestion."
+    },
+    {
+      "question": "A patient has orthopnea, edema, crackles, low BP, lightheadedness, and reduced urine output. What is the priority?",
+      "choices": ["Urgent assessment for congested and hypoperfused physiology", "Routine medication refill next month", "Assume this is isolated venous insufficiency", "Advise waiting until symptoms resolve"],
+      "correctIndex": 0,
+      "explanation": "Congestion plus possible hypoperfusion is high risk. Hypotension, oliguria, lightheadedness, and respiratory findings can indicate unsafe outpatient status."
+    },
+    {
+      "question": "Which is a common trigger for heart-failure decompensation?",
+      "choices": ["Missed or inaccessible medicines, NSAIDs, arrhythmia, ischemia, infection, or kidney dysfunction", "A working home scale", "A completed cardiology visit", "Stable medication adherence"],
+      "correctIndex": 0,
+      "explanation": "Decompensation often has a reversible trigger. Identifying it is as important as recognizing congestion."
+    },
+    {
+      "question": "What is the primary clinical role of diuretics in heart failure?",
+      "choices": ["Relieve volume congestion and symptoms", "Replace all disease-modifying treatment", "Eliminate the need for kidney and electrolyte monitoring", "Diagnose the cause of dyspnea"],
+      "correctIndex": 0,
+      "explanation": "Diuretics help reduce congestion. They are part of a broader individualized plan that may include disease-modifying therapies and monitoring."
+    },
+    {
+      "question": "After a heart-failure medication adjustment, why are kidney function and potassium often reviewed?",
+      "choices": ["Therapy, volume status, and kidney disease can affect renal function and electrolytes", "Laboratory values never change treatment safety", "Only cholesterol matters in HF", "Monitoring is unnecessary if the patient feels well"],
+      "correctIndex": 0,
+      "explanation": "Medication and volume changes can alter renal perfusion and potassium. Results require context-based interpretation and appropriate follow-up."
+    },
+    {
+      "question": "Which is a key component of a safe heart-failure discharge follow-up?",
+      "choices": ["Medication reconciliation, symptom/weight education, labs, access assessment, and clear cardiology or HF follow-up", "Assume discharge prescriptions were obtained", "No review until the next annual visit", "Avoid asking about support at home"],
+      "correctIndex": 0,
+      "explanation": "Transitions are high risk. The FNP verifies what the patient actually has and understands, assigns follow-up, and closes pending-result loops."
+    },
+    {
+      "question": "Why should an FNP maintain a broad differential for dyspnea and edema in a patient with known HF?",
+      "choices": ["COPD, pneumonia, PE, ACS, arrhythmia, renal/liver disease, anemia, and medication effects can mimic or coexist with HF", "A known HF diagnosis explains all future symptoms", "Edema proves HF is the only cause", "Testing is never useful"],
+      "correctIndex": 0,
+      "explanation": "Anchoring on HF can miss a new cardiac, pulmonary, infectious, renal, vascular, or hematologic emergency."
+    },
+    {
+      "question": "When should expedited cardiology or heart-failure-team involvement be considered?",
+      "choices": ["New or uncertain HF, repeated decompensation, difficult therapy, advanced CKD, valvular disease, or recurrent hospitalization", "Only after every medication has been stopped", "Never for HFpEF", "Only for a one-time normal examination"],
+      "correctIndex": 0,
+      "explanation": "Specialty collaboration is appropriate as complexity, risk, and treatment intolerance rise. Primary care still coordinates comorbidities and barriers."
+    }
+  ]
+}

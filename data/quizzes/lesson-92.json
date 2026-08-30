@@ -1,1 +1,65 @@
-{"id":92,"questions":[{"question":"What is the best overall goal of type 2 diabetes management?","choices":["Lower A1c regardless of harm","Individualized risk reduction that considers symptoms, hypoglycemia, heart/kidney risk, access, and patient goals","Avoid all monitoring","Use the same plan for every patient"],"correctIndex":1,"explanation":"Diabetes care is individualized and extends beyond a single laboratory value."},{"question":"Which factor should influence a glycemic goal?","choices":["Only age","Comorbidity, hypoglycemia risk, treatment burden, life expectancy, and patient priorities","Only insurance plan","Only the latest A1c"],"correctIndex":1,"explanation":"Goals should balance benefit, safety, burden, and the patient’s circumstances."},{"question":"Which factor is important when selecting diabetes medication?","choices":["Only pill color","Heart/kidney disease, renal function, hypoglycemia risk, weight, cost, and ability to use it","Only office BP","Only a family member’s preference"],"correctIndex":1,"explanation":"Medication selection uses the whole patient and current evidence."},{"question":"Which symptom can suggest hypoglycemia?","choices":["Tremor, sweating, confusion, or seizure","Improved visual acuity","A painless rash","Increased height"],"correctIndex":0,"explanation":"Hypoglycemia can cause adrenergic and neuroglycopenic symptoms and may be life-threatening."},{"question":"Which hyperglycemic presentation requires urgent or emergency assessment?","choices":["Mild stable thirst only","Vomiting, dehydration, altered mental status, or inability to keep fluids down","A routine A1c review","A request for nutrition education"],"correctIndex":1,"explanation":"Systemic symptoms can signal an acute metabolic emergency."},{"question":"Why assess food access?","choices":["It is unrelated to diabetes","It can affect medication safety, hypoglycemia risk, and feasibility of nutrition plans","It replaces kidney testing","It determines diagnosis alone"],"correctIndex":1,"explanation":"Food insecurity is clinically relevant to both treatment safety and plan feasibility."},{"question":"What should accompany injectable treatment teaching?","choices":["Device demonstration and teach-back","No follow-up","A generic portal message only","Assumption that the patient knows technique"],"correctIndex":0,"explanation":"Correct technique and understanding are essential for safe use."},{"question":"Which is part of complication prevention?","choices":["Ignoring foot symptoms","Kidney/CV risk, eye care, foot assessment, neuropathy, and closed-loop follow-up","Stopping all preventive care","Only checking glucose"],"correctIndex":1,"explanation":"Complication prevention is multisystem and requires result/referral ownership."},{"question":"What is the best response to recurrent low readings in a patient with CKD and missed meals?","choices":["Automatically intensify treatment","Reconcile medicines, assess hypoglycemia risks and access, then individualize the plan","Ignore the readings","Wait a year"],"correctIndex":1,"explanation":"CKD, food access, and actual medication use can raise hypoglycemia risk."},{"question":"What closes the diabetes follow-up loop?","choices":["A prescription only","Named monitoring, result/referral ownership, follow-up timing, and escalation precautions","An unread portal reminder","No documentation"],"correctIndex":1,"explanation":"Longitudinal diabetes care needs clear ownership and a safety net."}]}
+{
+  "id": 92,
+  "questions": [
+    {
+      "question": "Which statement best describes FNP-level type 2 diabetes management?",
+      "choices": ["It is individualized cardiovascular, kidney, metabolic, and safety care—not A1c lowering alone", "It is only about avoiding dietary carbohydrate", "It can ignore medication access if A1c is elevated", "It never requires screening for complications"],
+      "correctIndex": 0,
+      "explanation": "Diabetes care integrates glycemia, hypoglycemia prevention, cardiovascular and kidney risk, weight, foot and eye health, access, mental health, and patient-defined goals."
+    },
+    {
+      "question": "A patient with diabetes has vomiting, abdominal pain, rapid deep breathing, severe weakness, and marked hyperglycemia. What is the priority?",
+      "choices": ["Urgent evaluation for a possible metabolic emergency", "Wait for the next routine A1c", "Increase exercise and reassess next month", "Treat the message as a routine refill request"],
+      "correctIndex": 0,
+      "explanation": "Systemic symptoms with marked hyperglycemia can indicate ketoacidosis, hyperosmolar illness, dehydration, or another serious condition and require urgent assessment."
+    },
+    {
+      "question": "Which factor should shape an individualized glycemic goal?",
+      "choices": ["Hypoglycemia risk, comorbidity, function, treatment burden, and patient priorities", "Only the patient’s age", "Only the most recent fasting glucose", "A universal target applied to everyone"],
+      "correctIndex": 0,
+      "explanation": "Goals should balance expected benefit with risk, comorbidity, frailty, life expectancy, ability to self-manage, and what matters to the patient."
+    },
+    {
+      "question": "Why might A1c not fully represent a patient's current glycemic exposure?",
+      "choices": ["Conditions affecting red-cell turnover, anemia, kidney disease, or transfusion can affect its interpretation", "A1c always shows every low-glucose event", "A1c replaces symptom assessment", "A1c makes glucose monitoring unnecessary for every patient"],
+      "correctIndex": 0,
+      "explanation": "A1c is valuable but can be misleading in some clinical settings and does not show glucose variability or all hypoglycemic episodes."
+    },
+    {
+      "question": "Which scenario increases risk for hypoglycemia?",
+      "choices": ["Insulin or secretagogue use with missed meals and declining kidney function", "Stable food access with no glucose-lowering medication", "A normal blood-pressure reading", "Receiving a foot examination"],
+      "correctIndex": 0,
+      "explanation": "Insulin and secretagogues can cause hypoglycemia, especially with reduced intake, alcohol, dosing errors, increased activity, or declining renal function."
+    },
+    {
+      "question": "A patient with type 2 diabetes and CKD has an acceptable A1c. Why may medication review still be needed?",
+      "choices": ["Some therapies may be selected for demonstrated cardiovascular and kidney benefit independent of A1c alone", "A1c eliminates all kidney-risk assessment", "All diabetes medications are unsafe in CKD", "No treatment can affect cardiovascular risk"],
+      "correctIndex": 0,
+      "explanation": "For appropriate patients, modern diabetes therapy considers cardiorenal benefit as well as glucose lowering. Selection still requires individualized renal, safety, access, and guideline review."
+    },
+    {
+      "question": "What is the safest response before intensifying therapy for unexpectedly high glucose readings?",
+      "choices": ["Review use, dose, injection or device technique, access, illness, diet change, and medication contributors", "Assume the patient is nonadherent and double every dose", "Ignore symptoms if A1c is old", "Stop all treatment"],
+      "correctIndex": 0,
+      "explanation": "Unexpected hyperglycemia may reflect illness, technique, device error, access, medication effects, or disease progression. A focused assessment prevents unsafe reflexive changes."
+    },
+    {
+      "question": "Which foot finding requires prompt escalation rather than routine annual follow-up?",
+      "choices": ["New ulcer with spreading redness or ischemic color change", "Clean intact skin with no symptoms", "A patient wearing comfortable shoes", "A normal glucose-meter battery"],
+      "correctIndex": 0,
+      "explanation": "Ulceration, infection, ischemic change, systemic illness, or rapidly progressive neuropathic symptoms can threaten limb or life and need timely evaluation."
+    },
+    {
+      "question": "What does teach-back contribute to diabetes care?",
+      "choices": ["It verifies that the patient can use the device, explain the plan, and respond to abnormal results", "It replaces medication reconciliation", "It is only useful for people using insulin", "It makes follow-up unnecessary"],
+      "correctIndex": 0,
+      "explanation": "Teach-back detects misunderstandings about glucose monitoring, injections, medications, sick-day safety, and escalation. It is a safety intervention for any complex plan."
+    },
+    {
+      "question": "Which describes a complete diabetes screening loop?",
+      "choices": ["Order indicated kidney, eye, foot, and cardiovascular assessments; review results; communicate findings; and arrange follow-up", "Place referrals without tracking them", "Perform only an A1c test indefinitely", "Wait for symptoms before assessing complications"],
+      "correctIndex": 0,
+      "explanation": "Screening prevents disability only when results are reviewed, acted on, communicated, and followed through—not merely ordered."
+    }
+  ]
+}

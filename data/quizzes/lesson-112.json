@@ -1,65 +1,15 @@
 {
   "id": 112,
   "questions": [
-    {
-      "question": "Why can limited psoriasis on the hands, feet, scalp, nails, face, or genitals still be clinically severe?",
-      "choices": ["Special-site disease can cause disproportionate pain, functional impairment, stigma, and quality-of-life burden despite low body-surface area", "Low body-surface area proves no treatment is needed", "Only plaque diameter determines psoriasis severity", "Special sites cannot be affected by psoriasis"],
-      "correctIndex": 0,
-      "explanation": "Psoriasis severity is not body-surface area alone. Special sites, symptoms, fissures, work impact, sleep, mood, and treatment burden can make limited disease clinically significant."
-    },
-    {
-      "question": "Which finding most strongly suggests possible psoriatic arthritis in a patient with psoriasis?",
-      "choices": ["A whole swollen painful toe with heel pain and morning stiffness", "A stable isolated freckle", "Dry hair after shampooing", "An itch that resolves with moisturizer"],
-      "correctIndex": 0,
-      "explanation": "Dactylitis, enthesitis such as heel pain, and inflammatory stiffness are high-value PsA clues and should prompt a focused assessment and appropriate referral."
-    },
-    {
-      "question": "What is the most accurate statement about testing for psoriatic arthritis?",
-      "choices": ["No single laboratory test rules PsA in or out; diagnosis uses the clinical pattern and targeted studies", "A normal inflammatory marker excludes PsA", "A screening questionnaire alone establishes PsA", "Only a skin biopsy can diagnose PsA"],
-      "correctIndex": 0,
-      "explanation": "PsA is a clinical diagnosis. Labs and imaging can support assessment or evaluate alternatives, but a normal test does not erase a convincing inflammatory history."
-    },
-    {
-      "question": "Why should an FNP ask about joint symptoms at psoriasis follow-up even when the skin plaques are mild?",
-      "choices": ["Clinically important PsA can occur with limited skin disease and delayed recognition can allow permanent joint damage", "Joint symptoms are unrelated to psoriasis", "Mild skin disease guarantees normal joints", "Patients with psoriasis cannot have other forms of arthritis"],
-      "correctIndex": 0,
-      "explanation": "The extent of skin disease does not reliably predict joint disease. Early recognition and rheumatology management may limit damage and preserve function."
-    },
-    {
-      "question": "Which condition is appropriately included in routine longitudinal risk review for a patient with psoriasis?",
-      "choices": ["Hypertension, dyslipidemia, diabetes risk, mood symptoms, and tobacco or alcohol exposure", "Only a potassium level regardless of clinical context", "Only seasonal allergies", "No comorbidities because psoriasis affects skin only"],
-      "correctIndex": 0,
-      "explanation": "Psoriasis is associated with cardiometabolic, behavioral, mental-health, inflammatory, and joint comorbidities. Primary care should use individualized evidence-based prevention and screening."
-    },
-    {
-      "question": "A patient with psoriasis has a hot swollen knee, fever, and inability to bear weight. What is the safest initial interpretation?",
-      "choices": ["Urgently evaluate for septic arthritis or another acute cause rather than assuming a PsA flare", "Treat as routine psoriasis with moisturizer only", "Wait for a routine annual visit", "Assume every swollen joint in psoriasis is benign"],
-      "correctIndex": 0,
-      "explanation": "An acutely hot joint with systemic symptoms and major functional loss can represent septic arthritis or another urgent condition. Familiar psoriasis history must not delay acute evaluation."
-    },
-    {
-      "question": "Which statement best describes systemic corticosteroids in psoriasis care?",
-      "choices": ["They are not a routine long-term flare strategy because withdrawal and ongoing exposure can create important harm", "They are always the preferred maintenance medicine", "They have no metabolic or infection risks", "They can be stopped abruptly without considering the clinical context"],
-      "correctIndex": 0,
-      "explanation": "Systemic corticosteroids are not routine long-term psoriasis therapy. Withdrawal can precipitate rebound disease in susceptible patients, and prolonged exposure has substantial adverse effects."
-    },
-    {
-      "question": "Which presentation requires urgent evaluation rather than a routine outpatient psoriasis medication adjustment?",
-      "choices": ["Diffuse painful redness with fever and malaise", "A stable plaque that improved with prior topical care", "A patient asking about moisturizer texture", "A healed plaque with no symptoms"],
-      "correctIndex": 0,
-      "explanation": "Widespread painful erythema plus systemic illness can signal erythroderma, infection, or another serious condition requiring urgent assessment."
-    },
-    {
-      "question": "What is the best next step for a patient with psoriasis who has extensive nail disease, painful fissures, and inadequate response to topical therapy?",
-      "choices": ["Arrange dermatology collaboration while assessing quality-of-life impact and treatment safety", "Continue the same plan indefinitely without reassessment", "Assume nail disease is never relevant", "Avoid documenting functional impairment"],
-      "correctIndex": 0,
-      "explanation": "Refractory disease, special-site involvement, substantial symptoms, or consideration of advanced therapy warrants dermatology collaboration and a clear safety-focused follow-up plan."
-    },
-    {
-      "question": "A psoriasis patient has new painful plaques after a medication change and the morphology is atypical. What is the most FNP-appropriate approach?",
-      "choices": ["Reassess the differential and medication history before escalating immunosuppressive therapy", "Assume all new rashes are psoriasis", "Treat every rash with the same high-potency medication", "Ignore systemic symptoms because the patient has a known skin diagnosis"],
-      "correctIndex": 0,
-      "explanation": "Tinea, dermatitis, drug eruptions, infection, and other disorders can mimic or complicate psoriasis. Atypical or changing disease requires diagnostic reconsideration and appropriate support."
-    }
+    {"question":"Why can psoriasis with limited body-surface area still be clinically severe?","choices":["Small plaques are never symptomatic","Hands, feet, scalp, nails, face, genitals, pain, fissures, and quality-of-life burden can cause major disability","Body-surface area is the only severity measure","Psoriasis never affects work or mood"],"correctIndex":1,"explanation":"Severity is more than body surface area. Special-site disease, pain, itch, fissures, nail involvement, work limitations, sexual health, sleep, and mental-health impact can make limited-area disease severe."},
+    {"question":"Which symptom pattern should raise concern for psoriatic arthritis?","choices":["Prolonged morning stiffness, swollen digits, heel pain, or inflammatory back symptoms","A stable asymptomatic freckle","Brief itch after bathing","One day of muscle soreness after exercise"],"correctIndex":0,"explanation":"Persistent inflammatory stiffness, swollen joints, dactylitis, enthesitis, and inflammatory axial symptoms can signal psoriatic arthritis and warrant assessment and referral to prevent joint damage."},
+    {"question":"Which is an appropriate FNP role in psoriasis care?","choices":["Treat psoriasis as skin-only disease and ignore comorbidities","Assess cardiometabolic and mental-health risk and coordinate dermatology or rheumatology care when needed","Abruptly stop all specialist-directed systemic therapies","Assume all scaly plaques have the same cause"],"correctIndex":1,"explanation":"Psoriasis is multisystem inflammatory disease. Primary care plays a key role in comorbidity assessment, medication coordination, preventive care, and timely specialty referral."},
+    {"question":"Which presentation requires urgent evaluation rather than routine topical adjustment?","choices":["Stable plaque psoriasis with mild itch","Diffuse painful erythema with fever, tachycardia, dehydration, or widespread pustules","A small unchanged scalp plaque","A request for moisturizer advice"],"correctIndex":1,"explanation":"Erythroderma, generalized pustular disease, systemic illness, severe infection, or drug reaction can be dangerous. These patterns require urgent assessment."},
+    {"question":"Why should a clinician reconsider the diagnosis when a presumed psoriasis plaque repeatedly fails reasonable treatment?","choices":["All treatment failure proves the patient did not adhere","Tinea, dermatitis, drug eruption, infection, or another disorder may mimic psoriasis","Psoriasis always resolves after one application","More potent treatment is always safer than reassessment"],"correctIndex":1,"explanation":"Persistent nonresponse should trigger review of diagnosis, treatment technique, access, and mimics. Escalating therapy without reassessment can delay correct care."},
+    {"question":"Which finding supports screening for psoriatic arthritis even if skin plaques are stable?","choices":["New whole-digit swelling and reduced hand function","A normal eye examination last year","A stable old scar","A preference for fragrance-free cleanser"],"correctIndex":0,"explanation":"Dactylitis and functional decline can indicate inflammatory joint disease. Skin and joint activity may not change together, so joint screening should be deliberate."},
+    {"question":"What is a common first-line principle for limited plaque psoriasis?","choices":["Use site-appropriate topical therapy with clear duration and safety instructions","Use indefinite high-potency corticosteroids on all sites without review","Start biologic therapy without diagnosis confirmation","Avoid all moisturizers"],"correctIndex":0,"explanation":"Topical treatment is often appropriate for limited disease, but potency, location, duration, adverse effects, and response must be reviewed. Thin or intertriginous skin requires different caution from thick plaques."},
+    {"question":"A patient with psoriasis develops a painful red eye with photophobia and reduced vision. What is the priority?","choices":["Prompt eye-care or emergency evaluation","A routine skin follow-up in six months","A stronger topical psoriasis medication only","Reassurance because eye symptoms are unrelated"],"correctIndex":0,"explanation":"Painful red eye, photophobia, or visual change can indicate sight-threatening ocular disease and needs prompt evaluation rather than routine dermatology management."},
+    {"question":"Which statement about systemic psoriasis therapy is most accurate for FNP practice?","choices":["It can be selected without reviewing infection, reproductive, and comorbidity context","It requires diagnosis confirmation, safety planning, and dermatology coordination when indicated","It eliminates the need for preventive care","It should be stopped abruptly whenever a flare occurs"],"correctIndex":1,"explanation":"Systemic and biologic therapies involve phenotype, infection, vaccine, pregnancy, hepatic, bowel, and other safety considerations. Coordination with specialists is essential."},
+    {"question":"What does closed-loop specialty referral mean for a patient with psoriasis and inflammatory joint symptoms?","choices":["Place a generic referral and assume care occurred","Document the concern and urgency, help ensure rheumatology access, review the recommendation, and clarify follow-up responsibilities","Wait for irreversible joint changes to confirm diagnosis","Tell the patient joint symptoms are cosmetic"],"correctIndex":1,"explanation":"Closed-loop referral turns a consult order into actual coordinated care. This is especially important when delayed psoriatic arthritis recognition can permit joint damage."}
   ]
 }

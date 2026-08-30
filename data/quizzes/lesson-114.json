@@ -1,65 +1,15 @@
 {
   "id": 114,
   "questions": [
-    {
-      "question": "Why can a diabetes-related plantar ulcer be painless yet high risk?",
-      "choices": ["Peripheral neuropathy can reduce protective sensation while repetitive pressure continues to damage tissue", "Painless wounds always heal without treatment", "Pain is the only marker of foot infection", "Neuropathy improves perfusion to the foot"],
-      "correctIndex": 0,
-      "explanation": "Loss of protective sensation can hide injury. A patient may continue loading a wound because it does not hurt, allowing pressure and tissue damage to worsen."
-    },
-    {
-      "question": "Which combination best represents the core drivers of many diabetes-related foot ulcers?",
-      "choices": ["Neuropathy, repetitive pressure or deformity, impaired perfusion, skin breakdown, and infection risk", "Only elevated glucose on a single day", "Only a cosmetic nail change", "Only an acute ankle sprain"],
-      "correctIndex": 0,
-      "explanation": "Ulceration often reflects interacting neuropathic, mechanical, vascular, skin-barrier, and infectious factors rather than one isolated cause."
-    },
-    {
-      "question": "What should be documented for a new diabetes-related foot ulcer?",
-      "choices": ["Location, dimensions, depth, wound bed, drainage, periwound findings, infection signs, perfusion, sensation, and functional impact", "Only the patient’s shoe size", "Only the duration of diabetes", "Only whether the wound is painful"],
-      "correctIndex": 0,
-      "explanation": "Objective, repeatable wound and foot documentation allows risk assessment, trend recognition, and safe communication among primary care, podiatry, wound care, vascular, and surgical teams."
-    },
-    {
-      "question": "Why is offloading important for a plantar neuropathic ulcer?",
-      "choices": ["Reducing repetitive mechanical pressure allows injured tissue an opportunity to heal", "Offloading replaces the need to assess infection or perfusion", "Offloading is purely cosmetic", "Offloading is unnecessary when a wound does not hurt"],
-      "correctIndex": 0,
-      "explanation": "If pressure is the driver, dressings and antibiotics alone do not correct the cause. Offloading must be individualized to the ulcer, ischemia, infection, fall risk, and patient circumstances."
-    },
-    {
-      "question": "Which finding in a diabetes-related foot wound most strongly increases concern for ischemia needing timely vascular assessment?",
-      "choices": ["Nonhealing ulcer with dark tissue and diminished pulses", "A healed blister with normal perfusion", "A stable callus without skin breakdown", "A nail trimmed at a routine visit"],
-      "correctIndex": 0,
-      "explanation": "A nonhealing wound, tissue loss, and diminished perfusion findings suggest PAD may be limiting healing. Infection treatment alone may be insufficient when ischemia is present."
-    },
-    {
-      "question": "What is the most accurate statement about diagnosing diabetic foot infection?",
-      "choices": ["It is a clinical diagnosis based on local or systemic inflammatory features, not a culture result alone", "Every chronic ulcer is infected", "A wound culture alone proves infection even without clinical findings", "Antibiotics are indicated for every open ulcer"],
-      "correctIndex": 0,
-      "explanation": "Chronic wounds are often colonized. Treat clinically infected wounds while also evaluating source control, pressure, perfusion, glycemic status, and follow-up."
-    },
-    {
-      "question": "Which presentation should prompt urgent consideration of active Charcot neuro-osteoarthropathy?",
-      "choices": ["New unilateral warm, swollen, red foot in a patient with neuropathy, sometimes with little pain", "A symmetric stable foot shape without symptoms", "A resolved fungal nail infection", "A remote history of an uncomplicated blister"],
-      "correctIndex": 0,
-      "explanation": "A hot swollen neuropathic foot may represent active Charcot change and can be mistaken for cellulitis, gout, sprain, or DVT. Early immobilization/offloading and specialist evaluation are important."
-    },
-    {
-      "question": "When should osteomyelitis be considered in a diabetes-related foot ulcer?",
-      "choices": ["When an ulcer is deep, chronic, recurrent over bone, exposes or approaches bone, or fails to improve as expected", "Only when the patient reports severe pain", "Only after all skin has healed", "Never when a patient has neuropathy"],
-      "correctIndex": 0,
-      "explanation": "Deep, chronic, refractory, or bone-associated ulcers raise concern for osteomyelitis. Evaluation should be targeted and coordinated with the overall wound and limb-preservation plan."
-    },
-    {
-      "question": "What is the priority for a patient with diabetes who has a rapidly worsening foot infection, hypotension, and altered mental status?",
-      "choices": ["Emergency evaluation for severe infection or sepsis with surgical-capable assessment", "Routine follow-up after finishing a topical product", "Delayed reassessment after several weeks", "Self-care only because neuropathy may reduce pain"],
-      "correctIndex": 0,
-      "explanation": "Systemic toxicity and rapidly progressive infection are emergency red flags. The patient needs urgent resuscitation-capable and surgical-capable evaluation, not outpatient management."
-    },
-    {
-      "question": "Which prevention strategy is most appropriate for a patient with diabetes, neuropathy, and prior ulcer history?",
-      "choices": ["Frequent foot surveillance, daily inspection, protective footwear, prompt reporting of changes, and coordinated podiatry or wound-care support", "Stop foot checks once the skin closes", "Walk barefoot indoors to strengthen the feet", "Use caustic products to remove calluses without guidance"],
-      "correctIndex": 0,
-      "explanation": "Prior ulcer plus neuropathy confers ongoing risk. Prevention requires repeat surveillance, self-care support, protective footwear, and early review of new changes."
-    }
+    {"question":"Why can a diabetes-related plantar ulcer be painless yet high risk?","choices":["Loss of protective sensation can mask repetitive pressure injury and infection","Pain is always required for ulcer severity","Diabetes prevents skin breakdown","Plantar ulcers never involve bone"],"correctIndex":0,"explanation":"Neuropathy can remove the pain signal that would normally prompt protection. Painless ulcers can still be deep, infected, ischemic, or at risk for amputation."},
+    {"question":"Which components belong in a comprehensive diabetes foot examination?","choices":["Skin and nail inspection, deformity assessment, neurologic sensation testing, pulses or vascular assessment, and footwear review","Only a blood glucose measurement","Only a photograph of the toes","Only asking whether pain is present"],"correctIndex":0,"explanation":"Limb-risk assessment requires skin, deformity, sensation, vascular status, footwear, history, and symptoms. A painless foot can still have major risk."},
+    {"question":"What does a chronic wound culture alone establish?","choices":["It proves the wound is clinically infected","It may show colonization and must be interpreted with clinical signs of infection","It determines ulcer depth","It excludes osteomyelitis"],"correctIndex":1,"explanation":"Chronic wounds are commonly colonized. Infection is diagnosed clinically using local and systemic inflammatory signs, wound progression, and patient context, not a culture result alone."},
+    {"question":"Which combination is most concerning for urgent limb-threatening disease?","choices":["Fever, spreading erythema, foul drainage, gangrene or ischemic color change, and weak pulses","Stable dry skin with intact sensation","An old healed blister","Mild callus without skin break"],"correctIndex":0,"explanation":"Systemic illness, progressive infection, necrosis or gangrene, and perfusion concerns can threaten limb and life. These patients need emergency or expedited multidisciplinary evaluation."},
+    {"question":"Why is offloading considered treatment for a neuropathic plantar ulcer?","choices":["It reduces repetitive pressure that prevents healing","It replaces wound assessment and vascular evaluation","It makes infection impossible","It is only cosmetic"],"correctIndex":0,"explanation":"Pressure is part of the pathophysiology of many neuropathic ulcers. Offloading addresses that mechanism but must be selected in the context of infection, ischemia, balance, and specialist direction."},
+    {"question":"A neuropathic patient has a warm swollen red foot after minor trauma with little pain and no clear skin break. What condition should be considered?","choices":["Acute Charcot neuroarthropathy","Only uncomplicated cellulitis","Simple dry skin","Diabetic retinopathy"],"correctIndex":0,"explanation":"A hot swollen relatively painless foot in a patient with neuropathy can represent Charcot neuroarthropathy. Continued weight bearing can cause structural collapse, so urgent offloading and specialty assessment are important."},
+    {"question":"Which approach is appropriate when osteomyelitis is suspected in a diabetes-related foot ulcer?","choices":["Use focused examination and initial studies such as probe-to-bone, plain radiographs, and inflammatory markers when clinically indicated, with specialist input as needed","Rely only on a superficial swab","Assume normal pain excludes bone involvement","Delay all assessment until the ulcer closes"],"correctIndex":0,"explanation":"Osteomyelitis assessment integrates clinical findings with targeted tests. Further imaging and specialty consultation may be needed depending on the likelihood and initial results."},
+    {"question":"Why must peripheral artery disease be assessed in a diabetic foot ulcer?","choices":["Perfusion affects healing, infection response, debridement, and need for vascular intervention","Pulses are irrelevant to ulcers","PAD only affects the upper extremity","Antibiotics correct ischemia"],"correctIndex":0,"explanation":"Inadequate arterial perfusion can prevent healing and worsen infection. Antibiotics and dressing changes cannot substitute for vascular assessment or revascularization when indicated."},
+    {"question":"Which patient generally needs more frequent foot inspection and specialty surveillance?","choices":["A patient with sensory loss and prior ulceration","A patient with no diabetes and no foot symptoms","A patient with a single normal foot examination only","A patient who prefers sandals"],"correctIndex":0,"explanation":"Sensory loss, PAD, deformity, prior ulcer or amputation, kidney failure, and other high-risk features increase ulcer risk and warrant more frequent evaluation."},
+    {"question":"What is the central principle of diabetic foot limb preservation?","choices":["Address wound, infection, pressure, perfusion, glycemic and vascular risk, patient capacity, and referral together","Treat every wound with antibiotics only","Wait for pain before examining the feet","Focus on glucose alone"],"correctIndex":0,"explanation":"The diabetic foot is a systems problem. Successful limb preservation combines wound care, offloading, infection assessment, vascular evaluation, risk-factor control, and practical follow-up."}
   ]
 }

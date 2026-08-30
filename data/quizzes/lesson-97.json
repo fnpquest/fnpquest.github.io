@@ -1,1 +1,65 @@
-{"id":97,"questions":[{"question":"What should be checked before escalating stable COPD inhaler therapy?","choices":["Only age","Diagnosis, technique, adherence, access, exposures, and alternative causes","Only a refill date","Only a portal message"],"correctIndex":1,"explanation":"Apparent treatment failure may reflect technique, access, exposures, or an incorrect/incomplete diagnosis."},{"question":"Which finding requires emergency evaluation in COPD?","choices":["Stable chronic cough","Confusion with a new oxygen requirement","A routine vaccination question","A controlled follow-up visit"],"correctIndex":1,"explanation":"New confusion and increased oxygen need can indicate respiratory failure or another acute emergency."},{"question":"Why is exacerbation history important?","choices":["It has no future value","It helps predict future risk and guide prevention","It replaces examination","It only affects billing"],"correctIndex":1,"explanation":"Prior exacerbations and hospitalizations are important predictors of future risk."},{"question":"Which intervention is especially important in COPD prevention?","choices":["Smoking cessation support","Avoiding all activity","Ignoring vaccination","Using only rescue medication"],"correctIndex":0,"explanation":"Tobacco cessation is a high-impact intervention and should be supported without stigma."},{"question":"What should functional assessment include?","choices":["Only spirometry","Ability to walk, bathe, shop, eat, and manage medicines","Only oxygen flow","Only diagnosis date"],"correctIndex":1,"explanation":"Function and daily safety are core COPD outcomes."},{"question":"Why reconsider the diagnosis in atypical dyspnea?","choices":["COPD is the only possible cause","Heart failure, PE, infection, malignancy, asthma, and others may coexist or mimic it","Testing is never useful","Symptoms are always anxiety"],"correctIndex":1,"explanation":"Dyspnea is nonspecific and requires differential diagnosis."},{"question":"What belongs in a COPD action plan?","choices":["Baseline care, early worsening, emergency signs, access to help, and follow-up","Only a diagnosis label","No written instructions","Only a specialist name"],"correctIndex":0,"explanation":"Clear action plans help patients recognize and respond to deterioration."},{"question":"What does new purulent sputum with worsening dyspnea require?","choices":["Automatic routine refill","Focused assessment of exacerbation and alternative acute causes","No follow-up","Only smoking counseling"],"correctIndex":1,"explanation":"Change from baseline may indicate exacerbation, infection, or another acute illness."},{"question":"What is a reason for pulmonary referral?","choices":["Uncertain diagnosis or frequent exacerbations","A single stable visit","Correct inhaler technique","No symptoms"],"correctIndex":0,"explanation":"Difficult control, advanced disease, or diagnostic uncertainty can require specialty input."},{"question":"What is the FNP COPD principle?","choices":["Treat dyspnea in isolation","Integrate baseline, trajectory, function, technique, prevention, access, and safety","Avoid evaluating mental status","Use one plan for every patient"],"correctIndex":1,"explanation":"Safe COPD management is individualized and longitudinal."}]}
+{
+  "id": 97,
+  "questions": [
+    {
+      "question": "What is required to establish COPD in the appropriate clinical context under current guidance?",
+      "choices": ["Post-bronchodilator spirometry showing persistent airflow obstruction", "A smoking history alone", "Chronic cough alone", "A chest radiograph alone"],
+      "correctIndex": 0,
+      "explanation": "Symptoms and exposures raise suspicion, but spirometry demonstrating persistent post-bronchodilator airflow obstruction is used to confirm COPD in the appropriate clinical setting."
+    },
+    {
+      "question": "Why can two patients with similar spirometry have very different dyspnea burden?",
+      "choices": ["Dynamic hyperinflation, deconditioning, cardiac disease, anxiety, nutrition, and comorbidities also affect symptoms", "Spirometry has no value at all", "Dyspnea is always caused only by anxiety", "Symptoms are unrelated to COPD"],
+      "correctIndex": 0,
+      "explanation": "COPD symptoms reflect respiratory mechanics plus comorbid cardiovascular, musculoskeletal, psychological, and social factors. Function and trajectory must be assessed."
+    },
+    {
+      "question": "Before escalating COPD inhaler therapy, what should be assessed?",
+      "choices": ["Diagnosis, device technique, adherence, access, exposures, comorbidities, and alternative causes of dyspnea", "Only the number of inhalers listed", "Whether the patient can name a brand", "Nothing if the patient has a COPD diagnosis"],
+      "correctIndex": 0,
+      "explanation": "A patient may seem uncontrolled because of misdiagnosis, incorrect technique, cost barriers, smoke exposure, heart failure, infection, or other causes rather than an insufficient regimen alone."
+    },
+    {
+      "question": "Which intervention is especially disease-modifying for a patient with COPD who smokes?",
+      "choices": ["Repeated, supported smoking-cessation treatment", "Avoiding all physical activity", "Using oxygen solely because of dyspnea", "Waiting for a hospitalization before discussing tobacco"],
+      "correctIndex": 0,
+      "explanation": "Smoking cessation is one of the most important interventions for COPD progression and overall health. It requires repeated support, not blame after recurrence."
+    },
+    {
+      "question": "A patient with a COPD label develops orthopnea, leg edema, and rapid weight gain. What is the best FNP reasoning?",
+      "choices": ["Assess for heart failure and other causes; do not assume all dyspnea is COPD", "Treat only with a rescue inhaler", "Ignore the edema", "Wait for the next spirometry appointment"],
+      "correctIndex": 0,
+      "explanation": "Heart failure can mimic or coexist with COPD. New volume-related symptoms require cardiopulmonary assessment and safe disposition."
+    },
+    {
+      "question": "What is the purpose of observing a patient use an inhaler?",
+      "choices": ["To identify technique, coordination, device mismatch, and education needs that can cause apparent treatment failure", "To decide whether the patient deserves treatment", "It is unnecessary if a prescription was filled", "To diagnose pneumonia"],
+      "correctIndex": 0,
+      "explanation": "Device demonstration is a clinical examination. Correct technique and a device the patient can use and afford may be more important than a nominal dose increase."
+    },
+    {
+      "question": "Which finding during a presumed COPD exacerbation most strongly supports emergency evaluation?",
+      "choices": ["New oxygen requirement with confusion and severe work of breathing", "Stable chronic sputum without change", "A normal refill request", "Mild symptoms improving with the patient’s plan"],
+      "correctIndex": 0,
+      "explanation": "New oxygen need, altered mental status, cyanosis, exhaustion, hypotension, severe distress, or concern for pneumonia, PE, ACS, sepsis, or heart failure requires urgent assessment."
+    },
+    {
+      "question": "Why should oxygen not be prescribed solely because a patient reports dyspnea?",
+      "choices": ["Oxygen need requires appropriate assessment of oxygenation and clinical context", "Dyspnea is never serious", "All COPD patients already have oxygen", "Oxygen replaces smoking cessation and inhalers"],
+      "correctIndex": 0,
+      "explanation": "Dyspnea has many causes. Oxygen therapy is based on clinical assessment and requires safety education, monitoring, and consideration of the underlying problem."
+    },
+    {
+      "question": "Which is a key feature of post-exacerbation COPD care?",
+      "choices": ["Prompt review of trigger, technique, medication reconciliation, access, oxygen needs, prevention, and follow-up", "No follow-up after emergency treatment", "Assume the discharge list matches home medicines", "Avoid pulmonary rehabilitation discussion"],
+      "correctIndex": 0,
+      "explanation": "Post-exacerbation follow-up is a high-value safety visit. It prevents repeat events by addressing causes, device use, access, comorbidities, and transition gaps."
+    },
+    {
+      "question": "When should pulmonary referral be considered?",
+      "choices": ["Diagnostic uncertainty, frequent exacerbations, advanced symptoms, difficult inhaler strategy, or concern for another lung diagnosis", "Only after no longer using tobacco", "Never for recurrent hospitalizations", "Only for one resolved viral cough"],
+      "correctIndex": 0,
+      "explanation": "Pulmonary consultation can clarify diagnosis, phenotype, spirometry, treatment strategy, oxygen or ventilatory assessment, and advanced symptom management."
+    }
+  ]
+}

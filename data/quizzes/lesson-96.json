@@ -1,1 +1,65 @@
-{"id":96,"questions":[{"question":"What should be checked before stepping up asthma therapy?","choices":["Only age","Diagnosis, technique, adherence, access, and triggers","Only a prescription date","Only a chest radiograph"],"correctIndex":1,"explanation":"Apparent treatment failure commonly reflects technique, adherence, access, trigger exposure, or an alternative diagnosis."},{"question":"Which finding suggests a severe asthma exacerbation needing emergency evaluation?","choices":["Mild stable cough","Inability to speak full sentences with worsening distress","A routine refill request","Controlled seasonal symptoms"],"correctIndex":1,"explanation":"Poor speech, severe work of breathing, cyanosis, exhaustion, altered mental status, silent chest, or poor response can signal life-threatening illness."},{"question":"Why ask a patient to demonstrate inhaler use?","choices":["To test memory","Technique determines whether medication reaches the airways effectively","To replace history","To avoid follow-up"],"correctIndex":1,"explanation":"A prescription is not evidence of correct delivery; demonstration identifies correctable barriers."},{"question":"What distinguishes current control from future risk?","choices":["They are identical","A patient may feel well now but remain high risk after severe exacerbations or poor controller access","Only current symptoms matter","Future risk cannot be changed"],"correctIndex":1,"explanation":"Assessment includes both present impairment and future exacerbation risk."},{"question":"Which belongs in an asthma action plan?","choices":["Only a diagnosis label","Routine care, worsening instructions, emergency signs, and how to obtain help","No patient instructions","Only a specialist phone number"],"correctIndex":1,"explanation":"A clear written action plan supports early response and safe escalation."},{"question":"What should prompt reconsideration of the diagnosis?","choices":["Variable symptoms never matter","Presentation or response that does not fit asthma","A patient preference for an inhaler","A normal calendar"],"correctIndex":1,"explanation":"Cough and wheeze have multiple causes; discordant features require reassessment."},{"question":"Why assess medication access?","choices":["It is administrative only","It affects adherence and future exacerbation risk","It replaces technique review","It proves diagnosis"],"correctIndex":1,"explanation":"An inaccessible controller plan cannot reduce risk."},{"question":"Which is a reasonable reason for specialty input?","choices":["Repeated exacerbations or uncertain diagnosis","A stable action plan","A single healthy visit","Correct technique"],"correctIndex":0,"explanation":"Difficult control, repeated exacerbations, high treatment burden, or uncertain diagnosis can require further evaluation."},{"question":"What is the safest response to worsening symptoms despite reliever use?","choices":["Wait for the next visit","Reassess severity and use urgent/emergency evaluation when red flags or poor response are present","Only send a portal message","Assume anxiety"],"correctIndex":1,"explanation":"Deterioration despite reliever treatment can be dangerous and needs timely assessment."},{"question":"What is the FNP asthma-management principle?","choices":["Treat wheeze without context","Combine diagnosis, control, risk, technique, access, action plan, and follow-up","Avoid trigger assessment","Use identical therapy for every patient"],"correctIndex":1,"explanation":"Safe asthma care is individualized, longitudinal, and action-plan based."}]}
+{
+  "id": 96,
+  "questions": [
+    {
+      "question": "Why is objective confirmation of asthma important when feasible?",
+      "choices": ["Some patients carrying an asthma label have another condition, and variable airflow limitation should be documented when possible", "Asthma can only be diagnosed during an ICU admission", "Symptoms never matter", "Objective testing should delay emergency treatment"],
+      "correctIndex": 0,
+      "explanation": "Asthma is commonly misdiagnosed. Objective evidence helps confirm variable airflow limitation, but acute treatment should not be delayed in a clinically significant exacerbation."
+    },
+    {
+      "question": "What does current asthma control assess?",
+      "choices": ["Recent symptoms, nighttime awakening, activity limitation, and reliever use", "Only the patient’s diagnosis date", "Only the lung examination during a symptom-free visit", "Only age"],
+      "correctIndex": 0,
+      "explanation": "Control describes recent burden. Future risk is assessed separately through exacerbation history, medication use, lung function, technique, and other factors."
+    },
+    {
+      "question": "Which is a high-risk asthma feature even if daily symptoms are currently limited?",
+      "choices": ["Recent severe exacerbation or no anti-inflammatory treatment", "A working spacer", "A completed action plan", "No history of nighttime symptoms"],
+      "correctIndex": 0,
+      "explanation": "Recent severe exacerbations, poor adherence, incorrect technique, low lung function, high reliever use, and absent anti-inflammatory therapy can increase future risk."
+    },
+    {
+      "question": "Before stepping up chronic asthma therapy, what should the FNP check?",
+      "choices": ["Diagnosis, inhaler technique, adherence, access, triggers, smoking or vaping, and comorbidities", "Only the color of the inhaler", "Whether the patient wants a stronger medicine without assessment", "Nothing if a rescue inhaler is used often"],
+      "correctIndex": 0,
+      "explanation": "Apparent treatment failure often results from a wrong diagnosis, incorrect technique, poor adherence, access barriers, exposure, or comorbid disease."
+    },
+    {
+      "question": "Why is inhaled corticosteroid-containing therapy a central asthma principle?",
+      "choices": ["Asthma includes airway inflammation as well as bronchoconstriction, and anti-inflammatory treatment reduces exacerbation risk", "Rescue bronchodilator use alone addresses all asthma risk", "Corticosteroid-containing inhalers are only for pneumonia", "Technique does not matter"],
+      "correctIndex": 0,
+      "explanation": "Contemporary asthma care emphasizes anti-inflammatory treatment. The exact strategy follows current guidelines, formulary, patient factors, and clinical severity."
+    },
+    {
+      "question": "Which finding during an asthma flare is most concerning?",
+      "choices": ["Exhaustion, inability to speak in phrases, and markedly diminished breath sounds", "A patient comfortably speaking in full sentences", "A refill request with no symptoms", "A normal inhaler dose counter"],
+      "correctIndex": 0,
+      "explanation": "A quiet chest in a distressed patient can signal critically poor airflow. Severe distress, altered mentation, hypoxemia, cyanosis, or poor rescue response requires emergency evaluation."
+    },
+    {
+      "question": "Which is an important differential diagnosis for new wheeze and dyspnea in an older adult?",
+      "choices": ["Heart failure, COPD, infection, pulmonary embolism, or cardiac ischemia depending on context", "Asthma only", "No condition requires testing", "Only seasonal allergy"],
+      "correctIndex": 0,
+      "explanation": "New wheeze is not automatically asthma. Red flags and patient context determine the need to consider cardiopulmonary, infectious, vascular, upper-airway, and medication causes."
+    },
+    {
+      "question": "What does a useful written asthma action plan include?",
+      "choices": ["Baseline treatment, early-worsening actions, emergency warning signs, and teach-back", "Only the brand name of a rescue inhaler", "No need for follow-up", "A guarantee that no exacerbation will occur"],
+      "correctIndex": 0,
+      "explanation": "Action plans should be plain-language, individualized, feasible, and understood by the patient or caregiver before a flare occurs."
+    },
+    {
+      "question": "When is asthma-specialty referral especially appropriate?",
+      "choices": ["Diagnostic uncertainty, work-related asthma, frequent exacerbations, recurrent systemic steroid need, or persistent symptoms despite verified care", "Only after the patient stops all inhalers", "Never for adult-onset symptoms", "Only for mild transient cough"],
+      "correctIndex": 0,
+      "explanation": "Referral helps with uncertain diagnosis, occupational exposure, difficult-to-control disease, severe phenotype assessment, and advanced treatment decisions."
+    },
+    {
+      "question": "A patient has asthma symptoms at work that improve away from work. What is the FNP priority?",
+      "choices": ["Assess possible occupational asthma or work-aggravated disease and arrange objective evaluation/referral", "Assume anxiety without questions", "Tell the patient to continue the same exposure indefinitely", "Use a diagnosis code without assessment"],
+      "correctIndex": 0,
+      "explanation": "Work-related symptoms can indicate occupational asthma. Identifying and reducing the relevant exposure and arranging prompt evaluation can protect long-term lung health."
+    }
+  ]
+}

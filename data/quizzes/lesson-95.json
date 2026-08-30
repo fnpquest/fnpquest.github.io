@@ -1,1 +1,65 @@
-{"id":95,"questions":[{"question":"What is needed to frame CKD risk accurately?","choices":["Creatinine alone","eGFR trend, albuminuria/urine context, baseline, and clinical history","Only patient age","Only a medication list"],"correctIndex":1,"explanation":"CKD assessment uses chronicity, function trend, evidence of damage, and clinical context."},{"question":"Which pattern raises concern for AKI rather than stable CKD?","choices":["Stable long-term values","Sudden rise after diarrhea, low intake, and nephrotoxin exposure","Routine preventive visit","Stable exercise plan"],"correctIndex":1,"explanation":"Acute illness, low intake, medication exposures, and a sudden change from baseline can indicate AKI."},{"question":"Why review NSAID use in CKD?","choices":["It is unrelated","It can increase renal risk in susceptible patients","It replaces kidney tests","It measures nutrition"],"correctIndex":1,"explanation":"Medication review identifies potentially harmful exposures and guides safe management."},{"question":"What can albuminuria indicate?","choices":["Only hydration status","Kidney injury and cardiovascular risk in appropriate context","A normal ECG","A medication allergy"],"correctIndex":1,"explanation":"Albuminuria can be clinically important and should be interpreted with repeat testing and context."},{"question":"Which CKD complication can be an emergency?","choices":["Mild stable fatigue","Severe hyperkalemia concern or pulmonary edema","Routine diet discussion","A normal urinalysis"],"correctIndex":1,"explanation":"Severe electrolyte or volume complications may require emergency evaluation."},{"question":"What should medication management in CKD include?","choices":["Automatic discontinuation of all medicines","Indication, renal function, current illness, electrolyte risk, dosing, and monitoring","Only refill dates","No follow-up"],"correctIndex":1,"explanation":"Medication changes require patient-specific assessment rather than reflexive stopping or starting."},{"question":"When should nephrology input be considered?","choices":["Only after dialysis starts","Advanced/rapidly progressive disease, difficult complications, uncertain cause, or significant urine findings","Never for CKD","Only for mild stable disease"],"correctIndex":1,"explanation":"Complex or progressive CKD benefits from timely specialty input."},{"question":"Why distinguish chronic from acute renal change?","choices":["It has no effect on care","Urgency, evaluation, medication safety, and disposition differ","It changes only billing","It eliminates need for monitoring"],"correctIndex":1,"explanation":"AKI and CKD can overlap but require different immediate clinical decisions."},{"question":"What closes the CKD monitoring loop?","choices":["Ordering a lab only","Result ownership, patient communication, follow-up timing, and escalation precautions","An unread portal result","No documentation"],"correctIndex":1,"explanation":"Longitudinal kidney care needs accountable review and communication."},{"question":"What is the FNP CKD principle?","choices":["Manage creatinine alone","Protect kidney and cardiovascular health while recognizing acute danger","Avoid medication review","Treat every patient identically"],"correctIndex":1,"explanation":"Safe CKD care integrates trends, risks, complications, medications, and coordinated follow-up."}]}
+{
+  "id": 95,
+  "questions": [
+    {
+      "question": "Why does one low eGFR value not automatically establish chronic kidney disease?",
+      "choices": ["It may reflect acute illness, dehydration, medication effect, obstruction, or laboratory variation and needs chronicity context", "eGFR is never useful", "CKD is diagnosed only by symptoms", "Albuminuria makes eGFR irrelevant"],
+      "correctIndex": 0,
+      "explanation": "CKD requires persistent abnormality with health implications. The FNP must distinguish chronic disease from AKI or acute-on-chronic deterioration."
+    },
+    {
+      "question": "Which two persistent measurements are central to CKD risk classification?",
+      "choices": ["eGFR and urine albuminuria", "Heart rate and temperature", "Weight and height only", "Hemoglobin and platelet count only"],
+      "correctIndex": 0,
+      "explanation": "eGFR estimates filtration and albuminuria reflects kidney injury; together with trend and cause they help estimate renal and cardiovascular risk."
+    },
+    {
+      "question": "A patient with CKD has vomiting, diarrhea, NSAID use, dizziness, reduced urine output, and rising creatinine. What is the priority?",
+      "choices": ["Assess for acute kidney injury and arrange timely evaluation", "Wait for the next annual kidney panel", "Assume this is stable CKD", "Add an NSAID without assessment"],
+      "correctIndex": 0,
+      "explanation": "Volume loss, nephrotoxin exposure, low urine output, and rising creatinine can indicate AKI on CKD and require prompt clinical assessment."
+    },
+    {
+      "question": "Why is medication reconciliation especially important in CKD?",
+      "choices": ["Renal clearance, nephrotoxic exposure, interactions, and electrolyte effects may change safety", "All medications are automatically safe in CKD", "Only prescription medicines matter", "Kidney function has no effect on insulin-related hypoglycemia"],
+      "correctIndex": 0,
+      "explanation": "CKD can alter drug clearance and increase risk from medicines, supplements, NSAIDs, insulin, and drugs affecting volume or potassium."
+    },
+    {
+      "question": "Which symptom pattern should raise urgent concern for clinically significant hyperkalemia in CKD?",
+      "choices": ["Weakness or palpitations after a medication change", "Stable appetite with no symptoms", "A clean BP cuff", "Improved exercise tolerance"],
+      "correctIndex": 0,
+      "explanation": "Hyperkalemia can affect cardiac conduction. Significant weakness, palpitations, syncope, ECG concern, or severe elevation needs timely assessment."
+    },
+    {
+      "question": "What is the best interpretation of persistent albuminuria in a patient with preserved eGFR?",
+      "choices": ["It can still indicate kidney injury and cardiovascular risk requiring confirmation and management", "It is meaningless if creatinine is normal", "It always proves urinary infection", "It eliminates the need to assess BP or diabetes"],
+      "correctIndex": 0,
+      "explanation": "Albuminuria is an independent risk signal. It should be confirmed and interpreted with diabetes, BP, urinary findings, and possible alternative etiologies."
+    },
+    {
+      "question": "Which is an appropriate nephrology-referral reason?",
+      "choices": ["Rapid eGFR decline, uncertain cause, major electrolyte disturbance, or advanced CKD", "One normal urinalysis", "A patient asking how kidneys work", "Stable uncomplicated disease with a clear monitoring plan only"],
+      "correctIndex": 0,
+      "explanation": "Referral is appropriate for advanced or progressive disease, uncertain etiology, active urinary concerns, difficult hypertension, complications, and kidney-failure planning."
+    },
+    {
+      "question": "How should an FNP respond to a laboratory change after a medication that may affect renal hemodynamics is started?",
+      "choices": ["Interpret timing, volume status, BP, potassium, indication, and trajectory using current protocols", "Automatically stop every chronic medication", "Ignore the result", "Assume every change means irreversible kidney failure"],
+      "correctIndex": 0,
+      "explanation": "Medication-related changes need clinical context. The appropriate response may include monitoring, adjustment, evaluation for illness, or consultation rather than a blanket rule."
+    },
+    {
+      "question": "Which statement best describes nutrition counseling in CKD?",
+      "choices": ["It should be individualized to stage, electrolytes, diabetes, heart failure, culture, food security, and nutrition risk", "Every patient needs the same restrictive list", "Nutrition is unrelated to medication safety", "Food access should not be discussed"],
+      "correctIndex": 0,
+      "explanation": "Overly simple restrictions can cause confusion or malnutrition. Kidney nutrition planning needs patient-specific clinical and social context."
+    },
+    {
+      "question": "What does a complete CKD follow-up loop include?",
+      "choices": ["Trend review, BP and complication assessment, medication safety, education, result ownership, and referral follow-through", "One creatinine value with no discussion", "Stopping all medicines during every illness", "Waiting for dialysis before referral"],
+      "correctIndex": 0,
+      "explanation": "Effective CKD care is longitudinal. It tracks kidney trajectory and complications while coordinating treatment, education, and timely specialty care."
+    }
+  ]
+}

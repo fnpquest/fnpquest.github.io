@@ -1,1 +1,65 @@
-{"id":99,"questions":[{"question":"What is the first priority when a patient with suspected AF has hypotension and acute pulmonary edema?","choices":["Complete an outpatient stroke-risk score first","Arrange emergency evaluation for hemodynamic instability","Schedule routine follow-up","Focus only on long-term exercise goals"],"correctIndex":1,"explanation":"Hypotension and acute pulmonary edema can indicate instability; emergency assessment takes priority."},{"question":"Which statement about AF stroke prevention is most accurate?","choices":["It is based only on whether AF is paroxysmal or persistent","It should be guided by validated thromboembolic risk assessment and reassessed over time","Successful rate control eliminates stroke risk","Aspirin always replaces anticoagulation"],"correctIndex":1,"explanation":"Stroke-prevention decisions are based on thromboembolic risk, not AF pattern alone, and should be reassessed as clinical factors change."},{"question":"How should bleeding-risk assessment be used in AF care?","choices":["As an automatic reason to withhold every anticoagulant","To identify and modify bleeding risks and support shared decision making","Only after a stroke occurs","Instead of reviewing medications and kidney function"],"correctIndex":1,"explanation":"Bleeding review should identify modifiable risks and inform individualized decisions rather than function as an automatic exclusion."},{"question":"Which is a potential contributor to new or worsening AF?","choices":["Hypertension, heart failure, thyroid disease, alcohol exposure, or infection","A recent normal fasting glucose result","A stable normal ECG","Correct medication access"],"correctIndex":0,"explanation":"AF can be associated with cardiovascular disease, thyroid/pulmonary disease, alcohol, acute illness, and other modifiable or nonmodifiable contributors."},{"question":"Which three questions organize FNP AF management?","choices":["Stability, symptom/rate-rhythm strategy, and stroke prevention","Only age, height, and weight","Only medication brand and cost","Only the last ECG date"],"correctIndex":0,"explanation":"Safe AF care separates immediate stability, symptom/rate-rhythm management, and thromboembolic prevention."},{"question":"Why is aspirin not simply substituted for indicated anticoagulation in AF?","choices":["It has no antiplatelet effect","It is not a recommended alternative for stroke reduction when anticoagulation is indicated and no separate antiplatelet indication exists","It controls rhythm better than cardioversion","It eliminates all bleeding risk"],"correctIndex":1,"explanation":"Current guidance does not use aspirin as a substitute for indicated oral anticoagulation in this setting."},{"question":"What should be reviewed when considering an anticoagulation plan?","choices":["Renal/hepatic function when relevant, interactions, dose, adherence, bleeding history, and access","Only the patient’s preferred pill color","Only the AF duration","Only a pulse reading"],"correctIndex":0,"explanation":"Anticoagulation safety requires individualized dosing, interaction, organ-function, bleeding, adherence, and access review."},{"question":"When is cardiology or electrophysiology referral reasonable?","choices":["Symptomatic recurrent AF, difficult control, heart failure, complex valve disease, or treatment complexity","Only when the patient has no symptoms","For a normal pulse only","Never after initial diagnosis"],"correctIndex":0,"explanation":"Complex, recurrent, symptomatic, or structurally complicated AF often benefits from specialist collaboration."},{"question":"Which ongoing intervention supports AF outcomes?","choices":["Optimize blood pressure and comorbidities while addressing sleep, alcohol, tobacco, weight, and access barriers","Avoid all follow-up after rhythm documentation","Treat anticoagulation as a one-time decision","Ignore medication cost"],"correctIndex":0,"explanation":"Risk-factor modification and feasible longitudinal care are core components of AF management."},{"question":"What is the FNP-level AF principle?","choices":["Treat an irregular pulse in isolation","Integrate stability, triggers, symptom strategy, stroke prevention, monitoring, and patient goals","Use one rate target for every person","Delay care until all symptoms resolve"],"correctIndex":1,"explanation":"High-quality AF care is individualized, longitudinal, and safety-focused."}]}
+{
+  "id": 99,
+  "questions": [
+    {
+      "question": "What is the most appropriate first priority when AF is suspected?",
+      "choices": ["Assess hemodynamic stability and acute complications", "Calculate long-term stroke risk before checking vital signs", "Start a chronic medication without rhythm documentation", "Assume all AF is asymptomatic"],
+      "correctIndex": 0,
+      "explanation": "Hypotension, altered mental status, ischemic chest discomfort, pulmonary edema, shock, syncope with instability, or severe respiratory distress require emergency evaluation before outpatient planning."
+    },
+    {
+      "question": "Which finding can suggest atrial fibrillation but still requires rhythm confirmation?",
+      "choices": ["An irregularly irregular pulse", "A normal temperature", "One isolated cough", "A stable weight"],
+      "correctIndex": 0,
+      "explanation": "An irregularly irregular pulse is a clinical clue. ECG or appropriate rhythm documentation is needed to confirm and characterize AF."
+    },
+    {
+      "question": "Why are rate/rhythm management and stroke prevention separate AF decisions?",
+      "choices": ["Symptom or rhythm improvement does not automatically remove thromboembolic risk", "All patients with AF have identical stroke risk", "Rate control alone prevents every embolic event", "Stroke prevention is unrelated to AF"],
+      "correctIndex": 0,
+      "explanation": "AF management addresses stability, symptoms/rate or rhythm, and thromboembolic risk separately. A patient may feel better yet still need ongoing risk assessment."
+    },
+    {
+      "question": "What is the basic mechanism of embolic stroke risk in AF?",
+      "choices": ["Ineffective atrial contraction promotes stasis and thrombus formation that can embolize", "AF always lowers blood viscosity", "The ventricles stop contracting in every case", "AF prevents platelet activation"],
+      "correctIndex": 0,
+      "explanation": "Disorganized atrial activity can cause blood stasis, especially in the left atrial appendage, enabling thrombus formation and systemic embolism."
+    },
+    {
+      "question": "How should bleeding-risk assessment be used when considering anticoagulation?",
+      "choices": ["Identify and modify bleeding risks while supporting individualized risk-benefit decisions", "Automatically exclude every patient with any bleeding risk", "Replace thromboembolic-risk assessment", "Ignore renal function and drug interactions"],
+      "correctIndex": 0,
+      "explanation": "Bleeding review helps identify factors such as NSAIDs, anemia, kidney disease, alcohol, interactions, adherence, and dose issues. It is not an automatic reason to withhold beneficial treatment."
+    },
+    {
+      "question": "Which AF context requires particular anticoagulation and specialist consideration?",
+      "choices": ["Mechanical heart valve or moderate-to-severe rheumatic mitral stenosis", "A normal ECG after a resolved viral cough", "A patient who likes exercise", "No history of any cardiovascular disease"],
+      "correctIndex": 0,
+      "explanation": "Mechanical valves and moderate-to-severe rheumatic mitral stenosis have special anticoagulation considerations and require current-guideline and specialist-informed care."
+    },
+    {
+      "question": "Which is an important trigger or substrate to assess in new AF?",
+      "choices": ["Heart failure, hypertension, thyroid disease, infection, pulmonary disease, alcohol, stimulants, sleep apnea, and electrolyte disturbance", "Only a normal office blood-pressure reading", "Only a remote cholesterol test", "No comorbidities matter"],
+      "correctIndex": 0,
+      "explanation": "AF often occurs with modifiable or acute contributors. Identifying them improves immediate safety and long-term recurrence prevention."
+    },
+    {
+      "question": "Why does duration or uncertain onset of AF matter?",
+      "choices": ["It can change cardioversion and anticoagulation planning and requires current-guideline review", "It never affects management", "It proves the patient is stable", "It eliminates the need for ECG"],
+      "correctIndex": 0,
+      "explanation": "Duration and onset uncertainty influence cardioversion safety and thromboembolic planning. Do not improvise these decisions without appropriate evaluation and collaboration."
+    },
+    {
+      "question": "A patient with AF stops anticoagulation whenever bruising occurs and uses ibuprofen daily. What is the best FNP response?",
+      "choices": ["Assess current bleeding, dose, kidney function, interactions, anemia symptoms, access, and understanding; then coordinate a safe plan", "Tell the patient bruising always means there is no stroke risk", "Accept intermittent self-dosing without discussion", "Ignore NSAID exposure"],
+      "correctIndex": 0,
+      "explanation": "Medication safety requires assessment of actual use, modifiable bleeding risks, dose and renal context, and patient barriers. Intermittent self-dosing can create harm."
+    },
+    {
+      "question": "Which presentation requires emergency rather than routine AF follow-up?",
+      "choices": ["AF with hypotension, confusion, severe dyspnea, and pulmonary edema", "An asymptomatic patient with a stable outpatient ECG", "A patient requesting education about home pulse checks", "A scheduled medication-reconciliation visit"],
+      "correctIndex": 0,
+      "explanation": "AF with instability or acute heart-failure, ischemic, respiratory, or perfusion findings requires emergency assessment and stabilization."
+    }
+  ]
+}

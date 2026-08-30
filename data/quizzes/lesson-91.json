@@ -1,1 +1,65 @@
-{"id":91,"questions":[{"question":"What is the safest first step after an elevated office blood-pressure reading in a stable patient?","choices":["Diagnose chronic hypertension immediately","Verify technique and obtain repeated or appropriate out-of-office data","Ignore the reading","Start several medications without assessment"],"correctIndex":1,"explanation":"Confirmation includes technique, repeated readings, context, and appropriate out-of-office data."},{"question":"Which presentation needs emergency evaluation?","choices":["Stable elevated BP without symptoms","Severe BP elevation with chest pain and new dyspnea","A request for a home cuff","A routine lifestyle discussion"],"correctIndex":1,"explanation":"Severe elevation with symptoms suggesting acute target-organ injury needs emergency assessment."},{"question":"Which factor is important in hypertension assessment?","choices":["Only the office BP","CV/renal risk, medicines, sleep, alcohol, adherence, and access","Only sodium intake","Only patient age"],"correctIndex":1,"explanation":"Hypertension management is risk- and context-based."},{"question":"Why can apparent treatment failure occur?","choices":["Only medication ineffectiveness","Technique, white-coat effect, access, interfering agents, or secondary causes","Home readings never matter","Follow-up is unnecessary"],"correctIndex":1,"explanation":"Persistent elevation requires reassessment."},{"question":"What should medication counseling include?","choices":["Only the drug name","Purpose, timing, adverse effects, monitoring, and follow-up","Immediate cure promise","No safety information"],"correctIndex":1,"explanation":"Education and monitoring are part of safe management."},{"question":"When should secondary hypertension prompt consultation?","choices":["Never","When pattern or comorbidity suggests an underlying cause","Only after decades","Only if requested"],"correctIndex":1,"explanation":"Complex presentations need targeted evaluation."},{"question":"Why assess NSAID use?","choices":["It is unrelated","It may contribute to BP and renal risk","It replaces renal assessment","It measures adherence"],"correctIndex":1,"explanation":"Medication review can identify contributors."},{"question":"What makes a BP plan patient-centered?","choices":["Identical instructions","Considering comorbidities, access, goals, risks, and monitoring","Avoiding follow-up","One data point"],"correctIndex":1,"explanation":"Individualized plans are safer and feasible."},{"question":"What closes the follow-up loop?","choices":["A prescription","Named monitoring, follow-up timing, ownership, and escalation precautions","A generic portal message","No documentation"],"correctIndex":1,"explanation":"Longitudinal care requires ownership."},{"question":"What is the core FNP approach?","choices":["Treat the number alone","Manage physiology, risk, barriers, response, and safety","Avoid lifestyle discussion","Use emergency care for every reading"],"correctIndex":1,"explanation":"FNP care integrates confirmation, risk, management, and follow-up."}]}
+{
+  "id": 91,
+  "questions": [
+    {
+      "question": "A stable patient has one unexpectedly high office blood-pressure reading after rushing to the clinic. What is the best first FNP action?",
+      "choices": ["Diagnose chronic hypertension immediately", "Repeat the measurement using correct technique and obtain a reliable pattern of readings", "Ignore the result because the patient feels well", "Start several medications before clarifying the measurement"],
+      "correctIndex": 1,
+      "explanation": "One reading is a snapshot. Correct technique, repeated measurement, and appropriate home or out-of-office data help distinguish sustained hypertension from measurement error, transient elevation, or white-coat effect."
+    },
+    {
+      "question": "Which presentation most strongly suggests hypertensive emergency rather than routine outpatient follow-up?",
+      "choices": ["Elevated BP with new focal weakness and difficulty speaking", "Mildly elevated BP after a caffeinated drink with no symptoms", "A patient asking how to use a home cuff", "Longstanding stable readings with a normal examination"],
+      "correctIndex": 0,
+      "explanation": "Marked BP elevation with possible acute neurologic, cardiac, respiratory, renal, aortic, retinal, or pregnancy-related target-organ injury requires emergency evaluation."
+    },
+    {
+      "question": "Why can chronic hypertension contribute to chronic kidney disease?",
+      "choices": ["It permanently improves renal blood flow", "Persistent vascular pressure can injure renal arterioles and nephrons", "It eliminates sodium retention", "It prevents albuminuria"],
+      "correctIndex": 1,
+      "explanation": "Chronic pressure-related vascular injury can damage renal microvasculature and nephrons. Kidney disease can then worsen hypertension through altered sodium handling and neurohormonal activation."
+    },
+    {
+      "question": "Before labeling a patient as having resistant hypertension, which step is essential?",
+      "choices": ["Verify adherence, measurement technique, access, interfering substances, and secondary-cause clues", "Assume the current medicines are ineffective", "Stop all antihypertensives at once", "Exclude all lifestyle and access factors"],
+      "correctIndex": 0,
+      "explanation": "Apparent resistance may reflect pseudoresistance: incorrect cuff use, white-coat effect, missed doses, cost, NSAIDs or other contributors, high sodium exposure, or an unrecognized secondary cause."
+    },
+    {
+      "question": "Which medication or exposure should be specifically reviewed because it can worsen blood-pressure control?",
+      "choices": ["Frequent nonsteroidal anti-inflammatory drug use", "A correctly sized BP cuff", "A written home-monitoring log", "A follow-up appointment"],
+      "correctIndex": 0,
+      "explanation": "NSAIDs, decongestants, stimulants, nicotine, alcohol, some hormonal therapies, corticosteroids, and other substances can raise BP or interfere with treatment."
+    },
+    {
+      "question": "What makes lifestyle counseling clinically useful for hypertension management?",
+      "choices": ["It is specific, feasible, and matched to access, culture, function, and patient priorities", "It consists only of telling every patient to lose weight", "It replaces all reassessment and monitoring", "It should avoid asking about food access or sleep"],
+      "correctIndex": 0,
+      "explanation": "Lifestyle care is active treatment. It should address realistic nutrition, sodium, activity, sleep, tobacco, alcohol, stress, and access barriers rather than offering vague or stigmatizing advice."
+    },
+    {
+      "question": "A patient with CKD starts a medication that affects renal hemodynamics and later has a creatinine or potassium change. What is the FNP principle?",
+      "choices": ["Interpret the change with volume status, timing, indication, symptoms, and monitoring context", "Automatically stop every medication without assessment", "Ignore all laboratory changes", "Assume kidney disease makes BP management unnecessary"],
+      "correctIndex": 0,
+      "explanation": "Kidney and electrolyte changes require context. The correct response may involve reassessment, laboratory follow-up, medication adjustment, or consultation—not an automatic rule applied to every patient."
+    },
+    {
+      "question": "Why must pregnancy status or pregnancy potential be considered in hypertension care?",
+      "choices": ["Pregnancy has no effect on BP assessment or medication safety", "Some therapies and BP patterns require pregnancy-specific safety and obstetric coordination", "Only postpartum patients need BP assessment", "General adult algorithms always apply unchanged in pregnancy"],
+      "correctIndex": 1,
+      "explanation": "Hypertension in pregnancy and postpartum warning symptoms require pregnancy-specific evaluation and treatment choices. Medication safety and urgency differ from general adult care."
+    },
+    {
+      "question": "A patient has uncontrolled BP, loud snoring, daytime sleepiness, and obesity. Which contributor deserves focused assessment?",
+      "choices": ["Sleep-disordered breathing", "A harmless white-coat effect only", "A normal retinal examination", "A single missed meal"],
+      "correctIndex": 0,
+      "explanation": "Obstructive sleep apnea is a common contributor to difficult BP control and cardiovascular risk. It should be considered within a broader assessment of symptoms and comorbidities."
+    },
+    {
+      "question": "Which follow-up plan best represents FNP-level hypertension care after treatment is started or changed?",
+      "choices": ["Define home monitoring, symptom precautions, relevant laboratory checks, result ownership, and a specific reassessment date", "Tell the patient to return only if the medication runs out", "Rely on one future office reading without discussion", "Avoid discussing adverse effects or affordability"],
+      "correctIndex": 0,
+      "explanation": "Safe longitudinal care assigns monitoring and follow-up clearly. It includes readings, symptoms, adverse effects, relevant labs, access, education, and responsibility for reviewing results."
+    }
+  ]
+}
