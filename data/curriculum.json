@@ -23,7 +23,7 @@
       "id": "advanced-primary-care-clinical-management",
       "title": "Phase 4 · Advanced Primary Care Clinical Management",
       "description": "Lessons 91+ · FNP diagnosis-to-management, follow-up, referral & longitudinal care",
-      "lessonIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107]
+      "lessonIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108]
     }
   ],
   "lessons": [
@@ -133,6 +133,7 @@
     {"id": 104, "lessonFile": "data/lessons/lesson-104.json", "quizFile": "data/quizzes/lesson-104.json", "cardTitle": "Lesson 104 · Low Back Pain Management", "summary": "Red flags, differential, imaging stewardship, function, treatment & referral"},
     {"id": 105, "lessonFile": "data/lessons/lesson-105.json", "quizFile": "data/quizzes/lesson-105.json", "cardTitle": "Lesson 105 · Osteoarthritis Management", "summary": "Diagnosis, function, nonoperative care, medication safety & referral"},
     {"id": 106, "lessonFile": "data/lessons/lesson-106.json", "quizFile": "data/quizzes/lesson-106.json", "cardTitle": "Lesson 106 · Osteoporosis & Fracture Prevention", "summary": "Risk screening, DXA, secondary causes, falls, treatment safety & referral"},
-    {"id": 107, "lessonFile": "data/lessons/lesson-107.json", "quizFile": "data/quizzes/lesson-107.json", "cardTitle": "Lesson 107 · Inflammatory Arthritis & RA Management", "summary": "Recognition, septic-joint safety, DMARD monitoring, function & referral"}
+    {"id": 107, "lessonFile": "data/lessons/lesson-107.json", "quizFile": "data/quizzes/lesson-107.json", "cardTitle": "Lesson 107 · Inflammatory Arthritis & RA Management", "summary": "Recognition, septic-joint safety, DMARD monitoring, function & referral"},
+    {"id": 108, "lessonFile": "data/lessons/lesson-108.json", "quizFile": "data/quizzes/lesson-108.json", "cardTitle": "Lesson 108 · Gout & Hyperuricemia Management", "summary": "Acute monoarthritis safety, flare care, urate targets, CKD & follow-up"}
   ]
 }
