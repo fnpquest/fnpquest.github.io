@@ -18,6 +18,12 @@
       "title": "Phase 3 · Advanced Health Assessment & Clinical Diagnostics",
       "description": "Lessons 61+ · FNP assessment, differential diagnosis, diagnostic reasoning & safe disposition",
       "lessonIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+    },
+    {
+      "id": "advanced-primary-care-clinical-management",
+      "title": "Phase 4 · Advanced Primary Care Clinical Management",
+      "description": "Lessons 91+ · FNP diagnosis-to-management, follow-up, referral & longitudinal care",
+      "lessonIds": [91]
     }
   ],
   "lessons": [
@@ -110,6 +116,7 @@
     {"id": 87, "lessonFile": "data/lessons/lesson-87.json", "quizFile": "data/quizzes/lesson-87.json", "cardTitle": "Lesson 87 · Patient Safety, Risk & Error Disclosure", "summary": "Near misses, systems thinking, event response, disclosure & FNP safety culture"},
     {"id": 88, "lessonFile": "data/lessons/lesson-88.json", "quizFile": "data/quizzes/lesson-88.json", "cardTitle": "Lesson 88 · Health Informatics & Clinical Decision Support", "summary": "EHR data quality, decision support, alert fatigue, inbox ownership & FNP safety"},
     {"id": 89, "lessonFile": "data/lessons/lesson-89.json", "quizFile": "data/quizzes/lesson-89.json", "cardTitle": "Lesson 89 · Clinical Leadership & Patient Advocacy", "summary": "Leadership, advocacy, scope, conflict, quality improvement & FNP practice"},
-    {"id": 90, "lessonFile": "data/lessons/lesson-90.json", "quizFile": "data/quizzes/lesson-90.json", "cardTitle": "Lesson 90 · Clinical Reasoning Capstone", "summary": "Problem representation, differential, testing, disposition & FNP integration"}
+    {"id": 90, "lessonFile": "data/lessons/lesson-90.json", "quizFile": "data/quizzes/lesson-90.json", "cardTitle": "Lesson 90 · Clinical Reasoning Capstone", "summary": "Problem representation, differential, testing, disposition & FNP integration"},
+    {"id": 91, "lessonFile": "data/lessons/lesson-91.json", "quizFile": "data/quizzes/lesson-91.json", "cardTitle": "Lesson 91 · Hypertension Management", "summary": "Confirmation, risk, initial management, monitoring, follow-up & FNP safety"}
   ]
 }
