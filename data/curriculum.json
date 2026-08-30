@@ -23,7 +23,7 @@
       "id": "advanced-primary-care-clinical-management",
       "title": "Phase 4 · Advanced Primary Care Clinical Management",
       "description": "Lessons 91+ · FNP diagnosis-to-management, follow-up, referral & longitudinal care",
-      "lessonIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+      "lessonIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110]
     }
   ],
   "lessons": [
@@ -135,6 +135,7 @@
     {"id": 106, "lessonFile": "data/lessons/lesson-106.json", "quizFile": "data/quizzes/lesson-106.json", "cardTitle": "Lesson 106 · Osteoporosis & Fracture Prevention", "summary": "Risk screening, DXA, secondary causes, falls, treatment safety & referral"},
     {"id": 107, "lessonFile": "data/lessons/lesson-107.json", "quizFile": "data/quizzes/lesson-107.json", "cardTitle": "Lesson 107 · Inflammatory Arthritis & RA Management", "summary": "Recognition, septic-joint safety, DMARD monitoring, function & referral"},
     {"id": 108, "lessonFile": "data/lessons/lesson-108.json", "quizFile": "data/quizzes/lesson-108.json", "cardTitle": "Lesson 108 · Gout & Hyperuricemia Management", "summary": "Acute monoarthritis safety, flare care, urate targets, CKD & follow-up"},
-    {"id": 109, "lessonFile": "data/lessons/lesson-109.json", "quizFile": "data/quizzes/lesson-109.json", "cardTitle": "Lesson 109 · Atopic Dermatitis & Rash Safety", "summary": "Eczema assessment, topical safety, infection red flags, triggers & referral"}
+    {"id": 109, "lessonFile": "data/lessons/lesson-109.json", "quizFile": "data/quizzes/lesson-109.json", "cardTitle": "Lesson 109 · Atopic Dermatitis & Rash Safety", "summary": "Eczema assessment, topical safety, infection red flags, triggers & referral"},
+    {"id": 110, "lessonFile": "data/lessons/lesson-110.json", "quizFile": "data/quizzes/lesson-110.json", "cardTitle": "Lesson 110 · Skin Cancer & Suspicious Lesion Management", "summary": "Risk assessment, lesion recognition, biopsy/referral, prevention & safety"}
   ]
 }
