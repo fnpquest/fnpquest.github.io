@@ -1,0 +1,65 @@
+{
+  "id": 114,
+  "questions": [
+    {
+      "question": "Why can a diabetes-related plantar ulcer be painless yet high risk?",
+      "choices": ["Peripheral neuropathy can reduce protective sensation while repetitive pressure continues to damage tissue", "Painless wounds always heal without treatment", "Pain is the only marker of foot infection", "Neuropathy improves perfusion to the foot"],
+      "correctIndex": 0,
+      "explanation": "Loss of protective sensation can hide injury. A patient may continue loading a wound because it does not hurt, allowing pressure and tissue damage to worsen."
+    },
+    {
+      "question": "Which combination best represents the core drivers of many diabetes-related foot ulcers?",
+      "choices": ["Neuropathy, repetitive pressure or deformity, impaired perfusion, skin breakdown, and infection risk", "Only elevated glucose on a single day", "Only a cosmetic nail change", "Only an acute ankle sprain"],
+      "correctIndex": 0,
+      "explanation": "Ulceration often reflects interacting neuropathic, mechanical, vascular, skin-barrier, and infectious factors rather than one isolated cause."
+    },
+    {
+      "question": "What should be documented for a new diabetes-related foot ulcer?",
+      "choices": ["Location, dimensions, depth, wound bed, drainage, periwound findings, infection signs, perfusion, sensation, and functional impact", "Only the patient’s shoe size", "Only the duration of diabetes", "Only whether the wound is painful"],
+      "correctIndex": 0,
+      "explanation": "Objective, repeatable wound and foot documentation allows risk assessment, trend recognition, and safe communication among primary care, podiatry, wound care, vascular, and surgical teams."
+    },
+    {
+      "question": "Why is offloading important for a plantar neuropathic ulcer?",
+      "choices": ["Reducing repetitive mechanical pressure allows injured tissue an opportunity to heal", "Offloading replaces the need to assess infection or perfusion", "Offloading is purely cosmetic", "Offloading is unnecessary when a wound does not hurt"],
+      "correctIndex": 0,
+      "explanation": "If pressure is the driver, dressings and antibiotics alone do not correct the cause. Offloading must be individualized to the ulcer, ischemia, infection, fall risk, and patient circumstances."
+    },
+    {
+      "question": "Which finding in a diabetes-related foot wound most strongly increases concern for ischemia needing timely vascular assessment?",
+      "choices": ["Nonhealing ulcer with dark tissue and diminished pulses", "A healed blister with normal perfusion", "A stable callus without skin breakdown", "A nail trimmed at a routine visit"],
+      "correctIndex": 0,
+      "explanation": "A nonhealing wound, tissue loss, and diminished perfusion findings suggest PAD may be limiting healing. Infection treatment alone may be insufficient when ischemia is present."
+    },
+    {
+      "question": "What is the most accurate statement about diagnosing diabetic foot infection?",
+      "choices": ["It is a clinical diagnosis based on local or systemic inflammatory features, not a culture result alone", "Every chronic ulcer is infected", "A wound culture alone proves infection even without clinical findings", "Antibiotics are indicated for every open ulcer"],
+      "correctIndex": 0,
+      "explanation": "Chronic wounds are often colonized. Treat clinically infected wounds while also evaluating source control, pressure, perfusion, glycemic status, and follow-up."
+    },
+    {
+      "question": "Which presentation should prompt urgent consideration of active Charcot neuro-osteoarthropathy?",
+      "choices": ["New unilateral warm, swollen, red foot in a patient with neuropathy, sometimes with little pain", "A symmetric stable foot shape without symptoms", "A resolved fungal nail infection", "A remote history of an uncomplicated blister"],
+      "correctIndex": 0,
+      "explanation": "A hot swollen neuropathic foot may represent active Charcot change and can be mistaken for cellulitis, gout, sprain, or DVT. Early immobilization/offloading and specialist evaluation are important."
+    },
+    {
+      "question": "When should osteomyelitis be considered in a diabetes-related foot ulcer?",
+      "choices": ["When an ulcer is deep, chronic, recurrent over bone, exposes or approaches bone, or fails to improve as expected", "Only when the patient reports severe pain", "Only after all skin has healed", "Never when a patient has neuropathy"],
+      "correctIndex": 0,
+      "explanation": "Deep, chronic, refractory, or bone-associated ulcers raise concern for osteomyelitis. Evaluation should be targeted and coordinated with the overall wound and limb-preservation plan."
+    },
+    {
+      "question": "What is the priority for a patient with diabetes who has a rapidly worsening foot infection, hypotension, and altered mental status?",
+      "choices": ["Emergency evaluation for severe infection or sepsis with surgical-capable assessment", "Routine follow-up after finishing a topical product", "Delayed reassessment after several weeks", "Self-care only because neuropathy may reduce pain"],
+      "correctIndex": 0,
+      "explanation": "Systemic toxicity and rapidly progressive infection are emergency red flags. The patient needs urgent resuscitation-capable and surgical-capable evaluation, not outpatient management."
+    },
+    {
+      "question": "Which prevention strategy is most appropriate for a patient with diabetes, neuropathy, and prior ulcer history?",
+      "choices": ["Frequent foot surveillance, daily inspection, protective footwear, prompt reporting of changes, and coordinated podiatry or wound-care support", "Stop foot checks once the skin closes", "Walk barefoot indoors to strengthen the feet", "Use caustic products to remove calluses without guidance"],
+      "correctIndex": 0,
+      "explanation": "Prior ulcer plus neuropathy confers ongoing risk. Prevention requires repeat surveillance, self-care support, protective footwear, and early review of new changes."
+    }
+  ]
+}
