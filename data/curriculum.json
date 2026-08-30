@@ -23,7 +23,7 @@
       "id": "advanced-primary-care-clinical-management",
       "title": "Phase 4 · Advanced Primary Care Clinical Management",
       "description": "Lessons 91+ · FNP diagnosis-to-management, follow-up, referral & longitudinal care",
-      "lessonIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118]
+      "lessonIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119]
     }
   ],
   "lessons": [
@@ -144,6 +144,7 @@
     {"id": 115, "lessonFile": "data/lessons/lesson-115.json", "quizFile": "data/quizzes/lesson-115.json", "cardTitle": "Lesson 115 · Diabetic Retinopathy & Vision Threats", "summary": "Screening, acute vision red flags, eye disease triage & referral safety"},
     {"id": 116, "lessonFile": "data/lessons/lesson-116.json", "quizFile": "data/quizzes/lesson-116.json", "cardTitle": "Lesson 116 · Headache, Migraine & Red Flags", "summary": "Primary headache care, secondary causes, imaging stewardship & emergency triage"},
     {"id": 117, "lessonFile": "data/lessons/lesson-117.json", "quizFile": "data/quizzes/lesson-117.json", "cardTitle": "Lesson 117 · Dizziness, Vertigo & Syncope Management", "summary": "Symptom classification, stroke safety, orthostasis, cardiac risk & referral"},
-    {"id": 118, "lessonFile": "data/lessons/lesson-118.json", "quizFile": "data/quizzes/lesson-118.json", "cardTitle": "Lesson 118 · Insomnia, OSA & Sleep Safety", "summary": "Sleep assessment, CBT-I, OSA testing, medication risk & referral"}
+    {"id": 118, "lessonFile": "data/lessons/lesson-118.json", "quizFile": "data/quizzes/lesson-118.json", "cardTitle": "Lesson 118 · Insomnia, OSA & Sleep Safety", "summary": "Sleep assessment, CBT-I, OSA testing, medication risk & referral"},
+    {"id": 119, "lessonFile": "data/lessons/lesson-119.json", "quizFile": "data/quizzes/lesson-119.json", "cardTitle": "Lesson 119 · Depression, Anxiety & Suicide Safety", "summary": "Measurement-based care, differential, treatment, safety planning & referral"}
   ]
 }

@@ -1,0 +1,65 @@
+{
+  "id": 119,
+  "questions": [
+    {
+      "question": "What is the most appropriate interpretation of a positive depression screening result?",
+      "choices": ["It identifies need for further clinical assessment but does not by itself establish a diagnosis", "It establishes a medication plan without interview", "It rules out bipolar-spectrum illness", "It eliminates the need to assess suicide risk"],
+      "correctIndex": 0,
+      "explanation": "Validated questionnaires support case finding and measurement-based follow-up. Diagnosis requires clinical history, functional assessment, differential diagnosis, and safety evaluation."
+    },
+    {
+      "question": "Before starting or escalating an antidepressant, which history is especially important to assess?",
+      "choices": ["Past episodes of decreased need for sleep, increased energy, impulsivity, or unusually elevated or irritable mood", "Only the patient’s preferred pharmacy location", "Whether the patient has ever owned a pet", "A remote childhood vaccination history"],
+      "correctIndex": 0,
+      "explanation": "Symptoms of mania or hypomania can suggest bipolar-spectrum illness and change treatment planning. Psychiatric collaboration may be needed because antidepressant monotherapy can be inappropriate."
+    },
+    {
+      "question": "Which suicide-risk question is most appropriate when clinical concern is present?",
+      "choices": ["Ask directly about suicidal thoughts, plan, intent, access to lethal means, prior behavior, and ability to stay safe", "Avoid mentioning suicide because it could create the idea", "Ask only whether the patient can promise not to self-harm", "Assess risk solely from a questionnaire score"],
+      "correctIndex": 0,
+      "explanation": "Direct, compassionate questions do not create suicidal thoughts and allow a meaningful risk formulation. Risk assessment includes current thoughts, plan, intent, access, history, supports, and context."
+    },
+    {
+      "question": "Which element belongs in a collaborative safety plan?",
+      "choices": ["Personal warning signs, coping strategies, trusted supports, professional resources, and steps to make the environment safer", "A promise never to have difficult thoughts", "Only a future clinic appointment without crisis contacts", "A generic statement that all problems will resolve"],
+      "correctIndex": 0,
+      "explanation": "A safety plan is a specific, practical response plan. It is different from a no-suicide contract because it identifies warning signs, coping, supports, resources, and means-safety steps."
+    },
+    {
+      "question": "Which presentation most clearly requires emergency psychiatric or medical evaluation?",
+      "choices": ["Current suicidal plan with intoxication and inability to maintain safety", "Mild stable anxiety with reliable follow-up", "A patient requesting information about therapy", "Improving sadness after a resolved stressor without safety concern"],
+      "correctIndex": 0,
+      "explanation": "Imminent intent or plan, inability to stay safe, intoxication, severe agitation, psychosis with danger, or inability to care for basic needs warrants emergency-level assessment."
+    },
+    {
+      "question": "Why should the FNP consider medical and substance contributors in a depression assessment?",
+      "choices": ["Sleep disorders, thyroid disease, pain, medications, alcohol, and other substances can contribute to or mimic mood symptoms", "Depression can never coexist with medical illness", "Laboratory testing alone makes the diagnosis", "Medical review is unnecessary when a screen is positive"],
+      "correctIndex": 0,
+      "explanation": "Mood symptoms may reflect or coexist with medical illness, sleep disorders, medication effects, and substance use. Testing should be targeted to the clinical history and examination."
+    },
+    {
+      "question": "A patient reports panic-like episodes with chest tightness and palpitations. What is the safest initial FNP reasoning?",
+      "choices": ["Consider acute medical, medication, and substance causes in context before concluding the symptoms are anxiety alone", "Diagnose panic disorder without assessing current medical risk", "Assume chest symptoms never need evaluation in anxiety", "Avoid asking about caffeine or stimulant exposure"],
+      "correctIndex": 0,
+      "explanation": "Anxiety and medical conditions can overlap. The clinician must evaluate urgent cardiopulmonary, endocrine, medication, and substance possibilities as appropriate while treating genuine anxiety symptoms."
+    },
+    {
+      "question": "What best reflects measurement-based depression and anxiety care after treatment begins?",
+      "choices": ["Reassess symptoms, functioning, adverse effects, adherence, suicidality, emerging mania, and barriers at planned follow-up", "Continue treatment indefinitely without reassessment", "Use symptom scores without asking about daily functioning", "Increase medication after every report of stress without reviewing the diagnosis"],
+      "correctIndex": 0,
+      "explanation": "Follow-up should evaluate both symptoms and function, along with safety, side effects, adherence, co-occurring disorders, and access to psychotherapy or social support."
+    },
+    {
+      "question": "Which statement about protective factors is most accurate in suicide-risk assessment?",
+      "choices": ["They inform the formulation but do not cancel imminent risk from plan, intent, access, or inability to stay safe", "They prove that a patient cannot be suicidal", "They remove the need for a safety plan", "They make intoxication irrelevant to disposition"],
+      "correctIndex": 0,
+      "explanation": "Family, beliefs, future goals, and engagement can be meaningful protective factors, but they do not override acute indicators of danger or replace a safety assessment."
+    },
+    {
+      "question": "In the United States, what resource can be included in a crisis safety plan for immediate suicide or mental-health support?",
+      "choices": ["Call or text 988, or use 988 chat support", "Wait until the next annual examination", "Use only social media comments for crisis counseling", "Avoid involving any professional resource during a crisis"],
+      "correctIndex": 0,
+      "explanation": "In the U.S., the 988 Suicide & Crisis Lifeline provides call, text, and chat support. Imminent danger or medical emergency requires emergency services."
+    }
+  ]
+}
