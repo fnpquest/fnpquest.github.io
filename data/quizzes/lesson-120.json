@@ -1,0 +1,65 @@
+{
+  "id": 120,
+  "questions": [
+    {
+      "question": "What is the most appropriate interpretation of a positive substance-use screening result?",
+      "choices": ["It starts a patient-centered clinical assessment but does not independently establish a substance use disorder diagnosis", "It proves a patient is unwilling to change", "It allows treatment to be withheld until abstinence occurs", "It replaces a history of use, harms, withdrawal, and goals"],
+      "correctIndex": 0,
+      "explanation": "Screening identifies a need for further discussion. SUD diagnosis is based on a clinical pattern of impairment, hazardous use, craving, tolerance, withdrawal, and continued use despite harm."
+    },
+    {
+      "question": "Which finding is most concerning for opioid overdose?",
+      "choices": ["Inability to awaken with slow or shallow breathing and gurgling sounds", "Mild dry mouth after coffee", "A stable old scar without pain", "A brief preference for an earlier bedtime"],
+      "correctIndex": 0,
+      "explanation": "Inability to awaken, dangerously slow breathing, gurgling or choking sounds, limp body, pinpoint pupils, and pale, gray, blue, or ashen color changes can indicate opioid overdose."
+    },
+    {
+      "question": "What is the appropriate immediate response to suspected opioid overdose when naloxone is available?",
+      "choices": ["Give naloxone, call emergency services, support breathing as trained, position safely, and remain until help arrives", "Wait to see whether the person wakes naturally", "Offer fluids and leave the person alone", "Schedule a routine follow-up after the weekend"],
+      "correctIndex": 0,
+      "explanation": "Overdose is an emergency. Naloxone can temporarily reverse opioid effects, but emergency evaluation is still needed because breathing problems or toxicity can recur."
+    },
+    {
+      "question": "Which statement best describes naloxone counseling?",
+      "choices": ["Naloxone is a safety tool that should be discussed for people at opioid-overdose risk and their supports when appropriate", "Naloxone is only for people who identify as having addiction", "Naloxone removes the need to call emergency services", "Naloxone proves a patient has done something wrong"],
+      "correctIndex": 0,
+      "explanation": "Naloxone is an overdose-reversal medication and should be normalized as safety equipment. It does not replace emergency response or comprehensive treatment."
+    },
+    {
+      "question": "Which alcohol history most strongly suggests need for medically supervised withdrawal assessment rather than unsupervised cessation at home?",
+      "choices": ["Prior withdrawal seizure with current tremor and vomiting", "One remote social drink without withdrawal symptoms", "A preference for nonalcoholic beverages", "Stable sleep after a single missed drink"],
+      "correctIndex": 0,
+      "explanation": "Past withdrawal seizures, delirium, severe symptoms, major comorbidity, pregnancy, concurrent sedatives, or unreliable follow-up increase withdrawal risk and may require supervised management."
+    },
+    {
+      "question": "What is the safest principle for a patient with long-term opioid exposure who may have OUD?",
+      "choices": ["Assess withdrawal and overdose risk and create a patient-specific treatment plan rather than abruptly stopping care or medication", "Immediately discontinue all opioids without assessment", "Avoid discussing treatment until the patient has been abstinent for months", "Treat pain complaints as unrelated to health care"],
+      "correctIndex": 0,
+      "explanation": "Abrupt discontinuation or abandonment can increase withdrawal, return to use, overdose, and disengagement. OUD is treatable and requires coordinated, individualized care."
+    },
+    {
+      "question": "Which is an evidence-based medication treatment option for opioid use disorder?",
+      "choices": ["Buprenorphine, methadone, or naltrexone selected for the patient’s clinical context", "Antibiotics alone", "A sleep supplement as the only treatment", "Stopping all treatment after one missed appointment"],
+      "correctIndex": 0,
+      "explanation": "MOUD includes buprenorphine, methadone, and naltrexone. These therapies can reduce cravings, withdrawal, return to use, overdose risk, and treatment dropout when appropriately selected."
+    },
+    {
+      "question": "A patient using stimulants reports chest pain, severe agitation, and shortness of breath. What is the priority?",
+      "choices": ["Emergency assessment for cardiopulmonary, neurologic, and toxicologic complications", "Assume it is anxiety without medical evaluation", "Wait until the next routine substance-use follow-up", "Offer only sleep-hygiene counseling"],
+      "correctIndex": 0,
+      "explanation": "Stimulant-associated chest pain, severe hypertension, arrhythmia, hyperthermia, psychosis, stroke, and myocardial ischemia can be emergencies and require prompt assessment."
+    },
+    {
+      "question": "What does a harm-reduction approach mean in FNP substance-use care?",
+      "choices": ["Offer safety interventions and ongoing care even when the patient is not ready or able to stop using immediately", "Refuse care until the patient promises complete abstinence", "Ignore overdose risk if treatment is declined", "Use punitive language to increase motivation"],
+      "correctIndex": 0,
+      "explanation": "Harm reduction includes overdose prevention, naloxone, interaction safety, infection prevention, and respectful engagement. It keeps people connected to care while goals evolve."
+    },
+    {
+      "question": "What is a warm handoff after identifying a substance use disorder?",
+      "choices": ["Actively connecting the patient to a specific treatment service, communicating the clinical need, and planning follow-up if access fails", "Giving a generic list of phone numbers with no follow-up", "Ending care after providing a diagnosis", "Requiring a negative toxicology test before referral"],
+      "correctIndex": 0,
+      "explanation": "Warm handoffs turn referral into access. Scheduling, communication, barrier planning, and re-engagement after missed visits improve the chance that treatment is actually received."
+    }
+  ]
+}
