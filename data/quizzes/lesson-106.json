@@ -1,0 +1,115 @@
+{
+  "id": 106,
+  "questions": [
+    {
+      "question": "Which patient is included in the USPSTF recommendation for osteoporosis screening?",
+      "choices": [
+        "A woman age 65 years or older",
+        "Every adult regardless of risk",
+        "Only patients after hip fracture",
+        "No postmenopausal women"
+      ],
+      "correctIndex": 0,
+      "explanation": "USPSTF recommends osteoporosis screening for women 65 years or older and for younger postmenopausal women at increased risk."
+    },
+    {
+      "question": "Why is a low-trauma fracture from standing height clinically important?",
+      "choices": [
+        "It can be a fragility-fracture sentinel event requiring bone-health and fall-risk evaluation",
+        "It has no implications after acute care",
+        "It proves every fracture is traumatic",
+        "It replaces the need to assess falls"
+      ],
+      "correctIndex": 0,
+      "explanation": "A low-trauma fracture can indicate elevated future fracture risk and should trigger comprehensive prevention follow-up."
+    },
+    {
+      "question": "What does a DXA T-score provide?",
+      "choices": [
+        "A bone-density comparison with a young-adult reference population",
+        "A complete measure of all fracture risk",
+        "A diagnosis of every secondary cause",
+        "A replacement for fracture history"
+      ],
+      "correctIndex": 0,
+      "explanation": "T-scores help assess bone density but do not replace clinical fracture, fall, or secondary-cause assessment."
+    },
+    {
+      "question": "Which history increases concern for secondary osteoporosis?",
+      "choices": [
+        "Long-term glucocorticoid exposure or endocrine/renal/malabsorption disease",
+        "A stable normal gait",
+        "A remote uncomplicated cold",
+        "Correct medication adherence"
+      ],
+      "correctIndex": 0,
+      "explanation": "Medication exposure and endocrine, renal, malabsorptive, inflammatory, cancer-related, and other conditions can contribute to secondary osteoporosis."
+    },
+    {
+      "question": "Which intervention is part of fracture prevention?",
+      "choices": [
+        "Assess falls, gait, vision, home hazards, medications, balance, and mobility",
+        "Only recommend a supplement",
+        "Avoid all activity",
+        "Ignore sedating medications"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fall prevention requires multifactorial assessment and individualized mobility, home, and medication interventions."
+    },
+    {
+      "question": "Why should osteoporosis treatment be reassessed over time?",
+      "choices": [
+        "Medication response, organ function, adherence, adverse effects, and transition needs can change",
+        "Treatment never needs monitoring",
+        "DXA eliminates every follow-up need",
+        "Only the prescription date matters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Osteoporosis therapies differ in monitoring and discontinuation/transition needs, so ongoing reassessment is essential."
+    },
+    {
+      "question": "Which presentation requires urgent evaluation for possible fracture complication?",
+      "choices": [
+        "Inability to bear weight after a fall with hip pain",
+        "Stable preventive counseling visit",
+        "Improved balance after therapy",
+        "A routine medication refill"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hip pain and inability to bear weight after a fall may indicate a serious fracture requiring urgent assessment."
+    },
+    {
+      "question": "Why should new severe back pain with height loss be evaluated promptly?",
+      "choices": [
+        "It may represent a vertebral compression fracture",
+        "It always reflects normal aging",
+        "It proves supplements are working",
+        "It is unrelated to bone health"
+      ],
+      "correctIndex": 0,
+      "explanation": "New severe back pain and height loss can indicate vertebral fracture and warrant timely evaluation."
+    },
+    {
+      "question": "What is an important therapy-safety question before changing an osteoporosis medication?",
+      "choices": [
+        "What is the indication, administration plan, organ function, adverse-effect context, and transition consequence?",
+        "Can the medication be continued without assessing therapy transition?",
+        "Can follow-up be omitted?",
+        "Does every patient use the same agent?"
+      ],
+      "correctIndex": 0,
+      "explanation": "Safe treatment changes require understanding the drug’s purpose, monitoring, administration, and transition risks."
+    },
+    {
+      "question": "What is the FNP-level osteoporosis principle?",
+      "choices": [
+        "Treat bone density as an isolated number",
+        "Integrate fracture history, secondary causes, DXA/risk, falls, therapy safety, function, and access",
+        "Screen every person the same way",
+        "Wait until a second fracture to act"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-quality osteoporosis care aims to prevent future fracture through individualized, coordinated bone and fall-risk care."
+    }
+  ]
+}
