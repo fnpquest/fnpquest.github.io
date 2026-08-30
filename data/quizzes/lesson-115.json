@@ -1,0 +1,65 @@
+{
+  "id": 115,
+  "questions": [
+    {
+      "question": "Why should a patient with diabetes receive retinal screening even when visual acuity seems normal?",
+      "choices": ["Vision-threatening diabetic retinopathy can be asymptomatic until disease is advanced", "Normal vision excludes all retinal disease", "Retinopathy occurs only after vision declines", "Eye screening is unnecessary if blood pressure is controlled"],
+      "correctIndex": 0,
+      "explanation": "Diabetic retinopathy may have no early symptoms. Timely screening can identify treatable sight-threatening disease before the patient notices visual loss."
+    },
+    {
+      "question": "When is the initial comprehensive eye examination generally recommended for an adult with type 2 diabetes?",
+      "choices": ["At the time of diabetes diagnosis", "Only after ten years of diabetes", "Only after the first visual symptom", "After a cataract operation"],
+      "correctIndex": 0,
+      "explanation": "Type 2 diabetes may be present for years before diagnosis, so retinopathy can already exist. Initial comprehensive eye evaluation is generally recommended at diagnosis."
+    },
+    {
+      "question": "What is the most appropriate role for retinal photography programs in diabetes care?",
+      "choices": ["They can improve screening access when there is trained interpretation and a timely referral pathway for abnormal or ungradable results", "They eliminate the need for any eye-care referral", "They diagnose every cause of vision loss", "They are useful only after permanent visual loss"],
+      "correctIndex": 0,
+      "explanation": "Validated retinal photography can improve access, but abnormal or ungradable images need follow-through to comprehensive eye care. It is part of a system, not a stand-alone endpoint."
+    },
+    {
+      "question": "A patient reports new flashes, a sudden shower of floaters, and a painless curtain over one eye. What is the priority?",
+      "choices": ["Arrange urgent ophthalmic assessment for possible retinal tear or detachment", "Treat as routine dry eye and reassess next month", "Assume pain must occur before retinal disease is possible", "Offer a new glasses prescription without urgent evaluation"],
+      "correctIndex": 0,
+      "explanation": "New flashes and persistent floaters with a curtain or field defect may indicate retinal tear or detachment. Retinal detachment is often painless and needs urgent eye-care evaluation."
+    },
+    {
+      "question": "Which statement best describes a transient monocular curtain-like visual blackout that resolves?",
+      "choices": ["It can be a vascular warning symptom and requires urgent evaluation in clinical context", "Resolution proves no further assessment is needed", "It is always caused by a refractive error", "It is unrelated to stroke risk"],
+      "correctIndex": 0,
+      "explanation": "Transient monocular vision loss can represent amaurosis fugax or another urgent vascular process. Return of vision does not make the event benign."
+    },
+    {
+      "question": "Which finding in a red eye most strongly supports same-day eye-care or emergency evaluation rather than routine conjunctivitis treatment?",
+      "choices": ["Eye pain, photophobia, and reduced vision in a contact-lens wearer", "Mild bilateral itch without visual change", "Brief irritation after removing makeup", "Stable dry-eye symptoms relieved by prescribed lubrication"],
+      "correctIndex": 0,
+      "explanation": "Pain, photophobia, reduced vision, and contact-lens use raise concern for corneal or other sight-threatening disease. Delayed empiric treatment can be unsafe."
+    },
+    {
+      "question": "Why does preexisting diabetes require special eye-care planning during pregnancy?",
+      "choices": ["Retinopathy can develop or worsen during pregnancy, so preconception and early pregnancy assessment may be needed", "Pregnancy prevents diabetic eye disease", "Eye screening should be stopped until after delivery", "Retinopathy can only occur after menopause"],
+      "correctIndex": 0,
+      "explanation": "Patients with preexisting type 1 or type 2 diabetes should receive coordinated eye-care planning before and during pregnancy based on their retinal findings."
+    },
+    {
+      "question": "Which combination reduces risk or slows progression of diabetes-related microvascular complications?",
+      "choices": ["Sustained optimization of glycemia, blood pressure, and lipids with coordinated eye follow-up", "Waiting for major visual loss before treating risk factors", "A single supplement without eye screening", "Stopping all medications when retinal disease is found"],
+      "correctIndex": 0,
+      "explanation": "Systemic risk-factor management helps reduce or slow microvascular complications, while eye specialists direct retina-specific treatment when needed."
+    },
+    {
+      "question": "A patient with diabetes reports gradual blur and glare but no acute warning symptoms. What is the best FNP reasoning step?",
+      "choices": ["Consider retinopathy along with cataract, refractive change, dry eye, glaucoma, medication effects, and macular disease, then arrange appropriate eye evaluation", "Diagnose diabetic retinopathy without eye findings", "Assume all blur is a temporary glucose change", "Ignore symptoms if the patient has no eye pain"],
+      "correctIndex": 0,
+      "explanation": "Blurred vision has a broad differential. The FNP should characterize the symptom and arrange the appropriate eye-care evaluation rather than anchoring on one diagnosis."
+    },
+    {
+      "question": "What is the most important closed-loop action after ordering a diabetes eye examination?",
+      "choices": ["Confirm completion, review the eye-care report, document retinal findings, and record the next follow-up interval", "Assume the patient attended because a referral was placed", "Wait for symptoms before checking the result", "Delete the referral once the appointment is scheduled"],
+      "correctIndex": 0,
+      "explanation": "A referral order alone does not protect vision. Closed-loop care requires completion, report review, documented findings, and a clear future screening or treatment plan."
+    }
+  ]
+}

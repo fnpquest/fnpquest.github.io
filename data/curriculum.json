@@ -23,7 +23,7 @@
       "id": "advanced-primary-care-clinical-management",
       "title": "Phase 4 · Advanced Primary Care Clinical Management",
       "description": "Lessons 91+ · FNP diagnosis-to-management, follow-up, referral & longitudinal care",
-      "lessonIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114]
+      "lessonIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115]
     }
   ],
   "lessons": [
@@ -140,6 +140,7 @@
     {"id": 111, "lessonFile": "data/lessons/lesson-111.json", "quizFile": "data/quizzes/lesson-111.json", "cardTitle": "Lesson 111 · Acne, Rosacea & HS Management", "summary": "Diagnosis, medication safety, scarring prevention, HS care & referral"},
     {"id": 112, "lessonFile": "data/lessons/lesson-112.json", "quizFile": "data/quizzes/lesson-112.json", "cardTitle": "Lesson 112 · Psoriasis & Psoriatic Arthritis Management", "summary": "Skin diagnosis, joint screening, comorbidities, therapy safety & referral"},
     {"id": 113, "lessonFile": "data/lessons/lesson-113.json", "quizFile": "data/quizzes/lesson-113.json", "cardTitle": "Lesson 113 · Skin & Soft-Tissue Infection Management", "summary": "Cellulitis, abscesses, mimics, antimicrobial stewardship & surgical red flags"},
-    {"id": 114, "lessonFile": "data/lessons/lesson-114.json", "quizFile": "data/quizzes/lesson-114.json", "cardTitle": "Lesson 114 · Diabetic Foot & Limb Preservation", "summary": "Neuropathy, ischemia, ulcers, Charcot, infection, offloading & referral"}
+    {"id": 114, "lessonFile": "data/lessons/lesson-114.json", "quizFile": "data/quizzes/lesson-114.json", "cardTitle": "Lesson 114 · Diabetic Foot & Limb Preservation", "summary": "Neuropathy, ischemia, ulcers, Charcot, infection, offloading & referral"},
+    {"id": 115, "lessonFile": "data/lessons/lesson-115.json", "quizFile": "data/quizzes/lesson-115.json", "cardTitle": "Lesson 115 · Diabetic Retinopathy & Vision Threats", "summary": "Screening, acute vision red flags, eye disease triage & referral safety"}
   ]
 }
