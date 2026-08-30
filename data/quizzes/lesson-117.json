@@ -1,0 +1,65 @@
+{
+  "id": 117,
+  "questions": [
+    {
+      "question": "What is the most useful first step when a patient says they are dizzy?",
+      "choices": ["Clarify whether the symptom is vertigo, presyncope, disequilibrium, or nonspecific lightheadedness using timing and triggers", "Assume dizziness means benign positional vertigo", "Order the same imaging study for every patient", "Treat the symptom without asking about onset or associated features"],
+      "correctIndex": 0,
+      "explanation": "Dizziness is a nonspecific word. A time- and trigger-based history plus associated symptoms produces a safer, more focused differential."
+    },
+    {
+      "question": "Which pattern most supports benign paroxysmal positional vertigo when no red flags are present?",
+      "choices": ["Brief spinning episodes consistently triggered by rolling in bed or changing head position", "Continuous vertigo with inability to walk and double vision", "Syncope during exertion without warning", "Sudden unilateral weakness with dizziness"],
+      "correctIndex": 0,
+      "explanation": "BPPV typically causes brief, reproducible position-triggered vertigo. Persistent symptoms, severe gait instability, or neurologic deficits require reassessment for central causes."
+    },
+    {
+      "question": "Which finding with acute vertigo is most concerning for posterior-circulation stroke?",
+      "choices": ["Severe gait instability with double vision and dysarthria", "A few seconds of spinning when turning in bed", "Stable tinnitus without imbalance", "Lightheadedness after skipping breakfast with complete rapid recovery"],
+      "correctIndex": 0,
+      "explanation": "Vertigo plus severe imbalance, diplopia, dysarthria, dysphagia, focal symptoms, or altered consciousness can indicate posterior circulation or brainstem stroke."
+    },
+    {
+      "question": "What is the correct role of the HINTS examination in dizziness evaluation?",
+      "choices": ["It is a specialized examination for selected continuous acute vestibular syndromes and requires correct training and application", "It rules out stroke in every patient who reports dizziness", "It is intended for brief intermittent positional symptoms", "It replaces emergency evaluation when central signs are present"],
+      "correctIndex": 0,
+      "explanation": "HINTS is not a general dizziness screening tool. Incorrect use or use in the wrong syndrome can create false reassurance when stroke evaluation is needed."
+    },
+    {
+      "question": "Which element belongs in the initial evaluation of true syncope?",
+      "choices": ["Detailed history, focused examination, vital signs, and a 12-lead ECG", "Routine neuroimaging for every episode", "A diagnosis based only on the patient’s age", "No medication review if the event lasted less than one minute"],
+      "correctIndex": 0,
+      "explanation": "Guideline-based initial syncope evaluation centers on history, physical examination, heart rate and blood pressure assessment, and ECG, followed by targeted testing when indicated."
+    },
+    {
+      "question": "Which syncopal event is most concerning for a cardiac cause?",
+      "choices": ["Sudden loss of consciousness during exertion with no prodrome", "Faintness after prolonged standing with nausea and visual gray-out", "Brief lightheadedness that improves after sitting in a hot room", "Dizziness only during a familiar BPPV episode"],
+      "correctIndex": 0,
+      "explanation": "Exertional syncope, sudden collapse without prodrome, supine syncope, palpitations, abnormal ECG, or structural heart disease raise concern for cardiac syncope."
+    },
+    {
+      "question": "Which history most supports reflex or vasovagal syncope in an otherwise low-risk patient?",
+      "choices": ["Prolonged standing followed by warmth, nausea, sweating, tunnel vision, and rapid recovery", "Loss of consciousness while lying flat without warning", "Fainting with exertion and chest discomfort", "Sudden collapse followed by persistent focal weakness"],
+      "correctIndex": 0,
+      "explanation": "A situational trigger and recognizable autonomic prodrome are common in reflex syncope. Risk assessment still includes examination, ECG, injury, and comorbidities."
+    },
+    {
+      "question": "Why is medication review essential in a patient with dizziness or syncope?",
+      "choices": ["Cumulative effects of blood-pressure medicines, diuretics, sedatives, substances, and glucose-lowering therapy can contribute to symptoms", "Medication history does not affect syncope risk", "All medications should be stopped immediately after a fainting episode", "Only antibiotics can cause dizziness"],
+      "correctIndex": 0,
+      "explanation": "Medication effects and interactions can contribute to orthostasis, sedation, arrhythmia risk, or hypoglycemia. Changes should be individualized and coordinated safely."
+    },
+    {
+      "question": "A patient with diabetes and neuropathy has a new warm swollen foot and reports imbalance. Which statement is safest?",
+      "choices": ["Do not anchor on dizziness alone; assess gait, neurologic signs, medications, foot pathology, and fall risk in the full clinical context", "Assume all imbalance is a benign inner-ear disorder", "Ignore new foot changes because they cannot affect function", "Treat only with a vestibular medication without examination"],
+      "correctIndex": 0,
+      "explanation": "Dizziness and imbalance can be multifactorial. Neuropathy, foot pathology, medications, neurologic disease, and cardiovascular conditions can all affect gait and safety."
+    },
+    {
+      "question": "What is the most appropriate disposition for acute vertigo with vomiting, double vision, and inability to stand without support?",
+      "choices": ["Emergency stroke-capable evaluation", "Routine outpatient vestibular follow-up in several weeks", "Home repositioning exercises without assessment", "Reassurance because vertigo is always peripheral"],
+      "correctIndex": 0,
+      "explanation": "The combination of acute vestibular symptoms, diplopia, and profound gait instability is concerning for a central neurologic process and requires emergency assessment."
+    }
+  ]
+}
