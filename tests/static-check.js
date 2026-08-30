@@ -62,7 +62,7 @@ for(const file of ["js/app.js","js/lessons.js","js/quiz.js","js/advanced-quiz.js
  if(!fs.existsSync(path.join(root,file)))throw new Error(`Missing ${file}`);
 }
 
-for(const launchFile of ["docs/ACCOUNT_DELETION.md","docs/SUPABASE_SECURITY.md","docs/ANONYMOUS_ANALYTICS.md","supabase/migrations/202608250001_harden_learning_data_rls.sql","supabase/migrations/202608280001_anonymous_usage_analytics.sql","supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql","supabase/migrations/202608290001_anonymous_analytics_v2.sql"]){
+for(const launchFile of ["docs/ACCOUNT_DELETION.md","docs/SUPABASE_SECURITY.md","docs/ANONYMOUS_ANALYTICS.md","supabase/migrations/202608250001_harden_learning_data_rls.sql","supabase/migrations/202608280001_anonymous_usage_analytics.sql","supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql","supabase/migrations/202608290001_anonymous_analytics_v2.sql","supabase/migrations/202608300001_create_analytics_daily_summary_view.sql"]){
  if(!fs.existsSync(path.join(root,launchFile)))throw new Error(`Missing public-launch requirement: ${launchFile}`);
 }
 

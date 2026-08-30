@@ -26,8 +26,30 @@ Apply the migrations in this order in the Supabase SQL Editor or CLI before depl
 1. `supabase/migrations/202608280001_anonymous_usage_analytics.sql`
 2. `supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql`
 3. `supabase/migrations/202608290001_anonymous_analytics_v2.sql`
+4. `supabase/migrations/202608300001_create_analytics_daily_summary_view.sql`
 
 Browser roles receive insert-only access; they cannot read, update, or delete analytics rows. V2 also adds a lightweight 30-events-per-minute-per-browser guardrail for accidental loops. It is not an identity or abuse-prevention system.
+
+## Daily Summary view
+
+After applying the Daily Summary migration, open **Database → Views** in Supabase and select `analytics_daily_summary`. It automatically groups events by Pacific Time day and adds these practical metrics:
+
+- `returning_browsers`: browsers that visited on an earlier date and returned today
+- `new_browsers`: browsers whose first recorded visit is today
+- `sessions` and `study_sessions`: total visits and visits containing a lesson open
+- `learners` and `returning_learners`: browsers that opened a lesson, including prior learners who returned
+- lesson opens, quiz starts, quiz completions, and mixed/advanced-practice completions
+- Facebook, Google, Instagram, LinkedIn, direct, and other-source browser counts
+
+These are anonymous browser estimates, not a count of uniquely identified people. A person using two devices or clearing browser data can appear more than once.
+
+To see the newest day first in the SQL Editor:
+
+```sql
+select *
+from public.analytics_daily_summary
+order by day desc;
+```
 
 ## Dashboard queries
 
