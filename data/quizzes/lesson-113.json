@@ -1,0 +1,65 @@
+{
+  "id": 113,
+  "questions": [
+    {
+      "question": "Which finding most strongly suggests a drainable abscess rather than uncomplicated nonpurulent cellulitis?",
+      "choices": ["A painful fluctuant nodule with a pustular center", "Diffuse warmth without a palpable collection", "Chronic bilateral scaling and itch", "Stable hyperpigmentation around the ankles"],
+      "correctIndex": 0,
+      "explanation": "Fluctuance and a pustular center suggest a localized purulent collection. The primary management question becomes whether source control through drainage is needed."
+    },
+    {
+      "question": "Why is incision and drainage central to management of many cutaneous abscesses?",
+      "choices": ["A localized pus collection requires source control; antibiotics alone may not adequately address it", "Drainage is performed only to identify a rash color", "Every red area needs drainage", "Drainage eliminates the need to assess systemic illness"],
+      "correctIndex": 0,
+      "explanation": "An abscess is a collection of pus. Source control is the key treatment principle, while adjunct antibiotics and culture decisions depend on severity, host factors, and clinical context."
+    },
+    {
+      "question": "Which presentation should make an FNP reconsider a diagnosis of uncomplicated cellulitis before prescribing antibiotics?",
+      "choices": ["Months of bilateral edema, scale, itch, and hyperpigmentation without fever", "An acutely tender unilateral warm expanding area", "New fever with progressive focal tenderness", "A fresh skin break followed by acute unilateral swelling"],
+      "correctIndex": 0,
+      "explanation": "A chronic bilateral pruritic scaling process is more consistent with a venous or inflammatory mimic than typical acute cellulitis. It still deserves assessment and return precautions."
+    },
+    {
+      "question": "Which finding is a major red flag for possible necrotizing soft-tissue infection?",
+      "choices": ["Pain out of proportion with rapid progression and systemic toxicity", "Stable itch that improves with moisturizer", "A healed superficial abrasion without tenderness", "Mild chronic venous pigmentation"],
+      "correctIndex": 0,
+      "explanation": "Severe disproportionate pain, rapidly advancing disease, systemic toxicity, bullae, necrosis, crepitus, or wooden-hard induration can indicate a deep necrotizing infection."
+    },
+    {
+      "question": "What is the appropriate response when necrotizing infection is clinically suspected?",
+      "choices": ["Arrange emergency evaluation and prompt surgical-capable consultation without delaying care for routine imaging", "Schedule a topical therapy follow-up in several weeks", "Wait for a routine outpatient culture before escalation", "Treat with an antibiotic refill and no reassessment"],
+      "correctIndex": 0,
+      "explanation": "Necrotizing infection is time-critical. Surgical evaluation and source control are central, and diagnostic imaging must not delay definitive evaluation when suspicion is high."
+    },
+    {
+      "question": "For a stable patient with typical nonpurulent cellulitis, why are routine surface or blood cultures not always obtained?",
+      "choices": ["They are often low yield in typical uncomplicated presentations; testing is selected for severe, atypical, or high-risk situations", "Cultures can never identify pathogens", "Cellulitis is never an infection", "Cultures are useful only after complete healing"],
+      "correctIndex": 0,
+      "explanation": "Typical cellulitis is commonly diagnosed clinically. Cultures become more useful with severe systemic features, unusual exposures, immunocompromise, treatment failure, or atypical disease."
+    },
+    {
+      "question": "Which action most directly helps prevent recurrent lower-extremity cellulitis?",
+      "choices": ["Evaluate and manage portals of entry such as edema, toe-web fissures, tinea pedis, wounds, and chronic skin disease", "Extend every future antibiotic course automatically", "Avoid examining the feet because the infection is in the leg", "Use broad antibiotics indefinitely"],
+      "correctIndex": 0,
+      "explanation": "Recurrence prevention includes treating the underlying barrier and edema problems. Repeated antibiotics without addressing portals of entry often fails to reduce future episodes."
+    },
+    {
+      "question": "A patient with a foot wound also has diabetes, neuropathy, and peripheral artery disease. What is the most appropriate FNP approach?",
+      "choices": ["Use a structured assessment of wound depth, perfusion, sensation, drainage, infection severity, and follow-up needs", "Treat it exactly as routine uncomplicated cellulitis without examining the foot", "Assume diabetes alone proves the wound is infected", "Ignore ischemia because infection is the only concern"],
+      "correctIndex": 0,
+      "explanation": "Diabetes, neuropathy, ischemia, and ulceration can change presentation and risk. Infection, perfusion, depth, offloading needs, and osteomyelitis risk require deliberate assessment."
+    },
+    {
+      "question": "Which statement best reflects antimicrobial stewardship for skin and soft-tissue infection?",
+      "choices": ["Choose syndrome-directed therapy when indicated, document the reason for broader coverage, and reassess if expected improvement does not occur", "Use the broadest available regimen for every red lesion", "Treat all abscesses with antibiotics alone", "Prescribe a second antibiotic without rechecking the diagnosis"],
+      "correctIndex": 0,
+      "explanation": "Stewardship combines correct diagnosis, source control, targeted therapy, culture when clinically useful, patient-specific safety review, and reassessment rather than reflex escalation."
+    },
+    {
+      "question": "What should be included in an outpatient SSTI follow-up and return plan?",
+      "choices": ["Specific warning signs, expected reassessment timing, wound or drainage instructions, and access to urgent care for progression", "Only the medication name without any instructions", "A promise that worsening cannot happen after treatment begins", "No follow-up because visible redness is always self-limited"],
+      "correctIndex": 0,
+      "explanation": "Follow-up is part of safe prescribing. Patients need clear instructions for spreading erythema, fever, escalating pain, bullae, dark discoloration, systemic symptoms, or lack of expected improvement."
+    }
+  ]
+}
