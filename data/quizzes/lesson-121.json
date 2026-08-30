@@ -1,0 +1,105 @@
+{
+  "id": 121,
+  "questions": [
+    {
+      "question": "Which opening best reflects person-centered reproductive-life-planning care?",
+      "choices": [
+        "Ask every patient whether they intend to become a parent before discussing any other concern",
+        "Ask privately what matters to the patient about pregnancy, pregnancy prevention, or parenting now or in the future, and whether they want to discuss it today",
+        "Recommend the most effective method before asking about the patient’s preferences",
+        "Avoid the topic unless the patient specifically asks for contraception"],
+      "correctIndex": 1,
+      "explanation": "A neutral, private, opt-in question respects reproductive autonomy and avoids assumptions about pregnancy desire, anatomy, identity, relationships, or parenting goals."
+    },
+    {
+      "question": "A patient has a blood pressure of 162/104 and requests a combined estrogen-progestin pill. What is the best FNP response?",
+      "choices": [
+        "Start the combined pill because the patient is younger than 35",
+        "Ignore the reading if the patient has no symptoms",
+        "Do not initiate combined hormonal contraception; assess the hypertension and discuss U.S. MEC-guided non-estrogen options",
+        "Give a three-month refill and recheck blood pressure only if symptoms occur"],
+      "correctIndex": 2,
+      "explanation": "Severe hypertension makes combined hormonal contraception an unacceptable risk. The FNP should address the blood-pressure finding and preserve reproductive choice by discussing safer alternatives."
+    },
+    {
+      "question": "Why does a history of migraine with aura require special caution before prescribing estrogen-containing contraception?",
+      "choices": [
+        "Combined hormonal contraception is an unacceptable-risk option in migraine with aura, so non-estrogen alternatives should be considered using current guidance",
+        "Migraine with aura proves that no contraceptive method can be used",
+        "Aura changes only menstrual bleeding and has no vascular implication",
+        "A patient may use estrogen without assessment if headaches are infrequent"],
+      "correctIndex": 0,
+      "explanation": "Migraine with aura is a high-yield safety condition for combined hormonal contraception. Clarify the neurologic history and use current U.S. MEC guidance rather than treating all headaches as equivalent."
+    },
+    {
+      "question": "A patient requests an IUD, but recent unprotected intercourse means the clinician cannot be reasonably certain the patient is not pregnant. Which statement is most accurate?",
+      "choices": [
+        "A negative urine test today always excludes pregnancy after recent intercourse",
+        "IUD placement is appropriate as long as the patient has no symptoms",
+        "No contraceptive method can be discussed until the next menstrual period",
+        "Defer IUD placement until pregnancy can be reasonably excluded; some non-IUD methods may be quick-started with planned follow-up testing when clinically appropriate"],
+      "correctIndex": 3,
+      "explanation": "A urine pregnancy test has timing limitations. Current CDC guidance distinguishes IUD placement from several non-IUD methods when pregnancy cannot yet be reasonably excluded."
+    },
+    {
+      "question": "An asymptomatic patient at risk for chlamydia and gonorrhea requests an IUD and is due for screening. What is the best general approach?",
+      "choices": [
+        "Delay IUD placement until all screening results return, even if there are no symptoms",
+        "Obtain indicated screening the same day without automatically delaying placement, unless current purulent cervicitis or known active gonorrhea or chlamydia is present",
+        "Avoid all STI screening after IUD placement",
+        "Place the IUD only after giving empiric antibiotics to every patient"],
+      "correctIndex": 1,
+      "explanation": "Same-day screening can often occur without delaying IUD care in an asymptomatic patient. Current purulent cervicitis or known active gonorrhea or chlamydia changes the plan and requires treatment and follow-up."
+    },
+    {
+      "question": "A patient presents three days after condom failure and does not want pregnancy. What is the priority?",
+      "choices": [
+        "Offer time-sensitive emergency-contraception options promptly, assess safety and coercion privately, and create a follow-up and ongoing-contraception plan if desired",
+        "Wait until the next menstrual period before discussing options",
+        "Assume emergency contraception is not useful because a pregnancy test today is negative",
+        "Tell the patient emergency contraception terminates an established pregnancy"],
+      "correctIndex": 0,
+      "explanation": "Emergency contraception is time-sensitive. A pregnancy test today cannot erase the need to respond to recent exposure, and emergency contraception does not terminate an established pregnancy."
+    },
+    {
+      "question": "A patient with diabetes, hypertension, and depression plans pregnancy and asks whether to stop all medications today. What is the safest response?",
+      "choices": [
+        "Stop all medicines immediately because any medication is unsafe in pregnancy",
+        "Continue every medicine unchanged because preconception medication review is unnecessary",
+        "Delay any discussion until a pregnancy test becomes positive",
+        "Reconcile medications, assess disease control and pregnancy potential, then coordinate individualized changes with the relevant prescribers and obstetric specialists when indicated"],
+      "correctIndex": 3,
+      "explanation": "Some medicines need a planned transition, but abrupt discontinuation can cause serious maternal disease destabilization. Preconception care integrates medication safety with chronic-disease control and coordinated follow-up."
+    },
+    {
+      "question": "What folic-acid counseling is appropriate for an average-risk person planning or capable of pregnancy?",
+      "choices": [
+        "Take folic acid only after pregnancy is confirmed",
+        "Avoid folic acid unless there is a family history of neural-tube defects",
+        "Use daily folic acid 0.4 to 0.8 mg, or 400 to 800 micrograms, before conception and during early pregnancy; individualize higher-risk plans",
+        "Use the same high-dose plan for every patient without reviewing risk"],
+      "correctIndex": 2,
+      "explanation": "Current U.S. preventive guidance recommends 400 to 800 micrograms of folic acid daily for average-risk persons planning or capable of pregnancy. Higher-risk dosing requires individualized assessment."
+    },
+    {
+      "question": "Which presentation requires emergency evaluation rather than a routine outpatient contraception follow-up?",
+      "choices": [
+        "Possible pregnancy with severe unilateral pelvic pain, shoulder pain, presyncope, and heavy bleeding",
+        "A patient who wants to compare barrier and hormonal methods",
+        "Mild expected spotting after a recently started method without other symptoms",
+        "A patient asking whether a method can be discontinued"],
+      "correctIndex": 0,
+      "explanation": "Possible or confirmed pregnancy with severe pain, shoulder pain, syncope or presyncope, hypotension, or heavy bleeding raises concern for ectopic pregnancy or another emergency."
+    },
+    {
+      "question": "A patient taking testosterone has pregnancy potential and does not want pregnancy. Which statement is correct?",
+      "choices": [
+        "Testosterone is reliable contraception in all patients",
+        "Testosterone should not be treated as reliable contraception; provide nonjudgmental counseling based on pregnancy potential, goals, anatomy, and preferences",
+        "The topic should not be discussed unless the patient volunteers a gender identity label",
+        "Pregnancy potential can be inferred from appearance and relationship status"],
+      "correctIndex": 1,
+      "explanation": "Testosterone is not reliable contraception. Inclusive reproductive care uses clinically relevant, respectful questions rather than assumptions about identity, anatomy, or sexual practices."
+    }
+  ]
+}

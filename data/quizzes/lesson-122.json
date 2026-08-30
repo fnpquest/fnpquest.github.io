@@ -1,0 +1,105 @@
+{
+  "id": 122,
+  "questions": [
+    {
+      "question": "Which statement best reflects FNP-level medication counseling before or during pregnancy?",
+      "choices": [
+        "Every medication should be stopped as soon as pregnancy is possible",
+        "Medication decisions should compare treatment risk with the risk of untreated disease, timing, patient goals, and available alternatives",
+        "Only prescription medications matter; supplements and over-the-counter products can be ignored",
+        "A medication is either completely safe or completely unsafe for every patient"],
+      "correctIndex": 1,
+      "explanation": "Pregnancy medication counseling is individualized risk-benefit reasoning. Untreated hypertension, seizures, asthma, psychiatric illness, and other conditions can also create serious harm."
+    },
+    {
+      "question": "A patient taking an ACE inhibitor for hypertension and albuminuria hopes to conceive in several months. What is the safest general approach?",
+      "choices": [
+        "Stop the ACE inhibitor today without a replacement plan",
+        "Tell the patient to stop contraception immediately and call after a positive test",
+        "Coordinate a preconception medication transition with the relevant clinicians, maintain disease control, and use reliable contraception until the plan is ready if pregnancy is not yet desired",
+        "Continue the medication without discussing pregnancy timing or blood pressure"],
+      "correctIndex": 2,
+      "explanation": "A potentially concerning medicine may require a planned transition before conception. Abrupt discontinuation without an alternative, monitoring, and follow-up can destabilize hypertension or kidney disease."
+    },
+    {
+      "question": "Why should an FNP ask about supplements, topicals, injections, and over-the-counter products during preconception medication reconciliation?",
+      "choices": [
+        "They never affect pregnancy or interact with prescriptions",
+        "Patients may not recognize these products as medication exposures, yet they can have active ingredients, interactions, or pregnancy-related considerations",
+        "Only products prescribed by an obstetric clinician need to be documented",
+        "Medication reconciliation is unnecessary if the patient feels well"],
+      "correctIndex": 1,
+      "explanation": "A complete reconciliation includes prescription and nonprescription medicines, supplements, herbals, topicals, injections, and substances because each can affect safety or disease control."
+    },
+    {
+      "question": "For many patients with preexisting diabetes planning pregnancy, which preconception glycemic goal is recommended when it can be achieved safely without excessive hypoglycemia?",
+      "choices": [
+        "A1C below 6.5%",
+        "A1C below 9.5%",
+        "Avoid all glucose monitoring until pregnancy is confirmed",
+        "Stop diabetes treatment during attempts to conceive"],
+      "correctIndex": 0,
+      "explanation": "Current ADA guidance recommends glucose as close to normal as safely possible before conception, ideally A1C below 6.5%, while avoiding excessive hypoglycemia. The target must remain individualized."
+    },
+    {
+      "question": "A patient with epilepsy has a positive home pregnancy test and wants to stop antiseizure medication immediately. What is the priority?",
+      "choices": [
+        "Support an unsupervised medication stop because fetal safety is the only concern",
+        "Wait until the next routine visit to discuss the result",
+        "Assess seizure control and urgent symptoms, then arrange prompt coordinated neurology and obstetric review rather than abrupt discontinuation",
+        "Assume any antiseizure medicine is acceptable without review"],
+      "correctIndex": 2,
+      "explanation": "Uncontrolled seizures can be dangerous. Medication decisions in pregnancy require timely, coordinated review; abrupt cessation can increase seizure recurrence and other harm."
+    },
+    {
+      "question": "Which history is most important when counseling a stable patient with bipolar disorder who is considering pregnancy?",
+      "choices": [
+        "Only whether the patient prefers a medication-free pregnancy",
+        "Prior relapse, mania, psychosis, hospitalization, suicidality, response to treatment, sleep, substance use, and supports",
+        "Whether the patient has ever taken a vitamin",
+        "Only the age at which symptoms first occurred"],
+      "correctIndex": 1,
+      "explanation": "Psychiatric medication decisions must incorporate the risk of relapse and the patient’s prior illness severity. Abrupt discontinuation can destabilize serious mental illness."
+    },
+    {
+      "question": "A pregnant patient with asthma reports rapidly worsening shortness of breath, cannot speak comfortably, and has low oxygen saturation. What is the best disposition?",
+      "choices": [
+        "Routine outpatient follow-up after trying sleep hygiene",
+        "Stop all inhalers and wait for symptoms to resolve",
+        "Emergency assessment for respiratory distress",
+        "Defer assessment until after delivery"],
+      "correctIndex": 2,
+      "explanation": "Severe dyspnea, inability to speak comfortably, low oxygen saturation, altered mental status, chest pain, cyanosis, or poor response to rescue therapy can signal an emergency."
+    },
+    {
+      "question": "Which patient most clearly needs expedited obstetric, maternal-fetal medicine, or specialty collaboration before a planned pregnancy?",
+      "choices": [
+        "A patient with significant chronic kidney disease and a complex medication regimen",
+        "A patient asking for general information about reproductive goals with no medical history",
+        "A patient with a stable minor skin irritation that resolved yesterday",
+        "A patient who wants a refill of a nonmedicated skin moisturizer"],
+      "correctIndex": 0,
+      "explanation": "Significant renal, cardiac, thromboembolic, neurologic, endocrine, autoimmune, or psychiatric illness and complex medication exposure may require preconception specialty collaboration."
+    },
+    {
+      "question": "What is the appropriate folic-acid teaching point for an average-risk person planning or capable of pregnancy?",
+      "choices": [
+        "Take folic acid only after a positive pregnancy test",
+        "Use daily folic acid 400 to 800 micrograms before conception and during early pregnancy; individualize higher-risk plans",
+        "Take a high dose without reviewing individual risk",
+        "Avoid folic acid if any chronic disease is present"],
+      "correctIndex": 1,
+      "explanation": "Current U.S. preventive guidance supports daily 400 to 800 micrograms of folic acid for average-risk people planning or capable of pregnancy. Higher-risk dosing needs individualized review."
+    },
+    {
+      "question": "A patient with a positive pregnancy test reports severe headache with visual change and chest pain. What is the most important FNP action?",
+      "choices": [
+        "Classify this as a routine medication-refill question",
+        "Offer reassurance without measuring vital signs",
+        "Wait for a scheduled prenatal visit next month",
+        "Recognize possible pregnancy-related, cardiovascular, or neurologic emergency and arrange urgent evaluation"],
+      "correctIndex": 3,
+      "explanation": "Severe headache or visual change with chest pain in pregnancy can represent serious hypertensive, cardiovascular, neurologic, or other complications and requires urgent evaluation."
+    }
+  ]
+}
