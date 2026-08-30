@@ -1,0 +1,65 @@
+{
+  "id": 111,
+  "questions": [
+    {
+      "question": "Which finding most strongly supports acne vulgaris rather than papulopustular rosacea?",
+      "choices": ["Open and closed comedones on the face", "Persistent central flushing without comedones", "Ocular burning with photophobia", "Telangiectasias limited to the central face"],
+      "correctIndex": 0,
+      "explanation": "Comedones are a key acne clue. Rosacea often has central erythema, flushing, papules, and pustules but does not typically produce comedones."
+    },
+    {
+      "question": "Why should a topical antibiotic generally not be used alone for acne maintenance?",
+      "choices": ["It promotes antimicrobial resistance and should be paired with a resistance-conscious plan such as benzoyl peroxide when appropriate", "It permanently closes follicles", "It prevents all skin irritation", "It eliminates the need for follow-up"],
+      "correctIndex": 0,
+      "explanation": "Acne antibiotic stewardship avoids antibiotic monotherapy and emphasizes combination treatment, limited duration when systemic antibiotics are used, and reassessment."
+    },
+    {
+      "question": "Which patient most clearly warrants timely dermatology consideration for advanced acne treatment?",
+      "choices": ["A patient with painful deep nodules and new acne scars despite appropriate initial therapy", "A patient with one noninflamed comedone and no concern", "A patient requesting a stronger cleanser after one day", "A patient whose acne fully resolved with skin-barrier care"],
+      "correctIndex": 0,
+      "explanation": "Deep nodules and active scarring create risk of permanent physical and psychosocial harm. Waiting through repeated ineffective short trials is not a safe escalation strategy."
+    },
+    {
+      "question": "Before selecting acne medication for a patient who could become pregnant, what is the most appropriate FNP action?",
+      "choices": ["Review pregnancy possibility and medication-specific reproductive safety in a respectful private discussion", "Assume every topical medicine is safe in pregnancy", "Avoid discussing reproductive safety unless the patient asks", "Prescribe isotretinoin without a safety program"],
+      "correctIndex": 0,
+      "explanation": "Acne therapies have different reproductive risks. Treatment should be individualized after an appropriate safety discussion, especially because isotretinoin has major fetal risk."
+    },
+    {
+      "question": "Which additional symptom in a patient with suspected rosacea requires prompt eye evaluation rather than routine skin follow-up alone?",
+      "choices": ["Eye pain, photophobia, or reduced vision", "A preference for fragrance-free moisturizer", "A stable facial freckle", "A remote history of childhood acne"],
+      "correctIndex": 0,
+      "explanation": "Ocular rosacea can involve the eyes. Pain, photophobia, or vision change may signal a condition needing prompt ophthalmic assessment."
+    },
+    {
+      "question": "Which pattern is most characteristic of hidradenitis suppurativa?",
+      "choices": ["Recurrent painful nodules, draining tunnels, and scars in axillae or groin", "A single painless forehead comedone", "A transient central-facial flush after heat exposure", "A one-time superficial abrasion after shaving"],
+      "correctIndex": 0,
+      "explanation": "HS is a chronic inflammatory follicular disease marked by recurrent painful nodules, abscesses, drainage, tunnels, and scars in intertriginous areas."
+    },
+    {
+      "question": "Which statement is the most accurate way to counsel a patient with hidradenitis suppurativa?",
+      "choices": ["HS is a chronic inflammatory disease; it is not caused by poor hygiene and is not contagious", "HS is always cured by a single incision and drainage", "HS occurs only when patients do not wash enough", "HS should never be referred to dermatology"],
+      "correctIndex": 0,
+      "explanation": "Nonstigmatizing counseling is essential. Incision and drainage can sometimes address an acute collection but does not treat the underlying chronic HS process."
+    },
+    {
+      "question": "A patient with known HS reports a rapidly enlarging painful groin lesion, fever, and spreading redness. What is the priority?",
+      "choices": ["Urgently evaluate for serious soft-tissue infection and systemic illness", "Wait for the next routine dermatology visit", "Assume drainage means the flare is benign", "Treat only with a cosmetic skin-care product"],
+      "correctIndex": 0,
+      "explanation": "Fever, spreading erythema, rapid progression, severe pain, or systemic illness can indicate infection requiring urgent assessment."
+    },
+    {
+      "question": "At an acne follow-up visit, which assessment best reflects FNP-level severity evaluation?",
+      "choices": ["Lesion morphology, pain, nodules, scars, treatment tolerance, psychosocial impact, and medication safety", "Only the number of products in the patient’s bathroom", "Only whether the patient washed their face twice daily", "Only the color of the lesions"],
+      "correctIndex": 0,
+      "explanation": "Severity is multidimensional. Scarring risk, pain, emotional burden, adherence, adverse effects, and reproductive safety can all change management and referral urgency."
+    },
+    {
+      "question": "What is the safest overall approach to recurrent intertriginous abscess-like lesions with scars and draining openings?",
+      "choices": ["Recognize possible HS, assess infection red flags and comorbidities, begin stage-appropriate care, and arrange dermatology collaboration when indicated", "Treat every episode as unrelated without examining the distribution", "Avoid discussing pain or quality of life", "Use indefinite antibiotic monotherapy without reassessment"],
+      "correctIndex": 0,
+      "explanation": "The recurrent pattern suggests a chronic disease, not isolated incidents. Safe care combines diagnosis, red-flag assessment, longitudinal management, compassionate communication, and appropriate referral."
+    }
+  ]
+}
