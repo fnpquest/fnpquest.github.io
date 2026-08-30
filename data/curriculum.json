@@ -17,7 +17,7 @@
       "id": "advanced-health-assessment-diagnostics",
       "title": "Phase 3 · Advanced Health Assessment & Clinical Diagnostics",
       "description": "Lessons 61+ · FNP assessment, differential diagnosis, diagnostic reasoning & safe disposition",
-      "lessonIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+      "lessonIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
     }
   ],
   "lessons": [
@@ -99,6 +99,7 @@
     {"id": 76, "lessonFile": "data/lessons/lesson-76.json", "quizFile": "data/quizzes/lesson-76.json", "cardTitle": "Lesson 76 · Pediatric Assessment", "summary": "Fever, respiratory illness, dehydration, rash, development & FNP diagnostic safety"},
     {"id": 77, "lessonFile": "data/lessons/lesson-77.json", "quizFile": "data/quizzes/lesson-77.json", "cardTitle": "Lesson 77 · Geriatric Assessment", "summary": "Frailty, falls, delirium, polypharmacy, function & FNP diagnostic safety"},
     {"id": 78, "lessonFile": "data/lessons/lesson-78.json", "quizFile": "data/quizzes/lesson-78.json", "cardTitle": "Lesson 78 · Urgent Care & Emergency Assessment", "summary": "Triage, red flags, stabilization, escalation & FNP diagnostic safety"},
-    {"id": 79, "lessonFile": "data/lessons/lesson-79.json", "quizFile": "data/quizzes/lesson-79.json", "cardTitle": "Lesson 79 · Preventive Care & Screening Assessment", "summary": "Risk, evidence, screening, prevention, shared decisions & FNP safety"}
+    {"id": 79, "lessonFile": "data/lessons/lesson-79.json", "quizFile": "data/quizzes/lesson-79.json", "cardTitle": "Lesson 79 · Preventive Care & Screening Assessment", "summary": "Risk, evidence, screening, prevention, shared decisions & FNP safety"},
+    {"id": 80, "lessonFile": "data/lessons/lesson-80.json", "quizFile": "data/quizzes/lesson-80.json", "cardTitle": "Lesson 80 · Diagnostic Testing & Interpretation", "summary": "Pretest probability, labs, imaging, uncertainty & FNP diagnostic safety"}
   ]
 }
