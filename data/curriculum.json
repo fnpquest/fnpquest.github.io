@@ -23,7 +23,7 @@
       "id": "advanced-primary-care-clinical-management",
       "title": "Phase 4 · Advanced Primary Care Clinical Management",
       "description": "Lessons 91+ · FNP diagnosis-to-management, follow-up, referral & longitudinal care",
-      "lessonIds": [91, 92]
+      "lessonIds": [91, 92, 93]
     }
   ],
   "lessons": [
@@ -118,6 +118,7 @@
     {"id": 89, "lessonFile": "data/lessons/lesson-89.json", "quizFile": "data/quizzes/lesson-89.json", "cardTitle": "Lesson 89 · Clinical Leadership & Patient Advocacy", "summary": "Leadership, advocacy, scope, conflict, quality improvement & FNP practice"},
     {"id": 90, "lessonFile": "data/lessons/lesson-90.json", "quizFile": "data/quizzes/lesson-90.json", "cardTitle": "Lesson 90 · Clinical Reasoning Capstone", "summary": "Problem representation, differential, testing, disposition & FNP integration"},
     {"id": 91, "lessonFile": "data/lessons/lesson-91.json", "quizFile": "data/quizzes/lesson-91.json", "cardTitle": "Lesson 91 · Hypertension Management", "summary": "Confirmation, risk, initial management, monitoring, follow-up & FNP safety"},
-    {"id": 92, "lessonFile": "data/lessons/lesson-92.json", "quizFile": "data/quizzes/lesson-92.json", "cardTitle": "Lesson 92 · Type 2 Diabetes Management", "summary": "Goals, monitoring, medication selection, complications & FNP safety"}
+    {"id": 92, "lessonFile": "data/lessons/lesson-92.json", "quizFile": "data/quizzes/lesson-92.json", "cardTitle": "Lesson 92 · Type 2 Diabetes Management", "summary": "Goals, monitoring, medication selection, complications & FNP safety"},
+    {"id": 93, "lessonFile": "data/lessons/lesson-93.json", "quizFile": "data/quizzes/lesson-93.json", "cardTitle": "Lesson 93 · Dyslipidemia & ASCVD Risk Management", "summary": "Risk assessment, lipid treatment, prevention, monitoring & FNP safety"}
   ]
 }
