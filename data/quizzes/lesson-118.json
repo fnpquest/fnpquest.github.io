@@ -1,0 +1,65 @@
+{
+  "id": 118,
+  "questions": [
+    {
+      "question": "What best distinguishes chronic insomnia from insufficient sleep opportunity?",
+      "choices": ["Insomnia involves persistent sleep difficulty despite adequate opportunity, while insufficient sleep reflects not having enough time or conditions to sleep", "Insomnia always occurs only in people who work night shifts", "Insufficient sleep cannot cause daytime impairment", "Both diagnoses are confirmed by a wearable device alone"],
+      "correctIndex": 0,
+      "explanation": "The sleep schedule and opportunity matter. A patient who cannot sleep despite adequate opportunity needs a different assessment from one whose work or caregiving schedule prevents adequate sleep."
+    },
+    {
+      "question": "Which intervention is a primary evidence-based treatment for chronic insomnia disorder?",
+      "choices": ["Cognitive behavioral therapy for insomnia (CBT-I)", "Sleep-hygiene advice alone without a structured plan", "Indefinite sedative refills without review", "Avoiding all discussion of sleep schedule and daytime function"],
+      "correctIndex": 0,
+      "explanation": "CBT-I is a structured behavioral treatment for chronic insomnia. Sleep-hygiene education can support care but is generally not a complete intervention by itself."
+    },
+    {
+      "question": "Which symptom cluster should prompt evaluation for obstructive sleep apnea?",
+      "choices": ["Loud habitual snoring, witnessed apneas or gasping, unrefreshing sleep, and daytime sleepiness", "Only a preference for sleeping late on weekends", "An isolated brief leg cramp after exercise", "A stable rash that improves with moisturizer"],
+      "correctIndex": 0,
+      "explanation": "Snoring, witnessed obstruction, gasping, nonrestorative sleep, and sleepiness are common OSA clues. Some patients present more subtly with insomnia, fatigue, mood symptoms, or hypertension."
+    },
+    {
+      "question": "What is the correct role of an OSA screening questionnaire or consumer sleep device?",
+      "choices": ["It can identify risk and support referral, but it does not independently establish an OSA diagnosis", "It replaces a sleep evaluation and diagnostic test", "It proves that any snoring is OSA", "It is used only after sleep treatment has ended"],
+      "correctIndex": 0,
+      "explanation": "Screens and consumer data can support clinical assessment, but diagnosis and treatment decisions require medical evaluation and appropriate interpreted testing."
+    },
+    {
+      "question": "For which patient is in-laboratory polysomnography generally preferred over a home sleep apnea test?",
+      "choices": ["A patient with chronic opioid use and suspected sleep-related hypoventilation", "An uncomplicated adult with high OSA risk and no major comorbidity", "A patient who only wants to know their usual bedtime", "A patient with a normal sleep schedule and no symptoms"],
+      "correctIndex": 0,
+      "explanation": "HSAT is intended for selected uncomplicated adults. Significant cardiopulmonary disease, suspected hypoventilation, neuromuscular weakness, chronic opioid use, stroke history, or severe insomnia often require polysomnography."
+    },
+    {
+      "question": "What should happen when a home sleep apnea test is negative or technically inadequate but clinical suspicion for OSA remains high?",
+      "choices": ["Arrange further appropriate sleep evaluation, often polysomnography", "Conclude that OSA is permanently excluded", "Treat the result as a reason to stop follow-up", "Diagnose primary insomnia without further assessment"],
+      "correctIndex": 0,
+      "explanation": "A negative, inconclusive, or inadequate HSAT does not settle the diagnosis when the clinical syndrome remains concerning. Further testing may be needed."
+    },
+    {
+      "question": "Which sleep-history question addresses an immediate public-safety risk?",
+      "choices": ["Have you nodded off while driving or during a safety-sensitive task?", "What is your preferred pillow color?", "Do you remember every dream?", "Which weekday has the most meetings?"],
+      "correctIndex": 0,
+      "explanation": "Drowsy driving and sleepiness during hazardous tasks can cause injury. Patients should be counseled not to drive or operate dangerous equipment while sleepy and need timely assessment."
+    },
+    {
+      "question": "Why must sedative medication decisions in insomnia include review of alcohol, opioids, OSA risk, fall risk, and next-day driving?",
+      "choices": ["Sedating medicines can cause respiratory suppression, falls, cognitive impairment, and next-day functional harm in vulnerable patients", "Sedatives have no effect outside the nighttime period", "Medication safety review is unnecessary when sleep difficulty is chronic", "All insomnia medicines have the same risk profile"],
+      "correctIndex": 0,
+      "explanation": "Medication selection is individualized. Sedation can be especially dangerous with untreated sleep-disordered breathing, opioids, alcohol, older age, chronic lung disease, and multiple sedating agents."
+    },
+    {
+      "question": "Which symptom pattern warrants sleep-specialty assessment for a possible central hypersomnolence disorder?",
+      "choices": ["Severe daytime sleepiness with emotion-triggered weakness, sleep paralysis, or hallucinations around sleep", "Occasional sleepiness after a single short night", "A preference for one extra pillow", "Mild snoring without daytime symptoms"],
+      "correctIndex": 0,
+      "explanation": "Severe sleepiness with cataplexy-like episodes, sleep paralysis, or hypnagogic hallucinations suggests a disorder that needs specialized diagnostic evaluation."
+    },
+    {
+      "question": "What is the safest initial response to dream enactment that has injured a patient or bed partner?",
+      "choices": ["Create an immediate safe sleep environment and arrange specialty evaluation", "Assume it is harmless because it occurs during sleep", "Add a sedative without a history or safety plan", "Wait until another injury occurs before discussing it"],
+      "correctIndex": 0,
+      "explanation": "Injurious parasomnia requires immediate environmental safety measures and diagnostic evaluation. Medication, neurologic symptoms, substances, and seizure-like events should be reviewed."
+    }
+  ]
+}
