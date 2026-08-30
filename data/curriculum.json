@@ -17,7 +17,7 @@
       "id": "advanced-health-assessment-diagnostics",
       "title": "Phase 3 · Advanced Health Assessment & Clinical Diagnostics",
       "description": "Lessons 61+ · FNP assessment, differential diagnosis, diagnostic reasoning & safe disposition",
-      "lessonIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84]
+      "lessonIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85]
     }
   ],
   "lessons": [
@@ -104,6 +104,7 @@
     {"id": 81, "lessonFile": "data/lessons/lesson-81.json", "quizFile": "data/quizzes/lesson-81.json", "cardTitle": "Lesson 81 · Documentation, Referral & Care Transitions", "summary": "Communication, handoffs, result ownership, referrals & FNP diagnostic safety"},
     {"id": 82, "lessonFile": "data/lessons/lesson-82.json", "quizFile": "data/quizzes/lesson-82.json", "cardTitle": "Lesson 82 · Evidence, Guidelines & Quality Improvement", "summary": "Evidence appraisal, guideline use, diagnostic bias, shared decisions & FNP quality safety"},
     {"id": 83, "lessonFile": "data/lessons/lesson-83.json", "quizFile": "data/quizzes/lesson-83.json", "cardTitle": "Lesson 83 · Population Health, SDOH & Health Equity", "summary": "Health literacy, access, community resources, prevention & equitable FNP care"},
-    {"id": 84, "lessonFile": "data/lessons/lesson-84.json", "quizFile": "data/quizzes/lesson-84.json", "cardTitle": "Lesson 84 · Ethics, Consent & Decision-Making Capacity", "summary": "Autonomy, consent, refusal, capacity, surrogates, privacy & FNP safety"}
+    {"id": 84, "lessonFile": "data/lessons/lesson-84.json", "quizFile": "data/quizzes/lesson-84.json", "cardTitle": "Lesson 84 · Ethics, Consent & Decision-Making Capacity", "summary": "Autonomy, consent, refusal, capacity, surrogates, privacy & FNP safety"},
+    {"id": 85, "lessonFile": "data/lessons/lesson-85.json", "quizFile": "data/quizzes/lesson-85.json", "cardTitle": "Lesson 85 · Telehealth, Digital Health & Remote Monitoring", "summary": "Virtual assessment, remote data, privacy, escalation & FNP diagnostic safety"}
   ]
 }
