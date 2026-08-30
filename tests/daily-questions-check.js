@@ -14,7 +14,8 @@ const retiredHost=["ccesm","github","io"].join(".");
 assert.ok(!sitemap.includes(retiredHost),"Sitemap must not use the retired production URL.");
 assert.ok(robots.includes("Sitemap: https://fnpquest.github.io/sitemap.xml"),"robots.txt must point to the current sitemap.");
 assert.ok(archive.includes("Clinical Question of the Day"),"Archive must contain crawlable Daily Questions text.");
-assert.ok(home.includes('<meta name="google-site-verification" content="">'),"Home page must keep a blank Google Search Console verification placeholder.");
+assert.ok(config.googleSiteVerification,"Google Search Console verification token must be configured when verification is requested.");
+assert.ok(home.includes(`<meta name="google-site-verification" content="${config.googleSiteVerification}">`),"Home page must include the configured Google Search Console verification tag.");
 
 for(const question of questions){
  const relative=`daily-questions/${question.slug}/index.html`;
