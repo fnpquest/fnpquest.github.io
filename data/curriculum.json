@@ -29,7 +29,7 @@
       "id": "family-lifespan-primary-care",
       "title": "Phase 5 · Family & Lifespan Primary Care",
       "description": "Lessons 121+ · Reproductive, pediatric, adolescent, geriatric & family-centered FNP clinical management",
-      "lessonIds": [121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134]
+      "lessonIds": [121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139]
     }
   ],
   "lessons": [
@@ -166,6 +166,11 @@
     {"id": 131, "lessonFile": "data/lessons/lesson-131.json", "quizFile": "data/quizzes/lesson-131.json", "cardTitle": "Lesson 131 · Well-Child Care, Growth & Development", "summary": "Growth trajectories, developmental screening, immunization, prevention & closed-loop care"},
     {"id": 132, "lessonFile": "data/lessons/lesson-132.json", "quizFile": "data/quizzes/lesson-132.json", "cardTitle": "Lesson 132 · Fever in Infants & Children", "summary": "Age-based risk, serious infection, UTI, febrile seizures, persistent fever & disposition"},
     {"id": 133, "lessonFile": "data/lessons/lesson-133.json", "quizFile": "data/quizzes/lesson-133.json", "cardTitle": "Lesson 133 · Pediatric Respiratory Illness", "summary": "Bronchiolitis, croup, asthma, pneumonia, foreign body & respiratory safety"},
-    {"id": 134, "lessonFile": "data/lessons/lesson-134.json", "quizFile": "data/quizzes/lesson-134.json", "cardTitle": "Lesson 134 · Pediatric GI Illness & Dehydration", "summary": "Vomiting, diarrhea, oral rehydration, abdominal pain, obstruction & surgical triage"}
+    {"id": 134, "lessonFile": "data/lessons/lesson-134.json", "quizFile": "data/quizzes/lesson-134.json", "cardTitle": "Lesson 134 · Pediatric GI Illness & Dehydration", "summary": "Vomiting, diarrhea, oral rehydration, abdominal pain, obstruction & surgical triage"},
+    {"id": 135, "lessonFile": "data/lessons/lesson-135.json", "quizFile": "data/quizzes/lesson-135.json", "cardTitle": "Lesson 135 · Pediatric ENT Disorders", "summary": "AOM, otitis externa, strep pharyngitis, sinusitis, stewardship & airway safety"},
+    {"id": 136, "lessonFile": "data/lessons/lesson-136.json", "quizFile": "data/quizzes/lesson-136.json", "cardTitle": "Lesson 136 · Pediatric Urinary & Genital Complaints", "summary": "UTI, specimen quality, voiding dysfunction, hematuria, enuresis & torsion safety"},
+    {"id": 137, "lessonFile": "data/lessons/lesson-137.json", "quizFile": "data/quizzes/lesson-137.json", "cardTitle": "Lesson 137 · Pediatric Rashes & Skin Disorders", "summary": "Eczema, infection, exanthems, purpura, blistering disease & safeguarding"},
+    {"id": 138, "lessonFile": "data/lessons/lesson-138.json", "quizFile": "data/quizzes/lesson-138.json", "cardTitle": "Lesson 138 · The Limping Child & Musculoskeletal Complaints", "summary": "Septic joint, osteomyelitis, occult fracture, SCFE, growth plate & trauma safety"},
+    {"id": 139, "lessonFile": "data/lessons/lesson-139.json", "quizFile": "data/quizzes/lesson-139.json", "cardTitle": "Lesson 139 · Adolescent Health & Confidentiality", "summary": "Private care, mental health, substances, sexual health, eating disorders & transition"}
   ]
 }
