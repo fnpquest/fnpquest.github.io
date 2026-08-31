@@ -1,0 +1,105 @@
+{
+  "id": 124,
+  "questions": [
+    {
+      "question": "Which statement best describes high-quality prenatal care?",
+      "choices": [
+        "A fixed list of tests that is identical for every pregnancy",
+        "A longitudinal system of risk assessment, prevention, screening, education, symptom surveillance, and coordinated follow-up tailored to the patient",
+        "Only fetal heart-tone assessment after the first visit",
+        "Care that can ignore mental health and social barriers when vital signs are normal"],
+      "correctIndex": 1,
+      "explanation": "Prenatal care is ongoing and individualized. Medical, obstetric, mental-health, social, and access needs may change the monitoring and coordination plan over time."
+    },
+    {
+      "question": "Which result is the best example of a prenatal screening result rather than a diagnosis?",
+      "choices": [
+        "A positive cell-free DNA result indicating increased risk for a common fetal aneuploidy",
+        "A diagnostic result from a completed confirmatory procedure interpreted by the appropriate specialist",
+        "A confirmed blood type from a laboratory test",
+        "A measured maternal blood pressure"],
+      "correctIndex": 0,
+      "explanation": "Cell-free DNA is a screening test. A positive result increases risk but does not establish a diagnosis and should lead to counseling and an appropriate diagnostic follow-up pathway."
+    },
+    {
+      "question": "What is the appropriate general approach to prenatal genetic screening and diagnostic testing discussions?",
+      "choices": [
+        "Offer them only to patients older than 35 years",
+        "Discuss and offer screening and diagnostic options to all pregnant patients, while respecting the right to accept or decline",
+        "Order multiple overlapping screening tests simultaneously for every patient",
+        "Assume a negative screen eliminates all genetic and structural risk"],
+      "correctIndex": 1,
+      "explanation": "ACOG recommends discussing and offering prenatal genetic screening and diagnostic testing options to all pregnant patients regardless of age or baseline chromosomal-risk estimate."
+    },
+    {
+      "question": "A patient has a positive cell-free DNA screen. What is the safest next step?",
+      "choices": [
+        "Explain that the fetus definitely has the condition",
+        "Make an irreversible management decision from the screen alone",
+        "Explain that it is a screen, provide support, and coordinate genetic counseling and an appropriate diagnostic-testing pathway",
+        "Ignore the result because cell-free DNA has no clinical value"],
+      "correctIndex": 2,
+      "explanation": "Cell-free DNA is highly sensitive for common aneuploidies but is not diagnostic. A positive result requires careful counseling and an opportunity for confirmatory diagnostic testing."
+    },
+    {
+      "question": "Which patient most clearly needs a tailored prenatal plan and likely expedited obstetric or maternal-fetal medicine collaboration?",
+      "choices": [
+        "A patient with significant chronic kidney disease and chronic hypertension",
+        "A stable patient requesting a printed prenatal-visit schedule",
+        "A patient without symptoms who asks about oral health",
+        "A patient who wants to know the clinic’s phone number"],
+      "correctIndex": 0,
+      "explanation": "Significant kidney disease and chronic hypertension can materially change pregnancy risk, medication planning, and monitoring needs, warranting coordinated obstetric and specialty care."
+    },
+    {
+      "question": "Which prenatal finding should prompt urgent obstetric or emergency evaluation rather than routine education alone?",
+      "choices": [
+        "Persistent severe headache with visual changes, upper abdominal pain, and shortness of breath",
+        "A question about prenatal vitamins",
+        "Interest in a childbirth education class",
+        "A preference for telehealth scheduling when clinically appropriate"],
+      "correctIndex": 0,
+      "explanation": "Severe headache, visual changes, upper abdominal pain, dyspnea, and other warning signs can indicate serious maternal complications and need urgent assessment."
+    },
+    {
+      "question": "What is the best interpretation of the term high-risk pregnancy?",
+      "choices": [
+        "It is a stigmatizing label that should never be used",
+        "It means the patient has already developed a complication",
+        "It identifies a need for closer assessment, monitoring, or specialty support; risk exists on a spectrum and should not be used to shame the patient",
+        "It means primary care can no longer contribute to the patient’s care"],
+      "correctIndex": 2,
+      "explanation": "High-risk pregnancy describes a need for tailored care, not a moral judgment or final diagnosis. The FNP remains important for coordination, prevention, communication, and longitudinal support."
+    },
+    {
+      "question": "Which vaccination statement is correct according to current CDC pregnancy guidance?",
+      "choices": [
+        "Influenza vaccination and Tdap are recommended during every pregnancy; vaccine needs should be individualized by risk and current guidance",
+        "All vaccines are contraindicated during pregnancy",
+        "Live vaccines such as MMR should be given routinely during pregnancy",
+        "Vaccination history is irrelevant once a patient is pregnant"],
+      "correctIndex": 0,
+      "explanation": "CDC recommends influenza vaccination and Tdap during every pregnancy. Some live vaccines, including MMR and varicella, are not given during pregnancy, so current guidance and timing must be verified."
+    },
+    {
+      "question": "What is the best way to implement perinatal depression and anxiety screening?",
+      "choices": [
+        "Screen once at intake with no plan for results",
+        "Use validated screening at the initial prenatal visit, later in pregnancy, and postpartum, with systems for timely assessment, treatment, monitoring, and follow-up",
+        "Avoid screening if the patient appears calm",
+        "Screen only after a patient asks for psychiatric medication"],
+      "correctIndex": 1,
+      "explanation": "Screening needs a response pathway. ACOG supports validated perinatal depression and anxiety screening at initial prenatal, later pregnancy, and postpartum contacts with access to appropriate care."
+    },
+    {
+      "question": "Which action best demonstrates closed-loop prenatal follow-up after an abnormal screening result?",
+      "choices": [
+        "Assume another clinician will see the result",
+        "Tell the patient to search online for meaning",
+        "Document who reviews the result, explain what it does and does not mean, arrange the next evaluation, and confirm how the patient will be contacted",
+        "Wait until the next routine visit regardless of the result"],
+      "correctIndex": 2,
+      "explanation": "Closed-loop care assigns ownership, communicates meaning clearly, establishes the next step, and prevents abnormal results or referrals from being lost to follow-up."
+    }
+  ]
+}

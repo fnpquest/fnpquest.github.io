@@ -1,0 +1,105 @@
+{
+  "id": 123,
+  "questions": [
+    {
+      "question": "A patient has a positive pregnancy test, severe unilateral pelvic pain, shoulder pain, dizziness, and near-syncope. What is the priority?",
+      "choices": [
+        "Emergency evaluation for possible ruptured ectopic pregnancy or another hemorrhagic emergency",
+        "Routine follow-up after the next menstrual period",
+        "Reassurance because vaginal bleeding is only light",
+        "Delay evaluation until a repeat home pregnancy test is available"],
+      "correctIndex": 0,
+      "explanation": "Positive pregnancy with severe pain, shoulder pain, weakness, dizziness, or syncope may indicate ruptured ectopic pregnancy and life-threatening internal bleeding. Minimal vaginal bleeding does not rule out danger."
+    },
+    {
+      "question": "Which statement about ectopic-pregnancy risk is most accurate?",
+      "choices": [
+        "Ectopic pregnancy occurs only after assisted reproduction",
+        "It is ruled out when a patient has no prior pelvic infection or surgery",
+        "Prior ectopic pregnancy, tubal disease, pelvic infection, surgery, infertility, and smoking can increase risk, but many patients have no known risk factors",
+        "Shoulder pain is never related to ectopic pregnancy"],
+      "correctIndex": 2,
+      "explanation": "Risk factors can raise suspicion, but about half of people with ectopic pregnancy have no known risk factors. Absence of risk factors must not end the assessment."
+    },
+    {
+      "question": "What is the best interpretation of first-trimester spotting and cramping?",
+      "choices": [
+        "It proves early pregnancy loss",
+        "It may occur in a viable pregnancy, early loss, ectopic pregnancy, or another condition, so assessment and safety-netting are needed",
+        "It is always normal and needs no follow-up",
+        "It identifies the location of the pregnancy"],
+      "correctIndex": 1,
+      "explanation": "Bleeding and cramping have overlapping causes. They cannot independently determine pregnancy location or viability."
+    },
+    {
+      "question": "Why is a single quantitative serum hCG value insufficient to diagnose pregnancy location or viability?",
+      "choices": [
+        "hCG has no role in early-pregnancy assessment",
+        "One value cannot reliably establish location or trajectory; serial hCG and ultrasound may be needed in clinical context",
+        "A single hCG value confirms a normal intrauterine pregnancy",
+        "hCG testing is only useful after delivery"],
+      "correctIndex": 1,
+      "explanation": "Quantitative hCG is time-linked information. In stable patients with uncertainty, serial values and ultrasound can help clarify pregnancy location and trajectory."
+    },
+    {
+      "question": "A patient has a positive pregnancy test, mild cramping, spotting, and an ultrasound that does not identify a pregnancy location. The patient is stable. Which term and plan are most appropriate?",
+      "choices": [
+        "Confirmed normal intrauterine pregnancy; no follow-up is needed",
+        "Confirmed miscarriage; start treatment immediately",
+        "Pregnancy of unknown location; arrange a specific serial hCG and repeat-ultrasound pathway with explicit emergency precautions",
+        "Ectopic pregnancy is excluded because the patient is stable"],
+      "correctIndex": 2,
+      "explanation": "Pregnancy of unknown location is a safety status, not a final diagnosis. It can represent early intrauterine pregnancy, early loss, or ectopic pregnancy and requires closed-loop follow-up."
+    },
+    {
+      "question": "Why should a clinician obtain diagnostic certainty before treating suspected early pregnancy loss when the patient is stable?",
+      "choices": [
+        "Bleeding and cramping can overlap with viable intrauterine pregnancy and ectopic pregnancy, so premature treatment can cause harm",
+        "Early pregnancy loss can be confirmed by symptoms alone",
+        "Ultrasound and serial testing have no role in diagnostic uncertainty",
+        "Patient preference is irrelevant once bleeding occurs"],
+      "correctIndex": 0,
+      "explanation": "Before treatment, viable intrauterine pregnancy and ectopic pregnancy must be considered. History, examination, ultrasound, and serial hCG may be needed to reach sufficient certainty."
+    },
+    {
+      "question": "A stable patient with early pregnancy bleeding has a history of anticoagulant use and increasing pad use. What additional FNP concern is most important?",
+      "choices": [
+        "Bleeding severity and hemorrhage risk may be increased, so assess urgency and arrange appropriate evaluation rather than treating the visit as routine",
+        "Anticoagulant use has no relevance to pregnancy bleeding",
+        "The patient should stop anticoagulation independently at home",
+        "Only fetal sex determines the urgency"],
+      "correctIndex": 0,
+      "explanation": "Anticoagulant exposure, heavy bleeding, anemia symptoms, or hemodynamic change can increase concern for hemorrhage. Medication changes require coordinated, patient-specific management."
+    },
+    {
+      "question": "Which action best demonstrates closed-loop care for a stable patient with pregnancy of unknown location?",
+      "choices": [
+        "Tell the patient to return if worried, without arranging testing",
+        "Document who reviews each result, when repeat testing occurs, how the patient will be reached, and which symptoms require emergency care",
+        "Assume the patient will schedule follow-up independently",
+        "Avoid discussing emergency precautions to reduce anxiety"],
+      "correctIndex": 1,
+      "explanation": "Pregnancy of unknown location can become dangerous if follow-up is missed. Closed-loop plans assign responsibility, timing, communication, and explicit return precautions."
+    },
+    {
+      "question": "Which statement about early-pregnancy physical examination is most appropriate?",
+      "choices": [
+        "A pelvic examination should be forced before any care can be provided",
+        "Examination findings alone can rule out ectopic pregnancy",
+        "In a stable patient, examination should be purposeful, consent-based, and trauma-informed; in an unstable patient, it must not delay emergency transfer",
+        "No vital signs are needed when the pregnancy test is positive"],
+      "correctIndex": 2,
+      "explanation": "The examination should answer a clinical question and respect consent. Vital signs and stability come first, and unstable patients need emergency care without avoidable delay."
+    },
+    {
+      "question": "Which patient statement requires the clearest immediate emergency safety instruction?",
+      "choices": [
+        "I have a small amount of spotting and no pain",
+        "I have a positive test, my pain suddenly became severe, and I feel like I may faint",
+        "I would like to discuss prenatal vitamins next month",
+        "I need a copy of my prior laboratory results"],
+      "correctIndex": 1,
+      "explanation": "Sudden severe pain with presyncope after a positive pregnancy test is an emergency pattern. The patient should seek immediate emergency evaluation and not drive if feeling faint or unstable."
+    }
+  ]
+}

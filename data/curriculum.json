@@ -29,7 +29,7 @@
       "id": "family-lifespan-primary-care",
       "title": "Phase 5 · Family & Lifespan Primary Care",
       "description": "Lessons 121+ · Reproductive, pediatric, adolescent, geriatric & family-centered FNP clinical management",
-      "lessonIds": [121, 122]
+      "lessonIds": [121, 122, 123, 124]
     }
   ],
   "lessons": [
@@ -154,6 +154,8 @@
     {"id": 119, "lessonFile": "data/lessons/lesson-119.json", "quizFile": "data/quizzes/lesson-119.json", "cardTitle": "Lesson 119 · Depression, Anxiety & Suicide Safety", "summary": "Measurement-based care, differential, treatment, safety planning & referral"},
     {"id": 120, "lessonFile": "data/lessons/lesson-120.json", "quizFile": "data/quizzes/lesson-120.json", "cardTitle": "Lesson 120 · Substance Use & Harm Reduction", "summary": "SUD assessment, overdose/withdrawal safety, MOUD, recovery & referral"},
     {"id": 121, "lessonFile": "data/lessons/lesson-121.json", "quizFile": "data/quizzes/lesson-121.json", "cardTitle": "Lesson 121 · Reproductive Life Planning & Preconception Care", "summary": "Shared decision-making, contraceptive safety, preconception care & referral"},
-    {"id": 122, "lessonFile": "data/lessons/lesson-122.json", "quizFile": "data/quizzes/lesson-122.json", "cardTitle": "Lesson 122 · Medication Safety & Chronic Disease Optimization", "summary": "Pregnancy risk-benefit reasoning, medication transitions, chronic disease & referral"}
+    {"id": 122, "lessonFile": "data/lessons/lesson-122.json", "quizFile": "data/quizzes/lesson-122.json", "cardTitle": "Lesson 122 · Medication Safety & Chronic Disease Optimization", "summary": "Pregnancy risk-benefit reasoning, medication transitions, chronic disease & referral"},
+    {"id": 123, "lessonFile": "data/lessons/lesson-123.json", "quizFile": "data/quizzes/lesson-123.json", "cardTitle": "Lesson 123 · Early Pregnancy Assessment & Ectopic Safety", "summary": "Bleeding, pelvic pain, pregnancy of unknown location, serial testing & emergency triage"},
+    {"id": 124, "lessonFile": "data/lessons/lesson-124.json", "quizFile": "data/quizzes/lesson-124.json", "cardTitle": "Lesson 124 · Routine Prenatal Care & Risk Stratification", "summary": "Prenatal screening, prevention, maternal risk, coordination & warning signs"}
   ]
 }
