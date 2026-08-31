@@ -29,7 +29,7 @@
       "id": "family-lifespan-primary-care",
       "title": "Phase 5 · Family & Lifespan Primary Care",
       "description": "Lessons 121+ · Reproductive, pediatric, adolescent, geriatric & family-centered FNP clinical management",
-      "lessonIds": [121, 122, 123, 124]
+      "lessonIds": [121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134]
     }
   ],
   "lessons": [
@@ -156,6 +156,16 @@
     {"id": 121, "lessonFile": "data/lessons/lesson-121.json", "quizFile": "data/quizzes/lesson-121.json", "cardTitle": "Lesson 121 · Reproductive Life Planning & Preconception Care", "summary": "Shared decision-making, contraceptive safety, preconception care & referral"},
     {"id": 122, "lessonFile": "data/lessons/lesson-122.json", "quizFile": "data/quizzes/lesson-122.json", "cardTitle": "Lesson 122 · Medication Safety & Chronic Disease Optimization", "summary": "Pregnancy risk-benefit reasoning, medication transitions, chronic disease & referral"},
     {"id": 123, "lessonFile": "data/lessons/lesson-123.json", "quizFile": "data/quizzes/lesson-123.json", "cardTitle": "Lesson 123 · Early Pregnancy Assessment & Ectopic Safety", "summary": "Bleeding, pelvic pain, pregnancy of unknown location, serial testing & emergency triage"},
-    {"id": 124, "lessonFile": "data/lessons/lesson-124.json", "quizFile": "data/quizzes/lesson-124.json", "cardTitle": "Lesson 124 · Routine Prenatal Care & Risk Stratification", "summary": "Prenatal screening, prevention, maternal risk, coordination & warning signs"}
+    {"id": 124, "lessonFile": "data/lessons/lesson-124.json", "quizFile": "data/quizzes/lesson-124.json", "cardTitle": "Lesson 124 · Routine Prenatal Care & Risk Stratification", "summary": "Prenatal screening, prevention, maternal risk, coordination & warning signs"},
+    {"id": 125, "lessonFile": "data/lessons/lesson-125.json", "quizFile": "data/quizzes/lesson-125.json", "cardTitle": "Lesson 125 · Hypertensive Disorders of Pregnancy", "summary": "Classification, preeclampsia prevention, severe features, postpartum risk & emergency triage"},
+    {"id": 126, "lessonFile": "data/lessons/lesson-126.json", "quizFile": "data/quizzes/lesson-126.json", "cardTitle": "Lesson 126 · Gestational Diabetes", "summary": "Screening, glucose patterns, maternal-fetal risk, treatment safety & postpartum prevention"},
+    {"id": 127, "lessonFile": "data/lessons/lesson-127.json", "quizFile": "data/quizzes/lesson-127.json", "cardTitle": "Lesson 127 · Preterm Labor, PROM & Fetal-Movement Safety", "summary": "Preterm symptoms, membrane rupture, bleeding, infection, fetal movement & obstetric triage"},
+    {"id": 128, "lessonFile": "data/lessons/lesson-128.json", "quizFile": "data/quizzes/lesson-128.json", "cardTitle": "Lesson 128 · Postpartum Care & Maternal Complications", "summary": "Fourth-trimester recovery, hemorrhage, hypertension, VTE, mental health & care transition"},
+    {"id": 129, "lessonFile": "data/lessons/lesson-129.json", "quizFile": "data/quizzes/lesson-129.json", "cardTitle": "Lesson 129 · Lactation & Newborn Feeding", "summary": "Milk transfer, newborn intake, mastitis, persistent mass, medication safety & dyad care"},
+    {"id": 130, "lessonFile": "data/lessons/lesson-130.json", "quizFile": "data/quizzes/lesson-130.json", "cardTitle": "Lesson 130 · Newborn Assessment & Transition Safety", "summary": "Early follow-up, feeding, weight, bilirubin, screening, safe sleep & urgent triage"},
+    {"id": 131, "lessonFile": "data/lessons/lesson-131.json", "quizFile": "data/quizzes/lesson-131.json", "cardTitle": "Lesson 131 · Well-Child Care, Growth & Development", "summary": "Growth trajectories, developmental screening, immunization, prevention & closed-loop care"},
+    {"id": 132, "lessonFile": "data/lessons/lesson-132.json", "quizFile": "data/quizzes/lesson-132.json", "cardTitle": "Lesson 132 · Fever in Infants & Children", "summary": "Age-based risk, serious infection, UTI, febrile seizures, persistent fever & disposition"},
+    {"id": 133, "lessonFile": "data/lessons/lesson-133.json", "quizFile": "data/quizzes/lesson-133.json", "cardTitle": "Lesson 133 · Pediatric Respiratory Illness", "summary": "Bronchiolitis, croup, asthma, pneumonia, foreign body & respiratory safety"},
+    {"id": 134, "lessonFile": "data/lessons/lesson-134.json", "quizFile": "data/quizzes/lesson-134.json", "cardTitle": "Lesson 134 · Pediatric GI Illness & Dehydration", "summary": "Vomiting, diarrhea, oral rehydration, abdominal pain, obstruction & surgical triage"}
   ]
 }

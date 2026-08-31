@@ -1,0 +1,115 @@
+{
+  "id": 128,
+  "questions": [
+    {
+      "question": "Which model best reflects current postpartum care?",
+      "choices": [
+        "An ongoing process with early contact and a comprehensive assessment individualized by 12 weeks",
+        "One mandatory visit exactly six weeks after delivery for every patient",
+        "Care only when a complication occurs",
+        "Infant care without maternal assessment"
+      ],
+      "correctIndex": 0,
+      "explanation": "Postpartum care is a process, not a single encounter. Timing and frequency should reflect medical, mental-health, feeding, recovery, and social risk."
+    },
+    {
+      "question": "Two weeks postpartum, a patient is soaking a pad in an hour, passing large clots, and feels faint. What is the priority?",
+      "choices": [
+        "Routine follow-up next month",
+        "Reassurance that all lochia is heavy",
+        "A home pregnancy test",
+        "Emergency hemorrhage evaluation and safe transport"
+      ],
+      "correctIndex": 3,
+      "explanation": "Heavy bleeding with large clots and presyncope may represent secondary postpartum hemorrhage and requires emergency assessment."
+    },
+    {
+      "question": "Which postpartum presentation should raise concern for peripartum cardiomyopathy?",
+      "choices": [
+        "A stable healing incision",
+        "Mild thirst after exercise",
+        "Progressive dyspnea, orthopnea, edema, and marked exercise intolerance",
+        "Brief fatigue after one interrupted night of sleep"
+      ],
+      "correctIndex": 2,
+      "explanation": "Progressive heart-failure symptoms postpartum require urgent cardiopulmonary assessment. They should not be dismissed as normal fatigue."
+    },
+    {
+      "question": "Which finding suggests postpartum endometritis?",
+      "choices": [
+        "Isolated mild breast fullness before feeding",
+        "Fever, uterine tenderness, foul-smelling lochia, and systemic illness",
+        "A stable scar without pain",
+        "Normal improving lochia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fever, uterine tenderness, foul discharge, and illness are concerning for uterine infection and need prompt obstetric assessment and treatment."
+    },
+    {
+      "question": "What makes postpartum psychosis an emergency?",
+      "choices": [
+        "Mania, hallucinations, delusions, confusion, or harm risk can rapidly endanger parent and infant",
+        "It always resolves after one nap",
+        "It is identical to normal early emotional lability",
+        "Screening should be postponed for several months"
+      ],
+      "correctIndex": 0,
+      "explanation": "Postpartum psychosis can progress rapidly and carries suicide and infant-harm risk. Emergency psychiatric evaluation and safe supervision are required."
+    },
+    {
+      "question": "Which statement about postpartum preeclampsia is correct?",
+      "choices": [
+        "It is impossible once the placenta is delivered",
+        "It requires proteinuria in every presentation",
+        "It can be managed only at the annual physical",
+        "It can first present after delivery with severe headache, visual symptoms, dyspnea, or severe hypertension"
+      ],
+      "correctIndex": 3,
+      "explanation": "Preeclampsia may first appear postpartum. Neurologic, respiratory, abdominal, seizure, or severe-pressure findings require emergency assessment."
+    },
+    {
+      "question": "Why is contraception counseling part of postpartum safety?",
+      "choices": [
+        "Every patient should receive the same method",
+        "Pregnancy cannot occur in the first year postpartum",
+        "Ovulation can precede the first menses, and method safety depends on timing, VTE risk, BP, lactation, and goals",
+        "Breastfeeding always prevents pregnancy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fertility can return before menses. Shared decision-making should use current method eligibility and the patient's goals and risk factors."
+    },
+    {
+      "question": "What is the best approach to medication use during lactation?",
+      "choices": [
+        "Rely only on the package color",
+        "Use current drug-specific evidence, infant factors, and the indication before changing essential therapy",
+        "Stop all maternal medication automatically",
+        "Assume every medicine is completely safe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lactation safety is drug- and infant-specific. Evidence sources such as LactMed and coordinated maternal-infant care support informed decisions."
+    },
+    {
+      "question": "Why should a history of GDM or preeclampsia remain visible in primary care?",
+      "choices": [
+        "These complications predict later metabolic or cardiovascular risk and require ongoing prevention",
+        "They have no relevance after 12 weeks",
+        "They should be removed to reduce stigma",
+        "They affect only the infant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregnancy complications provide a window into future health. Primary care should continue BP, diabetes, lipid, lifestyle, and future-pregnancy risk management."
+    },
+    {
+      "question": "What is the most patient-centered response to missed postpartum visits caused by insurance loss and childcare?",
+      "choices": [
+        "Label the patient noncompliant and close care",
+        "Delay all care until insurance returns",
+        "Discuss only infant feeding",
+        "Address access, offer feasible contact options, and reconnect the patient without blame"
+      ],
+      "correctIndex": 3,
+      "explanation": "Postpartum barriers are often structural. Flexible scheduling, telehealth when appropriate, coordination, and combined services improve safety and equity."
+    }
+  ]
+}

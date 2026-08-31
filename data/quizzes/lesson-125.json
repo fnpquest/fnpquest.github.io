@@ -1,0 +1,115 @@
+{
+  "id": 125,
+  "questions": [
+    {
+      "question": "A patient develops new hypertension at 30 weeks without proteinuria or other end-organ findings. Which classification is most appropriate initially?",
+      "choices": [
+        "Gestational hypertension, with continued evaluation for evolving preeclampsia",
+        "Chronic hypertension by definition",
+        "Normal pregnancy physiology",
+        "Postpartum preeclampsia"
+      ],
+      "correctIndex": 0,
+      "explanation": "New hypertension after 20 weeks without proteinuria or qualifying organ dysfunction is initially classified as gestational hypertension, but it can evolve and requires obstetric surveillance."
+    },
+    {
+      "question": "Which statement about proteinuria and preeclampsia is most accurate?",
+      "choices": [
+        "A negative urine dipstick permanently excludes preeclampsia",
+        "Proteinuria alone determines every delivery decision",
+        "Protein testing replaces symptom assessment",
+        "Proteinuria is not required when qualifying maternal organ dysfunction or severe features are present"
+      ],
+      "correctIndex": 3,
+      "explanation": "Preeclampsia may be diagnosed without proteinuria when defined end-organ findings are present. Urine testing must be integrated with symptoms, blood pressure, labs, gestational age, and fetal status."
+    },
+    {
+      "question": "Which presentation requires immediate obstetric emergency evaluation?",
+      "choices": [
+        "A request for nutrition counseling",
+        "Mild ankle swelling without other symptoms and normal evaluation",
+        "Severe blood pressure with persistent headache and visual change",
+        "A stable home pressure log within the established plan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Severe hypertension with neurologic symptoms may represent preeclampsia with severe features and carries stroke and seizure risk. Emergency obstetric assessment is required."
+    },
+    {
+      "question": "A patient with chronic hypertension develops new proteinuria and rising liver enzymes after 20 weeks. What should the FNP suspect?",
+      "choices": [
+        "Isolated white-coat hypertension",
+        "Superimposed preeclampsia",
+        "Resolution of chronic hypertension",
+        "Normal hemodilution only"
+      ],
+      "correctIndex": 1,
+      "explanation": "New preeclamptic findings in a patient with chronic hypertension raise concern for superimposed preeclampsia and require prompt obstetric evaluation."
+    },
+    {
+      "question": "Which patient is among those at high risk for whom current guidance supports consideration of low-dose aspirin prevention after 12 weeks?",
+      "choices": [
+        "A patient with prior preeclampsia or chronic hypertension",
+        "Every pregnant patient regardless of history",
+        "Only patients with seasonal allergies",
+        "A patient who is already postpartum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prior preeclampsia, chronic hypertension, multifetal pregnancy, pregestational diabetes, kidney disease, and autoimmune disease are high-risk factors. Prevention should follow current guidance and the prenatal plan."
+    },
+    {
+      "question": "Why can a normal initial laboratory panel fail to end the evaluation of a symptomatic patient?",
+      "choices": [
+        "Laboratory tests are never useful",
+        "Only fetal testing matters",
+        "Symptoms cannot precede laboratory changes",
+        "Preeclampsia can evolve, and serial clinical assessment may be needed when symptoms or pressure remain concerning"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pregnancy-related hypertensive disease is dynamic. Persistent or worsening symptoms require reassessment and appropriate obstetric disposition even if initial tests are reassuring."
+    },
+    {
+      "question": "Ten days postpartum, a patient has severe headache, dyspnea, and facial swelling. What is the safest action?",
+      "choices": [
+        "Schedule a routine annual physical",
+        "Recommend repeated home checks for several days before calling",
+        "Arrange emergency evaluation for postpartum hypertensive and cardiopulmonary complications",
+        "Reassure because delivery is complete"
+      ],
+      "correctIndex": 2,
+      "explanation": "Preeclampsia and other life-threatening complications can first present postpartum. Severe headache and dyspnea require immediate evaluation."
+    },
+    {
+      "question": "What is the best approach to an unexpected high blood-pressure reading during pregnancy?",
+      "choices": [
+        "Delay all action until the next prenatal month",
+        "Repeat with correct technique while simultaneously assessing symptoms and urgency",
+        "Ignore it if the patient feels well",
+        "Use an unvalidated wrist cuff as the final value"
+      ],
+      "correctIndex": 1,
+      "explanation": "Accurate technique matters, but confirmation must not delay escalation when symptoms, severe pressure, or instability indicate urgent disease."
+    },
+    {
+      "question": "Which symptom cluster most strongly reflects possible hepatic involvement in preeclampsia?",
+      "choices": [
+        "Right-upper-quadrant or epigastric pain with abnormal liver studies",
+        "Isolated nasal congestion",
+        "Mild wrist discomfort after typing",
+        "Stable appetite with normal examination"
+      ],
+      "correctIndex": 0,
+      "explanation": "Severe epigastric or right-upper-quadrant pain and elevated transaminases may reflect hepatic involvement and are high-risk preeclamptic findings."
+    },
+    {
+      "question": "What longitudinal action remains important after a pregnancy complicated by preeclampsia?",
+      "choices": [
+        "Remove hypertension history after six weeks",
+        "Avoid discussing future pregnancy",
+        "Stop all medication without review",
+        "Transition to primary care for blood-pressure and long-term cardiovascular-risk follow-up"
+      ],
+      "correctIndex": 3,
+      "explanation": "Preeclampsia identifies increased future cardiovascular risk. Postpartum transition should include BP monitoring, medication review, primary-care follow-up, and future-pregnancy counseling."
+    }
+  ]
+}

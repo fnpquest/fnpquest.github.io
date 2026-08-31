@@ -1,0 +1,115 @@
+{
+  "id": 127,
+  "questions": [
+    {
+      "question": "Which statement best defines preterm labor?",
+      "choices": [
+        "Labor with cervical change before 37 weeks",
+        "Any back pain during pregnancy",
+        "Rupture of membranes after term only",
+        "Every painless uterine tightening"
+      ],
+      "correctIndex": 0,
+      "explanation": "Preterm labor involves uterine contractions associated with cervical change before 37 weeks. Symptoms require obstetric assessment because history alone cannot confirm cervical change."
+    },
+    {
+      "question": "A patient at 30 weeks reports pelvic pressure, low backache, and frequent tightening. What is the safest plan?",
+      "choices": [
+        "Wait for the next monthly prenatal visit",
+        "Diagnose Braxton Hicks by telephone",
+        "Recommend strenuous activity to test whether symptoms resolve",
+        "Arrange prompt labor-and-delivery assessment"
+      ],
+      "correctIndex": 3,
+      "explanation": "This symptom cluster can represent preterm labor. Prompt obstetric evaluation preserves opportunities for diagnosis and gestational-age-specific intervention."
+    },
+    {
+      "question": "Why is a routine digital cervical examination avoided when membrane rupture is possible?",
+      "choices": [
+        "It prevents fluid leakage",
+        "It replaces sterile speculum assessment",
+        "It can increase ascending infection risk and shorten latency",
+        "It always confirms fetal lung maturity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Digital examination can introduce organisms and is generally avoided until the obstetric team determines it is necessary, especially with possible preterm membrane rupture."
+    },
+    {
+      "question": "Which presentation raises concern for intraamniotic infection after membrane rupture?",
+      "choices": [
+        "A healed skin abrasion",
+        "Fever, uterine tenderness, foul fluid, and maternal or fetal tachycardia",
+        "Stable clear discharge without fever or pain",
+        "Isolated mild heartburn"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fever, uterine tenderness, foul fluid, and tachycardia are concerning for infection and require urgent hospital obstetric management."
+    },
+    {
+      "question": "Why can placental abruption be present even when visible bleeding is limited?",
+      "choices": [
+        "Hemorrhage may be concealed behind the placenta",
+        "Abruption never causes bleeding",
+        "Blood pressure always rises before pain",
+        "Fetal status cannot be affected"
+      ],
+      "correctIndex": 0,
+      "explanation": "Abruption can produce concealed hemorrhage, uterine pain or tenderness, frequent contractions, and fetal compromise despite limited external blood loss."
+    },
+    {
+      "question": "A patient says fetal movement is much lower than their usual pattern. What is the best response?",
+      "choices": [
+        "Reassure because some movement was felt yesterday",
+        "Wait until the next scheduled visit",
+        "Use an office Doppler alone to rule out fetal compromise",
+        "Direct prompt obstetric assessment rather than relying on one universal kick number"
+      ],
+      "correctIndex": 3,
+      "explanation": "A meaningful decrease from the patient's established movement pattern is an urgent warning sign. A single heart-tone check does not replace appropriate fetal assessment."
+    },
+    {
+      "question": "What is the best first interpretation of persistent clear fluid leakage at 33 weeks?",
+      "choices": [
+        "A condition that can wait several days",
+        "Proof of active labor without examination",
+        "Possible preterm prelabor rupture of membranes requiring obstetric evaluation",
+        "Normal urine leakage until proven otherwise at home"
+      ],
+      "correctIndex": 2,
+      "explanation": "Persistent leakage may represent PPROM. Timely evaluation is needed to assess membrane status, infection, labor, gestational age, and fetal condition."
+    },
+    {
+      "question": "Why does gestational age need to be established early in obstetric triage?",
+      "choices": [
+        "It replaces maternal vital signs",
+        "It changes neonatal risk, treatment opportunities, transfer needs, and delivery planning",
+        "It is relevant only after birth",
+        "It determines whether bleeding is visible"
+      ],
+      "correctIndex": 1,
+      "explanation": "Management of preterm symptoms depends heavily on gestational age, including potential corticosteroids, neuroprotection, neonatal capability, and delivery decisions."
+    },
+    {
+      "question": "Which action best reflects the FNP boundary in possible preterm birth?",
+      "choices": [
+        "Recognize urgency and transfer to obstetric care for protocol-based cervical, fetal, and treatment decisions",
+        "Prescribe all tocolytics by telephone",
+        "Perform repeated digital examinations in a general clinic",
+        "Delay referral until fetal fibronectin is available"
+      ],
+      "correctIndex": 0,
+      "explanation": "The FNP identifies the risk and correct setting. Specialized testing and interventions depend on obstetric protocols, contraindications, membrane status, and fetal assessment."
+    },
+    {
+      "question": "What makes an obstetric triage referral closed-loop?",
+      "choices": [
+        "Telling the patient to go somewhere without a destination",
+        "Placing a referral for next month",
+        "Assuming another clinician received the message",
+        "Documenting the destination, handoff, transport plan, arrival or result, and follow-up ownership"
+      ],
+      "correctIndex": 3,
+      "explanation": "Closed-loop triage confirms where the patient is going, how they will arrive, that the receiving team understands the concern, and who follows results."
+    }
+  ]
+}

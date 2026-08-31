@@ -1,0 +1,115 @@
+{
+  "id": 129,
+  "questions": [
+    {
+      "question": "Which finding provides the strongest evidence that a newborn is transferring enough milk?",
+      "choices": [
+        "A combined pattern of swallowing, adequate output, satiety, and appropriate weight trajectory",
+        "Feeding for exactly ten minutes",
+        "Parent breast fullness alone",
+        "A newborn who never wakes to feed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adequacy is assessed through the whole dyad: effective swallowing, output, infant behavior, hydration, and weight—not duration or frequency alone."
+    },
+    {
+      "question": "A five-day-old is difficult to wake, increasingly jaundiced, has few wet diapers, and continues losing weight. What is the best action?",
+      "choices": [
+        "Recommend waiting one week",
+        "Assess only maternal nipple pain",
+        "Assume cluster feeding explains all findings",
+        "Arrange same-day pediatric evaluation of feeding, hydration, bilirubin, and weight"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sleepiness, poor output, jaundice, and ongoing weight loss may indicate inadequate intake or illness and require prompt newborn assessment plus feeding support."
+    },
+    {
+      "question": "Which approach is most appropriate for persistent nipple pain?",
+      "choices": [
+        "Use aggressive nipple scrubbing",
+        "Stop all feeding without assessment",
+        "Assess latch, trauma, pump fit, dermatitis, vasospasm, infection, and infant function",
+        "Tell the patient pain is always normal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Persistent pain has multiple possible causes. A focused parent-infant assessment guides treatment and protects feeding goals."
+    },
+    {
+      "question": "Which advice is safest for inflammatory mastitis symptoms?",
+      "choices": [
+        "Delay assessment despite fever and systemic illness",
+        "Use gentle physiologic milk removal and clinical assessment; avoid aggressive deep massage",
+        "Deeply knead the breast repeatedly",
+        "Stop all milk removal in every case"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aggressive massage may worsen edema and tissue injury. Management should assess severity, support physiologic milk removal, and address bacterial infection or abscess when indicated."
+    },
+    {
+      "question": "A breast mass persists after mastitis symptoms resolve. What should happen next?",
+      "choices": [
+        "Prompt diagnostic breast evaluation, commonly beginning with ultrasound",
+        "Repeat antibiotics indefinitely without examination",
+        "Assume lactation makes cancer impossible",
+        "Wait until breastfeeding ends regardless of duration"
+      ],
+      "correctIndex": 0,
+      "explanation": "A persistent mass requires imaging and possible further evaluation. Lactation must not delay diagnosis of abscess, galactocele, or malignancy."
+    },
+    {
+      "question": "What is the best principle for prescribing during lactation?",
+      "choices": [
+        "Stop every essential maternal medicine",
+        "Assume all drugs enter milk at a dangerous level",
+        "Use only package labeling without clinical context",
+        "Use current drug-specific evidence and consider infant age, health, dose, route, and untreated maternal disease"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lactation medication decisions are individualized. LactMed and other current evidence help balance infant exposure with the risk of untreated maternal illness."
+    },
+    {
+      "question": "Which vitamin D plan generally applies to breastfed or partially breastfed newborns?",
+      "choices": [
+        "Use an adult high-dose tablet for the infant",
+        "Rely on unprotected sun exposure",
+        "Provide 400 IU daily beginning in the first days unless an evidence-based alternative plan is made",
+        "No vitamin D is needed before age five"
+      ],
+      "correctIndex": 2,
+      "explanation": "Current CDC/AAP guidance supports 400 IU daily for breastfed and partially breastfed infants beginning shortly after birth, with careful product dosing."
+    },
+    {
+      "question": "Which formula-safety instruction is essential?",
+      "choices": [
+        "Use any unverified homemade recipe",
+        "Use the exact water-to-powder ratio and never dilute formula to extend supply",
+        "Add extra water whenever the infant is thirsty",
+        "Save unfinished room-temperature bottles all day"
+      ],
+      "correctIndex": 1,
+      "explanation": "Incorrect dilution can cause dangerous electrolyte and nutrition problems. Preparation, storage, water, and equipment instructions must be followed exactly."
+    },
+    {
+      "question": "How should an FNP respond when a family chooses combination feeding?",
+      "choices": [
+        "Provide nonjudgmental support for infant intake, milk supply goals, safe preparation, and sustainable follow-up",
+        "Refuse further lactation support",
+        "Assume the family lacks commitment",
+        "Hide formula-safety information"
+      ],
+      "correctIndex": 0,
+      "explanation": "Patient-centered feeding care supports informed goals and safety. Combination feeding may be appropriate and still benefits from skilled lactation and formula guidance."
+    },
+    {
+      "question": "Which situation requires emergency rather than routine lactation follow-up?",
+      "choices": [
+        "Questions about returning to work in two months",
+        "Mild breast fullness before a feed",
+        "A request to review pump-flange fit",
+        "A cyanotic, poorly arousable newborn with breathing difficulty"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cyanosis, poor arousal, and respiratory distress are neonatal emergencies. Feeding assessment must never delay stabilization and emergency pediatric care."
+    }
+  ]
+}

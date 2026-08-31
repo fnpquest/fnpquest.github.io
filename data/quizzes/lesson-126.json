@@ -1,0 +1,115 @@
+{
+  "id": 126,
+  "questions": [
+    {
+      "question": "Why does gestational diabetes commonly emerge later in pregnancy?",
+      "choices": [
+        "Placental hormones increase insulin resistance and pancreatic compensation may become insufficient",
+        "The fetal pancreas stops producing insulin",
+        "Pregnancy permanently eliminates beta-cell function in everyone",
+        "Glucose can no longer cross the placenta"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pregnancy progressively increases insulin resistance. GDM develops when maternal insulin secretion cannot adequately compensate for that physiologic demand."
+    },
+    {
+      "question": "What does the USPSTF recommend for asymptomatic pregnant persons regarding GDM screening?",
+      "choices": [
+        "Never screen without symptoms",
+        "Screen only after delivery",
+        "Use a home meter value as the sole diagnostic test",
+        "Screen at 24 weeks of gestation or later"
+      ],
+      "correctIndex": 3,
+      "explanation": "The USPSTF recommends screening asymptomatic pregnant persons at 24 weeks or later. Earlier testing has a different evidence context and may target overt diabetes in higher-risk patients."
+    },
+    {
+      "question": "A practice uses a two-step GDM protocol. An elevated screening challenge should generally lead to what next step?",
+      "choices": [
+        "No follow-up if the patient feels well",
+        "Combining thresholds from several unrelated protocols",
+        "The protocol-specified diagnostic oral glucose tolerance test",
+        "An automatic diagnosis from the screening test alone in every case"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a two-step strategy, an abnormal screening challenge is followed by the specified diagnostic test. Interpretation must use one coherent validated protocol."
+    },
+    {
+      "question": "Why can marked hyperglycemia early in pregnancy change the clinical classification?",
+      "choices": [
+        "It eliminates congenital-risk considerations",
+        "It may represent previously unrecognized overt pregestational diabetes rather than classic GDM",
+        "All early hyperglycemia is normal",
+        "It proves the meter is defective"
+      ],
+      "correctIndex": 1,
+      "explanation": "Substantial dysglycemia early in pregnancy may reflect preexisting diabetes, which changes counseling, surveillance, and management."
+    },
+    {
+      "question": "Which GDM plan best reflects patient-centered medical nutrition therapy?",
+      "choices": [
+        "Adequate pregnancy nutrition with individualized carbohydrate distribution, culture, access, and glucose response",
+        "Severe calorie restriction for every patient",
+        "Eliminating all carbohydrates",
+        "Ignoring food insecurity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nutrition care should support pregnancy needs and glycemic goals without punishment or unsafe restriction. Culture, budget, schedule, and access determine feasibility."
+    },
+    {
+      "question": "Which presentation requires urgent evaluation in a patient with GDM?",
+      "choices": [
+        "A request for a new glucose log",
+        "One meal with a modestly different carbohydrate amount",
+        "A routine supply refill with stable readings",
+        "Persistent vomiting, abdominal pain, rapid breathing, and inability to hydrate"
+      ],
+      "correctIndex": 3,
+      "explanation": "Vomiting, abdominal pain, respiratory change, and dehydration may indicate serious metabolic illness, including ketoacidosis, and require urgent obstetric/emergency assessment."
+    },
+    {
+      "question": "Why should fetal and neonatal planning be included in GDM care?",
+      "choices": [
+        "GDM affects only the maternal laboratory report",
+        "Newborn glucose cannot be affected by pregnancy glucose",
+        "Maternal glucose can drive fetal hyperinsulinemia, excessive growth, and neonatal hypoglycemia",
+        "Maternal insulin always crosses the placenta in large amounts"
+      ],
+      "correctIndex": 2,
+      "explanation": "Maternal glucose crosses the placenta and can stimulate fetal insulin production, influencing growth and neonatal glucose transition after birth."
+    },
+    {
+      "question": "What makes a home glucose-monitoring plan complete?",
+      "choices": [
+        "Using expired strips to reduce cost",
+        "Correct technique, timing, targets, supply access, hypoglycemia instructions, and a named reviewer",
+        "Recording values without anyone reviewing them",
+        "Changing medication after every single value"
+      ],
+      "correctIndex": 1,
+      "explanation": "Monitoring is useful only when technique is reliable, the patient knows what values mean, supplies are available, and someone is responsible for timely review and action."
+    },
+    {
+      "question": "What is an important postpartum action after gestational diabetes?",
+      "choices": [
+        "Arrange postpartum glucose testing and continued lifelong diabetes screening",
+        "Assume diabetes risk ends with placental delivery",
+        "Delete GDM from the medical history",
+        "Stop every glucose-lowering medicine without reconciliation"
+      ],
+      "correctIndex": 0,
+      "explanation": "GDM substantially increases later type 2 diabetes risk. Postpartum testing, ongoing screening, medication reconciliation, and prevention are required."
+    },
+    {
+      "question": "A patient misses postpartum testing because of childcare and loss of insurance. What is the best FNP response?",
+      "choices": [
+        "Discharge the patient for nonadherence",
+        "Wait until another pregnancy",
+        "Assume normal glucose because symptoms are absent",
+        "Re-engage without blame, arrange appropriate testing now, and address access barriers"
+      ],
+      "correctIndex": 3,
+      "explanation": "Missed postpartum care is often a systems and access problem. FNP care closes the gap, assesses current risk, and creates a feasible longitudinal plan."
+    }
+  ]
+}
