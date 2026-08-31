@@ -29,7 +29,7 @@
       "id": "family-lifespan-primary-care",
       "title": "Phase 5 · Family & Lifespan Primary Care",
       "description": "Lessons 121+ · Reproductive, pediatric, adolescent, geriatric & family-centered FNP clinical management",
-      "lessonIds": [121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139]
+      "lessonIds": [121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
     }
   ],
   "lessons": [
@@ -171,6 +171,17 @@
     {"id": 136, "lessonFile": "data/lessons/lesson-136.json", "quizFile": "data/quizzes/lesson-136.json", "cardTitle": "Lesson 136 · Pediatric Urinary & Genital Complaints", "summary": "UTI, specimen quality, voiding dysfunction, hematuria, enuresis & torsion safety"},
     {"id": 137, "lessonFile": "data/lessons/lesson-137.json", "quizFile": "data/quizzes/lesson-137.json", "cardTitle": "Lesson 137 · Pediatric Rashes & Skin Disorders", "summary": "Eczema, infection, exanthems, purpura, blistering disease & safeguarding"},
     {"id": 138, "lessonFile": "data/lessons/lesson-138.json", "quizFile": "data/quizzes/lesson-138.json", "cardTitle": "Lesson 138 · The Limping Child & Musculoskeletal Complaints", "summary": "Septic joint, osteomyelitis, occult fracture, SCFE, growth plate & trauma safety"},
-    {"id": 139, "lessonFile": "data/lessons/lesson-139.json", "quizFile": "data/quizzes/lesson-139.json", "cardTitle": "Lesson 139 · Adolescent Health & Confidentiality", "summary": "Private care, mental health, substances, sexual health, eating disorders & transition"}
+    {"id": 139, "lessonFile": "data/lessons/lesson-139.json", "quizFile": "data/quizzes/lesson-139.json", "cardTitle": "Lesson 139 · Adolescent Health & Confidentiality", "summary": "Private care, mental health, substances, sexual health, eating disorders & transition"},
+    {"id": 140, "lessonFile": "data/lessons/lesson-140.json", "quizFile": "data/quizzes/lesson-140.json", "cardTitle": "Lesson 140 · Comprehensive Geriatric Assessment", "summary": "Function, frailty, falls, delirium, medications, caregiver capacity & older-adult safety"},
+    {"id": 141, "lessonFile": "data/lessons/lesson-141.json", "quizFile": "data/quizzes/lesson-141.json", "cardTitle": "Lesson 141 · Cognitive Change, Dementia & Delirium", "summary": "Time course, cognitive evaluation, dementia patterns, capacity, treatment & safety planning"},
+    {"id": 142, "lessonFile": "data/lessons/lesson-142.json", "quizFile": "data/quizzes/lesson-142.json", "cardTitle": "Lesson 142 · Polypharmacy & Deprescribing", "summary": "Medication reconciliation, geriatric risk, prescribing cascades, tapering & follow-up safety"},
+    {"id": 143, "lessonFile": "data/lessons/lesson-143.json", "quizFile": "data/quizzes/lesson-143.json", "cardTitle": "Lesson 143 · Falls, Gait, Balance & Mobility", "summary": "Fall mechanism, injury triage, gait assessment, exercise, prevention & safe mobility"},
+    {"id": 144, "lessonFile": "data/lessons/lesson-144.json", "quizFile": "data/quizzes/lesson-144.json", "cardTitle": "Lesson 144 · Urinary Incontinence, LUTS & Bladder Safety", "summary": "Continence types, retention, bladder training, medication safety, red flags & referral"},
+    {"id": 145, "lessonFile": "data/lessons/lesson-145.json", "quizFile": "data/quizzes/lesson-145.json", "cardTitle": "Lesson 145 · Weight Loss, Malnutrition & Dysphagia", "summary": "Nutrition assessment, sarcopenia, swallowing safety, refeeding risk & recovery"},
+    {"id": 146, "lessonFile": "data/lessons/lesson-146.json", "quizFile": "data/quizzes/lesson-146.json", "cardTitle": "Lesson 146 · Elder Mistreatment, Neglect & Safety", "summary": "Private assessment, injury documentation, capacity, reporting, APS & protection"},
+    {"id": 147, "lessonFile": "data/lessons/lesson-147.json", "quizFile": "data/quizzes/lesson-147.json", "cardTitle": "Lesson 147 · Advance Care Planning, Palliative Care & Hospice", "summary": "Capacity, directives, POLST, prognosis, symptom care, hospice & goal-concordant planning"},
+    {"id": 148, "lessonFile": "data/lessons/lesson-148.json", "quizFile": "data/quizzes/lesson-148.json", "cardTitle": "Lesson 148 · Care Transitions & Post-Hospital Recovery", "summary": "Discharge safety, medication reconciliation, pending results, function, services & continuity"},
+    {"id": 149, "lessonFile": "data/lessons/lesson-149.json", "quizFile": "data/quizzes/lesson-149.json", "cardTitle": "Lesson 149 · Hearing, Vision, Driving & Community Mobility", "summary": "Sensory emergencies, rehabilitation, falls, driver assessment, reporting & mobility"},
+    {"id": 150, "lessonFile": "data/lessons/lesson-150.json", "quizFile": "data/quizzes/lesson-150.json", "cardTitle": "Lesson 150 · Geriatric Primary Care Capstone", "summary": "Multimorbidity, patient priorities, evidence, treatment burden, function & integrated care"}
   ]
 }
