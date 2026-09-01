@@ -30,6 +30,12 @@
       "title": "Phase 5 · Family & Lifespan Primary Care",
       "description": "Lessons 121+ · Reproductive, pediatric, adolescent, geriatric & family-centered FNP clinical management",
       "lessonIds": [121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+    },
+    {
+      "id": "evidence-professional-practice",
+      "title": "Phase 6 · Evidence-Based Practice & Professional FNP Practice",
+      "description": "Lessons 151+ · Evidence appraisal, quality, safety, ethics, policy, informatics & professional practice",
+      "lessonIds": [151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165]
     }
   ],
   "lessons": [
@@ -182,6 +188,21 @@
     {"id": 147, "lessonFile": "data/lessons/lesson-147.json", "quizFile": "data/quizzes/lesson-147.json", "cardTitle": "Lesson 147 · Advance Care Planning, Palliative Care & Hospice", "summary": "Capacity, directives, POLST, prognosis, symptom care, hospice & goal-concordant planning"},
     {"id": 148, "lessonFile": "data/lessons/lesson-148.json", "quizFile": "data/quizzes/lesson-148.json", "cardTitle": "Lesson 148 · Care Transitions & Post-Hospital Recovery", "summary": "Discharge safety, medication reconciliation, pending results, function, services & continuity"},
     {"id": 149, "lessonFile": "data/lessons/lesson-149.json", "quizFile": "data/quizzes/lesson-149.json", "cardTitle": "Lesson 149 · Hearing, Vision, Driving & Community Mobility", "summary": "Sensory emergencies, rehabilitation, falls, driver assessment, reporting & mobility"},
-    {"id": 150, "lessonFile": "data/lessons/lesson-150.json", "quizFile": "data/quizzes/lesson-150.json", "cardTitle": "Lesson 150 · Geriatric Primary Care Capstone", "summary": "Multimorbidity, patient priorities, evidence, treatment burden, function & integrated care"}
+    {"id": 150, "lessonFile": "data/lessons/lesson-150.json", "quizFile": "data/quizzes/lesson-150.json", "cardTitle": "Lesson 150 · Geriatric Primary Care Capstone", "summary": "Multimorbidity, patient priorities, evidence, treatment burden, function & integrated care"},
+    {"id": 151, "lessonFile": "data/lessons/lesson-151.json", "quizFile": "data/quizzes/lesson-151.json", "cardTitle": "Lesson 151 · Evidence-Based Practice Foundations", "summary": "Clinical questions, PICO, study design, validity, absolute effects, applicability & shared decisions"},
+    {"id": 152, "lessonFile": "data/lessons/lesson-152.json", "quizFile": "data/quizzes/lesson-152.json", "cardTitle": "Lesson 152 · Clinical Literature Searching & Source Appraisal", "summary": "PubMed, MeSH, guidelines, systematic reviews, source integrity, AI verification & evidence notes"},
+    {"id": 153, "lessonFile": "data/lessons/lesson-153.json", "quizFile": "data/quizzes/lesson-153.json", "cardTitle": "Lesson 153 · Biostatistics for Clinical Decisions", "summary": "Risk measures, NNT/NNH, diagnostic accuracy, confidence intervals, bias & uncertainty"},
+    {"id": 154, "lessonFile": "data/lessons/lesson-154.json", "quizFile": "data/quizzes/lesson-154.json", "cardTitle": "Lesson 154 · From Test Accuracy to Clinical Utility", "summary": "Bayesian reasoning, prediction rules, diagnostic thresholds, test harms & stewardship"},
+    {"id": 155, "lessonFile": "data/lessons/lesson-155.json", "quizFile": "data/quizzes/lesson-155.json", "cardTitle": "Lesson 155 · Clinical Practice Guidelines", "summary": "Guideline quality, evidence certainty, recommendation strength, applicability & shared decisions"},
+    {"id": 156, "lessonFile": "data/lessons/lesson-156.json", "quizFile": "data/quizzes/lesson-156.json", "cardTitle": "Lesson 156 · Quality Improvement & Patient Safety", "summary": "Systems thinking, QI measures, PDSA, event analysis, Just Culture & sustainable change"},
+    {"id": 157, "lessonFile": "data/lessons/lesson-157.json", "quizFile": "data/quizzes/lesson-157.json", "cardTitle": "Lesson 157 · Healthcare Informatics & Clinical Decision Support", "summary": "EHR data quality, CDS, AI safety, privacy, workflow, interoperability & digital equity"},
+    {"id": 158, "lessonFile": "data/lessons/lesson-158.json", "quizFile": "data/quizzes/lesson-158.json", "cardTitle": "Lesson 158 · Ethics & Professional Accountability", "summary": "Ethical reasoning, scope, boundaries, conflicts, moral distress & professional accountability"},
+    {"id": 159, "lessonFile": "data/lessons/lesson-159.json", "quizFile": "data/quizzes/lesson-159.json", "cardTitle": "Lesson 159 · Health Policy, Regulation & Advocacy", "summary": "Policy analysis, scope, payment, implementation, public comment & FNP advocacy"},
+    {"id": 160, "lessonFile": "data/lessons/lesson-160.json", "quizFile": "data/quizzes/lesson-160.json", "cardTitle": "Lesson 160 · Organizational Leadership & Change Management", "summary": "Teams, communication, conflict, psychological safety, implementation & FNP leadership"},
+    {"id": 161, "lessonFile": "data/lessons/lesson-161.json", "quizFile": "data/quizzes/lesson-161.json", "cardTitle": "Lesson 161 · Healthcare Economics & Practice Management", "summary": "Finance, payment, compliance, staffing, operations, access & sustainable FNP care"},
+    {"id": 162, "lessonFile": "data/lessons/lesson-162.json", "quizFile": "data/quizzes/lesson-162.json", "cardTitle": "Lesson 162 · Population Health, Health Equity & Community Partnership", "summary": "Population assessment, SDOH, equity, community partnership, prevention, surveillance & FNP action"},
+    {"id": 163, "lessonFile": "data/lessons/lesson-163.json", "quizFile": "data/quizzes/lesson-163.json", "cardTitle": "Lesson 163 · Emergency Preparedness, Disaster Response & Climate-Related Health", "summary": "All-hazards planning, incident command, continuity, climate threats, recovery & FNP leadership"},
+    {"id": 164, "lessonFile": "data/lessons/lesson-164.json", "quizFile": "data/quizzes/lesson-164.json", "cardTitle": "Lesson 164 · Clinical Education, Precepting & Lifelong Professional Development", "summary": "Competency, supervision, direct observation, feedback, remediation & lifelong FNP growth"},
+    {"id": 165, "lessonFile": "data/lessons/lesson-165.json", "quizFile": "data/quizzes/lesson-165.json", "cardTitle": "Lesson 165 · Scholarly Communication, Knowledge Translation & Ethical Dissemination", "summary": "Evidence communication, writing, authorship, integrity, implementation & measurable impact"}
   ]
 }
