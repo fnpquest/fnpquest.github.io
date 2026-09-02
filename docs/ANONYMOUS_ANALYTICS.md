@@ -27,6 +27,7 @@ Apply the migrations in this order in the Supabase SQL Editor or CLI before depl
 2. `supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql`
 3. `supabase/migrations/202608290001_anonymous_analytics_v2.sql`
 4. `supabase/migrations/202608300001_create_analytics_daily_summary_view.sql`
+5. `supabase/migrations/202608310001_create_anonymous_analytics_events_la_view.sql`
 
 Browser roles receive insert-only access; they cannot read, update, or delete analytics rows. V2 also adds a lightweight 30-events-per-minute-per-browser guardrail for accidental loops. It is not an identity or abuse-prevention system.
 
@@ -42,6 +43,23 @@ After applying the Daily Summary migration, open **Database → Views** in Supab
 - Facebook, Google, Instagram, LinkedIn, direct, and other-source browser counts
 
 These are anonymous browser estimates, not a count of uniquely identified people. A person using two devices or clearing browser data can appear more than once.
+
+## Live Los Angeles event view
+
+`anonymous-analytics-events-la` may appear as the name of a saved SQL Editor query. A saved query result is only a snapshot of the last time **Run** was selected; the result grid does not continuously execute in the background.
+
+After applying `202608310001_create_anonymous_analytics_events_la_view.sql`, use the database view `public.anonymous_analytics_events_la` instead. It is a regular PostgreSQL view, not a cached table or materialized view, so every query reads the latest rows from `public.anonymous_analytics_events`. It retains the existing `occurred_at_los_angeles` column, adds `event_day_los_angeles`, and keeps the original UTC `occurred_at` value. The migration preserves the original view columns in their existing order before appending the V2 source, visitor, and session fields.
+
+The view remains owner-only. Browser roles cannot select it. In the trusted Supabase SQL Editor, run:
+
+```sql
+select *
+from public.anonymous_analytics_events_la
+order by occurred_at desc
+limit 200;
+```
+
+The view itself is always current, but the Supabase SQL Editor result pane is not a live dashboard. Select **Run** again or refresh the view in Database → Views to display events inserted after the previous query.
 
 To see the newest day first in the SQL Editor:
 
