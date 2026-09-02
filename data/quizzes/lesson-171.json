@@ -1,0 +1,65 @@
+{
+  "id": 171,
+  "questions": [
+    {
+      "question": "A patient has BP 214/126 mm Hg, confusion, hypoxemia, and acute pulmonary edema. What is the best interpretation?",
+      "choices": ["Severe hypertension without acute injury", "Hypertensive emergency with acute target-organ injury", "Routine white-coat hypertension", "A normal response to anxiety"],
+      "correctIndex": 1,
+      "explanation": "Neurologic change and acute pulmonary edema indicate target-organ injury, requiring emergency monitored management rather than routine outpatient adjustment."
+    },
+    {
+      "question": "A patient with new resting chest pressure has a nondiagnostic ECG and an early normal troponin. What is the safest next step?",
+      "choices": ["Exclude ACS permanently", "Treat as reflux and discharge without precautions", "Continue an appropriate acute chest-pain pathway with serial ECG and high-sensitivity troponin", "Schedule spirometry next year"],
+      "correctIndex": 2,
+      "explanation": "Early ACS can have nondiagnostic initial testing. High-risk symptoms require serial assessment in an appropriate acute setting."
+    },
+    {
+      "question": "Which finding in an asthma exacerbation is most concerning?",
+      "choices": ["Mild wheeze with normal speech", "Minimal wheeze with poor air movement, exhaustion, and drowsiness", "Occasional cough without distress", "Symptoms resolving after treatment"],
+      "correctIndex": 1,
+      "explanation": "A quiet chest with poor airflow, fatigue, or altered mentation can indicate life-threatening obstruction and impending respiratory failure."
+    },
+    {
+      "question": "What is required to confirm COPD according to GOLD when the patient is stable enough for testing?",
+      "choices": ["Symptoms alone", "A chest radiograph alone", "Post-bronchodilator spirometry showing persistent airflow obstruction", "Response to antibiotics"],
+      "correctIndex": 2,
+      "explanation": "Exposure and symptoms create suspicion, but post-bronchodilator spirometry is required to confirm persistent airflow obstruction."
+    },
+    {
+      "question": "A patient with COPD develops abrupt pleuritic pain, tachycardia, hypoxemia, and unilateral leg swelling after travel. What diagnosis must be prioritized?",
+      "choices": ["Routine chronic bronchitis", "Pulmonary embolism", "Uncomplicated allergic rhinitis", "Stable GERD"],
+      "correctIndex": 1,
+      "explanation": "Abrupt pleuritic symptoms, hypoxemia, travel, and unilateral leg swelling create a high-risk pulmonary embolism pattern."
+    },
+    {
+      "question": "Which statement best distinguishes hypertensive emergency from severe hypertension without emergency?",
+      "choices": ["Emergency is defined only by a specific number", "Emergency requires acute target-organ injury in addition to severe pressure", "Any headache proves emergency", "Severe pressure must always be normalized rapidly at home"],
+      "correctIndex": 1,
+      "explanation": "The presence of acute organ injury determines hypertensive emergency; the blood-pressure value alone is insufficient."
+    },
+    {
+      "question": "Before increasing asthma therapy for persistent symptoms, what should the FNP verify?",
+      "choices": ["Only the patient's age", "Diagnosis, inhaler technique, adherence, exposures, and comorbidities", "That antibiotics were tried", "That spirometry is never needed"],
+      "correctIndex": 1,
+      "explanation": "Poor technique, nonadherence, ongoing exposure, comorbidity, and an incorrect diagnosis can mimic uncontrolled asthma and should be addressed before escalation."
+    },
+    {
+      "question": "Which statement about atrial fibrillation management is most accurate?",
+      "choices": ["Rate control is the only decision", "An irregular pulse alone confirms AF", "Confirm rhythm, assess stability and triggers, address symptoms, and evaluate thromboembolic prevention", "Anticoagulation is identical for every patient"],
+      "correctIndex": 2,
+      "explanation": "AF management includes rhythm confirmation, stability, rate or rhythm strategy, precipitating factors, comorbidity, and individualized stroke prevention."
+    },
+    {
+      "question": "Why is colored sputum alone insufficient to diagnose a bacterial lower-respiratory infection?",
+      "choices": ["Sputum color has no biological cause", "Color can occur with viral or inflammatory illness and must be interpreted with the full syndrome", "Every colored sample requires antibiotics", "Pneumonia never produces sputum"],
+      "correctIndex": 1,
+      "explanation": "Sputum color is nonspecific. Vital signs, examination, duration, risk, imaging when indicated, and overall clinical findings guide diagnosis."
+    },
+    {
+      "question": "A patient with syncope has exertional onset, an abnormal ECG, and structural heart disease. What is the best disposition principle?",
+      "choices": ["Assume vasovagal syncope", "Recognize high cardiac risk and arrange urgent evaluation", "Provide reassurance without follow-up", "Treat with an antibiotic"],
+      "correctIndex": 1,
+      "explanation": "Exertional syncope, abnormal ECG, and structural heart disease are high-risk features for a cardiac cause and require urgent evaluation."
+    }
+  ]
+}

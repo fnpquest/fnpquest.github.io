@@ -1,0 +1,65 @@
+{
+  "id": 177,
+  "questions": [
+    {
+      "question": "A patient with six weeks of amenorrhea has unilateral pelvic pain, spotting, shoulder pain, BP 86/52 mm Hg, and HR 118/min. What is the best next step?",
+      "choices": ["Serial outpatient hCG testing", "Emergency stabilization and surgical evaluation for ruptured ectopic pregnancy", "Routine follow-up in one week", "Treat empirically for yeast infection"],
+      "correctIndex": 1,
+      "explanation": "Pregnancy possibility, pelvic pain, bleeding, shoulder pain, and shock indicate possible ruptured ectopic pregnancy. Instability requires immediate resuscitative and surgical care."
+    },
+    {
+      "question": "Which statement about ovarian torsion is most accurate?",
+      "choices": ["Any Doppler flow completely excludes torsion", "Sudden unilateral pain with vomiting requires urgent gynecologic evaluation even if some flow is seen", "Torsion occurs only after menopause", "Pain must persist for one week before evaluation"],
+      "correctIndex": 1,
+      "explanation": "Intermittent or partial torsion may retain Doppler flow. A compelling time-sensitive clinical pattern requires urgent consultation to preserve the ovary."
+    },
+    {
+      "question": "A nonpregnant at-risk patient has pelvic pain, mucopurulent discharge, cervical-motion tenderness, and adnexal tenderness. What is the best approach?",
+      "choices": ["Delay treatment until every culture returns", "Begin presumptive PID treatment after considering competing emergencies", "PID is excluded if cervical NAAT is negative", "Treat only the sexual partner"],
+      "correctIndex": 1,
+      "explanation": "CDC guidance supports a low threshold for presumptive PID treatment because mild disease can still cause infertility. Cervical testing does not exclude upper-tract infection."
+    },
+    {
+      "question": "A 38-year-old who smokes 20 cigarettes daily requests combined hormonal contraception. Which CDC U.S. MEC principle applies?",
+      "choices": ["There is no restriction", "Combined hormonal contraception represents unacceptable health risk in this condition-method pairing", "All contraception is contraindicated", "Smoking history is irrelevant"],
+      "correctIndex": 1,
+      "explanation": "For age 35 or older with at least 15 cigarettes daily, combined hormonal contraception is U.S. MEC category 4. Safer progestin-only or nonhormonal options should be discussed without coercion."
+    },
+    {
+      "question": "Which feature of contraceptive counseling best reflects patient-centered care?",
+      "choices": ["Choosing the most effective method for the patient without discussion", "Presenting medically safe options while prioritizing the patient's goals and autonomy", "Requiring an IUD before discussing other methods", "Refusing care if the patient chooses no contraception"],
+      "correctIndex": 1,
+      "explanation": "U.S. MEC supports safety assessment, while shared decision-making respects the patient's priorities, reproductive autonomy, and right to accept, decline, or discontinue a method."
+    },
+    {
+      "question": "A 62-year-old reports one episode of vaginal bleeding five years after menopause. What is the safest interpretation?",
+      "choices": ["It is always normal atrophy", "It requires evaluation for endometrial and other genital-tract pathology", "No evaluation is needed unless it recurs ten times", "Begin contraception only"],
+      "correctIndex": 1,
+      "explanation": "Any postmenopausal bleeding requires evaluation because atrophy is common but hyperplasia, cancer, cervical disease, polyps, and other causes must be excluded."
+    },
+    {
+      "question": "Which statement about PCOS is most accurate?",
+      "choices": ["Ultrasound cysts alone establish the diagnosis", "It involves ovulatory and androgen-related patterns after excluding important mimics", "Every irregular cycle is PCOS", "Metabolic and endometrial risks are unrelated"],
+      "correctIndex": 1,
+      "explanation": "PCOS is a clinical syndrome, not an ultrasound finding alone. Pregnancy, thyroid, prolactin, hypothalamic, ovarian, medication, and tumor causes should be considered, along with metabolic and endometrial risk."
+    },
+    {
+      "question": "A patient has sudden severe unilateral testicular pain, nausea, and a high-riding testis. What is the best next step?",
+      "choices": ["Routine urology appointment next month", "Immediate urologic evaluation for testicular torsion", "Empiric treatment for candidiasis", "Wait for pain to resolve"],
+      "correctIndex": 1,
+      "explanation": "The pattern is testicular torsion until proven otherwise. Testicular viability is time-sensitive, and imaging should not delay exploration when clinical suspicion is high."
+    },
+    {
+      "question": "Which breast presentation most clearly needs diagnostic rather than routine screening evaluation?",
+      "choices": ["No symptoms at a scheduled screening interval", "A new dominant mass with skin dimpling and unilateral spontaneous bloody discharge", "Stable bilateral cyclic tenderness only", "A normal self-examination"],
+      "correctIndex": 1,
+      "explanation": "A new mass, skin change, nipple retraction, or spontaneous unilateral single-duct bloody or clear discharge requires symptom-directed diagnostic imaging and evaluation."
+    },
+    {
+      "question": "What is the safest approach to a stable pregnancy of unknown location?",
+      "choices": ["Use one hCG value to prove location", "Interpret serial quantitative hCG and transvaginal ultrasound with symptoms and stability", "Assume an intrauterine pregnancy because pain is mild", "Ignore new shoulder pain or syncope"],
+      "correctIndex": 1,
+      "explanation": "Pregnancy location is determined from the clinical course, serial hCG patterns, and ultrasound rather than one number. Any deterioration requires immediate reassessment for ectopic rupture."
+    }
+  ]
+}

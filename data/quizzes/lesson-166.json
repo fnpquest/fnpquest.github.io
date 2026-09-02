@@ -1,0 +1,115 @@
+{
+  "id": 166,
+  "questions": [
+    {
+      "question": "Three patients experience preventable complications because post-discharge laboratory monitoring had no assigned owner. What is the best initial FNP response?",
+      "choices": [
+        "Begin a staff education campaign before contacting the patients",
+        "Address affected and potentially exposed patients immediately, then analyze and redesign the ownership workflow",
+        "Assume the written discharge instructions transferred responsibility to the patients",
+        "Wait for a larger sample before acting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Immediate rescue and risk containment come first. The repeated pattern also requires system analysis, explicit ownership, closed-loop follow-up, and measurement."
+    },
+    {
+      "question": "Which statement best represents advanced FNP systems thinking?",
+      "choices": [
+        "A clinically correct prescription is sufficient regardless of access or monitoring",
+        "Only administrators are responsible for workflow safety",
+        "Clinical outcomes emerge from interactions among the patient, team, organization, and community",
+        "Systems thinking replaces individual clinical assessment"
+      ],
+      "correctIndex": 2,
+      "explanation": "Advanced practice integrates direct clinical reasoning with team, organizational, and population factors; none of those levels replaces the others."
+    },
+    {
+      "question": "A clinic asks a newly hired FNP to independently perform an unfamiliar procedure that state law permits. What is the safest response?",
+      "choices": [
+        "Perform it because legal scope proves competence",
+        "Decline all future procedure training",
+        "Verify competence, credentialing, supervision, emergency support, coverage, and local requirements before independent practice",
+        "Ask the patient to accept the additional risk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Legal scope, demonstrated competence, organizational privilege, resources, and jurisdiction-specific requirements jointly define safe authority."
+    },
+    {
+      "question": "Which is the strongest measurable improvement aim?",
+      "choices": [
+        "Improve communication soon",
+        "Tell everyone to be more careful",
+        "Within 90 days, 95% of eligible high-risk discharges will have an assigned monitoring owner and timely completed follow-up without worsening language-related disparities",
+        "Eliminate every adverse event immediately"
+      ],
+      "correctIndex": 2,
+      "explanation": "A useful aim defines the population, process, magnitude, time frame, and equity expectation."
+    },
+    {
+      "question": "Why should an improvement project include a balancing measure?",
+      "choices": [
+        "To replace the outcome measure",
+        "To detect unintended harms or burdens created while improving the target process",
+        "To guarantee statistical significance",
+        "To avoid defining a denominator"
+      ],
+      "correctIndex": 1,
+      "explanation": "A change can improve one measure while worsening workload, delay, access, cost, or another clinical outcome. Balancing measures make that tradeoff visible."
+    },
+    {
+      "question": "A vendor offers an AI portal-triage tool that has not been validated in the clinic's population. What should occur before broad deployment?",
+      "choices": [
+        "Enable autonomous triage because the demonstration was accurate",
+        "Use it only for patients who do not speak English",
+        "Establish governance, privacy review, local validation, human oversight, escalation, downtime, bias monitoring, and stop criteria",
+        "Remove clinician review to improve efficiency"
+      ],
+      "correctIndex": 2,
+      "explanation": "High-stakes digital tools require defined intended use, protected data, representative validation, human accountability, exception handling, and ongoing monitoring."
+    },
+    {
+      "question": "Which action best closes a specialty-referral loop?",
+      "choices": [
+        "Document that the referral order was entered",
+        "Tell the patient to call the specialist until someone answers",
+        "Define urgency and the clinical question, track completion, address barriers, receive the consultant response, and integrate the recommendation",
+        "Transfer all future responsibility to the specialist"
+      ],
+      "correctIndex": 2,
+      "explanation": "Referral accountability includes successful access, information exchange, response review, integration, and escalation when timing is unsafe."
+    },
+    {
+      "question": "A repeated near miss occurred because staff used a workaround during high workload. Which analysis is most appropriate?",
+      "choices": [
+        "Identify the last person involved and end the review",
+        "Examine why the workaround made sense, including task design, staffing, interfaces, policy, training, and behavioral choices",
+        "Ban incident reporting to prevent reputational harm",
+        "Assume every workaround is reckless behavior"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fair analysis examines context and system contributors while distinguishing human error, at-risk behavior, and reckless behavior."
+    },
+    {
+      "question": "Leadership proposes shorter visits to increase access. Which FNP response best reflects value and equity?",
+      "choices": [
+        "Measure only visits per hour",
+        "Reject every workflow change",
+        "Test differentiated, team-supported care and measure wait time, quality, understanding, workload, utilization, and equity",
+        "Exclude patients who need interpreters from the evaluation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Access should be evaluated as timely, safe, equitable care rather than raw throughput. A balanced test measures patient, workforce, operational, and equity outcomes."
+    },
+    {
+      "question": "Which question most completely demonstrates capstone-level FNP accountability?",
+      "choices": [
+        "Did I place the order?",
+        "Did the patient agree with me?",
+        "Are the clinical rationale, patient priorities, evidence, ownership, authority, workflow, equity, resources, follow-up, and escalation plan coherent and reliable?",
+        "Can the intervention be announced before it is tested?"
+      ],
+      "correctIndex": 2,
+      "explanation": "Advanced accountability integrates clinical judgment with patient priorities, evidence, law and ethics, systems reliability, equity, resources, measurement, and closed-loop follow-up."
+    }
+  ]
+}

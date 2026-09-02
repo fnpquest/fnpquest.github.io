@@ -35,7 +35,13 @@
       "id": "evidence-professional-practice",
       "title": "Phase 6 · Evidence-Based Practice & Professional FNP Practice",
       "description": "Lessons 151+ · Evidence appraisal, quality, safety, ethics, policy, informatics & professional practice",
-      "lessonIds": [151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165]
+      "lessonIds": [151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166]
+    },
+    {
+      "id": "certification-review-clinical-integration",
+      "title": "Phase 7 · FNP Certification Review & Clinical Integration",
+      "description": "Lessons 167+ · Blueprint-based review, board-style reasoning, lifespan integration & exam readiness",
+      "lessonIds": [167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178]
     }
   ],
   "lessons": [
@@ -203,6 +209,19 @@
     {"id": 162, "lessonFile": "data/lessons/lesson-162.json", "quizFile": "data/quizzes/lesson-162.json", "cardTitle": "Lesson 162 · Population Health, Health Equity & Community Partnership", "summary": "Population assessment, SDOH, equity, community partnership, prevention, surveillance & FNP action"},
     {"id": 163, "lessonFile": "data/lessons/lesson-163.json", "quizFile": "data/quizzes/lesson-163.json", "cardTitle": "Lesson 163 · Emergency Preparedness, Disaster Response & Climate-Related Health", "summary": "All-hazards planning, incident command, continuity, climate threats, recovery & FNP leadership"},
     {"id": 164, "lessonFile": "data/lessons/lesson-164.json", "quizFile": "data/quizzes/lesson-164.json", "cardTitle": "Lesson 164 · Clinical Education, Precepting & Lifelong Professional Development", "summary": "Competency, supervision, direct observation, feedback, remediation & lifelong FNP growth"},
-    {"id": 165, "lessonFile": "data/lessons/lesson-165.json", "quizFile": "data/quizzes/lesson-165.json", "cardTitle": "Lesson 165 · Scholarly Communication, Knowledge Translation & Ethical Dissemination", "summary": "Evidence communication, writing, authorship, integrity, implementation & measurable impact"}
+    {"id": 165, "lessonFile": "data/lessons/lesson-165.json", "quizFile": "data/quizzes/lesson-165.json", "cardTitle": "Lesson 165 · Scholarly Communication, Knowledge Translation & Ethical Dissemination", "summary": "Evidence communication, writing, authorship, integrity, implementation & measurable impact"},
+    {"id": 166, "lessonFile": "data/lessons/lesson-166.json", "quizFile": "data/quizzes/lesson-166.json", "cardTitle": "Lesson 166 · Professional FNP Practice Capstone", "summary": "Evidence, accountability, systems leadership, equity, implementation & professional practice"},
+    {"id": 167, "lessonFile": "data/lessons/lesson-167.json", "quizFile": "data/quizzes/lesson-167.json", "cardTitle": "Lesson 167 · Board-Style Clinical Reasoning & Exam Blueprint Strategy", "summary": "Official blueprints, clinical reasoning, distractors, pacing, error analysis & exam readiness"},
+    {"id": 168, "lessonFile": "data/lessons/lesson-168.json", "quizFile": "data/quizzes/lesson-168.json", "cardTitle": "Lesson 168 · Lifespan Prevention, Screening & Immunization Board Review", "summary": "Risk assessment, screening, immunization, counseling, shared decisions & closed-loop prevention"},
+    {"id": 169, "lessonFile": "data/lessons/lesson-169.json", "quizFile": "data/quizzes/lesson-169.json", "cardTitle": "Lesson 169 · Diagnostic Testing & Laboratory Interpretation Board Review", "summary": "Test selection, pretest probability, laboratory patterns, critical results & closed-loop follow-up"},
+    {"id": 170, "lessonFile": "data/lessons/lesson-170.json", "quizFile": "data/quizzes/lesson-170.json", "cardTitle": "Lesson 170 · Medication Selection, Prescribing Safety & Monitoring Board Review", "summary": "Indication, patient fit, interactions, life-stage safety, monitoring & prescribing closure"},
+    {"id": 171, "lessonFile": "data/lessons/lesson-171.json", "quizFile": "data/quizzes/lesson-171.json", "cardTitle": "Lesson 171 · Cardiovascular & Respiratory Clinical Integration Board Review", "summary": "Chest pain, dyspnea, perfusion, oxygenation, urgent threats & safe disposition"},
+    {"id": 172, "lessonFile": "data/lessons/lesson-172.json", "quizFile": "data/quizzes/lesson-172.json", "cardTitle": "Lesson 172 · Endocrine, Renal & Metabolic Clinical Integration Board Review", "summary": "Diabetes, hormone axes, electrolytes, AKI/CKD, urinary disease & organ protection"},
+    {"id": 173, "lessonFile": "data/lessons/lesson-173.json", "quizFile": "data/quizzes/lesson-173.json", "cardTitle": "Lesson 173 · Gastrointestinal, Hepatic & Nutritional Clinical Integration Board Review", "summary": "Abdominal pain, GI bleeding, bowel disease, hepatobiliary risk, nutrition & safe disposition"},
+    {"id": 174, "lessonFile": "data/lessons/lesson-174.json", "quizFile": "data/quizzes/lesson-174.json", "cardTitle": "Lesson 174 · Neurologic & Musculoskeletal Clinical Integration Board Review", "summary": "Stroke, headache, seizure, weakness, spine and joint threats, pain, function & safe disposition"},
+    {"id": 175, "lessonFile": "data/lessons/lesson-175.json", "quizFile": "data/quizzes/lesson-175.json", "cardTitle": "Lesson 175 · Hematologic, Infectious & Immune Clinical Integration Board Review", "summary": "Anemia, cytopenias, bleeding, thrombosis, infection severity, immune risk & safe disposition"},
+    {"id": 176, "lessonFile": "data/lessons/lesson-176.json", "quizFile": "data/quizzes/lesson-176.json", "cardTitle": "Lesson 176 · Dermatologic, Eye, ENT & Oral Clinical Integration Board Review", "summary": "Rashes, skin infection, drug reactions, sensory threats, airway safety & diagnostic closure"},
+    {"id": 177, "lessonFile": "data/lessons/lesson-177.json", "quizFile": "data/quizzes/lesson-177.json", "cardTitle": "Lesson 177 · Reproductive, Gynecologic & Sexual Health Clinical Integration Board Review", "summary": "Bleeding, pelvic pain, pregnancy risk, contraception, STIs, fertility & cancer warnings"},
+    {"id": 178, "lessonFile": "data/lessons/lesson-178.json", "quizFile": "data/quizzes/lesson-178.json", "cardTitle": "Lesson 178 · Psychiatric, Behavioral & Substance Use Clinical Integration Board Review", "summary": "Mood, psychosis, suicide safety, delirium, substance use, withdrawal & recovery-oriented care"}
   ]
 }

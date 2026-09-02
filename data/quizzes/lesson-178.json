@@ -1,0 +1,65 @@
+{
+  "id": 178,
+  "questions": [
+    {
+      "question": "A patient reports intent to shoot himself tonight, has immediate firearm access, and cannot collaborate on a safe plan. What is the best next step?",
+      "choices": ["Ask for a no-suicide promise and send him home", "Maintain safety and arrange immediate emergency crisis evaluation", "Schedule routine follow-up in one month", "Start a sleep aid only"],
+      "correctIndex": 1,
+      "explanation": "Current intent, specific method, access to lethal means, and inability to collaborate indicate acute high risk. The patient should not be left alone and needs emergency evaluation."
+    },
+    {
+      "question": "Which finding most strongly suggests mania rather than uncomplicated insomnia?",
+      "choices": ["Fatigue after one poor night of sleep", "Decreased need for sleep with increased energy, grandiosity, pressured speech, and risky behavior", "Occasional worry before an examination", "Sleep improvement with a consistent schedule"],
+      "correctIndex": 1,
+      "explanation": "Mania involves reduced need for sleep plus activation, mood change, and associated symptoms causing marked impairment, hospitalization, or psychosis."
+    },
+    {
+      "question": "An older adult acutely develops fluctuating inattention, disorientation, and visual hallucinations. What is the safest interpretation?",
+      "choices": ["New schizophrenia", "Delirium requiring evaluation for a medical or medication cause", "Normal aging", "Stable dementia without need for assessment"],
+      "correctIndex": 1,
+      "explanation": "Acute onset, fluctuation, and impaired attention are hallmarks of delirium. Infection, medications, metabolic disease, retention, pain, and other triggers require urgent evaluation."
+    },
+    {
+      "question": "Which statement about depression screening is most accurate?",
+      "choices": ["A PHQ score independently establishes diagnosis and suicide disposition", "A screening tool supports but does not replace clinical diagnosis, bipolar assessment, function, and safety evaluation", "A low score excludes suicide risk", "A positive suicide item can be ignored if the total is low"],
+      "correctIndex": 1,
+      "explanation": "Screening tools quantify symptoms and response. They do not establish etiology or replace direct suicide assessment, bipolar screening, medical differential, or functional evaluation."
+    },
+    {
+      "question": "A person is unresponsive with respirations 4/min after suspected fentanyl use. What should occur immediately?",
+      "choices": ["Allow the person to sleep", "Support ventilation, call emergency services, and administer naloxone", "Wait for a toxicology result", "Give a benzodiazepine"],
+      "correctIndex": 1,
+      "explanation": "Severe respiratory depression is opioid overdose until proven otherwise. Ventilation, emergency activation, naloxone, and monitoring for recurrent toxicity are lifesaving."
+    },
+    {
+      "question": "Which medication group represents FDA-approved treatment options for opioid use disorder?",
+      "choices": ["Buprenorphine, methadone, and naltrexone", "Naloxone, acetaminophen, and ibuprofen", "Diazepam, zolpidem, and alprazolam", "Caffeine, nicotine, and alcohol"],
+      "correctIndex": 0,
+      "explanation": "Buprenorphine, methadone, and naltrexone are FDA-approved MOUD options. Naloxone reverses overdose but does not by itself treat ongoing OUD."
+    },
+    {
+      "question": "Which feature makes alcohol withdrawal especially unsafe for routine unmonitored outpatient care?",
+      "choices": ["One drink several months ago", "Prior withdrawal seizure with current tremor, tachycardia, and unstable housing", "No withdrawal symptoms and no dependence", "A desire to reduce drinking with strong support"],
+      "correctIndex": 1,
+      "explanation": "Prior complicated withdrawal, current autonomic symptoms, heavy use, comorbidity, pregnancy, and inability to complete a safe outpatient plan increase the need for monitored treatment."
+    },
+    {
+      "question": "What distinguishes a collaborative safety plan from a no-suicide contract?",
+      "choices": ["The safety plan lists warning signs, coping, supports, professionals, and means-safety steps", "The safety plan guarantees that suicide cannot occur", "The safety plan eliminates follow-up", "The safety plan is signed only by the clinician"],
+      "correctIndex": 0,
+      "explanation": "A safety plan is a practical collaborative sequence for coping and obtaining help, including lethal-means safety. A promise alone neither treats risk nor establishes safety."
+    },
+    {
+      "question": "Six days postpartum, a patient has severe insomnia, delusions about the infant, command hallucinations, and disorganized behavior. What is the best disposition?",
+      "choices": ["Routine postpartum follow-up", "Emergency psychiatric and medical evaluation with parent and infant safety protection", "Reassure that this is normal baby blues", "Start an over-the-counter sleep aid only"],
+      "correctIndex": 1,
+      "explanation": "Postpartum psychosis is a psychiatric emergency with suicide and infant-harm risk. Immediate specialty and safety intervention is required."
+    },
+    {
+      "question": "Which presentation is most consistent with serotonin toxicity?",
+      "choices": ["Rapid onset of agitation, autonomic activation, clonus, and hyperreflexia after serotonergic exposure", "Slow isolated memory decline over years", "Stable resting tremor without medication change", "One episode of sadness after a loss"],
+      "correctIndex": 0,
+      "explanation": "Serotonin toxicity typically develops rapidly after serotonergic exposure and combines mental-status change, autonomic activation, and neuromuscular hyperactivity such as clonus and hyperreflexia."
+    }
+  ]
+}

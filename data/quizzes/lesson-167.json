@@ -1,0 +1,115 @@
+{
+  "id": 167,
+  "questions": [
+    {
+      "question": "What should a candidate use to determine the content domains and policies for an upcoming FNP certification examination?",
+      "choices": [
+        "A social-media study chart from any year",
+        "The official outline, handbook, and policies for the selected certifier and actual examination date",
+        "The blueprint of whichever exam a friend took",
+        "A commercial question bank alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Certification organizations and outlines differ and can change. The candidate should use current official documents matched to the credential and testing date."
+    },
+    {
+      "question": "A question stem describes hypotension, severe chest pressure, diaphoresis, and new confusion. Which reasoning step comes first?",
+      "choices": [
+        "Choose long-term lipid therapy",
+        "Schedule routine outpatient testing",
+        "Recognize instability and prioritize emergency stabilization and disposition",
+        "Calculate a ten-year preventive risk score"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stability and time-sensitive threats come before definitive outpatient testing or long-term prevention."
+    },
+    {
+      "question": "Why is the final sentence of a board-style question especially important?",
+      "choices": [
+        "It always contains the diagnosis",
+        "It defines the task and often the time point, such as initial action, confirmatory test, treatment, or evaluation",
+        "It reveals the correct answer letter",
+        "It makes the rest of the stem unnecessary"
+      ],
+      "correctIndex": 1,
+      "explanation": "The stem supplies clinical data, while the final prompt identifies the specific decision that must be answered."
+    },
+    {
+      "question": "A patient reports a new breast mass after a recent normal screening mammogram. What principle should guide the response?",
+      "choices": [
+        "Wait until the next routine screening interval",
+        "A normal screening result permanently excludes breast disease",
+        "New symptoms require diagnostic evaluation rather than routine screening logic",
+        "Repeat the same screening test indefinitely"
+      ],
+      "correctIndex": 2,
+      "explanation": "Screening applies to asymptomatic populations. A new palpable mass is a diagnostic problem despite prior screening."
+    },
+    {
+      "question": "Which choice is a classic true-but-not-responsive distractor?",
+      "choices": [
+        "A generally beneficial preventive action offered when the question asks for immediate management of an unstable emergency",
+        "Emergency transfer for shock",
+        "Checking pregnancy before a potentially teratogenic treatment",
+        "Reviewing adverse effects during follow-up"
+      ],
+      "correctIndex": 0,
+      "explanation": "A statement can be clinically true yet fail to answer the requested task or current time point."
+    },
+    {
+      "question": "A learner repeatedly misses questions because they identify the right diagnosis but select a definitive test before stabilization. What does the error log show?",
+      "choices": [
+        "A random answer-letter problem",
+        "A sequence and safety error requiring targeted practice",
+        "Proof that content review is never useful",
+        "A reason to stop reviewing explanations"
+      ],
+      "correctIndex": 1,
+      "explanation": "Classifying the miss identifies the corrective strategy: practice stability, urgency, and initial-versus-definitive sequencing."
+    },
+    {
+      "question": "Which study method most directly strengthens retrieval under mixed exam conditions?",
+      "choices": [
+        "Repeated passive rereading of one chapter",
+        "Highlighting every sentence",
+        "Spaced recall with interleaved lifespan and system cases plus explanation of distractors",
+        "Memorizing recent answer-letter patterns"
+      ],
+      "correctIndex": 2,
+      "explanation": "Retrieval practice, spacing, and interleaving build durable recall and discrimination across changing cases."
+    },
+    {
+      "question": "Why should a learner record confidence before checking a practice answer?",
+      "choices": [
+        "To replace accuracy",
+        "To identify high-confidence misconceptions and improve calibration",
+        "To guarantee passing",
+        "To avoid reviewing correct answers"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-confidence errors reveal misleading mental models, while calibration helps learners recognize when knowledge is uncertain."
+    },
+    {
+      "question": "Two answer choices are clinically plausible. Which method best identifies the single best answer?",
+      "choices": [
+        "Choose the longest option",
+        "Choose the most aggressive option",
+        "Compare fit with the task, patient, time point, safety, sequence, evidence, and unsupported assumptions",
+        "Avoid any option containing the word always"
+      ],
+      "correctIndex": 2,
+      "explanation": "The best available answer most directly performs the requested task for this patient at this time with the safest supported sequence."
+    },
+    {
+      "question": "A candidate's practice accuracy is strong in adult cardiovascular care but weak in pediatrics and prenatal care. How should the blueprint guide study?",
+      "choices": [
+        "Study only the strongest domain to maximize confidence",
+        "Ignore lifespan content because all FNP questions use adult physiology",
+        "Allocate review using official weighting and performance data while maintaining stronger domains",
+        "Use equal time for every fact regardless of relevance or weakness"
+      ],
+      "correctIndex": 2,
+      "explanation": "A blueprint-informed plan balances exam representation with individual gaps and prevents clinical familiarity from hiding lifespan weaknesses."
+    }
+  ]
+}

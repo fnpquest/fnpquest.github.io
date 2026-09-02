@@ -1,0 +1,65 @@
+{
+  "id": 175,
+  "questions": [
+    {
+      "question": "A 68-year-old man has fatigue, microcytic anemia, and low ferritin without visible bleeding. What is the best general approach?",
+      "choices": ["Give iron indefinitely without further assessment", "Treat the deficiency and evaluate for occult blood loss or impaired absorption", "Assume anemia of aging", "Order only a repeat hemoglobin in one year"],
+      "correctIndex": 1,
+      "explanation": "Low ferritin with microcytosis supports iron deficiency. Treatment should replace iron while identifying the cause, including occult GI loss or malabsorption when appropriate."
+    },
+    {
+      "question": "A patient has thrombocytopenia, anemia, confusion, kidney injury, elevated LDH, and schistocytes. What is the safest next step?",
+      "choices": ["Routine follow-up in one month", "Treat as uncomplicated ITP", "Arrange emergency hematology evaluation for thrombotic microangiopathy", "Prescribe oral iron alone"],
+      "correctIndex": 2,
+      "explanation": "Thrombocytopenia plus microangiopathic hemolysis and organ dysfunction suggests TTP or another thrombotic microangiopathy. This is a time-critical hematologic emergency."
+    },
+    {
+      "question": "An unexpected platelet count is 38,000/µL in an asymptomatic patient, and the analyzer reports platelet clumping. What should occur early in the evaluation?",
+      "choices": ["Diagnose ITP immediately", "Confirm the count with smear review and an appropriate repeat specimen", "Begin anticoagulation", "Ignore the result permanently"],
+      "correctIndex": 1,
+      "explanation": "EDTA-related clumping can produce pseudothrombocytopenia. Confirm an unexpected result while assessing the patient for any bleeding or clinical instability."
+    },
+    {
+      "question": "A chemotherapy patient has temperature 38.3°C and ANC 300/µL without a clear source. What is the best response?",
+      "choices": ["Wait until a source becomes obvious", "Routine clinic follow-up in 48 hours", "Urgent febrile-neutropenia evaluation with cultures and prompt empiric therapy", "Use an antipyretic as the only treatment"],
+      "correctIndex": 2,
+      "explanation": "Profound neutropenia can conceal local inflammatory findings. Fever in this context is an emergency requiring rapid cultures, antimicrobial treatment, and risk-based disposition."
+    },
+    {
+      "question": "Which statement about D-dimer is most accurate?",
+      "choices": ["A positive result proves VTE", "A negative result excludes VTE in every patient", "Its value depends on pretest probability and an appropriate diagnostic pathway", "It replaces imaging in hemodynamically unstable PE"],
+      "correctIndex": 2,
+      "explanation": "D-dimer is sensitive but nonspecific. It is most useful to exclude VTE in appropriately selected low-risk patients and should not replace urgent imaging or treatment pathways in high-risk disease."
+    },
+    {
+      "question": "An older adult with dysuria is confused, hypotensive, tachypneic, and mottled but has temperature 37.7°C. Which interpretation is safest?",
+      "choices": ["Sepsis is excluded without high fever", "This may be septic shock and requires immediate emergency treatment", "Wait for a urine culture before escalating", "Confusion is expected with aging"],
+      "correctIndex": 1,
+      "explanation": "Suspected infection with hypotension, altered mental status, tachypnea, and poor perfusion indicates sepsis with shock physiology. Older adults may not mount high fever."
+    },
+    {
+      "question": "Which laboratory concept best helps distinguish decreased red-cell production from blood loss or hemolysis?",
+      "choices": ["Platelet count alone", "Reticulocyte response interpreted in context", "INR alone", "D-dimer alone"],
+      "correctIndex": 1,
+      "explanation": "An appropriate reticulocyte response suggests the marrow is responding to loss or destruction; an inadequate response supports deficient substrate, suppression, kidney disease, or marrow dysfunction."
+    },
+    {
+      "question": "A transfusion recipient develops fever, dyspnea, and hypotension shortly after the unit begins. What is the first action?",
+      "choices": ["Increase the transfusion rate", "Stop the transfusion, assess the patient, and notify the transfusion service", "Give an antipyretic and continue unchanged", "Discard documentation of the unit"],
+      "correctIndex": 1,
+      "explanation": "Suspected transfusion reaction requires immediate cessation of the transfusion, stabilization, identity verification, and transfusion-service notification according to protocol."
+    },
+    {
+      "question": "Which finding should raise concern for a hematologic malignancy despite a normal total white-cell count?",
+      "choices": ["A single normal CBC with no symptoms", "Blasts on smear with anemia, thrombocytopenia, and constitutional symptoms", "Brief leukocytosis after exercise", "Stable mild eosinophilia during seasonal allergies"],
+      "correctIndex": 1,
+      "explanation": "Acute leukemia can occur without marked total leukocytosis. Blasts, multiple cytopenias, bleeding, infection, bone pain, or constitutional symptoms require urgent evaluation."
+    },
+    {
+      "question": "Which plan best demonstrates antimicrobial stewardship after empiric treatment is started for a serious infection?",
+      "choices": ["Continue broad therapy indefinitely", "Reassess source, cultures, response, organ function, source control, and opportunities to narrow or stop therapy", "Ignore culture quality", "Add antibiotics whenever fever persists without reassessing the diagnosis"],
+      "correctIndex": 1,
+      "explanation": "Stewardship includes correct initial therapy plus repeated reassessment, source control, dose and organ-function review, culture interpretation, and narrowing or discontinuation when supported."
+    }
+  ]
+}

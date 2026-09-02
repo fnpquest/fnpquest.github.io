@@ -1,0 +1,65 @@
+{
+  "id": 176,
+  "questions": [
+    {
+      "question": "A patient has rapidly progressive leg pain out of proportion to visible erythema, tense edema, a dusky bulla, and hypotension. What is the best next step?",
+      "choices": ["Routine oral antibiotics and follow-up next week", "Emergency surgical evaluation for necrotizing soft-tissue infection", "Topical corticosteroid treatment", "Wait for crepitus before escalating"],
+      "correctIndex": 1,
+      "explanation": "Pain out of proportion, rapid progression, bullae, and shock are necrotizing-infection warnings. Surgical source control and resuscitative care must not wait for late findings or outpatient tests."
+    },
+    {
+      "question": "Which finding most strongly suggests Stevens-Johnson syndrome or toxic epidermal necrolysis after a new medication?",
+      "choices": ["One stable itchy wheal", "Painful dusky lesions with mucosal erosions and blistering", "A single comedone", "Chronic extensor scale without systemic symptoms"],
+      "correctIndex": 1,
+      "explanation": "Skin pain, targetoid or dusky lesions, epidermal blistering, fever, and mucosal involvement after medication exposure require emergency evaluation for SJS/TEN."
+    },
+    {
+      "question": "A contact-lens wearer has severe unilateral eye pain, photophobia, reduced visual acuity, and a focal corneal opacity. What is the safest disposition?",
+      "choices": ["Treat as uncomplicated viral conjunctivitis", "Same-day ophthalmologic evaluation for infectious keratitis", "Use an eye patch and reassess in one week", "Prescribe topical anesthetic for home use"],
+      "correctIndex": 1,
+      "explanation": "Contact-lens use plus pain, photophobia, vision reduction, and corneal opacity suggests keratitis, which can rapidly scar or perforate the cornea."
+    },
+    {
+      "question": "Which symptom cluster is most concerning for retinal tear or detachment?",
+      "choices": ["Chronic bilateral itchy eyes", "Sudden flashes, increased floaters, and a curtain across vision", "Stable presbyopia", "Brief eyelid twitching"],
+      "correctIndex": 1,
+      "explanation": "Acute flashes, a shower of floaters, field loss, curtain or shadow, or reduced vision requires prompt dilated retinal evaluation."
+    },
+    {
+      "question": "A patient with eyelid swelling also has proptosis, pain with eye movement, restricted extraocular movements, and reduced vision. Which diagnosis is most concerning?",
+      "choices": ["Simple allergic conjunctivitis", "Orbital cellulitis", "Uncomplicated blepharitis", "Subconjunctival hemorrhage"],
+      "correctIndex": 1,
+      "explanation": "Proptosis, painful ophthalmoplegia, and visual impairment indicate postseptal orbital involvement requiring emergency imaging, IV therapy, and specialty care."
+    },
+    {
+      "question": "What is the first priority after a significant chemical splash to the eye?",
+      "choices": ["Complete a lengthy exposure history", "Begin immediate copious irrigation", "Patch the eye tightly", "Wait for ophthalmology before touching the eye"],
+      "correctIndex": 1,
+      "explanation": "Immediate irrigation limits ongoing chemical injury. History, pH reassessment, examination, and ophthalmology coordination follow without delaying decontamination."
+    },
+    {
+      "question": "A child age 8 has sore throat without viral features and a negative rapid antigen strep test. According to current CDC guidance, what should occur?",
+      "choices": ["Diagnose GAS from examination alone", "Confirm with throat culture", "Give antibiotics indefinitely", "Never perform further testing in children"],
+      "correctIndex": 1,
+      "explanation": "CDC guidance recommends backup throat culture after a negative rapid antigen test in symptomatic children age three years and older."
+    },
+    {
+      "question": "Which presentation suggests a deep-neck or airway-threatening infection rather than uncomplicated pharyngitis?",
+      "choices": ["Mild sore throat with rhinorrhea", "Drooling, muffled voice, submandibular swelling, and difficulty handling secretions", "Isolated sneezing", "Brief throat dryness after speaking"],
+      "correctIndex": 1,
+      "explanation": "Drooling, voice change, swelling, stridor, trismus, or inability to handle secretions can indicate deep-space infection or impending airway obstruction and requires emergency care."
+    },
+    {
+      "question": "Which statement about melanoma recognition is most accurate?",
+      "choices": ["A lesion smaller than 6 mm cannot be melanoma", "Evolution and an ugly-duckling lesion can be concerning at any size or skin tone", "Melanoma occurs only on sun-exposed light skin", "All pigmented lesions should be destroyed without pathology"],
+      "correctIndex": 1,
+      "explanation": "Change over time and a lesion that differs from the patient's others are important warnings. Melanoma can occur at any size, in all skin tones, and in acral or protected locations."
+    },
+    {
+      "question": "An older patient reports sudden unilateral hearing loss on awakening; otoscopy is normal. What is the best next step?",
+      "choices": ["Treat as cerumen impaction", "Arrange prompt audiologic and ENT evaluation for sudden sensorineural hearing loss", "Wait several months", "Prescribe antibiotics for otitis media"],
+      "correctIndex": 1,
+      "explanation": "Sudden sensorineural hearing loss can feel like congestion despite a normal ear examination. It is time-sensitive and requires prompt confirmation and ENT-directed treatment."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 169,
+  "questions": [
+    {
+      "question": "What is the best first step before ordering a diagnostic test?",
+      "choices": ["Order the broadest available panel", "Define the clinical question and how the result could change management", "Select the most expensive study", "Wait until the differential contains only one diagnosis"],
+      "correctIndex": 1,
+      "explanation": "Testing should answer a defined screening, diagnostic, severity, monitoring, or prognostic question and have a planned consequence."
+    },
+    {
+      "question": "Why can a positive test have a low positive predictive value in a very low-risk population?",
+      "choices": ["Sensitivity becomes zero", "Specificity is irrelevant", "False-positive results may outnumber true positives when disease prevalence is very low", "Reference intervals disappear"],
+      "correctIndex": 2,
+      "explanation": "Predictive value depends on disease prevalence and pretest probability, so low-risk testing can produce a high proportion of false positives."
+    },
+    {
+      "question": "A patient with CKD and weakness has potassium 6.8 mEq/L from a hemolyzed specimen. What is the safest response?",
+      "choices": ["Assume pseudohyperkalemia and repeat next month", "Stop all evaluation because hemolysis proves the value is false", "Immediately assess the patient, obtain ECG and urgent reliable repeat testing, and treat or transfer if confirmed or electrically toxic", "Advise dietary change only"],
+      "correctIndex": 2,
+      "explanation": "Hemolysis can elevate potassium falsely, but symptoms and CKD create high risk. Verification must occur urgently without delaying management of true hyperkalemia."
+    },
+    {
+      "question": "Which approach is most appropriate for evaluating anemia?",
+      "choices": ["Prescribe iron for every low hemoglobin", "Classify by indices, assess reticulocyte response, and integrate bleeding, nutrition, kidney disease, inflammation, medications, and other causes", "Use the white-cell count alone", "Ignore the trend if the patient is ambulatory"],
+      "correctIndex": 1,
+      "explanation": "Anemia is a syndrome. MCV, reticulocyte response, history, related studies, and clinical context guide the differential and treatment."
+    },
+    {
+      "question": "A patient has anemia with recent blood loss, repeatedly elevated fasting plasma glucose, and a less elevated A1C. What is the best interpretation?",
+      "choices": ["A1C always overrides plasma glucose", "Red-cell turnover may distort A1C, so appropriate plasma glucose criteria and confirmation should be used", "Diabetes is impossible when tests disagree", "No follow-up is needed"],
+      "correctIndex": 1,
+      "explanation": "Conditions affecting red-cell turnover can make A1C unreliable. Significant discordance requires investigation and use of appropriate plasma glucose criteria."
+    },
+    {
+      "question": "Which statement best reflects KDIGO's approach to chronic kidney disease?",
+      "choices": ["One elevated creatinine during dehydration proves CKD", "CKD requires a urine culture", "CKD is based on kidney abnormalities present for at least three months and is classified by cause, GFR, and albuminuria", "Serum creatinine alone fully defines kidney risk"],
+      "correctIndex": 2,
+      "explanation": "Chronicity matters, and KDIGO uses cause, GFR category, and albuminuria category because creatinine alone is incomplete."
+    },
+    {
+      "question": "A patient has a positive urine culture but no urinary symptoms. What is the best general principle?",
+      "choices": ["Treat every positive culture", "Interpret symptoms, collection quality, host, and indications because asymptomatic bacteriuria is not treated routinely outside defined exceptions", "Repeat antibiotics until the culture is sterile", "Ignore pregnancy status"],
+      "correctIndex": 1,
+      "explanation": "Culture positivity can reflect asymptomatic bacteriuria or contamination. Pregnancy and selected urologic procedures are important exceptions under current guidance."
+    },
+    {
+      "question": "What does an elevated troponin establish by itself?",
+      "choices": ["Type 1 myocardial infarction in every patient", "Myocardial injury that requires clinical, ECG, timing, serial, and etiologic interpretation", "Normal coronary arteries", "A diagnosis of heart failure only"],
+      "correctIndex": 1,
+      "explanation": "Troponin indicates myocardial injury, but the cause and whether myocardial infarction criteria are met require clinical context and serial interpretation."
+    },
+    {
+      "question": "Which is an example of a preanalytic laboratory error?",
+      "choices": ["Failure to call the patient about a result", "Incorrect interpretation of a likelihood ratio", "Hemolysis or mislabeling before the specimen is measured", "Failure to arrange referral after imaging"],
+      "correctIndex": 2,
+      "explanation": "Preanalytic errors occur before measurement and include patient identification, collection, labeling, transport, timing, and specimen-quality problems."
+    },
+    {
+      "question": "What best defines closed-loop test-result management?",
+      "choices": ["Releasing the result to a portal only", "Assuming another clinician will review it", "Ensuring the result is received, acknowledged, communicated understandably, acted upon, and tracked to completion", "Documenting the order but not the outcome"],
+      "correctIndex": 2,
+      "explanation": "Closed-loop management extends from ordering and specimen completion through review, communication, action, and verification that follow-up occurred."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 168,
+  "questions": [
+    {
+      "question": "A 47-year-old discovers a new breast mass eight months after a normal screening mammogram. What is the most appropriate principle?",
+      "choices": ["Wait until the next routine screening interval", "Treat the prior mammogram as definitive exclusion of disease", "Begin a diagnostic evaluation because a new symptom is not managed by routine screening", "Repeat preventive counseling only"],
+      "correctIndex": 2,
+      "explanation": "Screening recommendations apply to asymptomatic populations. A new palpable mass requires a diagnostic pathway despite a recent negative screening result."
+    },
+    {
+      "question": "Which statement best distinguishes developmental surveillance from standardized developmental screening?",
+      "choices": ["Surveillance is longitudinal at health-supervision encounters, while standardized screening occurs at recommended intervals and whenever concern arises", "Surveillance occurs only after a positive screening test", "Standardized screening is unnecessary when a clinician's impression is reassuring", "They are identical terms"],
+      "correctIndex": 0,
+      "explanation": "Developmental surveillance is continuous and screening adds a standardized tool at recommended times or whenever a concern is identified."
+    },
+    {
+      "question": "An adolescent preventive visit is conducted entirely with a parent answering every question. What is the best FNP action?",
+      "choices": ["Avoid sensitive topics until age 18", "Explain confidentiality and its limits, then obtain developmentally appropriate private time", "Promise absolute secrecy before asking about safety", "Ask the parent to complete the adolescent's mental-health screen"],
+      "correctIndex": 1,
+      "explanation": "Private time supports accurate adolescent assessment, but confidentiality limits for imminent danger, abuse, and reporting requirements must be explained."
+    },
+    {
+      "question": "Which statement about vaccination during pregnancy is most accurate?",
+      "choices": ["All vaccines are contraindicated during pregnancy", "Live vaccines are always preferred during pregnancy", "Tdap is recommended during each pregnancy and vaccine-specific current guidance should distinguish recommended non-live vaccines from contraindicated live vaccines", "A prior Tdap dose permanently eliminates the need for Tdap in later pregnancies"],
+      "correctIndex": 2,
+      "explanation": "CDC guidance recommends Tdap during each pregnancy and generally contraindicates live vaccines such as MMR and varicella; vaccine-specific guidance is essential."
+    },
+    {
+      "question": "A child's vaccine series was interrupted for several years. What is the correct general approach?",
+      "choices": ["Restart every vaccine series from dose one", "Count valid prior doses and continue using the current catch-up schedule", "Avoid all further vaccines", "Use the adult schedule regardless of the child's age"],
+      "correctIndex": 1,
+      "explanation": "An interrupted series generally is not restarted solely because time has elapsed. Valid doses are counted and the current catch-up schedule guides completion."
+    },
+    {
+      "question": "A positive stool-based colorectal cancer screening test has been documented. What completes the screening process?",
+      "choices": ["Repeating the same stool test until it becomes negative", "No further action if the patient feels well", "Closed-loop arrangement of the indicated diagnostic colonoscopy", "Waiting for rectal bleeding before follow-up"],
+      "correctIndex": 2,
+      "explanation": "A positive stool-based screen requires diagnostic colonoscopy. Screening has not produced benefit if the abnormal result is not evaluated."
+    },
+    {
+      "question": "Which patient best fits the current USPSTF population for annual lung cancer screening with low-dose CT?",
+      "choices": ["A 42-year-old who never smoked and has acute hemoptysis", "A 61-year-old with a 25 pack-year history who currently smokes and has no lung-cancer symptoms", "An 83-year-old who quit smoking 25 years ago", "A 55-year-old with pneumonia symptoms who needs diagnostic chest imaging"],
+      "correctIndex": 1,
+      "explanation": "Current USPSTF eligibility includes asymptomatic adults ages 50 through 80 with at least 20 pack-years who currently smoke or quit within 15 years. Symptoms require diagnostic evaluation."
+    },
+    {
+      "question": "An 86-year-old with advanced frailty, severe dementia, limited life expectancy, and comfort-focused goals is due for routine cancer screening in an automated reminder. What is the best response?",
+      "choices": ["Order every test because age is the only relevant factor", "Ignore all preventive care", "Individualize the decision using time to benefit, burdens, treatment willingness, function, and goals", "Transfer decision-making to the reminder system"],
+      "correctIndex": 2,
+      "explanation": "Older-adult prevention should consider life expectancy, frailty, downstream burden, willingness to treat, and patient goals rather than following an automated reminder alone."
+    },
+    {
+      "question": "What does a USPSTF I statement mean?",
+      "choices": ["The service is proven harmful", "The service is mandatory for everyone", "Current evidence is insufficient to determine the balance of benefits and harms", "The patient is ineligible for shared decision-making"],
+      "correctIndex": 2,
+      "explanation": "An I statement identifies insufficient evidence. It is not equivalent to a D recommendation and calls for clinical judgment about the individual situation."
+    },
+    {
+      "question": "Which action best demonstrates closed-loop preventive care?",
+      "choices": ["Placing a referral without assigning follow-up responsibility", "Ordering several tests without discussing possible results", "Tracking completion, reviewing results, communicating them, and arranging the indicated next step", "Documenting that the patient was reminded once"],
+      "correctIndex": 2,
+      "explanation": "Closed-loop care assigns ownership from order through completion, result communication, and any required diagnostic or treatment follow-up."
+    }
+  ]
+}

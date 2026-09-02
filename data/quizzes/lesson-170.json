@@ -1,0 +1,65 @@
+{
+  "id": 170,
+  "questions": [
+    {
+      "question": "What is the best first step in safe medication selection?",
+      "choices": ["Choose the newest drug", "Confirm the indication, patient stability, and measurable treatment goal", "Order a refill before reviewing the diagnosis", "Select the highest available dose"],
+      "correctIndex": 1,
+      "explanation": "Medication selection begins with a justified indication, the current clinical setting, and a goal that can later be evaluated."
+    },
+    {
+      "question": "What does an FDA boxed warning generally communicate?",
+      "choices": ["The medication is absolutely contraindicated in every patient", "The medication is available without a prescription", "Serious risk information that requires prominent prescriber consideration", "The medicine has no evidence of benefit"],
+      "correctIndex": 2,
+      "explanation": "A boxed warning highlights serious risks that may lead to death or serious injury, but it is not automatically an absolute contraindication for every patient."
+    },
+    {
+      "question": "A child weighs 22 kg and needs a liquid medicine. Which prescribing process is safest?",
+      "choices": ["Estimate the dose from age alone", "Use pounds directly in a kilogram formula", "Verify kilograms, mg/kg dose, frequency, maximum dose, concentration, and volume, then teach the caregiver to measure it", "Write only the brand name and teaspoons"],
+      "correctIndex": 2,
+      "explanation": "Pediatric prescribing requires verified kilogram weight, dose calculation, maximum dose, formulation concentration, volume, and caregiver teach-back."
+    },
+    {
+      "question": "Why can an automated renal dose recommendation be unreliable during rapidly changing acute kidney injury?",
+      "choices": ["Kidney function never affects medication exposure", "Creatinine-based estimates assume a more stable state and may lag behind acute change", "Every medicine is eliminated by the liver", "eGFR always overestimates function by exactly half"],
+      "correctIndex": 1,
+      "explanation": "During acute change, serum creatinine and estimated kidney function may not reflect steady state, so drug-specific judgment and close monitoring are needed."
+    },
+    {
+      "question": "Which statement about medication use in pregnancy is most accurate?",
+      "choices": ["The old A-B-C-D-X letters should be the only decision tool", "All medication must be stopped immediately", "Balance maternal disease risk, fetal risk, timing, alternatives, and current narrative labeling", "Pregnancy status never changes prescribing"],
+      "correctIndex": 2,
+      "explanation": "FDA narrative pregnancy and lactation labeling supports individualized risk-benefit decisions rather than reliance on obsolete letter categories."
+    },
+    {
+      "question": "How should the AGS Beers Criteria be used?",
+      "choices": ["As an automatic denial list for everyone older than 65", "As guidance about potentially inappropriate medication risks that supports individualized shared decisions", "Only for pediatric patients", "To replace medication reconciliation"],
+      "correctIndex": 1,
+      "explanation": "The Beers Criteria identifies potential risks in older adults but should support, not replace, individualized clinical judgment and shared decision-making."
+    },
+    {
+      "question": "A patient appears to have treatment-resistant asthma, but uses the inhaler incorrectly and skips doses because of cost. What is the best next step?",
+      "choices": ["Add two more medications immediately", "Correct technique and access barriers, confirm diagnosis and adherence, then reassess", "Label the patient noncompliant and discharge them", "Stop all asthma therapy"],
+      "correctIndex": 1,
+      "explanation": "Apparent pharmacologic failure may reflect technique or access. These must be addressed before unnecessary escalation and additional risk."
+    },
+    {
+      "question": "Which is the best example of antimicrobial stewardship?",
+      "choices": ["Antibiotics for every cough", "The broadest antibiotic for the longest duration", "Confirm a bacterial syndrome and select the narrowest effective agent, dose, and evidence-supported duration", "Use leftover antibiotics without evaluation"],
+      "correctIndex": 2,
+      "explanation": "Stewardship aligns diagnosis, agent, dose, duration, patient factors, local resistance, and follow-up while avoiding unnecessary antibiotic harm."
+    },
+    {
+      "question": "An older adult develops edema after a new medication, then receives a diuretic, potassium, and treatment for dizziness. What concept should be considered?",
+      "choices": ["A prescribing cascade", "Therapeutic duplication is always beneficial", "Medication adverse effects cannot cause symptoms", "Every added medicine proves a new disease"],
+      "correctIndex": 0,
+      "explanation": "A prescribing cascade occurs when an adverse effect is treated as a new condition, leading to additional medications and downstream harm."
+    },
+    {
+      "question": "Which plan best closes the prescribing loop?",
+      "choices": ["Write the prescription without follow-up", "Define baseline data, expected benefit, toxicity monitoring, follow-up time, stopping rules, education, and result ownership", "Assume the pharmacy will manage all clinical decisions", "Continue indefinitely because the first dose was tolerated"],
+      "correctIndex": 1,
+      "explanation": "Closed-loop prescribing includes a clear order, education, monitoring, evaluation of benefit and harm, and an assigned follow-up plan."
+    }
+  ]
+}

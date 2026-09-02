@@ -1,0 +1,65 @@
+{
+  "id": 174,
+  "questions": [
+    {
+      "question": "A patient develops sudden aphasia and right face and arm weakness 35 minutes ago. Glucose is 112 mg/dL. What is the best next step?",
+      "choices": ["Observe for spontaneous resolution", "Arrange outpatient MRI next week", "Activate emergency stroke evaluation and document last known well", "Give aspirin before excluding hemorrhage"],
+      "correctIndex": 2,
+      "explanation": "An abrupt disabling focal deficit is acute stroke until proven otherwise. Rapid EMS/stroke-system activation and a precise last-known-well time preserve reperfusion options; outpatient testing or empiric antithrombotic therapy is unsafe."
+    },
+    {
+      "question": "A patient had 15 minutes of unilateral weakness and aphasia that completely resolved. Which principle is most accurate?",
+      "choices": ["Resolution excludes vascular disease", "A possible TIA requires urgent etiologic and stroke-risk evaluation", "Only persistent deficits need vascular imaging", "A normal current examination guarantees low risk"],
+      "correctIndex": 1,
+      "explanation": "Transient focal deficits can represent TIA and carry meaningful early stroke risk. Resolution does not close the case; urgent brain, vascular, cardiac, and prevention assessment is needed."
+    },
+    {
+      "question": "A 46-year-old develops a headache maximal within seconds during exercise, with vomiting and neck discomfort. The neurologic examination is normal. What is the safest action?",
+      "choices": ["Treat as routine migraine", "Reassure because the examination is normal", "Arrange emergency evaluation for possible subarachnoid hemorrhage", "Wait for a second episode"],
+      "correctIndex": 2,
+      "explanation": "Thunderclap onset is a major secondary-headache red flag. Subarachnoid hemorrhage can initially occur with a normal examination, so emergency imaging and further evaluation are required."
+    },
+    {
+      "question": "Which finding most strongly suggests cauda equina compression in a patient with back pain?",
+      "choices": ["Pain after gardening without neurologic findings", "Isolated paraspinal tenderness", "New urinary retention, saddle anesthesia, and bilateral leg weakness", "Pain improved by rest"],
+      "correctIndex": 2,
+      "explanation": "Urinary retention, saddle sensory loss, and progressive bilateral weakness are classic compression warnings requiring emergency MRI and spine evaluation."
+    },
+    {
+      "question": "A patient with diabetes has an acutely hot swollen knee and severe pain with passive motion but no high fever. What is the best next step?",
+      "choices": ["Exclude infection because fever is absent", "Diagnose gout from serum uric acid alone", "Arrange urgent arthrocentesis and evaluation for septic arthritis", "Begin long-term urate lowering without aspiration"],
+      "correctIndex": 2,
+      "explanation": "Septic arthritis may occur without high fever and can rapidly damage the joint. Synovial fluid analysis and culture are central; serum urate cannot exclude infection."
+    },
+    {
+      "question": "Which patient with dizziness most strongly requires emergency central neurologic evaluation?",
+      "choices": ["Brief vertigo only when rolling in bed without neurologic findings", "Sudden continuous vertigo with dysarthria, limb ataxia, and inability to stand", "Mild lightheadedness after standing while dehydrated", "A stable chronic motion sensitivity pattern"],
+      "correctIndex": 1,
+      "explanation": "Continuous vertigo with focal neurologic deficits and severe gait failure suggests posterior circulation stroke or another central process, not uncomplicated BPPV."
+    },
+    {
+      "question": "Which statement about a first unprovoked seizure is most accurate?",
+      "choices": ["Every patient automatically requires lifelong antiseizure therapy", "The evaluation should address recurrence risk, imaging or EEG findings, safety, and individualized treatment", "Driving restrictions never apply after one seizure", "Metabolic and medication causes are irrelevant"],
+      "correctIndex": 1,
+      "explanation": "A first seizure requires confirmation, evaluation for provoking factors, and individualized recurrence-risk assessment. Imaging, EEG, patient preferences, adverse effects, and legal safety restrictions influence management."
+    },
+    {
+      "question": "A patient has rapidly ascending weakness, areflexia, weak cough, and difficulty swallowing. What is the priority?",
+      "choices": ["Routine outpatient physical therapy", "Urgent neuromuscular and respiratory evaluation", "Reassurance because oxygen saturation is currently normal", "A sedating muscle relaxant"],
+      "correctIndex": 1,
+      "explanation": "Ascending weakness with bulbar or respiratory involvement may indicate Guillain-Barré syndrome and impending ventilatory failure. Oxygen saturation can remain normal early; urgent respiratory assessment is essential."
+    },
+    {
+      "question": "Which statement about acute compartment syndrome is correct?",
+      "choices": ["Normal distal pulses exclude it", "It can be managed with outpatient analgesic escalation", "Severe escalating pain, pain with passive stretch, and tense swelling require emergency surgical evaluation", "Radiographs must confirm it before consultation"],
+      "correctIndex": 2,
+      "explanation": "Compartment syndrome is a clinical and surgical emergency. Pulses may remain present until late, and consultation should not wait for routine outpatient testing."
+    },
+    {
+      "question": "A patient has acute low back pain after lifting, normal strength and sensation, no systemic symptoms, and no red flags. Which approach is most appropriate?",
+      "choices": ["Immediate MRI for every patient", "Initial conservative management with activity guidance, symptom care, and return precautions", "Emergency surgical referral", "Long-term bed rest"],
+      "correctIndex": 1,
+      "explanation": "Routine imaging is generally not indicated for uncomplicated acute low back pain without red flags. Maintain activity as tolerated, provide safe symptom treatment, and reassess if deficits, systemic features, or failure to improve develops."
+    }
+  ]
+}

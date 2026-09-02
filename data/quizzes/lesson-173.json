@@ -1,0 +1,65 @@
+{
+  "id": 173,
+  "questions": [
+    {
+      "question": "A 69-year-old taking naproxen and apixaban has melena, near-syncope, BP 88/54 mm Hg, and HR 118/min. What is the best next step?",
+      "choices": ["Order an outpatient fecal occult blood test", "Stop naproxen and recheck in one week", "Arrange emergency transfer for suspected major GI bleeding and shock", "Begin fiber and oral iron only"],
+      "correctIndex": 2,
+      "explanation": "Melena with hypotension, tachycardia, and near-syncope indicates potentially life-threatening GI bleeding. Physiologic stabilization and emergency evaluation take priority over outpatient confirmation or symptom treatment."
+    },
+    {
+      "question": "Which patient with presumed reflux most clearly requires a diagnostic pathway rather than indefinite empiric acid suppression?",
+      "choices": ["A 25-year-old with occasional postprandial heartburn and no alarm features", "A 63-year-old with progressive dysphagia, iron-deficiency anemia, and weight loss", "A 31-year-old whose symptoms improve with avoiding a personal trigger", "A 40-year-old with one brief episode of sour taste"],
+      "correctIndex": 1,
+      "explanation": "Progressive dysphagia, anemia, and unintentional weight loss are alarm features for structural disease or malignancy and warrant prompt evaluation, often including endoscopy."
+    },
+    {
+      "question": "After treatment for confirmed Helicobacter pylori infection, which action best completes evidence-aligned care?",
+      "choices": ["Assume cure when pain improves", "Repeat antibody serology the next day", "Document eradication with an appropriately timed active-infection test", "Continue the same antibiotics indefinitely"],
+      "correctIndex": 2,
+      "explanation": "Symptom improvement does not prove eradication. Current ACG guidance recommends test-of-cure after therapy using an appropriately timed breath, stool antigen, or biopsy-based test, with interfering medicines held as directed."
+    },
+    {
+      "question": "A 74-year-old has fever, right upper quadrant pain, jaundice, confusion, and hypotension. Which response is most appropriate?",
+      "choices": ["Routine outpatient ultrasound next month", "Emergency evaluation for severe ascending cholangitis and biliary decompression", "Empiric reflux treatment", "Dietary fat restriction alone"],
+      "correctIndex": 1,
+      "explanation": "Obstruction plus biliary infection can progress to sepsis. Hypotension and altered mental status indicate severe disease requiring stabilization, antimicrobials, and urgent biliary drainage coordination."
+    },
+    {
+      "question": "Which combination generally satisfies two diagnostic criteria for acute pancreatitis?",
+      "choices": ["Constipation plus normal lipase", "Typical persistent epigastric pain plus lipase more than three times the upper limit of normal", "Jaundice plus isolated low albumin", "Heartburn plus a normal abdominal examination"],
+      "correctIndex": 1,
+      "explanation": "Acute pancreatitis is generally diagnosed when two of three are present: characteristic pain, pancreatic enzymes more than three times the upper limit of normal, or compatible imaging."
+    },
+    {
+      "question": "A patient with cirrhosis and ascites develops new confusion, abdominal discomfort, and acute kidney injury without a high fever. What is the safest interpretation?",
+      "choices": ["SBP is excluded because fever is absent", "This is uncomplicated constipation only", "SBP may be subtle and urgent evaluation with diagnostic paracentesis is needed", "An ammonia level alone will determine disposition"],
+      "correctIndex": 2,
+      "explanation": "Spontaneous bacterial peritonitis may present subtly and can precipitate encephalopathy or kidney injury. Fever is not required; urgent assessment and diagnostic paracentesis are central."
+    },
+    {
+      "question": "Which statement about aminotransferases and chronic liver disease is most accurate?",
+      "choices": ["Normal AST and ALT always exclude advanced fibrosis", "The highest ALT always identifies the least remaining liver function", "AST and ALT reflect injury and may be normal despite significant chronic fibrosis", "Albumin is specific only to liver disease"],
+      "correctIndex": 2,
+      "explanation": "AST and ALT primarily reflect hepatocellular injury, not total hepatic reserve. Significant fibrosis or cirrhosis may be present even when aminotransferases are normal."
+    },
+    {
+      "question": "A patient has abdominal distention, colicky pain, repeated vomiting, and no passage of stool or flatus. What should the FNP prioritize?",
+      "choices": ["Escalating laxatives without examination", "Evaluating urgently for bowel obstruction and complications", "Diagnosing IBS immediately", "Reassurance because constipation is common"],
+      "correctIndex": 1,
+      "explanation": "Pain, vomiting, distention, and obstipation suggest bowel obstruction. The priority is urgent assessment for ischemia, perforation, or other complications—not empiric laxative escalation."
+    },
+    {
+      "question": "Which presentation is most concerning for inflammatory or structural disease rather than uncomplicated IBS?",
+      "choices": ["Longstanding pain related to defecation without alarm findings", "Symptoms that improve after a bowel movement", "Nocturnal diarrhea, blood, anemia, and unintentional weight loss", "Variable stool form during stress with stable weight"],
+      "correctIndex": 2,
+      "explanation": "Nocturnal symptoms, bleeding, anemia, and weight loss are alarm features requiring evaluation for IBD, malignancy, malabsorption, infection, or other organic disease."
+    },
+    {
+      "question": "Which plan best demonstrates closed-loop FNP care after ordering outpatient GI tests?",
+      "choices": ["Tell the patient to call only if results are abnormal", "Document who reviews results, the reassessment interval, expected response, and urgent return precautions", "Order broad testing without a clinical question", "Assume another clinician will review all pending results"],
+      "correctIndex": 1,
+      "explanation": "Safe care includes explicit ownership of pending results, planned reassessment, treatment-response criteria, and clear escalation instructions. Testing without follow-up is incomplete care."
+    }
+  ]
+}

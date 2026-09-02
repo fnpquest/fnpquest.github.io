@@ -1,0 +1,65 @@
+{
+  "id": 172,
+  "questions": [
+    {
+      "question": "A patient with classic hyperglycemic symptoms has random plasma glucose of 228 mg/dL. Which principle applies?",
+      "choices": ["Diabetes is excluded because no A1C is available", "Random plasma glucose at least 200 mg/dL with classic symptoms meets an ADA diagnostic criterion", "Only urine glucose can diagnose diabetes", "The result must always be ignored during symptoms"],
+      "correctIndex": 1,
+      "explanation": "ADA criteria include random plasma glucose at least 200 mg/dL with classic hyperglycemic symptoms or crisis. Other asymptomatic results generally require confirmation."
+    },
+    {
+      "question": "Why can serum potassium be normal or high when total-body potassium is depleted in DKA?",
+      "choices": ["The kidneys stop all potassium loss", "Insulin deficiency and acidosis shift potassium out of cells while osmotic diuresis causes total-body loss", "DKA creates potassium from glucose", "Serum and total-body potassium are always identical"],
+      "correctIndex": 1,
+      "explanation": "Extracellular shifting can mask substantial urinary potassium loss, so potassium can fall rapidly during treatment and requires close monitoring."
+    },
+    {
+      "question": "A patient with type 1 diabetes is ill and not eating. Which general sick-day principle is safest?",
+      "choices": ["Automatically stop basal insulin", "Continue basal insulin under an individualized sick-day plan and monitor glucose, ketones, hydration, and warning signs", "Avoid checking ketones", "Wait for coma before seeking help"],
+      "correctIndex": 1,
+      "explanation": "Stopping basal insulin can precipitate DKA. Sick-day plans address insulin adjustment, glucose and ketone checks, hydration, and escalation."
+    },
+    {
+      "question": "Which thyroid pattern most strongly suggests primary hypothyroidism?",
+      "choices": ["High TSH with low free T4", "Low TSH with high free T4", "Low free T4 with an inappropriately low TSH from pituitary disease", "Normal TSH with severe hypercalcemia"],
+      "correctIndex": 0,
+      "explanation": "Primary thyroid failure lowers free T4 and removes negative feedback, leading to an elevated TSH."
+    },
+    {
+      "question": "A patient who abruptly stopped long-term glucocorticoids has vomiting, hypotension, hyponatremia, and confusion. What is the priority?",
+      "choices": ["Wait several days for outpatient stimulation testing", "Suspect adrenal crisis and provide immediate emergency glucocorticoid, fluids, and transfer", "Start thyroid hormone only", "Treat with an oral diuretic"],
+      "correctIndex": 1,
+      "explanation": "Severe adrenal insufficiency or crisis requires immediate treatment; diagnostic samples may be obtained only if they do not delay emergency care."
+    },
+    {
+      "question": "Which statement best reflects KDIGO classification of CKD?",
+      "choices": ["One abnormal creatinine during dehydration proves CKD", "CKD requires abnormalities for at least three months and is classified by cause, GFR, and albuminuria", "Albuminuria never affects risk", "G1 eGFR alone always means CKD"],
+      "correctIndex": 1,
+      "explanation": "CKD requires chronic kidney structure or function abnormality and is stratified with cause, GFR category, and albuminuria category."
+    },
+    {
+      "question": "A patient has fever, flank pain, pyuria, and hydronephrosis behind an obstructing stone. What is the best management principle?",
+      "choices": ["Oral antibiotics alone are always sufficient", "This is an infected obstruction requiring urgent antibiotics, decompression, and hospital-level care", "Wait for spontaneous passage regardless of sepsis risk", "Use only a diuretic"],
+      "correctIndex": 1,
+      "explanation": "Infection behind obstruction is a source-control emergency and requires urgent drainage plus antimicrobial and supportive management."
+    },
+    {
+      "question": "Which finding pattern most suggests nephritic disease?",
+      "choices": ["Hematuria with casts, hypertension, and declining kidney function", "Isolated allergic rhinitis", "Normal urinalysis with ankle trauma", "Hyperglycemia without urine abnormalities"],
+      "correctIndex": 0,
+      "explanation": "A nephritic pattern includes glomerular hematuria, casts, hypertension, and impaired kidney function and may require expedited nephrology evaluation."
+    },
+    {
+      "question": "A patient has severe symptomatic hyponatremia. Why must correction be carefully controlled?",
+      "choices": ["Sodium has no effect on the brain", "Overly rapid correction can cause serious neurologic injury", "The exact rate never matters", "All hyponatremia should be corrected at home"],
+      "correctIndex": 1,
+      "explanation": "Both severe hyponatremia and overly rapid correction can injure the brain, so symptomatic cases require monitored emergency management."
+    },
+    {
+      "question": "An older adult with CKD, cognitive impairment, and recurrent hypoglycemia has a very low A1C. What is the best next step?",
+      "choices": ["Intensify insulin automatically", "Review glucose patterns and deintensify high-hypoglycemia-risk therapy when appropriate to individualized goals", "Ignore the episodes", "Set the same target for every adult"],
+      "correctIndex": 1,
+      "explanation": "Recurrent hypoglycemia is dangerous. Treatment and targets should be individualized for kidney function, cognition, frailty, burden, and patient goals."
+    }
+  ]
+}
