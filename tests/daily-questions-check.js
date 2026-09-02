@@ -16,6 +16,9 @@ assert.ok(robots.includes("Sitemap: https://fnpquest.github.io/sitemap.xml"),"ro
 assert.ok(archive.includes("Clinical Question of the Day"),"Archive must contain crawlable Daily Questions text.");
 assert.ok(config.googleSiteVerification,"Google Search Console verification token must be configured when verification is requested.");
 assert.ok(home.includes(`<meta name="google-site-verification" content="${config.googleSiteVerification}">`),"Home page must include the configured Google Search Console verification tag.");
+assert.ok(home.includes(`<link rel="canonical" href="${config.baseUrl}/">`),"Home page must use the current branded canonical URL.");
+assert.ok(sitemap.includes(`<loc>${config.baseUrl}/</loc>`),"Sitemap must include the branded home page.");
+assert.ok(sitemap.includes("<lastmod>"),"Sitemap entries must include last-modified dates.");
 
 for(const question of questions){
  const relative=`daily-questions/${question.slug}/index.html`;

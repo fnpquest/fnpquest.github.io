@@ -5,7 +5,9 @@ const path=require("path");
 const root=path.resolve(__dirname,"..");
 const config=readJson("data/site-config.json");
 const questions=readJson("data/daily-questions.json").slice().sort((a,b)=>a.day-b.day);
-const version=readJson("version.json").version.replace(/^v/,"");
+const release=readJson("version.json");
+const version=release.version.replace(/^v/,"");
+const siteUpdated=release.build;
 const baseUrl=String(config.baseUrl||"").replace(/\/$/,"");
 
 function readJson(file){return JSON.parse(fs.readFileSync(path.join(root,file),"utf8"));}
@@ -116,8 +118,8 @@ function validate(){
  }
 }
 function renderSitemap(){
- const entries=[`${baseUrl}/`,`${baseUrl}/daily-questions/`,...questions.map(question=>questionUrl(question))];
- return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.map(url=>`  <url><loc>${escapeHtml(url)}</loc></url>`).join("\n")}\n</urlset>\n`;
+ const entries=[{url:`${baseUrl}/`,lastmod:siteUpdated},{url:`${baseUrl}/daily-questions/`,lastmod:siteUpdated},...questions.map(question=>({url:questionUrl(question),lastmod:question.date}))];
+ return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.map(entry=>`  <url><loc>${escapeHtml(entry.url)}</loc><lastmod>${escapeHtml(entry.lastmod)}</lastmod></url>`).join("\n")}\n</urlset>\n`;
 }
 function updateHomeVerification(){
  const indexPath=path.join(root,"index.html");
