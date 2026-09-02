@@ -1,0 +1,65 @@
+{
+  "id": 182,
+  "questions": [
+    {
+      "question": "A 74-year-old treated twice for pneumonia has progressive dyspnea, orthopnea, edema, elevated JVP, and no fever. What is the best next reasoning step?",
+      "choices": ["Prescribe a third antibiotic without reassessment", "Rebuild the problem representation and prioritize congestion while assessing severity", "Accept pneumonia because it appears in the prior notes", "Exclude heart failure because cough is present"],
+      "correctIndex": 1,
+      "explanation": "Failure of the expected course and findings of volume overload conflict with the inherited diagnosis. Reframing combats diagnostic momentum and redirects evaluation toward heart failure and other cardiopulmonary causes."
+    },
+    {
+      "question": "A patient with fever and dysuria has a positive urine test but also develops sudden aphasia and unilateral weakness. Which principle is most important?",
+      "choices": ["The positive urine test explains all symptoms", "Stop searching once one diagnosis is confirmed", "Recognize a possible second process and activate a stroke pathway", "Treat the focal deficit as delirium from UTI"],
+      "correctIndex": 2,
+      "explanation": "A UTI may coexist but does not adequately explain an acute focal neurologic deficit. Avoid search satisficing and act on the time-sensitive possibility of stroke."
+    },
+    {
+      "question": "Why can the same positive test have different meanings in two patients?",
+      "choices": ["Specificity changes randomly for every person", "Post-test interpretation depends partly on pretest probability and clinical context", "Positive results always establish disease", "Prevalence matters only after treatment"],
+      "correctIndex": 1,
+      "explanation": "Pretest probability influences post-test probability. A positive result in a very low-risk population may be false or incidental, while the same result in a compatible high-risk presentation may be much more persuasive."
+    },
+    {
+      "question": "Which action best counters anchoring and premature closure when a patient is worsening?",
+      "choices": ["Repeat the same treatment more forcefully", "Restate the case without the existing label and ask what else could explain it", "Remove contradictory findings from the summary", "Order every available test"],
+      "correctIndex": 1,
+      "explanation": "A diagnostic timeout reconstructs the syndrome and deliberately seeks alternatives, mimics, emergencies, and second processes. Indiscriminate testing is not a substitute for structured reasoning."
+    },
+    {
+      "question": "An older adult develops confusion, constipation, urinary retention, and falls after starting an OTC sleep product. What is the most useful unifying hypothesis?",
+      "choices": ["Four unrelated diseases must have started simultaneously", "A medication-related anticholinergic syndrome", "Normal aging", "Isolated urinary infection regardless of other findings"],
+      "correctIndex": 1,
+      "explanation": "The temporal association and multisystem pattern are compatible with anticholinergic medication effects. Stability and other causes still require assessment, but medication reconciliation is a key discriminator."
+    },
+    {
+      "question": "Which statement about a negative diagnostic test is most accurate?",
+      "choices": ["A negative result always excludes disease", "It is meaningful only in relation to timing, quality, validated population, test performance, and pretest probability", "It is less useful than every positive result", "It eliminates the need for follow-up"],
+      "correctIndex": 1,
+      "explanation": "Negative results are conditional. Early testing, poor specimens, spectrum differences, or high pretest probability can leave substantial residual risk."
+    },
+    {
+      "question": "A patient with uncertain early abdominal pain is stable for outpatient observation. Which plan best uses time safely as diagnostic information?",
+      "choices": ["Return as needed", "No follow-up if initial labs are normal", "A defined reassessment interval, observable warning signs, reliable access, and assigned result ownership", "Repeat antibiotics if pain persists"],
+      "correctIndex": 2,
+      "explanation": "Serial assessment is safe only when timing matches disease risk, the patient can return, deterioration triggers are explicit, and pending information has an owner."
+    },
+    {
+      "question": "Which finding is the strongest discriminator between simple fatigue and an acute focal neurologic emergency?",
+      "choices": ["The patient reports being tired", "Sudden unilateral weakness with speech change", "Symptoms began after a busy week", "Sleep was interrupted"],
+      "correctIndex": 1,
+      "explanation": "Abrupt focal neurologic deficits strongly shift probability toward stroke or another focal brain process and require urgent action rather than broad outpatient fatigue testing."
+    },
+    {
+      "question": "What is search satisficing?",
+      "choices": ["Choosing a sufficiently sensitive test", "Stopping the diagnostic search after finding one abnormality even though important findings remain unexplained", "Using a specialist consultation", "Following a result until closure"],
+      "correctIndex": 1,
+      "explanation": "Search satisficing occurs when discovery of one diagnosis or abnormality prematurely ends evaluation. The clinician should ask whether it explains the entire syndrome and whether a dangerous second process remains."
+    },
+    {
+      "question": "Which approach best communicates diagnostic uncertainty to a patient?",
+      "choices": ["Hide uncertainty to preserve confidence", "List every possible disease without prioritization", "Explain the leading possibilities, what has and has not been excluded, warning signs, and the follow-up plan", "State that a normal test guarantees safety"],
+      "correctIndex": 2,
+      "explanation": "Transparent, prioritized uncertainty supports partnership and safety. The patient needs to know the working diagnosis, residual risk, observable changes, reassessment timing, and who owns pending results."
+    }
+  ]
+}

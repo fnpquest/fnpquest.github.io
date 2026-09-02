@@ -1,0 +1,65 @@
+{
+  "id": 181,
+  "questions": [
+    {
+      "question": "A 62-year-old with diabetes has ongoing chest pressure, diaphoresis, nausea, and dyspnea. The first office ECG is nondiagnostic. What is the safest next step?",
+      "choices": ["Treat presumed reflux and reassess next week", "Arrange EMS transport for emergency ACS evaluation", "Allow the patient to drive to an outpatient laboratory", "Exclude ACS because the ECG is normal"],
+      "correctIndex": 1,
+      "explanation": "The symptom cluster and risk context remain concerning for ACS. A single nondiagnostic ECG cannot exclude it; EMS transport provides monitoring and access to serial emergency evaluation."
+    },
+    {
+      "question": "Minutes after an injection, a patient develops throat tightness, wheeze, vomiting, and hypotension but no hives. Which treatment is first-line?",
+      "choices": ["Oral antihistamine alone", "Intramuscular epinephrine with emergency activation", "Systemic corticosteroid alone", "Observation until a rash appears"],
+      "correctIndex": 1,
+      "explanation": "Anaphylaxis can occur without skin findings. Airway, breathing, circulatory, and GI involvement after a likely trigger requires immediate intramuscular epinephrine, EMS activation, supportive care, and reassessment."
+    },
+    {
+      "question": "A patient had sudden aphasia and unilateral weakness for 15 minutes but is now neurologically normal. What is the best disposition?",
+      "choices": ["Routine follow-up in one month", "Urgent stroke-system evaluation for possible TIA", "No evaluation because symptoms resolved", "Begin exercise and observe at home"],
+      "correctIndex": 1,
+      "explanation": "A transient focal neurologic deficit may be a TIA and can precede stroke. Resolution does not eliminate risk; urgent evaluation and secondary-prevention assessment are required."
+    },
+    {
+      "question": "Which finding most strongly indicates impending respiratory failure rather than improvement during a severe asthma episode?",
+      "choices": ["Less wheeze with increasing drowsiness and minimal air entry", "Ability to speak in full sentences", "Improved air movement after treatment", "Normal mentation with reduced accessory-muscle use"],
+      "correctIndex": 0,
+      "explanation": "A silent or nearly silent chest with fatigue and altered mental status can reflect critically reduced airflow. Decreasing audible wheeze is not reassuring when air entry and consciousness worsen."
+    },
+    {
+      "question": "A patient with suspected infection is confused, tachypneic, mottled, and oliguric but has no fever. What is the most appropriate interpretation?",
+      "choices": ["Sepsis is excluded without fever", "Possible sepsis with organ dysfunction requiring immediate evaluation and treatment", "The findings establish anxiety", "Wait for leukocytosis before escalating"],
+      "correctIndex": 1,
+      "explanation": "Sepsis can occur without fever or leukocytosis, especially in high-risk populations. Altered mentation, tachypnea, mottling, and oliguria suggest organ dysfunction and require emergency care."
+    },
+    {
+      "question": "A postpartum patient has sudden pleuritic chest pain, dyspnea, tachycardia, and presyncope. Which action is safest?",
+      "choices": ["Diagnose panic disorder based on age", "Arrange emergency evaluation for pulmonary embolism", "Order a routine outpatient D-dimer regardless of probability", "Wait for hemoptysis before acting"],
+      "correctIndex": 1,
+      "explanation": "The postpartum state increases VTE risk, and the acute cardiopulmonary presentation is concerning for PE. Emergency assessment takes priority over psychiatric attribution or delayed outpatient testing."
+    },
+    {
+      "question": "A patient with CKD has potassium 6.8 mEq/L and new weakness. The laboratory reports the result after the patient has left. What is the best response?",
+      "choices": ["Leave one voicemail and close the result", "Wait until the next scheduled visit", "Make direct closed-loop contact and arrange immediate ECG-capable emergency evaluation", "Advise increased dietary potassium"],
+      "correctIndex": 2,
+      "explanation": "Severe hyperkalemia can cause fatal conduction abnormalities. The clinician must ensure the patient receives the message and reaches urgent ECG-capable care; an unconfirmed voicemail is insufficient."
+    },
+    {
+      "question": "Which statement best describes safe transport for an unstable patient identified in clinic?",
+      "choices": ["Private transport is preferred because it is less expensive", "The patient may drive if symptoms temporarily improve", "EMS is appropriate when deterioration or need for en-route monitoring and treatment is possible", "Transport choice does not affect outcome"],
+      "correctIndex": 2,
+      "explanation": "EMS can monitor, intervene, communicate with the receiving system, and select an appropriate destination. Temporary improvement does not eliminate recurrence or deterioration risk."
+    },
+    {
+      "question": "A somnolent patient has slow, shallow breathing and suspected opioid exposure. What is the priority?",
+      "choices": ["Wait for toxicology confirmation", "Support airway and ventilation, activate EMS, and use naloxone per current protocol", "Give an oral stimulant", "Assume naloxone alone eliminates the need for observation"],
+      "correctIndex": 1,
+      "explanation": "Respiratory depression is the immediate threat. Airway and ventilation support plus EMS activation are essential; naloxone is used according to protocol but may wear off before the opioid effect."
+    },
+    {
+      "question": "Which handoff most effectively supports safe emergency transfer?",
+      "choices": ["Send only the diagnosis name", "Report onset and baseline, vital trends, key findings, medications and allergies, interventions, response, and remaining uncertainty", "Wait for every test result before contacting EMS", "Omit diagnostic uncertainty to sound confident"],
+      "correctIndex": 1,
+      "explanation": "A structured handoff helps the receiving team understand acuity, timeline, risks, treatment response, and what remains unresolved. Complete diagnostic certainty is neither required nor a reason to delay transfer."
+    }
+  ]
+}

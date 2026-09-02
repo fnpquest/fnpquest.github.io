@@ -1,0 +1,65 @@
+{
+  "id": 184,
+  "questions": [
+    {
+      "question": "A 59-year-old with diabetes and tobacco exposure reports substernal pressure when walking uphill that resolves with rest. Which feature most strongly raises concern for myocardial ischemia?",
+      "choices": ["The patient calls it indigestion", "The discomfort is reproducibly exertional and resolves with rest", "The patient has no fever", "The discomfort has occurred more than once"],
+      "correctIndex": 1,
+      "explanation": "A reproducible exertional pressure pattern relieved by rest is highly compatible with demand-related myocardial ischemia, especially in a patient with cardiovascular risk. Symptom labels such as indigestion do not safely exclude cardiac disease."
+    },
+    {
+      "question": "A postpartum patient has abrupt pleuritic chest pain, tachycardia, hypoxemia, and unilateral leg swelling. What is the safest next step?",
+      "choices": ["Routine follow-up in one week", "Start an antibiotic for bronchitis", "Emergency evaluation for a possible pulmonary embolism", "Recommend an over-the-counter cough suppressant"],
+      "correctIndex": 2,
+      "explanation": "The acute cardiopulmonary syndrome, thrombotic context, hypoxemia, and unilateral leg finding create significant concern for pulmonary embolism. This requires urgent imaging-capable evaluation rather than outpatient observation."
+    },
+    {
+      "question": "A reproductive-age patient has unilateral pelvic pain, spotting, dizziness, and possible pregnancy. Which initial consideration is most important?",
+      "choices": ["Exclude pregnancy-related emergencies such as ectopic pregnancy", "Assume dysmenorrhea because the patient is young", "Begin a potentially teratogenic medication before testing", "Wait for the next menstrual cycle regardless of stability"],
+      "correctIndex": 0,
+      "explanation": "Pregnancy possibility changes the differential, testing, medication safety, and urgency. Ectopic pregnancy must be considered, and instability requires emergency care."
+    },
+    {
+      "question": "A patient with a hot swollen knee has fever, severe pain with passive movement, and cannot bear weight. Which action is most appropriate?",
+      "choices": ["Diagnose gout from a serum uric acid level alone", "Arrange urgent evaluation for septic arthritis", "Recommend exercise and reassess in three months", "Treat only with topical analgesia"],
+      "correctIndex": 1,
+      "explanation": "A highly inflamed monoarthritis with systemic illness and inability to bear weight requires urgent evaluation for joint infection. Delay can lead to joint destruction and systemic complications."
+    },
+    {
+      "question": "An older adult develops dizziness and recurrent falls after several blood-pressure medications were added. What should occur before automatic intensification for one elevated office reading?",
+      "choices": ["Add another medication immediately", "Verify measurement, orthostatic findings, actual medication use, symptoms, and home pattern", "Ignore the falls because blood-pressure control is more important", "Stop every medication permanently"],
+      "correctIndex": 1,
+      "explanation": "The FNP should verify the measurement and regimen and assess orthostasis, fall risk, and longitudinal readings. Treatment must balance cardiovascular benefit against current harm and function."
+    },
+    {
+      "question": "A patient develops a painful widespread rash, fever, blistering, and oral lesions after starting a new medication. What is the best disposition?",
+      "choices": ["Continue the medication and add moisturizer", "Schedule routine dermatology follow-up", "Stop the suspected medication and arrange emergency evaluation", "Reassure the patient that all drug rashes are benign"],
+      "correctIndex": 2,
+      "explanation": "Skin pain, systemic illness, blistering, and mucosal involvement are red flags for a severe cutaneous adverse reaction. The suspected agent should be stopped and emergency evaluation arranged."
+    },
+    {
+      "question": "A patient with worsening depression reports a specific suicide plan, intent, and access to the means. Which action takes priority?",
+      "choices": ["Routine psychotherapy referral next month", "Immediate safety intervention and emergency psychiatric evaluation", "Start medication and ask the patient to return in six weeks", "Provide a general wellness handout"],
+      "correctIndex": 1,
+      "explanation": "Plan, intent, and access indicate acute safety risk. Immediate protection and emergency evaluation take priority over routine outpatient treatment."
+    },
+    {
+      "question": "Which action best reflects the evaluation step after asthma treatment appears ineffective?",
+      "choices": ["Increase therapy indefinitely without reassessment", "Verify diagnosis, inhaler technique, adherence, exposure, comorbidity, and alternative causes", "Assume the patient is intentionally nonadherent", "Repeat the original prescription without examining the patient"],
+      "correctIndex": 1,
+      "explanation": "Failure to respond should trigger reassessment of diagnosis, technique, access, adherence, triggers, severity, and competing cardiopulmonary disease before escalation."
+    },
+    {
+      "question": "A board question asks for the best next step. Three options may eventually be appropriate. How should the candidate choose?",
+      "choices": ["Choose the most expensive test", "Choose the action that belongs at the current point in the clinical sequence and cannot safely be delayed", "Choose the longest answer", "Choose definitive treatment before assessing stability"],
+      "correctIndex": 1,
+      "explanation": "Board items frequently test sequencing. Identify what has already occurred, assess stability, and select the next action that protects the patient and advances care appropriately."
+    },
+    {
+      "question": "Which entry in an error log is most useful after missing a practice question?",
+      "choices": ["I am bad at tests", "The answer key was unfair", "I missed the pregnancy clue, selected a contraindicated drug, and will drill life-stage medication screens", "I will memorize the letter of the correct answer"],
+      "correctIndex": 2,
+      "explanation": "A useful error log identifies the specific failure mode and a repair action. This converts a missed item into targeted improvement rather than vague self-criticism or answer memorization."
+    }
+  ]
+}

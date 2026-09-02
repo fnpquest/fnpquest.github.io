@@ -1,0 +1,65 @@
+{
+  "id": 183,
+  "questions": [
+    {
+      "question": "A 72-year-old with diabetes, CKD, osteoarthritis, and depression presents for a routine visit but reports new exertional chest pressure. What should the FNP do first?",
+      "choices": ["Complete every chronic-disease quality measure before addressing the symptom", "Confirm current stability and evaluate the possible acute cardiac threat", "Increase the diabetes medication because cardiovascular risk is present", "Schedule the chest complaint for the next routine visit"],
+      "correctIndex": 1,
+      "explanation": "Longitudinal care begins with current stability. A scheduled chronic-care visit does not make a new potentially ischemic symptom routine; acute risk and appropriate disposition come before preventive or maintenance tasks."
+    },
+    {
+      "question": "Which approach best prioritizes care for a patient with multiple chronic conditions?",
+      "choices": ["Apply every single-disease guideline target simultaneously", "Treat only the condition with the most abnormal laboratory value", "Integrate immediate danger, near-term harm, symptoms, function, patient goals, and feasibility", "Let the most recently consulted specialist determine all priorities"],
+      "correctIndex": 2,
+      "explanation": "Multimorbidity requires a whole-person hierarchy. The safest plan integrates risk, function, patient-defined goals, treatment interactions, and the patient’s capacity rather than simply stacking disease-specific recommendations."
+    },
+    {
+      "question": "Three days after hospital discharge, a patient has two medication lists with different diuretic doses. What is the best next step?",
+      "choices": ["Assume the discharge list is correct", "Ask the patient to choose the dose that seems familiar", "Stop all medications until the specialist visit", "Reconcile pre-admission therapy, discharge rationale, actual use, symptoms, weight, kidney function, and follow-up needs"],
+      "correctIndex": 3,
+      "explanation": "Medication reconciliation is clinical reasoning. The FNP should determine what changed and why, what the patient actually takes, and whether the current physiologic state or monitoring requires urgent action."
+    },
+    {
+      "question": "Which statement best describes clinical closure for an ordered imaging study?",
+      "choices": ["Closure occurs when the order is entered", "Closure occurs when the patient schedules the test", "Closure requires review, contextual interpretation, patient communication, appropriate action, and documentation", "No action is required if the result is normal"],
+      "correctIndex": 2,
+      "explanation": "Ordering is the beginning of an information loop. Both abnormal and management-changing normal results require appropriate review, communication, action, and documentation."
+    },
+    {
+      "question": "An older adult taking a hypoglycemia-producing medication has recurrent morning diaphoresis, falls, and an A1c below the individualized target. What is the best general approach?",
+      "choices": ["Intensify therapy to lower the A1c further", "Evaluate probable hypoglycemia and overtreatment, reduce risk, and reassess", "Ignore the falls because the laboratory goal was achieved", "Add a sedative to reduce nighttime awakening"],
+      "correctIndex": 1,
+      "explanation": "Current harm and vulnerability outweigh pursuit of a lower number. Confirm the pattern and medication use, individualize the target, reduce hypoglycemia risk, and monitor response."
+    },
+    {
+      "question": "Which follow-up plan is safest after starting a treatment that can significantly alter potassium and kidney function?",
+      "choices": ["Follow up in one year if the patient feels well", "Tell the patient that no news means the results were normal", "Define an appropriate laboratory interval, result owner, notification plan, and symptom escalation instructions", "Order testing but leave review to whichever clinician sees it first"],
+      "correctIndex": 2,
+      "explanation": "Monitoring must be linked to the treatment’s risk and expected time course. Safe care specifies when testing occurs, who reviews it, how the patient is informed, and what symptoms require earlier evaluation."
+    },
+    {
+      "question": "A patient cannot follow a complex treatment plan because of cost and lack of transportation. Which response is most appropriate?",
+      "choices": ["Document noncompliance and repeat the same plan", "Explain the instructions more forcefully", "Adapt the plan, reduce unnecessary burden, and connect access or community resources", "Discontinue all chronic-disease care"],
+      "correctIndex": 2,
+      "explanation": "Cost and transportation alter whether a plan is executable. The clinical response is to identify the specific barrier, simplify where possible, and connect resources rather than treating structural limits as a character flaw."
+    },
+    {
+      "question": "What is the primary purpose of teach-back?",
+      "choices": ["Test the patient’s intelligence", "Confirm that the clinician communicated the plan in an understandable and usable way", "Obtain legal consent for every treatment", "Replace written instructions"],
+      "correctIndex": 1,
+      "explanation": "Teach-back asks the patient to explain the plan in their own words so communication gaps can be corrected. It evaluates the effectiveness of teaching, not the patient’s intelligence."
+    },
+    {
+      "question": "A referral was ordered six weeks ago, but the high-risk patient could not obtain an appointment and symptoms are progressing. What should the primary care team do?",
+      "choices": ["Wait because responsibility transferred when the order was placed", "Reassess current severity, address interim risk, and pursue a safer or more urgent pathway", "Delete the referral", "Tell the patient to contact the specialist without further primary care involvement"],
+      "correctIndex": 1,
+      "explanation": "A referral is not closed until connection and a safe transfer occur. Progressive symptoms require renewed assessment, interim management, and possibly expedited consultation or emergency evaluation."
+    },
+    {
+      "question": "A patient’s symptoms and function continue to worsen despite apparently guideline-concordant therapy. Which action best reflects longitudinal clinical reasoning?",
+      "choices": ["Continue the same plan indefinitely because it follows a guideline", "Add medications for each new symptom without reviewing the regimen", "Reassess diagnosis, severity, implementation, treatment harm, interactions, and level of care", "Remove worsening function from the outcome assessment"],
+      "correctIndex": 2,
+      "explanation": "Unexpected trajectory is diagnostic and therapeutic evidence. The FNP should reopen the problem representation, verify execution, identify adverse effects or competing disease, and adjust or escalate care."
+    }
+  ]
+}

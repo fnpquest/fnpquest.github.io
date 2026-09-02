@@ -1,0 +1,65 @@
+{
+  "id": 180,
+  "questions": [
+    {
+      "question": "An 82-year-old with stable mild dementia becomes sleepy, inattentive, and intermittently disoriented over two days after starting an over-the-counter sleep aid. What is the best initial interpretation?",
+      "choices": ["Expected progression of dementia", "Hypoactive delirium with a possible medication contributor", "Normal aging", "A permanent loss of decision-making capacity"],
+      "correctIndex": 1,
+      "explanation": "Acute onset, fluctuation, and impaired attention point to delirium. Hypoactive delirium is easily missed, and sedating or anticholinergic products may contribute; urgent assessment for additional medical causes is still required."
+    },
+    {
+      "question": "Which set correctly identifies the Geriatrics 5Ms?",
+      "choices": ["Memory, Metabolism, Muscle, Money, Mortality", "Mind, Mobility, Medications, Multicomplexity, Matters Most", "Monitoring, Meals, Mood, Movement, Medicine", "Mentation, Malignancy, Microbiology, Morphology, Management"],
+      "correctIndex": 1,
+      "explanation": "The 5Ms are Mind, Mobility, Medications, Multicomplexity, and Matters Most. They provide an integrated framework rather than five isolated checkboxes."
+    },
+    {
+      "question": "A 79-year-old taking an anticoagulant falls, has a scalp bruise and new headache, and cannot recall whether consciousness was lost. What is the safest next step?",
+      "choices": ["Label the event a mechanical fall and review next month", "Stop the anticoagulant permanently without assessment", "Arrange urgent evaluation for head injury and the cause of possible syncope", "Recommend only a home grab bar"],
+      "correctIndex": 2,
+      "explanation": "Head impact, anticoagulation, headache, and possible loss of consciousness create an urgent risk for intracranial injury and a potentially serious cause of syncope. Fall prevention can follow after immediate threats are addressed."
+    },
+    {
+      "question": "Which statement best describes appropriate use of the AGS Beers Criteria?",
+      "choices": ["Every listed medication must be stopped immediately", "The criteria replace medication reconciliation", "They identify potentially inappropriate patterns that require individualized benefit-harm review", "Any medication not listed is safe in every older adult"],
+      "correctIndex": 2,
+      "explanation": "Beers Criteria support identification of medication risk but do not replace judgment. Indication, alternatives, kidney function, interactions, withdrawal risk, goals, and monitoring determine the patient-specific plan."
+    },
+    {
+      "question": "A frail 88-year-old with low muscle mass becomes excessively sedated after the dose of a renally cleared drug is increased. Serum creatinine is within the reference range. What should the FNP recognize?",
+      "choices": ["Normal creatinine excludes medication accumulation", "Low muscle mass may mask impaired kidney filtration", "The medication cannot cause sedation", "Renal function has no role in geriatric prescribing"],
+      "correctIndex": 1,
+      "explanation": "Creatinine generation falls with low muscle mass, so a seemingly normal serum level can coexist with reduced filtration. Reassess the renal estimate, medication dose, hydration, interactions, and other causes."
+    },
+    {
+      "question": "An older adult with mild cognitive impairment refuses a procedure but can explain the condition, options, personal consequences, and a consistent reason for refusal. Which is the best conclusion?",
+      "choices": ["Cognitive impairment automatically removes capacity", "Refusal itself proves incapacity", "Capacity should be assessed for this decision, and the described abilities support honoring the choice", "Only a family member may decide after age 75"],
+      "correctIndex": 2,
+      "explanation": "Capacity is decision-specific and includes communicating a choice, understanding, appreciation, and reasoning. A cognitive diagnosis or disagreement with clinicians does not independently establish incapacity."
+    },
+    {
+      "question": "Which intervention has a USPSTF grade B recommendation for community-dwelling adults age 65 or older who are at increased risk for falls?",
+      "choices": ["Routine bed rest", "Exercise interventions", "Automatic discontinuation of all antihypertensives", "Vitamin supplementation as the only assessment"],
+      "correctIndex": 1,
+      "explanation": "USPSTF recommends exercise interventions for older community-dwelling adults at increased fall risk. Care should also assess modifiable risks such as medications, gait, orthostasis, vision, feet, and environment."
+    },
+    {
+      "question": "An 86-year-old with frailty, recurrent falls, CKD, diabetes, and symptomatic orthostasis takes 14 medications. What is the best next step?",
+      "choices": ["Intensify every disease target simultaneously", "Stop every medication on the same day", "Clarify goals, reconcile the actual regimen, prioritize harms and benefits, and create a monitored plan", "Ignore orthostasis because hypertension carries long-term risk"],
+      "correctIndex": 2,
+      "explanation": "Multimorbidity creates competing recommendations. Goal-concordant care prioritizes immediate threats, function, treatment burden, time-to-benefit, and medication safety with monitored changes."
+    },
+    {
+      "question": "Which finding most strongly suggests delirium rather than uncomplicated early dementia?",
+      "choices": ["Gradual memory decline over several years", "Acute fluctuation with impaired attention", "Stable difficulty balancing a checkbook", "A family history of Alzheimer disease"],
+      "correctIndex": 1,
+      "explanation": "Delirium is characterized by acute or subacute change, fluctuation, inattention, and altered awareness. It requires evaluation for medical, toxic, medication, environmental, and withdrawal causes."
+    },
+    {
+      "question": "Which discharge plan best closes the loop after hospitalization of a frail older adult?",
+      "choices": ["Copy the discharge medication list without comparison", "Assume the specialist owns every pending result", "Reconcile actual medications, assess new functional needs and caregiver capacity, assign pending-result ownership, and arrange early follow-up", "Delay contact until the next annual visit"],
+      "correctIndex": 2,
+      "explanation": "Transitions create medication, function, equipment, and follow-up hazards. Safe closure requires comparison of medication lists, feasibility assessment, explicit ownership of pending items, and timely reassessment."
+    }
+  ]
+}

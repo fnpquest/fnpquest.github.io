@@ -41,7 +41,7 @@
       "id": "certification-review-clinical-integration",
       "title": "Phase 7 · FNP Certification Review & Clinical Integration",
       "description": "Lessons 167+ · Blueprint-based review, board-style reasoning, lifespan integration & exam readiness",
-      "lessonIds": [167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178]
+      "lessonIds": [167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184]
     }
   ],
   "lessons": [
@@ -222,6 +222,12 @@
     {"id": 175, "lessonFile": "data/lessons/lesson-175.json", "quizFile": "data/quizzes/lesson-175.json", "cardTitle": "Lesson 175 · Hematologic, Infectious & Immune Clinical Integration Board Review", "summary": "Anemia, cytopenias, bleeding, thrombosis, infection severity, immune risk & safe disposition"},
     {"id": 176, "lessonFile": "data/lessons/lesson-176.json", "quizFile": "data/quizzes/lesson-176.json", "cardTitle": "Lesson 176 · Dermatologic, Eye, ENT & Oral Clinical Integration Board Review", "summary": "Rashes, skin infection, drug reactions, sensory threats, airway safety & diagnostic closure"},
     {"id": 177, "lessonFile": "data/lessons/lesson-177.json", "quizFile": "data/quizzes/lesson-177.json", "cardTitle": "Lesson 177 · Reproductive, Gynecologic & Sexual Health Clinical Integration Board Review", "summary": "Bleeding, pelvic pain, pregnancy risk, contraception, STIs, fertility & cancer warnings"},
-    {"id": 178, "lessonFile": "data/lessons/lesson-178.json", "quizFile": "data/quizzes/lesson-178.json", "cardTitle": "Lesson 178 · Psychiatric, Behavioral & Substance Use Clinical Integration Board Review", "summary": "Mood, psychosis, suicide safety, delirium, substance use, withdrawal & recovery-oriented care"}
+    {"id": 178, "lessonFile": "data/lessons/lesson-178.json", "quizFile": "data/quizzes/lesson-178.json", "cardTitle": "Lesson 178 · Psychiatric, Behavioral & Substance Use Clinical Integration Board Review", "summary": "Mood, psychosis, suicide safety, delirium, substance use, withdrawal & recovery-oriented care"},
+    {"id": 179, "lessonFile": "data/lessons/lesson-179.json", "quizFile": "data/quizzes/lesson-179.json", "cardTitle": "Lesson 179 · Pediatric & Adolescent Clinical Integration Board Review", "summary": "Age-based risk, acute illness, development, adolescent care, safeguarding & safe disposition"},
+    {"id": 180, "lessonFile": "data/lessons/lesson-180.json", "quizFile": "data/quizzes/lesson-180.json", "cardTitle": "Lesson 180 · Older Adult & Geriatric Clinical Integration Board Review", "summary": "Function, frailty, cognition, falls, medications, goals & safe care transitions"},
+    {"id": 181, "lessonFile": "data/lessons/lesson-181.json", "quizFile": "data/quizzes/lesson-181.json", "cardTitle": "Lesson 181 · Urgent & Emergency Clinical Integration Board Review", "summary": "Stabilization, time-critical threats, emergency escalation, safe transport & handoff"},
+    {"id": 182, "lessonFile": "data/lessons/lesson-182.json", "quizFile": "data/quizzes/lesson-182.json", "cardTitle": "Lesson 182 · Complex Multisystem Differential Diagnosis Board Review", "summary": "Probability, diagnostic safety, cognitive bias, discordant data & clinical closure"},
+    {"id": 183, "lessonFile": "data/lessons/lesson-183.json", "quizFile": "data/quizzes/lesson-183.json", "cardTitle": "Lesson 183 · Longitudinal Primary Care & Care Transitions Board Review", "summary": "Multimorbidity, prioritization, medication reconciliation, follow-up, transitions & outcome closure"},
+    {"id": 184, "lessonFile": "data/lessons/lesson-184.json", "quizFile": "data/quizzes/lesson-184.json", "cardTitle": "Lesson 184 · Comprehensive Mixed-System Board Simulation I", "summary": "Assessment, diagnosis, planning, implementation, evaluation & safe disposition across the lifespan"}
   ]
 }

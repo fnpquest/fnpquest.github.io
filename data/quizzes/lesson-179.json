@@ -1,0 +1,65 @@
+{
+  "id": 179,
+  "questions": [
+    {
+      "question": "A well-appearing 20-day-old term infant has a documented rectal temperature of 38.1°C (100.6°F). Which is the safest next step?",
+      "choices": ["Reassure the caregiver because the infant appears well", "Arrange prompt emergency evaluation using an age-specific febrile-infant pathway", "Treat empirically for otitis media without examining the ears", "Wait until the temperature reaches 39.0°C"],
+      "correctIndex": 1,
+      "explanation": "Young infants can have invasive bacterial infection despite a reassuring appearance. A documented temperature of at least 38.0°C in an infant this age requires prompt, structured age-based evaluation; appearance alone is not a safe reason for routine home observation."
+    },
+    {
+      "question": "A 7-year-old with asthma becomes drowsy and has minimal air movement after initially having loud wheeze and marked retractions. How should the change be interpreted?",
+      "choices": ["The asthma is resolving because wheeze is quieter", "The child may be tiring with impending respiratory failure", "The findings confirm uncomplicated bronchiolitis", "Drowsiness is an expected effect of respiratory distress"],
+      "correctIndex": 1,
+      "explanation": "A quiet or silent chest can reflect critically limited airflow. Drowsiness, reduced air entry, and fatigue are emergency signs, not evidence that bronchospasm has resolved."
+    },
+    {
+      "question": "Which approach is most appropriate for an otherwise typical, uncomplicated case of bronchiolitis in an infant?",
+      "choices": ["Routine chest radiograph, antibiotics, and systemic corticosteroids", "Routine albuterol until wheeze disappears", "Clinical severity assessment with supportive hydration and oxygenation care as indicated", "Immediate CT imaging to exclude foreign body"],
+      "correctIndex": 2,
+      "explanation": "Typical bronchiolitis is generally diagnosed clinically. Supportive care and assessment of breathing, hydration, apnea risk, and underlying risk factors are central; routine imaging, antibiotics, bronchodilators, and systemic corticosteroids are not recommended for the typical presentation."
+    },
+    {
+      "question": "A 4-year-old with vomiting and diarrhea is tachycardic, has reduced urine output, cool extremities, and delayed capillary refill, but the blood pressure is normal. What is the best interpretation?",
+      "choices": ["Shock is excluded by the normal blood pressure", "The child may have compensated hypovolemic shock", "The findings establish nephrotic syndrome", "Oral intake cannot affect perfusion in children"],
+      "correctIndex": 1,
+      "explanation": "Children may maintain blood pressure through compensation until late. Tachycardia, oliguria, cool extremities, and delayed refill indicate impaired perfusion and require urgent severity assessment even before hypotension develops."
+    },
+    {
+      "question": "A 12-year-old with high BMI reports knee pain and walks with the affected leg externally rotated. The knee examination is normal, but hip internal rotation is painful and limited. What is the priority?",
+      "choices": ["Encourage weight-bearing exercise and review in one month", "Treat presumed patellofemoral pain without hip imaging", "Make the child non-weight-bearing and arrange urgent evaluation for slipped capital femoral epiphysis", "Diagnose growing pains"],
+      "correctIndex": 2,
+      "explanation": "SCFE can present as referred knee pain with an abnormal hip examination and externally rotated gait. Continued weight bearing can worsen displacement, so urgent imaging and orthopedic evaluation are required."
+    },
+    {
+      "question": "Which finding most strongly supports obtaining a high-quality urine specimen rather than relying on a bag culture in a non-toilet-trained child with suspected UTI?",
+      "choices": ["The result will be used to diagnose infection and guide antibiotics", "The caregiver prefers the fastest collection method", "The child had one prior viral illness", "The urine appears pale"],
+      "correctIndex": 0,
+      "explanation": "When a culture will determine diagnosis and treatment, contamination risk matters. An age-appropriate specimen suitable for culture should be obtained before antibiotics when safe, and results must be interpreted with symptoms, urinalysis, and collection method."
+    },
+    {
+      "question": "A 13-year-old has vomiting, abdominal pain, polyuria, weight loss, dehydration, and deep rapid respirations. Which diagnosis must be assessed urgently?",
+      "choices": ["Functional abdominal pain", "Diabetic ketoacidosis", "Uncomplicated viral pharyngitis", "Isolated constipation"],
+      "correctIndex": 1,
+      "explanation": "Polyuria, weight loss, dehydration, vomiting, abdominal pain, and Kussmaul-type breathing form a high-risk pattern for DKA. Immediate glucose, ketone, electrolyte, acid-base, and emergency assessment take priority over routine gastroenteritis management."
+    },
+    {
+      "question": "What is the best way to introduce confidentiality during an adolescent visit?",
+      "choices": ["Promise that nothing will ever be shared", "Avoid private discussion unless the adolescent requests it", "Normalize private time and explain in advance that confidentiality has safety and legal limits", "Tell the parent that all portal and billing information is automatically hidden"],
+      "correctIndex": 2,
+      "explanation": "Routine private time supports honest assessment. The clinician should explain confidentiality and its limits, including serious safety concerns and legally reportable situations, while accounting for state law and health-system privacy limitations."
+    },
+    {
+      "question": "A nonmobile infant has patterned bruising, and the caregiver's explanation changes during the visit. What is the most appropriate response?",
+      "choices": ["Assume the bruising occurred during normal play", "Confront the caregiver until a confession is obtained", "Objectively document findings, protect immediate safety, and follow mandatory-reporting and safeguarding pathways", "Delay action until the child can describe the event"],
+      "correctIndex": 2,
+      "explanation": "Bruising in a nonmobile infant and an inconsistent account are concerning. The FNP should document objectively, assess immediate safety, and follow reporting and specialized evaluation pathways without conducting a coercive investigation."
+    },
+    {
+      "question": "Which discharge plan best demonstrates safe outpatient closure for a child with an uncomplicated self-limited illness?",
+      "choices": ["Tell the caregiver to return if worried and provide no specifics", "Provide diagnosis only because test results are normal", "Use teach-back for hydration and medication instructions, give observable return precautions, name who owns pending results, and arrange reassessment when needed", "Avoid written instructions because they may increase anxiety"],
+      "correctIndex": 2,
+      "explanation": "Safe pediatric discharge depends on caregiver understanding and access as well as current physiology. Specific return precautions, correct medication and hydration instructions, result ownership, and appropriate reassessment reduce diagnostic and follow-up failure."
+    }
+  ]
+}
