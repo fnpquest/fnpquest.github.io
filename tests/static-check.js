@@ -58,11 +58,11 @@ for(const [i,item] of manifest.lessons.entries()){
 
 if(advancedQuestionIds.size!==100)throw new Error(`Expected 100 Board-Ready questions for Lessons 1–10, found ${advancedQuestionIds.size}`);
 
-for(const file of ["js/app.js","js/lessons.js","js/quiz.js","js/advanced-quiz.js","js/progress.js","js/auth.js","js/supabase.js","js/analytics.js","js/version.js","css/styles.css","data/daily-questions.json","data/site-config.json","scripts/generate-daily-questions.js","daily-questions/index.html","daily-questions/daily-questions.css","daily-questions/daily-questions.js","sitemap.xml","robots.txt"]){
+for(const file of ["js/app.js","js/lessons.js","js/quiz.js","js/advanced-quiz.js","js/progress.js","js/auth.js","js/supabase.js","js/analytics.js","js/version.js","css/styles.css","sw.js","data/daily-questions.json","data/site-config.json","scripts/generate-daily-questions.js","daily-questions/index.html","daily-questions/daily-questions.css","daily-questions/daily-questions.js","sitemap.xml","robots.txt"]){
  if(!fs.existsSync(path.join(root,file)))throw new Error(`Missing ${file}`);
 }
 
-for(const launchFile of ["docs/ACCOUNT_DELETION.md","docs/SUPABASE_SECURITY.md","docs/ANONYMOUS_ANALYTICS.md","supabase/migrations/202608250001_harden_learning_data_rls.sql","supabase/migrations/202608280001_anonymous_usage_analytics.sql","supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql","supabase/migrations/202608290001_anonymous_analytics_v2.sql","supabase/migrations/202608300001_create_analytics_daily_summary_view.sql"]){
+for(const launchFile of ["docs/ACCOUNT_DELETION.md","docs/SUPABASE_SECURITY.md","docs/ANONYMOUS_ANALYTICS.md","docs/OFFLINE_ACCESS.md","supabase/migrations/202608250001_harden_learning_data_rls.sql","supabase/migrations/202608280001_anonymous_usage_analytics.sql","supabase/migrations/202608280002_add_lesson_quiz_start_analytics.sql","supabase/migrations/202608290001_anonymous_analytics_v2.sql","supabase/migrations/202608300001_create_analytics_daily_summary_view.sql","supabase/migrations/202608310001_create_anonymous_analytics_events_la_view.sql"]){
  if(!fs.existsSync(path.join(root,launchFile)))throw new Error(`Missing public-launch requirement: ${launchFile}`);
 }
 
@@ -97,6 +97,17 @@ for(const feature of ["activateProgressScope(nextUser.id)","activeCloudUserId","
 }
 if(/emptyProfile=\{[^}]*xp:state\.xp/.test(authScript))throw new Error("A new cloud profile must not inherit the active device XP");
 if(!index.includes("Import This Device's Guest Progress"))throw new Error("Missing explicit guest-progress import UI");
+for(const feature of ["FNP_OFFLINE_ACCESS_KEY","FNP_OFFLINE_ACCESS_DAYS=30","verifiedOnline","setLearningAccess","signInFromGate"]){
+ if(!authScript.includes(feature))throw new Error(`Missing registered offline-access feature: ${feature}`);
+}
+for(const accessText of ["REGISTERED USERS","registered email account","offline for up to 30 days"]){
+ if(!index.includes(accessText))throw new Error(`Missing registered-user access UI: ${accessText}`);
+}
+const serviceWorker=fs.readFileSync(path.join(root,"sw.js"),"utf8");
+for(const feature of ["data/curriculum.json","lessonFile","quizFile","advancedQuizFile","supabase.co","CACHE_NAME"]){
+ if(!serviceWorker.includes(feature))throw new Error(`Offline service worker is missing: ${feature}`);
+}
+if(!fs.readFileSync(path.join(root,"js/app.js"),"utf8").includes('navigator.serviceWorker.register("sw.js")'))throw new Error("App does not register the offline service worker");
 
 const quizScript=fs.readFileSync(path.join(root,"js/quiz.js"),"utf8");
 for(const feature of ["Promise.all","shuffleList","practiceScore","setPracticeLoading"]){

@@ -11,7 +11,7 @@ function advancedBankItems(){return curriculum.map((item,index)=>({item,index}))
 function unlockedAdvancedItems(){return advancedBankItems().filter(entry=>state.completed.includes(entry.index));}
 function advancedAccuracy(){const progress=advancedProgressState();return progress.answered?Math.round(progress.correct/progress.answered*100):null;}
 
-function openAdvancedHub(){openPage("advanced");renderAdvancedHub();}
+function openAdvancedHub(){if(typeof learningAccessGranted!=="undefined"&&!learningAccessGranted){showAccessGate("Sign in with a registered email before opening advanced practice.");return;}openPage("advanced");renderAdvancedHub();}
 
 function renderAdvancedHub(){
  const progress=advancedProgressState(),bank=advancedBankItems(),unlocked=unlockedAdvancedItems(),accuracy=advancedAccuracy();

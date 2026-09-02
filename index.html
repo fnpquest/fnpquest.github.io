@@ -1,10 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta name="cache-control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#332f78">
 <meta name="application-name" content="FNP Quest">
@@ -13,19 +9,33 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="FNP Quest">
-<link rel="manifest" href="manifest.webmanifest?v=16.12">
+<link rel="manifest" href="manifest.webmanifest?v=16.13">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-v1-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon-v1.png">
-<title>FNP Quest v16.12 · Evidence-Based Practice &amp; Professional FNP Practice</title><link rel="stylesheet" href="css/styles.css?v=16.12">
+<title>FNP Quest v16.13 · Registered Offline Access</title><link rel="stylesheet" href="css/styles.css?v=16.13">
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-</head><body>
+</head><body class="access-locked">
+<div id="accessGate" class="access-gate" role="dialog" aria-modal="true" aria-labelledby="accessGateTitle">
+<div class="access-gate-card">
+<img class="access-gate-icon" src="assets/icons/app-icon-v1-192.png" alt="">
+<div class="pill access-pill">REGISTERED USERS</div>
+<h1 id="accessGateTitle">Sign in to FNP Quest</h1>
+<p>Course access is available only to users with a registered email account.</p>
+<input id="accessGateEmail" type="email" placeholder="Email address" autocomplete="email">
+<input id="accessGatePassword" type="password" placeholder="Password (at least 6 characters)" autocomplete="current-password">
+<div class="access-gate-actions"><button type="button" onclick="signInFromGate()">Sign In</button><button type="button" class="secondary" onclick="signUpFromGate()">Create Account</button></div>
+<p id="accessGateMessage" class="small" role="status">Checking registered-account access…</p>
+<div class="access-offline-note"><b>Offline use</b><span>Complete one successful online sign-in on this device. The installed app can then be used offline for up to 30 days before it needs to verify the account again.</span></div>
+<div class="access-legal"><button type="button" class="inline-link" onclick="viewPublicInfo('privacy')">Privacy</button><button type="button" class="inline-link" onclick="viewPublicInfo('terms')">Terms &amp; Disclaimer</button><button type="button" class="inline-link" onclick="viewPublicInfo('about')">About &amp; Support</button></div>
+</div>
+</div>
 <div class="app">
-<div class="top"><div class="logo"><img class="brand-icon" src="assets/icons/app-icon-v1-192.png" alt="">FNP Quest</div><button class="avatar" aria-label="Account" style="color:var(--text);padding:0" onclick="openPage('account')">👤</button></div><div style="text-align:center;font-size:11px;color:#687083;margin:-8px 0 12px">Version: v16.12 · Evidence-Based Practice &amp; Professional FNP Practice</div>
+<div class="top"><div class="logo"><img class="brand-icon" src="assets/icons/app-icon-v1-192.png" alt="">FNP Quest</div><button class="avatar" aria-label="Account" style="color:var(--text);padding:0" onclick="openPage('account')">👤</button></div><div style="text-align:center;font-size:11px;color:#687083;margin:-8px 0 12px">Version: v16.13 · Registered Offline Access</div>
 
 <section id="home" class="page active">
 <div class="card" id="homeTotalStudyDays" style="margin-bottom:12px"><span class="small">📚 Total Study Days</span><h2><span id="hometotaldays">0</span> days</h2><p class="small">Your total number of unique study dates.</p></div>
 <div class="card hero"><div class="row"><div><div class="small">LEVEL <span id="level">1</span> · FNP SCHOLAR</div><div class="big"><span id="xp">0</span> XP</div></div><div>⭐</div></div><div class="bar"><i id="xpbar"></i></div><div class="small"><span id="toLevel">500</span> XP to next level</div></div>
-<div class="card"><div class="row"><div><span style="font-size:30px">🔥</span> <b><span id="streak">0</span> day streak</b></div><div class="small">🛡️ <span id="freeze">1</span> Freeze</div></div></div><div class="card" id="cloudCard"><div class="row"><div><b>☁️ Cloud Sync</b><div id="cloudStatus" class="small">Not signed in — progress is local only</div></div><button class="secondary" onclick="openPage('account')" id="accountBtn">Sign In</button></div></div>
+<div class="card"><div class="row"><div><span style="font-size:30px">🔥</span> <b><span id="streak">0</span> day streak</b></div><div class="small">🛡️ <span id="freeze">1</span> Freeze</div></div></div><div class="card" id="cloudCard"><div class="row"><div><b>☁️ Account &amp; Sync</b><div id="cloudStatus" class="small">Checking registered-account access…</div></div><button class="secondary" onclick="openPage('account')" id="accountBtn">Account</button></div></div>
 <h2>📚 Curriculum</h2><div id="curriculumList"></div>
 <h2>🎯 Daily Practice</h2><div class="card mission"><div><h3>🩺 10-question Practice</h3><p>Questions from loaded lessons</p></div><button id="dailyPracticeBtn" onclick="startPractice()">Start</button></div>
 <h2>🔥 Advanced Practice</h2><div class="card board-ready-card"><div class="pill advanced-pill">BOARD-READY</div><h3>Advanced FNP Question Bank</h3><p>Deeper clinical cases unlocked by completing the related foundation lesson quiz.</p><div class="advanced-home-status"><b id="advancedUnlockedHome">0 / 10 topics unlocked</b><span id="advancedAccuracyHome" class="small">No advanced answers yet</span></div><button onclick="openAdvancedHub()">Open Challenge →</button></div>
@@ -49,7 +59,7 @@
 
 <section id="advanced" class="page">
 <button class="secondary" onclick="openPage('home')">← Home</button>
-<div class="advanced-heading"><div class="pill advanced-pill">BOARD-READY</div><h1>🔥 Advanced FNP Challenge</h1><p class="small">Original higher-complexity cases for exam-style clinical reasoning. Not affiliated with or endorsed by AANPCB or ANCC.</p><p class="small">Advanced analytics are currently stored on this device in the active guest or account-specific progress area.</p></div>
+<div class="advanced-heading"><div class="pill advanced-pill">BOARD-READY</div><h1>🔥 Advanced FNP Challenge</h1><p class="small">Original higher-complexity cases for exam-style clinical reasoning. Not affiliated with or endorsed by AANPCB or ANCC.</p><p class="small">Advanced analytics are stored in this account's local progress area on the device.</p></div>
 <div class="advanced-stat-grid"><div class="card"><span class="small">Accuracy</span><h2 id="advancedAccuracy">—</h2></div><div class="card"><span class="small">Answered</span><h2 id="advancedAnswered">0</h2></div><div class="card"><span class="small">Deep Dives</span><h2 id="advancedCompleted">0</h2></div></div>
 <div class="card"><h3>Mixed Board Review</h3><p class="small">A 10-question mix drawn only from foundation topics you have completed.</p><button id="advancedMixedBtn" onclick="startAdvancedMixed()">Start Mixed Review</button></div>
 <div class="card"><h3>Weak-Area Review</h3><p class="small">Revisit advanced questions you previously missed.</p><button id="advancedWeakBtn" class="secondary" onclick="startAdvancedWeakReview()">Review Missed Questions</button></div>
@@ -79,8 +89,8 @@
 <button class="secondary" onclick="openPage('home')">← Home</button>
 <h1>👤 Account</h1>
 <div id="signedOutBox" class="card">
-<h3>☁️ Save your FNP Quest progress</h3>
-<p class="small">Sign in to synchronize XP, streak, freezes, study days, and completed lesson quizzes across your phone and computer.</p>
+<h3>🔐 Registered account required</h3>
+<p class="small">Sign in with your registered email to open the curriculum and synchronize XP, streak, freezes, study days, and completed lesson quizzes.</p>
 <input id="authEmail" type="email" placeholder="Email address" autocomplete="email" style="width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;margin:7px 0">
 <input id="authPassword" type="password" placeholder="Password (at least 6 characters)" autocomplete="current-password" style="width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;margin:7px 0">
 <div class="row" style="gap:8px;margin-top:6px"><button onclick="signIn()">Sign In</button><button class="secondary" onclick="signUp()">Create Account</button></div>
@@ -90,6 +100,7 @@
 <h3>☁️ Cloud account connected</h3>
 <p id="accountEmail" class="small"></p>
 <p class="small">XP, streak, study days, and completed lesson quizzes are synchronized with the cloud and kept separate from other accounts on this device.</p>
+<p id="offlineCacheStatus" class="small">Preparing offline course files… Keep this page open while connected.</p>
 <div id="guestProgressImport" class="card" style="display:none;margin:12px 0;background:var(--bg)"><h3>Guest progress found</h3><p class="small">This device has progress created while signed out. Import it only if it belongs to you. Importing is optional, requires confirmation, and consumes that guest copy so another account cannot import it.</p><button class="secondary" onclick="importGuestProgress()">Import This Device's Guest Progress</button></div>
 <button class="secondary" onclick="signOut()">Sign Out</button>
 <button class="danger-secondary" onclick="requestAccountDeletion()">Request Account Deletion</button>
@@ -97,7 +108,7 @@
 </div>
 <div class="card"><h3>Privacy &amp; support</h3><p class="small">Review how local and cloud data are handled, or send general feedback without including patient or personal information.</p><div class="trust-actions"><button class="secondary" onclick="openPage('privacy')">Privacy</button><button class="secondary" onclick="openPage('about')">Support</button></div></div>
 </section>
-<section id="progress" class="page"><div style="text-align:center;font-size:11px;color:#687083;margin-bottom:12px">Version: v16.12 · Evidence-Based Practice &amp; Professional FNP Practice<br><span id="progressCloudStatus">Not signed in · guest progress is saved on this device</span></div><h1>📊 Progress</h1><div class="grid"><div class="card"><span class="small">XP</span><h2 id="pxp">0</h2></div><div class="card"><span class="small">Streak</span><h2>🔥 <span id="pstreak">0</span></h2></div><div class="card"><span class="small">Total Study Days</span><h2>📚 <span id="ptotaldays">0</span></h2></div></div><div class="card"><h3>Loaded Lessons</h3><p id="loadedLessons">Loading lessons…</p></div><div class="card"><h3>Board-Ready Progress</h3><p id="advancedProgressSummary" class="small">No advanced answers yet.</p><button onclick="openAdvancedHub()">Open Advanced Question Bank</button></div></section>
+<section id="progress" class="page"><div style="text-align:center;font-size:11px;color:#687083;margin-bottom:12px">Version: v16.13 · Registered Offline Access<br><span id="progressCloudStatus">Checking registered-account access…</span></div><h1>📊 Progress</h1><div class="grid"><div class="card"><span class="small">XP</span><h2 id="pxp">0</h2></div><div class="card"><span class="small">Streak</span><h2>🔥 <span id="pstreak">0</span></h2></div><div class="card"><span class="small">Total Study Days</span><h2>📚 <span id="ptotaldays">0</span></h2></div></div><div class="card"><h3>Loaded Lessons</h3><p id="loadedLessons">Loading lessons…</p></div><div class="card"><h3>Board-Ready Progress</h3><p id="advancedProgressSummary" class="small">No advanced answers yet.</p><button onclick="openAdvancedHub()">Open Advanced Question Bank</button></div></section>
 
 <section id="about" class="page">
 <button class="secondary" onclick="openPage('home')">← Home</button>
@@ -111,11 +122,13 @@
 <button class="secondary" onclick="openPage('home')">← Home</button>
 <h1>Privacy</h1>
 <div class="card">
-<p class="small"><b>Effective:</b> August 28, 2026</p>
+<p class="small"><b>Effective:</b> September 1, 2026</p>
 <h3>Data stored on this device</h3>
-<p class="small">Without an account, FNP Quest stores guest learning progress in your browser, including XP, streak, study dates, completed lesson quizzes, missed-question review data, theme preference, and course display preferences. Signed-in progress is stored in a separate local area for each account so switching accounts does not transfer learning data.</p>
-<h3>Optional cloud account</h3>
-<p class="small">If you create an account, Supabase Auth processes your email address and authentication information. FNP Quest stores an account identifier, XP, streak, freeze count, study dates, and quiz-result records so supported progress can synchronize across devices. Guest progress is never added to a cloud account automatically; an eligible signed-in user must explicitly confirm a one-time import. Passwords are handled by Supabase Auth and are not stored in this app’s source code.</p>
+<p class="small">FNP Quest requires a registered email account. After a successful online sign-in, this browser stores a device authorization record containing the account identifier, email address, and last verification time. It permits offline use for up to 30 days. Account-scoped learning progress, theme preference, and course display preferences are also stored locally so the app can continue to work without a connection. Previously created guest progress is preserved and may be imported only after the user explicitly confirms it.</p>
+<h3>Cloud account</h3>
+<p class="small">Supabase Auth processes your email address and authentication information. FNP Quest stores an account identifier, XP, streak, freeze count, study dates, and quiz-result records so supported progress can synchronize across devices. Passwords are handled by Supabase Auth and are not stored in this app’s source code. Signing out removes this device's offline authorization but does not delete cloud data.</p>
+<h3>Offline course files</h3>
+<p class="small">A service worker stores the application shell, curriculum, lessons, and quizzes on this device for offline study. Offline changes remain in the account-specific local progress area and synchronize when a connection and valid cloud session are available. The device must reconnect at least once every 30 days to renew registered-account access.</p>
 <h3>Anonymous usage statistics</h3>
 <p class="small">FNP Quest sends limited aggregate events to Supabase to count site visits, learning activity, and returning-browser trends. These events contain an event name, optional lesson number, app version, server time, a random browser identifier, a session identifier, and a broad source category such as Facebook, Google, direct, or other. The browser identifier is generated and stored in this browser, then sent only with these limited anonymous statistics; it resets if you turn statistics off or clear site data. We do not send an account ID, email address, XP, streak, quiz score, selected answer, mistake text, or other free-form content. This separate statistics connection does not use a signed-in learning account session. Statistics are automatically off when Global Privacy Control or Do Not Track is enabled.</p>
 <p id="anonymousAnalyticsStatus" class="small">Checking anonymous usage statistics preference…</p>
@@ -123,9 +136,9 @@
 <h3>What we do not request</h3>
 <p class="small">Do not enter patient names, medical-record information, protected health information, or other clinical data. FNP Quest is not designed to receive or store patient data.</p>
 <h3>Service providers</h3>
-<p class="small">The site is delivered through GitHub Pages. Optional authentication, cloud synchronization, and anonymous aggregate usage statistics use Supabase. FNP Quest does not include advertising trackers and does not sell personal information.</p>
+<p class="small">The site is delivered through GitHub Pages. Authentication, cloud synchronization, and anonymous aggregate usage statistics use Supabase. FNP Quest does not include advertising trackers and does not sell personal information.</p>
 <h3>Your choices</h3>
-<p class="small">You may use the core learning features without an account and may turn anonymous usage statistics off or on for this browser at any time. Global Privacy Control and Do Not Track signals also disable these events. Clearing local learning data affects only this browser. Signed-in users can submit a private account-deletion request from the Account page; the request is stored in their private authentication metadata for manual processing.</p>
+<p class="small">A registered email account is required for the core learning features. You may turn anonymous usage statistics off or on for this browser at any time. Global Privacy Control and Do Not Track signals also disable these events. Clearing local learning data affects only this browser. Signed-in users can submit a private account-deletion request from the Account page; the request is stored in their private authentication metadata for manual processing.</p>
 <button class="danger-secondary" onclick="clearLocalLearningData()">Clear Local Learning Data</button>
 </div>
 </section>
@@ -141,13 +154,13 @@
 
 <!-- FNP Quest Auto Update System -->
 
-<script src="js/app.js?v=16.12"></script>
-<script src="js/progress.js?v=16.12"></script>
-<script src="js/supabase.js?v=16.12"></script>
-<script src="js/analytics.js?v=16.12"></script>
-<script src="js/auth.js?v=16.12"></script>
-<script src="js/lessons.js?v=16.12"></script>
-<script src="js/quiz.js?v=16.12"></script>
-<script src="js/advanced-quiz.js?v=16.12"></script>
-<script src="js/version.js?v=16.12"></script>
+<script src="js/app.js?v=16.13"></script>
+<script src="js/progress.js?v=16.13"></script>
+<script src="js/supabase.js?v=16.13"></script>
+<script src="js/analytics.js?v=16.13"></script>
+<script src="js/auth.js?v=16.13"></script>
+<script src="js/lessons.js?v=16.13"></script>
+<script src="js/quiz.js?v=16.13"></script>
+<script src="js/advanced-quiz.js?v=16.13"></script>
+<script src="js/version.js?v=16.13"></script>
 </body></html>

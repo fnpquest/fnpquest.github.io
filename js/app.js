@@ -1,5 +1,6 @@
 function toast(message){const el=document.getElementById("toast");if(!el)return;el.textContent=message;el.style.display="block";setTimeout(()=>el.style.display="none",1500);}
-function openPage(id){document.querySelectorAll(".page").forEach(el=>el.classList.remove("active"));const page=document.getElementById(id);if(page)page.classList.add("active");window.scrollTo(0,0);if(typeof update==="function")update();}
+function openPage(id){const publicPages=new Set(["account","about","privacy","terms"]);if(typeof learningAccessGranted!=="undefined"&&!learningAccessGranted&&!publicPages.has(id)){if(typeof showAccessGate==="function")showAccessGate("Sign in with a registered email before opening FNP Quest.");return false;}document.querySelectorAll(".page").forEach(el=>el.classList.remove("active"));const page=document.getElementById(id);if(page)page.classList.add("active");window.scrollTo(0,0);if(typeof update==="function")update();return Boolean(page);}
+function viewPublicInfo(id){const gate=document.getElementById("accessGate");if(gate)gate.hidden=true;document.body.classList.remove("access-locked");openPage(id);}
 function clearLocalLearningData(){if(!window.confirm("Clear guest and account-scoped XP, streak, study days, quiz progress, mistakes, and display preferences from this browser? Cloud data is not deleted. This cannot be undone."))return;if(typeof clearAllLocalProgressData==="function")clearAllLocalProgressData();else localStorage.removeItem("fnpQuestV4");["fnpQuestTheme","fnpQuestCourseGroups"].forEach(key=>localStorage.removeItem(key));window.location.reload();}
 
 function initializeTheme(){
@@ -13,4 +14,7 @@ function initializeTheme(){
  sync();document.body.appendChild(button);
 }
 
-window.addEventListener("DOMContentLoaded",()=>{initializeTheme();update();if(typeof initAnonymousAnalytics==="function")initAnonymousAnalytics();initCloud();loadCurriculum();});
+let learningContentStarted=false;
+function startLearningContent(){if(learningContentStarted)return;learningContentStarted=true;if(typeof initAnonymousAnalytics==="function")initAnonymousAnalytics();if(typeof loadCurriculum==="function")loadCurriculum();}
+function registerOfflineWorker(){if(!("serviceWorker" in navigator))return;navigator.serviceWorker.register("sw.js").then(()=>navigator.serviceWorker.ready).then(()=>{const status=document.getElementById("offlineCacheStatus");if(status)status.textContent="Offline course files are ready on this device.";}).catch(error=>{console.warn("Offline cache could not start",error);const status=document.getElementById("offlineCacheStatus");if(status)status.textContent="Offline cache is not ready. Keep this page open while connected and reload.";});}
+window.addEventListener("DOMContentLoaded",async()=>{initializeTheme();update();registerOfflineWorker();if(typeof initCloud==="function")await initCloud();});

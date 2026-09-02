@@ -1,8 +1,27 @@
 let currentUser=null;
 let cloudSyncQueue=Promise.resolve();
 let authSessionQueue=Promise.resolve();
+const FNP_OFFLINE_ACCESS_KEY="fnpQuestOfflineAccessV1";
+const FNP_OFFLINE_ACCESS_DAYS=30;
+let offlineAccessActive=false;
+let learningAccessGranted=false;
+
+function readOfflineAccess(){
+ try{const value=JSON.parse(localStorage.getItem(FNP_OFFLINE_ACCESS_KEY)||"null");if(!value?.userId||!value?.email||!value?.verifiedAt)return null;return value;}
+ catch(error){console.warn("Could not read offline access",error);return null;}
+}
+function offlineAccessIsValid(value=readOfflineAccess()){return Boolean(value&&Date.now()-Number(value.verifiedAt)<FNP_OFFLINE_ACCESS_DAYS*86400000);}
+function rememberOfflineAccess(user){if(!user?.id||!user?.email)return;try{localStorage.setItem(FNP_OFFLINE_ACCESS_KEY,JSON.stringify({userId:user.id,email:user.email,verifiedAt:Date.now()}));}catch(error){console.warn("Could not save offline access",error);}}
+function clearOfflineAccess(){try{localStorage.removeItem(FNP_OFFLINE_ACCESS_KEY);}catch(error){console.warn("Could not clear offline access",error);}}
+function showAccessGate(message){const gate=document.getElementById("accessGate"),status=document.getElementById("accessGateMessage");if(status&&message)status.textContent=message;if(gate)gate.hidden=false;if(document.body)document.body.classList.add("access-locked");}
+function setLearningAccess(granted,message){learningAccessGranted=Boolean(granted);const gate=document.getElementById("accessGate"),status=document.getElementById("accessGateMessage");if(status&&message)status.textContent=message;if(gate)gate.hidden=learningAccessGranted;if(document.body)document.body.classList.toggle("access-locked",!learningAccessGranted);if(learningAccessGranted&&typeof startLearningContent==="function")startLearningContent();}
+function useStoredOfflineAccess(message){const stored=readOfflineAccess();if(!offlineAccessIsValid(stored))return false;offlineAccessActive=true;queueAuthSession({user:{id:stored.userId,email:stored.email}},{offline:true}).catch(error=>console.error("Offline access failed",error));if(message)setAuthMessage(message);return true;}
+function copyGateCredentials(){const gateEmail=document.getElementById("accessGateEmail"),gatePassword=document.getElementById("accessGatePassword"),email=document.getElementById("authEmail"),password=document.getElementById("authPassword");if(email&&gateEmail)email.value=gateEmail.value;if(password&&gatePassword)password.value=gatePassword.value;}
+function signInFromGate(){copyGateCredentials();signIn();}
+function signUpFromGate(){copyGateCredentials();signUp();}
 
 function activeCloudUserId(){
+ if(offlineAccessActive||!supabaseClient)return null;
  const userId=currentUser?.id||null;
  return userId&&activeProgressBelongsTo(userId)?userId:null;
 }
@@ -137,7 +156,7 @@ async function loadCloudProfile(user){
  update();
 }
 
-function setAuthMessage(message){const el=document.getElementById("authMessage");if(el)el.textContent=message;}
+function setAuthMessage(message){const el=document.getElementById("authMessage"),gateMessage=document.getElementById("accessGateMessage");if(el)el.textContent=message;if(gateMessage)gateMessage.textContent=message;}
 
 function updateAccountUI(){
  const out=document.getElementById("signedOutBox"),inside=document.getElementById("signedInBox"),email=document.getElementById("accountEmail"),status=document.getElementById("cloudStatus"),progressStatus=document.getElementById("progressCloudStatus"),button=document.getElementById("accountBtn"),guestImport=document.getElementById("guestProgressImport");
@@ -146,40 +165,45 @@ function updateAccountUI(){
   out.style.display="none";
   inside.style.display="block";
   email.textContent=currentUser.email||"Signed in";
-  status.textContent="Connected · this account's progress is isolated and syncing";
-  if(progressStatus)progressStatus.textContent="Cloud Sync: ON · connected to "+(currentUser.email||"your account");
+  status.textContent=offlineAccessActive?"Offline access · saved progress will sync when connected":"Connected · this account's progress is isolated and syncing";
+  if(progressStatus)progressStatus.textContent=offlineAccessActive?"Offline · signed in as "+(currentUser.email||"registered user"):"Cloud Sync: ON · connected to "+(currentUser.email||"your account");
   button.textContent="Account";
   if(guestImport)guestImport.style.display=guestProgressCanBeImported(currentUser.id)?"block":"none";
  }else{
   out.style.display="block";
   inside.style.display="none";
-  status.textContent="Not signed in — guest progress is saved on this device";
-  if(progressStatus)progressStatus.textContent="Not signed in · guest progress is saved on this device";
+  status.textContent="Sign-in required to use FNP Quest";
+  if(progressStatus)progressStatus.textContent="Sign-in required";
   button.textContent="Sign In";
   if(guestImport)guestImport.style.display="none";
  }
 }
 
-async function applyAuthSession(session){
+async function applyAuthSession(session,options={}){
  const nextUser=session?.user||null;
  if(nextUser){
+  offlineAccessActive=Boolean(options.offline);
   if(!currentUser||currentUser.id!==nextUser.id||!activeProgressBelongsTo(nextUser.id)){
    saveLocalOnly();
    currentUser=nextUser;
    activateProgressScope(nextUser.id);
   }else currentUser=nextUser;
-  await loadCloudProfile(nextUser);
+  if(options.verifiedOnline)rememberOfflineAccess(nextUser);
+  if(!offlineAccessActive)await loadCloudProfile(nextUser);else update();
+  setLearningAccess(true,offlineAccessActive?"Offline access is active for "+(nextUser.email||"this registered account")+".":"Signed in successfully.");
  }else{
   saveLocalOnly();
   currentUser=null;
+  offlineAccessActive=false;
   activateProgressScope(null);
   await refreshTotalStudyDays();
+  setLearningAccess(false,"Sign in or create an account while connected. After a successful sign-in, this device can be used offline for up to 30 days.");
  }
  updateAccountUI();
 }
 
-function queueAuthSession(session){
- const task=authSessionQueue.catch(error=>console.error("Previous account transition failed",error)).then(()=>applyAuthSession(session));
+function queueAuthSession(session,options={}){
+ const task=authSessionQueue.catch(error=>console.error("Previous account transition failed",error)).then(()=>applyAuthSession(session,options));
  authSessionQueue=task;
  return task;
 }
@@ -189,9 +213,10 @@ async function signUp(){
  if(!email||password.length<6){setAuthMessage("Enter a valid email and a password with at least 6 characters.");return;}
  setAuthMessage("Creating your account…");
  try{
+  if(!supabaseClient){setAuthMessage("Connect to the internet to create an account.");return;}
   const {data,error}=await supabaseClient.auth.signUp({email,password,options:{emailRedirectTo:window.location.origin+window.location.pathname}});
   if(error){setAuthMessage(error.message);return;}
-  if(data.session)await queueAuthSession(data.session);
+  if(data.session)await queueAuthSession(data.session,{verifiedOnline:true});
   setAuthMessage(data.session?"Account created and signed in. Guest progress remains separate unless you explicitly import it.":"Account created. Check your email to confirm your account, then return here and sign in. Guest progress will not be imported automatically.");
  }catch(error){console.error("Sign up failed",error);setAuthMessage("Could not reach the cloud service. Check your internet connection or try again later.");}
 }
@@ -201,9 +226,10 @@ async function signIn(){
  if(!email||!password){setAuthMessage("Enter your email and password.");return;}
  setAuthMessage("Signing in…");
  try{
+  if(!supabaseClient){setAuthMessage("Connect to the internet for the first sign-in on this device.");return;}
   const {data,error}=await supabaseClient.auth.signInWithPassword({email,password});
   if(error){setAuthMessage(error.message);return;}
-  await queueAuthSession(data.session);
+  await queueAuthSession(data.session,{verifiedOnline:true});
   setAuthMessage("Signed in successfully. Only this account's progress is loaded.");
  }catch(error){console.error("Sign in failed",error);setAuthMessage("Could not reach the cloud service. Check your internet connection or try again later.");}
 }
@@ -224,6 +250,7 @@ async function importGuestProgress(){
 async function requestAccountDeletion(){
  const message=document.getElementById("accountActionMessage");
  if(!currentUser){if(message)message.textContent="Sign in before requesting account deletion.";return;}
+ if(offlineAccessActive||!navigator.onLine){if(message)message.textContent="Connect to the internet before requesting account deletion.";return;}
  if(!window.confirm("Submit a private request to delete your FNP Quest cloud account and synchronized learning data? The request will be reviewed manually."))return;
  if(message)message.textContent="Submitting deletion request…";
  try{
@@ -237,18 +264,45 @@ async function signOut(){
  const message=document.getElementById("accountActionMessage");
  try{
   await syncProfileToCloud();
-  const {error}=await supabaseClient.auth.signOut();
-  if(error){if(message)message.textContent="Could not sign out: "+error.message;return;}
+  clearOfflineAccess();
+  const {error}=supabaseClient?await supabaseClient.auth.signOut({scope:"local"}):{error:null};
+  if(error)console.warn("Cloud sign-out could not complete",error);
   await queueAuthSession(null);
-  toast("Signed out · guest progress loaded");
+  toast("Signed out · account access locked");
  }catch(error){console.error("Sign out failed",error);if(message)message.textContent="Could not sign out. Please try again.";}
 }
 
 async function initCloud(){
- const {data,error}=await supabaseClient.auth.getSession();
- if(error)console.error("Session load failed",error);
- await queueAuthSession(data?.session||null);
- supabaseClient.auth.onAuthStateChange((_event,session)=>{
-  window.setTimeout(()=>queueAuthSession(session).catch(error=>console.error("Account transition failed",error)),0);
+ showAccessGate("Checking registered-account access…");
+ if(!supabaseClient){if(useStoredOfflineAccess("Offline access is active for this registered device."))return true;await queueAuthSession(null);return false;}
+ try{
+  const {data,error}=await supabaseClient.auth.getSession();
+  if(error)console.error("Session load failed",error);
+  const session=data?.session||null;
+  if(session&&navigator.onLine){
+   const verified=await supabaseClient.auth.getUser();
+   if(!verified.error&&verified.data?.user){await queueAuthSession({...session,user:verified.data.user},{verifiedOnline:true});}
+   else if(!useStoredOfflineAccess("The cloud could not be reached. Using this device's existing offline access."))await queueAuthSession(null);
+  }else if(!navigator.onLine&&useStoredOfflineAccess("Offline access is active for this registered device.")){
+   // The stored device grant, not an unverified local session, authorizes offline use.
+  }else await queueAuthSession(null);
+ }catch(error){
+  console.error("Session validation failed",error);
+  if(!useStoredOfflineAccess("The cloud could not be reached. Using this device's existing offline access."))await queueAuthSession(null);
+ }
+ supabaseClient.auth.onAuthStateChange((event,session)=>{
+  if(offlineAccessActive&&(event==="INITIAL_SESSION"||!session))return;
+  const verifiedOnline=Boolean(session&&navigator.onLine&&["SIGNED_IN","TOKEN_REFRESHED","USER_UPDATED"].includes(event));
+  window.setTimeout(()=>queueAuthSession(session,{verifiedOnline}).catch(error=>console.error("Account transition failed",error)),0);
  });
+ window.addEventListener("online",async()=>{
+  if(!offlineAccessActive)return;
+  try{
+   const {data,error}=await supabaseClient.auth.getUser();
+   if(error||!data?.user){setAuthMessage("Internet is available, but the account could not be reverified. Offline access remains available until its current verification expires.");return;}
+   await queueAuthSession({user:data.user},{verifiedOnline:true});
+   setAuthMessage("Account reverified. Cloud synchronization is active again.");
+  }catch(error){console.error("Online account revalidation failed",error);}
+ });
+ return learningAccessGranted;
 }
