@@ -350,3 +350,23 @@ html[data-theme="dark"] .access-gate-card input{background:#202a37!important;col
 html[data-theme="dark"] .access-gate-card input::placeholder{color:#aeb9c9}
 html[data-theme="dark"] .access-offline-note{background:#202a37!important;border-color:#46546a!important;color:#d7deea!important}
 @media(max-width:360px){.access-gate{padding:12px}.access-gate-card{padding:21px 16px}.access-gate-actions{grid-template-columns:1fr}}
+
+/* Lesson Read Aloud */
+.read-aloud-controls{margin:14px 0 20px;padding:14px;border:1px solid #cfd5e2;border-radius:16px;background:#f7f8fc;color:var(--text)}
+.read-aloud-title{font-size:16px;font-weight:800;margin-bottom:10px}
+.read-aloud-actions{display:flex;flex-wrap:wrap;gap:8px}
+.read-aloud-actions button,.read-aloud-rate{min-height:44px;border:1px solid transparent;padding:10px 12px;touch-action:manipulation}
+.read-aloud-actions button:focus-visible,.read-aloud-rate:focus-visible{outline:3px solid #948dff;outline-offset:2px}
+.read-aloud-actions button:disabled,.read-aloud-rate:disabled{opacity:.52;cursor:not-allowed}
+.read-aloud-speed{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin-top:12px;font-size:13px;font-weight:750}
+.read-aloud-rate-options{display:flex;flex-wrap:wrap;gap:6px}
+.read-aloud-rate{min-width:54px;background:#fff;color:var(--text);border-color:#cfd5e2}
+.read-aloud-rate.active,.read-aloud-rate[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.read-aloud-status{min-height:20px;margin:10px 0 0!important;color:var(--muted)!important;font-size:13px;line-height:1.45!important}
+html[data-theme="dark"] .read-aloud-controls{background:#202631!important;color:#f7f9fc!important;border-color:#46546a!important}
+html[data-theme="dark"] .read-aloud-title{color:#f7f9fc!important}
+html[data-theme="dark"] .read-aloud-rate{background:#171c24!important;color:#f7f9fc!important;border-color:#59667a!important}
+html[data-theme="dark"] .read-aloud-rate.active,html[data-theme="dark"] .read-aloud-rate[aria-pressed="true"]{background:#7069e8!important;color:#fff!important;border-color:#aaa5ff!important}
+html[data-theme="dark"] .read-aloud-actions button:disabled,html[data-theme="dark"] .read-aloud-rate:disabled{opacity:.58}
+html[data-theme="dark"] .read-aloud-status{color:#c3cad5!important}
+@media(max-width:390px){.read-aloud-actions button{flex:1 1 calc(50% - 8px)}.read-aloud-speed{align-items:flex-start;flex-direction:column}.read-aloud-rate-options{width:100%}.read-aloud-rate{flex:1 1 calc(25% - 6px);min-width:48px;padding-left:7px;padding-right:7px}}

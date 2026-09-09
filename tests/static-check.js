@@ -58,7 +58,7 @@ for(const [i,item] of manifest.lessons.entries()){
 
 if(advancedQuestionIds.size!==100)throw new Error(`Expected 100 Board-Ready questions for Lessons 1–10, found ${advancedQuestionIds.size}`);
 
-for(const file of ["js/app.js","js/lessons.js","js/quiz.js","js/advanced-quiz.js","js/progress.js","js/auth.js","js/supabase.js","js/analytics.js","js/version.js","css/styles.css","sw.js","data/daily-questions.json","data/site-config.json","scripts/generate-daily-questions.js","daily-questions/index.html","daily-questions/daily-questions.css","daily-questions/daily-questions.js","sitemap.xml","robots.txt"]){
+for(const file of ["js/app.js","js/lessons.js","js/read-aloud.js","js/quiz.js","js/advanced-quiz.js","js/progress.js","js/auth.js","js/supabase.js","js/analytics.js","js/version.js","css/styles.css","sw.js","data/daily-questions.json","data/site-config.json","scripts/generate-daily-questions.js","daily-questions/index.html","daily-questions/daily-questions.css","daily-questions/daily-questions.js","sitemap.xml","robots.txt"]){
  if(!fs.existsSync(path.join(root,file)))throw new Error(`Missing ${file}`);
 }
 
@@ -151,13 +151,25 @@ if(!lessonsScript.includes("courses="))throw new Error("Lesson loader must suppo
 for(const feature of ["toggleCourseGroup","COURSE_GROUP_STATE_KEY","aria-expanded","course-content"]){
  if(!lessonsScript.includes(feature))throw new Error(`Lesson loader is missing expandable-course feature: ${feature}`);
 }
+for(const feature of ["lesson-readable-content","initializeSpeech","stopSpeech","lessonRenderRequestId"]){
+ if(!lessonsScript.includes(feature))throw new Error(`Lesson loader is missing Read Aloud integration: ${feature}`);
+}
+const readAloudScript=fs.readFileSync(path.join(root,"js/read-aloud.js"),"utf8");
+for(const feature of ["BrowserSpeechProvider","SpeechSynthesisUtterance","prepareTextForSpeech","splitSpeechIntoChunks","getReadableLessonText","playSpeech","pauseSpeech","resumeSpeech","stopSpeech","setSpeechRate","onend","aria-live"]){
+ if(!readAloudScript.includes(feature))throw new Error(`Read Aloud module is missing: ${feature}`);
+}
+if(!fs.readFileSync(path.join(root,"js/app.js"),"utf8").includes('id!=="lesson"&&typeof stopSpeech'))throw new Error("Leaving a lesson must stop Read Aloud");
+const styles=fs.readFileSync(path.join(root,"css/styles.css"),"utf8");
+for(const feature of [".read-aloud-controls",".read-aloud-actions",".read-aloud-rate","html[data-theme=\"dark\"] .read-aloud-controls","@media(max-width:390px)"]){
+ if(!styles.includes(feature))throw new Error(`Read Aloud styles are missing: ${feature}`);
+}
 
 const version=JSON.parse(fs.readFileSync(path.join(root,"version.json"),"utf8"));
 const match=versionScript.match(/FNP_APP_VERSION="([^"]+)"/);
 if(!match||match[1]!==version.version)throw new Error("Version mismatch between version.js and version.json");
 
 const numericVersion=version.version.replace(/^v/,"");
-for(const asset of ["css/styles.css","js/app.js","js/progress.js","js/supabase.js","js/analytics.js","js/auth.js","js/lessons.js","js/quiz.js","js/advanced-quiz.js","js/version.js"]){
+for(const asset of ["css/styles.css","js/app.js","js/progress.js","js/supabase.js","js/analytics.js","js/auth.js","js/read-aloud.js","js/lessons.js","js/quiz.js","js/advanced-quiz.js","js/version.js"]){
  if(!index.includes(`${asset}?v=${numericVersion}`))throw new Error(`Versioned asset URL is missing or stale for ${asset}`);
 }
 if(!index.includes('href="/daily-questions/"'))throw new Error("Home page is missing the Daily Questions entry point");
