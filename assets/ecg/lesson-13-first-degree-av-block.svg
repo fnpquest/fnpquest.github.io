@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+ <title id="title">First-degree atrioventricular block teaching strip</title>
+ <desc id="desc">A schematic ECG strip in which each P wave is followed by a QRS complex after a consistently prolonged PR interval.</desc>
+ <defs>
+  <pattern id="small" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#f7caca" stroke-width="1"/></pattern>
+  <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" fill="url(#small)"/><path d="M100 0H0V100" fill="none" stroke="#e99b9b" stroke-width="1.4"/></pattern>
+ </defs>
+ <rect width="900" height="220" rx="18" fill="#fff"/><rect width="900" height="220" fill="url(#grid)"/>
+ <path d="M10 125 H48 C54 125 57 108 72 108 C87 108 90 125 98 125 H194 L202 137 L210 57 L219 153 L230 125 H266 C275 125 280 100 302 100 C324 100 330 125 342 125 H468 C474 125 477 108 492 108 C507 108 510 125 518 125 H614 L622 137 L630 57 L639 153 L650 125 H686 C695 125 700 100 722 100 C744 100 750 125 762 125 H890" fill="none" stroke="#172033" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M98 181H210 M98 173V189 M210 173V189" stroke="#4f46e5" stroke-width="3"/>
+ <text x="121" y="207" fill="#3730a3" font-family="system-ui, sans-serif" font-size="17" font-weight="700">prolonged PR</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+ <title id="title">Atrial fibrillation teaching strip</title>
+ <desc id="desc">A schematic ECG strip with no consistent P waves, a fibrillatory baseline, and irregularly spaced narrow QRS complexes.</desc>
+ <defs>
+  <pattern id="small" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#f7caca" stroke-width="1"/></pattern>
+  <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" fill="url(#small)"/><path d="M100 0H0V100" fill="none" stroke="#e99b9b" stroke-width="1.4"/></pattern>
+ </defs>
+ <rect width="900" height="220" rx="18" fill="#fff"/><rect width="900" height="220" fill="url(#grid)"/>
+ <path d="M10 120 C18 110 25 132 34 117 S50 107 58 122 S75 130 84 115 L116 121 L124 132 L132 55 L141 151 L152 119 C164 105 174 132 187 116 S206 108 219 123 S240 130 252 114 S274 105 286 122 S302 130 316 116 L330 121 L338 132 L346 53 L355 153 L366 119 C381 107 393 132 406 114 S426 105 438 123 S456 130 470 116 L500 121 L508 132 L516 55 L525 151 L536 119 C548 106 560 131 574 115 S594 106 606 122 S625 131 638 116 S658 106 671 123 S692 131 706 115 S726 106 740 122 L770 120 L778 132 L786 54 L795 152 L806 119 C820 106 834 132 847 115 S868 108 890 120" fill="none" stroke="#172033" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

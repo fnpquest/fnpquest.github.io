@@ -72,6 +72,13 @@ for(const launchText of ["Privacy","Terms &amp; Disclaimer","Request Account Del
 for(const iconFile of ["manifest.webmanifest","assets/icons/favicon-v1-32.png","assets/icons/apple-touch-icon-v1.png","assets/icons/app-icon-v1-192.png","assets/icons/app-icon-v1-512.png","assets/icons/app-icon-v1-maskable-512.png"]){
  if(!fs.existsSync(path.join(root,iconFile)))throw new Error(`Missing install icon asset: ${iconFile}`);
 }
+const lesson13=JSON.parse(fs.readFileSync(path.join(root,"data/lessons/lesson-13.json"),"utf8"));
+const lesson13EcgFiles=["lesson-13-normal-sinus.svg","lesson-13-atrial-fibrillation.svg","lesson-13-svt.svg","lesson-13-first-degree-av-block.svg","lesson-13-ventricular-tachycardia.svg","lesson-13-ventricular-fibrillation.svg","lesson-13-torsades.svg"];
+for(const ecgFile of lesson13EcgFiles){
+ const ecgPath=`assets/ecg/${ecgFile}`;
+ if(!fs.existsSync(path.join(root,ecgPath)))throw new Error(`Missing Lesson 13 ECG figure: ${ecgPath}`);
+ if(!lesson13.html.includes(ecgPath))throw new Error(`Lesson 13 does not render ECG figure: ${ecgPath}`);
+}
 const expectedIconSizes={"assets/icons/favicon-v1-32.png":32,"assets/icons/apple-touch-icon-v1.png":180,"assets/icons/app-icon-v1-192.png":192,"assets/icons/app-icon-v1-512.png":512,"assets/icons/app-icon-v1-maskable-512.png":512};
 for(const [iconFile,expectedSize] of Object.entries(expectedIconSizes)){
  const png=fs.readFileSync(path.join(root,iconFile));
@@ -106,6 +113,10 @@ for(const accessText of ["REGISTERED USERS","registered email account","offline 
 const serviceWorker=fs.readFileSync(path.join(root,"sw.js"),"utf8");
 for(const feature of ["data/curriculum.json","lessonFile","quizFile","advancedQuizFile","supabase.co","CACHE_NAME"]){
  if(!serviceWorker.includes(feature))throw new Error(`Offline service worker is missing: ${feature}`);
+}
+for(const ecgFile of lesson13EcgFiles){
+ const ecgPath=`assets/ecg/${ecgFile}`;
+ if(!serviceWorker.includes(ecgPath))throw new Error(`Offline service worker is missing ECG figure: ${ecgPath}`);
 }
 if(!fs.readFileSync(path.join(root,"js/app.js"),"utf8").includes('navigator.serviceWorker.register("sw.js")'))throw new Error("App does not register the offline service worker");
 

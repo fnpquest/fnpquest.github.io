@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+ <title id="title">Regular narrow-complex supraventricular tachycardia teaching strip</title>
+ <desc id="desc">A schematic ECG strip with rapid, regular, narrow QRS complexes and no clearly visible preceding P waves.</desc>
+ <defs>
+  <pattern id="small" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#f7caca" stroke-width="1"/></pattern>
+  <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" fill="url(#small)"/><path d="M100 0H0V100" fill="none" stroke="#e99b9b" stroke-width="1.4"/></pattern>
+ </defs>
+ <rect width="900" height="220" rx="18" fill="#fff"/><rect width="900" height="220" fill="url(#grid)"/>
+ <path d="M10 125 H55 L62 137 L70 56 L79 153 L90 125 C100 124 106 105 122 105 C138 105 142 125 150 125 H205 L212 137 L220 56 L229 153 L240 125 C250 124 256 105 272 105 C288 105 292 125 300 125 H355 L362 137 L370 56 L379 153 L390 125 C400 124 406 105 422 105 C438 105 442 125 450 125 H505 L512 137 L520 56 L529 153 L540 125 C550 124 556 105 572 105 C588 105 592 125 600 125 H655 L662 137 L670 56 L679 153 L690 125 C700 124 706 105 722 105 C738 105 742 125 750 125 H805 L812 137 L820 56 L829 153 L840 125 H890" fill="none" stroke="#172033" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

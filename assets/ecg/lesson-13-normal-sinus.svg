@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+ <title id="title">Normal sinus rhythm teaching strip</title>
+ <desc id="desc">A schematic ECG strip with regular P waves before narrow QRS complexes followed by T waves.</desc>
+ <defs>
+  <pattern id="small" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#f7caca" stroke-width="1"/></pattern>
+  <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" fill="url(#small)"/><path d="M100 0H0V100" fill="none" stroke="#e99b9b" stroke-width="1.4"/></pattern>
+ </defs>
+ <rect width="900" height="260" rx="18" fill="#fff"/>
+ <rect y="40" width="900" height="220" fill="url(#grid)"/>
+ <g fill="#27364a" font-family="system-ui, sans-serif" font-size="22" font-weight="700"><text x="92" y="28">P</text><text x="177" y="28">QRS</text><text x="275" y="28">T</text></g>
+ <path d="M20 160H70 C76 160 78 145 92 145 C106 145 108 160 116 160 H174 L182 170 L190 88 L199 190 L210 160 H244 C254 160 258 133 278 133 C302 133 307 160 320 160 H482 C488 160 490 145 504 145 C518 145 520 160 528 160 H586 L594 170 L602 88 L611 190 L622 160 H656 C666 160 670 133 690 133 C714 133 719 160 732 160 H880" fill="none" stroke="#172033" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

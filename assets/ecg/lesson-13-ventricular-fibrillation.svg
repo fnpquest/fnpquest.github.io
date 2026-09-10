@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+ <title id="title">Ventricular fibrillation teaching strip</title>
+ <desc id="desc">A schematic ECG strip showing chaotic irregular electrical activity without organized P waves or QRS complexes.</desc>
+ <defs>
+  <pattern id="small" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#f7caca" stroke-width="1"/></pattern>
+  <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" fill="url(#small)"/><path d="M100 0H0V100" fill="none" stroke="#e99b9b" stroke-width="1.4"/></pattern>
+ </defs>
+ <rect width="900" height="220" rx="18" fill="#fff"/><rect width="900" height="220" fill="url(#grid)"/>
+ <path d="M5 126 C16 86 27 170 42 104 C54 51 68 177 82 145 C95 116 101 69 117 82 C133 96 126 180 148 166 C165 155 164 61 184 76 C202 90 190 151 212 143 C231 136 226 48 246 63 C267 79 252 182 278 169 C299 158 293 96 314 112 C335 128 327 70 347 78 C365 87 356 175 380 162 C401 151 395 54 417 69 C437 83 421 145 447 137 C468 130 459 83 481 98 C504 114 492 181 517 159 C540 139 524 57 550 75 C571 89 558 132 582 126 C604 120 596 73 620 91 C642 107 628 174 654 154 C675 137 667 48 693 70 C716 88 700 148 727 139 C749 132 741 83 765 97 C789 111 774 180 802 158 C826 139 814 63 841 82 C863 98 849 146 895 111" fill="none" stroke="#172033" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

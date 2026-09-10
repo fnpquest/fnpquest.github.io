@@ -370,3 +370,13 @@ html[data-theme="dark"] .read-aloud-rate.active,html[data-theme="dark"] .read-al
 html[data-theme="dark"] .read-aloud-actions button:disabled,html[data-theme="dark"] .read-aloud-rate:disabled{opacity:.58}
 html[data-theme="dark"] .read-aloud-status{color:#c3cad5!important}
 @media(max-width:390px){.read-aloud-actions button{flex:1 1 calc(50% - 8px)}.read-aloud-speed{align-items:flex-start;flex-direction:column}.read-aloud-rate-options{width:100%}.read-aloud-rate{flex:1 1 calc(25% - 6px);min-width:48px;padding-left:7px;padding-right:7px}}
+
+/* Lesson 13 ECG teaching figures */
+.ecg-learning-note{margin:15px 0;padding:13px 14px;border:1px solid #b8c5dd;border-left:4px solid var(--accent);border-radius:13px;background:#f3f5fb;color:#334155;line-height:1.55}
+.ecg-figure{margin:15px 0 18px;padding:10px;border:1px solid #cfd7e5;border-radius:16px;background:#f7f8fb;box-shadow:0 4px 12px rgba(23,32,51,.06);overflow:hidden}
+.ecg-figure img{display:block;width:100%;height:auto;border:1px solid #e6a9a9;border-radius:11px;background:#fff}
+.ecg-figure figcaption{padding:10px 4px 2px;color:#465267;font-size:13px;line-height:1.5}
+html[data-theme="dark"] .ecg-learning-note{background:#202a37!important;color:#e7edf7!important;border-color:#52647f!important;border-left-color:#8f89ff!important}
+html[data-theme="dark"] .ecg-figure{background:#202a37!important;border-color:#465773!important;box-shadow:0 6px 16px rgba(0,0,0,.24)}
+html[data-theme="dark"] .ecg-figure figcaption{color:#d4ddea!important}
+@media(max-width:390px){.ecg-figure{margin-left:-2px;margin-right:-2px;padding:7px;border-radius:13px}.ecg-figure figcaption{font-size:12px;padding:9px 3px 2px}}

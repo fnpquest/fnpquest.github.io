@@ -147,7 +147,7 @@
   if(!root||typeof root.querySelectorAll!=="function")return [];
   const segments=[];
   let skippedHeadingLevel=0;
-  root.querySelectorAll("h1,h2,h3,h4,h5,h6,p,li").forEach(element=>{
+  root.querySelectorAll("h1,h2,h3,h4,h5,h6,p,li,figcaption").forEach(element=>{
    if(isHiddenOrSkipped(element))return;
    const headingMatch=element.tagName.match(/^H([1-6])$/),headingLevel=headingMatch?Number(headingMatch[1]):0;
    const text=normalizeSpaces(element.textContent);
@@ -156,7 +156,7 @@
     if(REFERENCE_HEADING.test(text)){skippedHeadingLevel=headingLevel;return;}
    }
    if(skippedHeadingLevel||!text)return;
-   const prefix=headingLevel?"Section. ":element.tagName==="LI"?"Point. ":"";
+   const prefix=headingLevel?"Section. ":element.tagName==="LI"?"Point. ":element.tagName==="FIGCAPTION"?"Diagram. ":"";
    const prepared=prepareTextForSpeech(prefix+text+(text.match(/[.!?]$/)?"":"."));
    if(prepared)segments.push(prepared);
   });

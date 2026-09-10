@@ -28,6 +28,7 @@ function contentNode(tagName,textContent,hidden=false){
 const nodes=[
  contentNode("H1","Lesson 1: BP and DKA"),
  contentNode("P","BP rises. DKA is an emergency."),
+ contentNode("FIGCAPTION","Representative sinus rhythm with one P wave before each QRS."),
  contentNode("P","Hidden navigation text",true),
  contentNode("H2","References"),
  contentNode("LI","This citation must not be spoken."),
@@ -74,7 +75,7 @@ if(chunks.length<2||chunks.some(chunk=>chunk.length>180))throw new Error("Long l
 
 api.initializeSpeech({lessonId:1,readableRoot});
 const readable=api.getReadableLessonText();
-if(!readable.includes("Lesson 1")||!readable.includes("Clinical Review"))throw new Error("Readable headings are missing");
+if(!readable.includes("Lesson 1")||!readable.includes("Clinical Review")||!readable.includes("Diagram. Representative sinus rhythm"))throw new Error("Readable headings or figure captions are missing");
 if(readable.includes("citation")||readable.includes("Hidden navigation"))throw new Error("References or hidden content leaked into speech text");
 if(title.position!=="afterend")throw new Error("Read Aloud controls were not mounted below the lesson title");
 if(!title.controls.markup.includes(">1.0×</button>"))throw new Error("Default speed must be displayed as 1.0×");
